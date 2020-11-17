@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FOSS on Jacob Goldstein&#39;s Website</title>
+    <link>https://jacobgoldstein.tk/tags/foss/</link>
+    <description>Recent content in FOSS on Jacob Goldstein&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 29 Sep 2020 08:24:28 -0400</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/foss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plagiarism in Free software</title>
+      <link>https://jacobgoldstein.tk/plagiarism-in-free-software/</link>
+      <pubDate>Tue, 29 Sep 2020 08:24:28 -0400</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/plagiarism-in-free-software/</guid>
+      <description>Plagiarism in Free Software Note: the opinions expressed here are solely mine. (Duh)
+Something that I take rather seriously is the copying and redistibution without credit (intentionally or otherwise) of free software, i.e. plagiarism.
+There&amp;rsquo;s a huge difference between something being in the public domain and being free and open source. The latter has a license, for one, and the purpose of it being under license is to preserve the rights of the author(s) to their work(s) but some people either misunderstand or ignore that distinction.</description>
+    </item>
+    
+  </channel>
+</rss>

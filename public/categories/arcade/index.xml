@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arcade on Jacob Goldstein&#39;s Website</title>
+    <link>https://jacobgoldstein.tk/categories/arcade/</link>
+    <description>Recent content in Arcade on Jacob Goldstein&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 22 Oct 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://jacobgoldstein.tk/categories/arcade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My New Site</title>
+      <link>https://jacobgoldstein.tk/posts/2020/10/my-new-site/</link>
+      <pubDate>Thu, 22 Oct 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/2020/10/my-new-site/</guid>
+      <description>My new site Introduction Remember my old site, with my orange theme and ugly font? Well, that is no more!! I have created a new site with a site generator called hugo. Hugo is like jekyll, but more customizable.
+Why? Why did I choose to use hugo, over anything else? The first reason is that it is more customizable. The options are not limited to github pages rules. My second reason is that it has lots of themes, like this one.</description>
+    </item>
+    
+  </channel>
+</rss>
