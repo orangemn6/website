@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Jacob Goldstein">
+<meta name="description" content="After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
+ The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e." />
+<meta name="keywords" content="Jacob Goldstein,orangemn6, Window Manager, Linux" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://jacobgoldstein.tk/posts/2020/10/install-arch-linux/" />
+
+
+    <title>
+        
+            Install Arch Linux :: Jacob Goldstein&#39;s Website 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jacobgoldstein.tk/main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jacobgoldstein.tk/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jacobgoldstein.tk/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jacobgoldstein.tk/favicon-16x16.png">
+    <link rel="manifest" href="https://jacobgoldstein.tk/site.webmanifest">
+    <link rel="mask-icon" href="https://jacobgoldstein.tk/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://jacobgoldstein.tk/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Install Arch Linux">
+<meta itemprop="description" content="After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
+ The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e.">
+<meta itemprop="datePublished" content="2020-10-05T19:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-05T19:00:00+00:00" />
+<meta itemprop="wordCount" content="3709">
+<meta itemprop="image" content="https://jacobgoldstein.tk"/>
+
+
+
+<meta itemprop="keywords" content="Window Manager,Linux," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jacobgoldstein.tk"/>
+
+<meta name="twitter:title" content="Install Arch Linux"/>
+<meta name="twitter:description" content="After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
+ The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e."/>
+
+
+
+    <meta property="og:title" content="Install Arch Linux" />
+<meta property="og:description" content="After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
+ The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jacobgoldstein.tk/posts/2020/10/install-arch-linux/" />
+<meta property="og:image" content="https://jacobgoldstein.tk"/>
+<meta property="article:published_time" content="2020-10-05T19:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-05T19:00:00+00:00" />
+
+
+
+
+    <meta property="article:section" content="Linux" />
+
+
+
+    <meta property="article:published_time" content="2020-10-05 19:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jacobgoldstein.tk/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jacobgoldstein.tk/about/">About</a></li><li><a href="https://jacobgoldstein.tk/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://jacobgoldstein.tk/posts/2020/10/install-arch-linux/">Install Arch Linux</a></h2>
+
+            
+
+            
+
+            <div class="post-content">
+                <p>After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:</p>
+<ul>
+<li><a href="https://wiki.archlinux.org/index.php/Arch_terminology#The_Arch_Way">The Arch Way</a> embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility.</li>
+<li>Forces one to build the system up by hand.</li>
+<li>This encourages you to question the role of each component of the system, and available options to satisfy that component (e.g. the terminal emulator).</li>
+<li>The result is a highly tailored and minimal system that meets precisely your needs.</li>
+<li>Practical and pragmatic documentation. The <a href="https://wiki.archlinux.org/">Arch Wiki</a> is the gold standard when it comes to documentation.</li>
+<li>The Arch User Repository (AUR) is a treasure chest of pre-packaged useful recent software. Somehow every program I&rsquo;ve ever needed has been available on AUR.</li>
+<li>Rolling upgrades.</li>
+</ul>
+<p>Arch was born in 2001, when Canadian programmer Judd Vinet, inspired by the elegance of systems such as Slackware and the BSD&rsquo;s, set out to build his own distro based on a similar ethos. The first formal release, 0.1, dropped on March 11, 2002.</p>
+<h2 id="boot-disk">Boot disk</h2>
+<p>To bootstrap the install process, a boot key is the way to go. Obtain the latest <code>iso</code> image, and block write it to a USB drive using <code>dd</code>. <code>dd</code> (aka disk destroyer to some) trusts you know what you&rsquo;re doing and can destroy data very easily if not used correctly.</p>
+<p>Use <code>lsblk</code> to determine the mapped device name (e.g. <code>/dev/sdb</code>). When ready, pull the trigger and flash the drive with arch:</p>
+<pre><code>dd if=Downloads/archlinux-2019.03.01-x86_64.iso of=/dev/sdb status=&quot;progress&quot;
+</code></pre>
+<p>Boot the target system on the new boot drive. If all goes well, you will end up on a bash shell, in the temporary boot preparation system provided by Arch.</p>
+<h2 id="post-boot">Post boot</h2>
+<p>Get network connectivity:</p>
+<pre><code>wifi-menu
+ip a
+</code></pre>
+<p>Enable NTP:</p>
+<pre><code>timedatectl set-ntp true
+</code></pre>
+<h2 id="partitioning">Partitioning</h2>
+<p>UEFI (supports newer 64-bit based GPT) or BIOS (based on traditional MBR). If the below sys node doesn&rsquo;t exist, go BIOS:</p>
+<pre><code>ls /sys/firmware/efi/efivars
+</code></pre>
+<p>Determine the target block device (e.g. an SSD) for installation, using <code>lsblk</code>.</p>
+<p>Assuming a BIOS compatible system, will go with <code>fdisk</code> (not <code>gdisk</code>) for the partitioning setup:</p>
+<pre><code>fdisk /dev/sda
+</code></pre>
+<p><code>fdisk</code> shortcuts:</p>
+<ul>
+<li><code>m</code> help</li>
+<li><code>p</code> print partition table</li>
+<li><code>d</code> delete</li>
+<li><code>n</code> new</li>
+</ul>
+<p>In a nutshell, blow away any existing partitions (<code>d</code>), and create 4 new (<code>n</code>) primary partitions. Note when specifying the <em>last sector</em> can size with <code>+200M</code> style syntax, <code>+200M</code> is 200MiB, <code>+50G</code> is 50GiB. I cut my ~500GB drive up into the following 4 partiions:</p>
+<ul>
+<li>200M for <em>boot</em> partition (grub etc)</li>
+<li>24G for <em>swap</em> (rule of thumb is 150% of total system memory)</li>
+<li>100G for <em>root</em> partition</li>
+<li>~340G+ for <em>home</em> partition (leave last sector unspecified in fdisk to use all remaining space)</li>
+</ul>
+<p>We are aiming for a partition layout similar to this:</p>
+<pre><code>$ lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 465.8G  0 disk
+├─sda1   8:1    0   200M  0 part /boot
+├─sda2   8:2    0    24G  0 part [SWAP]
+├─sda3   8:3    0   100G  0 part /
+└─sda4   8:4    0 341.6G  0 part /home
+</code></pre>
+<h2 id="format-partitions-file-systems">Format partitions (file systems)</h2>
+<p>Apply <code>ext4</code> (the fourth extended filesystem) to the boot, root and home partitions (i.e. all but the swap):</p>
+<pre><code>mkfs.ext4 /dev/sda1
+mkfs.ext4 /dev/sda3
+mkfs.ext4 /dev/sda4
+</code></pre>
+<p>Then setup the swap space:</p>
+<pre><code>mkswap /dev/sda2
+swapon /dev/sda2
+</code></pre>
+<p>Now its time to mount these new partitions into the Arch bootstrapped system, so they be used.</p>
+<p>The four partitions will be mounted into the current Arch boot preparation systems file system tree under <code>/mnt</code> so a <code>chroot</code> can occur, and then system installation. First mount the root partition, then the <em>boot</em> and <em>home</em> partitions within the <em>root</em> mount under <code>/mnt/boot</code> and <code>/mnt/home</code> respectively.</p>
+<pre><code>mount /dev/sda3 /mnt
+mkdir -p /mnt/boot /mnt/home
+mount /dev/sda1 /mnt/boot
+mount /dev/sda4 /mnt/home
+</code></pre>
+<h2 id="setup-pacman-mirrors">Setup pacman mirrors</h2>
+<p>Defined in <code>/etc/pacman.d/mirrorlist</code>. Higher mirrors in the list taken precedence over lower once, rearrange as desired:</p>
+<pre><code>##
+## Arch Linux repository mirrorlist
+## Filtered by mirror score from mirror status page
+## Generated on 2019-04-01
+##
+
+## Australia
+Server = http://mirror.internode.on.net/pub/archlinux/$repo/os/$arch
+## Turkey
+Server = http://mirror.veriteknik.net.tr/archlinux/$repo/os/$arch
+</code></pre>
+<h2 id="install-arch-with-pacstrap">Install Arch with pacstrap</h2>
+<p>The <code>pacstrap</code> script will install the <code>base</code>, and if desired other <a href="https://www.archlinux.org/groups/x86_64/">package groups</a>, such as <a href="https://www.archlinux.org/groups/x86_64/base-devel/">base-devel</a> for common build related programs.</p>
+<pre><code>pacstrap /mnt base base-devel
+</code></pre>
+<h2 id="fstab">fstab</h2>
+<p>So that the mount are automatically applied as part of the system boot process, add them to <code>/etc/fstab</code> as UUID&rsquo;s, which are more robust than device names which can change.</p>
+<pre><code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
+</code></pre>
+<h2 id="chroot">chroot</h2>
+<p>Now to change root into the new system, from the Arch boot preparation system:</p>
+<pre><code>arch-chroot /mnt
+</code></pre>
+<h2 id="root-password">root password</h2>
+<p>Set the password for the root account with <code>passwd</code></p>
+<h2 id="localisation">Localisation</h2>
+<p>Uncomment <code>en_US.UTF-8</code> and <code>UTF-8</code> in <code>/etc/locale.gen</code>, and generate:</p>
+<pre><code>locale-gen
+</code></pre>
+<p>Create <code>/etc/locale.conf</code> with:</p>
+<pre><code>LANG=en_US.UTF-8
+</code></pre>
+<h2 id="time-zone">Time zone</h2>
+<p>Symlink in the appropriate zone definition:</p>
+<pre><code>ln -sf /usr/share/zoneinfo/Australia/Canberra /etc/localtime
+</code></pre>
+<p>Run <code>hwclock --systohc</code> to generate <code>/etc/adjtime</code></p>
+<h2 id="networking">Networking</h2>
+<ul>
+<li>Create <code>/etc/hostname</code>, and define a name for the host.</li>
+<li>Edit <code>/etc/hosts</code> for loopback based on the defined hostname above, <code>127.0.1.1 myhostname.localdomain myhostname</code></li>
+<li>Install NetworkManager which provides persistent network configuration across reboots, <code>pacman -S networkmanager</code> and enable it <code>systemctl enable NetworkManager</code></li>
+</ul>
+<h2 id="boot-loader-grub">Boot loader (GRUB)</h2>
+<p>Several boot loaders are <a href="https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader">supported</a> but here are going with GRUB.</p>
+<pre><code>pacman -S grub
+grub-install --target=i386-pc /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+</code></pre>
+<p>A minimal base system is installed and configured, and ready to be used.</p>
+<ul>
+<li>Escape chroot with ctrl+d or <code>exit</code>.</li>
+<li>Unmount everything <code>umount -R /mnt</code>, <code>lsblk</code> should confirm this.</li>
+<li><code>reboot</code></li>
+<li>Remove the USB drive</li>
+</ul>
+<h2 id="wifi">Wifi</h2>
+<p>Unfortunately wifi settings were not persisted. Fix with network manager:</p>
+<pre><code>nmcli dev wifi connect wifi-sid-goes-here password wifi-password-goes-here
+</code></pre>
+<p>Also make sure to that <code>wifi-menu</code> is functional, by installing the <code>dialog</code> package. <code>netctl</code> is useful for troubleshooting. Ensure that the network profile for the wifi is enabled using <code>netctl</code>.</p>
+<p>See <a href="https://wiki.archlinux.org/index.php/NetworkManager#nmcli_examples">archwiki</a>:</p>
+<ul>
+<li><code>nmcli device wifi list</code> sniff currently available wifi ssids in range</li>
+<li><code>nmcli connection show</code> show active connection/s</li>
+<li><code>nmcli device wifi connect Jeneffer password S3CR3T</code> connect to ssid</li>
+<li><code>nmcli device wifi connect Jeneffer password S3CR3T hidden yes</code> connect to hidden ssid</li>
+<li><code>nmcli connection up uuid UUID</code> reconnect a disconnected interface</li>
+<li><code>nmcli device</code> list all interfaces and their state</li>
+<li><code>mcli device disconnect wlp3s0</code> disconnect an interface</li>
+<li><code>nmcli radio wifi off</code> disable wifi radio</li>
+</ul>
+<h2 id="add-users">Add users</h2>
+<pre><code>useradd -m -g wheel ben
+passwd ben
+sudo vi /etc/sudoers
+</code></pre>
+<p>Uncomment (line 85) to allow members of the wheel group to sudo with (or without) password prompting:</p>
+<pre><code>%wheel ALL=(ALL) NOPASSWD: ALL
+</code></pre>
+<h2 id="gpu-drivers">GPU drivers</h2>
+<p>I&rsquo;ve got a mix of machines with nvidia and amd accelerators. Just follow the bouncing ball on the appropriate arch wiki:</p>
+<ul>
+<li><a href="https://wiki.archlinux.org/index.php/AMDGPU">AMDGPU</a> for the open source AMD based driver</li>
+<li><a href="https://wiki.archlinux.org/index.php/NVIDIA">NVIDIA</a> the proprietary blob</li>
+</ul>
+<p>Once installed verify with some benchmarks, before installing steam. Install <code>glmark2</code> from the AUR, then bench.</p>
+<pre><code>$ glmark2
+=======================================================
+    glmark2 2014.03
+=======================================================
+    OpenGL Information
+    GL_VENDOR:     X.Org
+    GL_RENDERER:   AMD Radeon (TM) RX 480 Graphics (POLARIS10, DRM 3.35.0, 5.4.2-arch1-1, LLVM 9.0.0)
+    GL_VERSION:    4.5 (Compatibility Profile) Mesa 19.2.7
+=======================================================
+[build] use-vbo=false: FPS: 9521 FrameTime: 0.105 ms
+[build] use-vbo=true: FPS: 14981 FrameTime: 0.067 ms
+[texture] texture-filter=nearest: FPS: 15094 FrameTime: 0.066 ms
+[texture] texture-filter=linear: FPS: 15087 FrameTime: 0.066 ms
+[texture] texture-filter=mipmap: FPS: 14676 FrameTime: 0.068 ms
+[shading] shading=gouraud: FPS: 14161 FrameTime: 0.071 ms
+[shading] shading=blinn-phong-inf: FPS: 14188 FrameTime: 0.070 ms
+[shading] shading=phong: FPS: 14027 FrameTime: 0.071 ms
+[shading] shading=cel: FPS: 14157 FrameTime: 0.071 ms
+[bump] bump-render=high-poly: FPS: 11664 FrameTime: 0.086 ms
+[bump] bump-render=normals: FPS: 15074 FrameTime: 0.066 ms
+[bump] bump-render=height: FPS: 14998 FrameTime: 0.067 ms
+libpng warning: iCCP: known incorrect sRGB profile
+[effect2d] kernel=0,1,0;1,-4,1;0,1,0;: FPS: 16919 FrameTime: 0.059 ms
+libpng warning: iCCP: known incorrect sRGB profile
+[effect2d] kernel=1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;: FPS: 16612 FrameTime: 0.060 ms
+[pulsar] light=false:quads=5:texture=false: FPS: 15541 FrameTime: 0.064 ms
+libpng warning: iCCP: known incorrect sRGB profile
+[desktop] blur-radius=5:effect=blur:passes=1:separable=true:windows=4: FPS: 8164 FrameTime: 0.122 ms
+libpng warning: iCCP: known incorrect sRGB profile
+[desktop] effect=shadow:windows=4: FPS: 8348 FrameTime: 0.120 ms
+[buffer] columns=200:interleave=false:update-dispersion=0.9:update-fraction=0.5:update-method=map: FPS: 1189 FrameTime: 0.841 ms
+[buffer] columns=200:interleave=false:update-dispersion=0.9:update-fraction=0.5:update-method=subdata: FPS: 1467 FrameTime: 0.682 ms
+[buffer] columns=200:interleave=true:update-dispersion=0.9:update-fraction=0.5:update-method=map: FPS: 1221 FrameTime: 0.819 ms
+[ideas] speed=duration: FPS: 5648 FrameTime: 0.177 ms
+[jellyfish] : FPS: 13110 FrameTime: 0.076 ms
+[terrain] : FPS: 1939 FrameTime: 0.516 ms
+[shadow] : FPS: 12114 FrameTime: 0.083 ms
+[refract] : FPS: 3845 FrameTime: 0.260 ms
+[conditionals] fragment-steps=0:vertex-steps=0: FPS: 14620 FrameTime: 0.068 ms
+[conditionals] fragment-steps=5:vertex-steps=0: FPS: 15881 FrameTime: 0.063 ms
+[conditionals] fragment-steps=0:vertex-steps=5: FPS: 16657 FrameTime: 0.060 ms
+[function] fragment-complexity=low:fragment-steps=5: FPS: 17256 FrameTime: 0.058 ms
+[function] fragment-complexity=medium:fragment-steps=5: FPS: 17571 FrameTime: 0.057 ms
+[loop] fragment-loop=false:fragment-steps=5:vertex-steps=5: FPS: 17570 FrameTime: 0.057 ms
+[loop] fragment-steps=5:fragment-uniform=false:vertex-steps=5: FPS: 17540 FrameTime: 0.057 ms
+[loop] fragment-steps=5:fragment-uniform=true:vertex-steps=5: FPS: 17667 FrameTime: 0.057 ms
+=======================================================
+                                  glmark2 Score: 12379
+=======================================================
+</code></pre>
+<p>If the GPU driver is functional, can pull metrics about your device from the kernel:</p>
+<pre><code>$ sudo cat /sys/kernel/debug/dri/0/amdgpu_pm_info
+Clock Gating Flags Mask: 0x3fbcf
+        Graphics Medium Grain Clock Gating: On
+        Graphics Medium Grain memory Light Sleep: On
+        Graphics Coarse Grain Clock Gating: On
+        Graphics Coarse Grain memory Light Sleep: On
+        Graphics Coarse Grain Tree Shader Clock Gating: Off
+        Graphics Coarse Grain Tree Shader Light Sleep: Off
+        Graphics Command Processor Light Sleep: On
+        Graphics Run List Controller Light Sleep: On
+        Graphics 3D Coarse Grain Clock Gating: Off
+        Graphics 3D Coarse Grain memory Light Sleep: Off
+        Memory Controller Light Sleep: On
+        Memory Controller Medium Grain Clock Gating: On
+        System Direct Memory Access Light Sleep: Off
+        System Direct Memory Access Medium Grain Clock Gating: On
+        Bus Interface Medium Grain Clock Gating: Off
+        Bus Interface Light Sleep: On
+        Unified Video Decoder Medium Grain Clock Gating: On
+        Video Compression Engine Medium Grain Clock Gating: On
+        Host Data Path Light Sleep: On
+        Host Data Path Medium Grain Clock Gating: On
+        Digital Right Management Medium Grain Clock Gating: Off
+        Digital Right Management Light Sleep: Off
+        Rom Medium Grain Clock Gating: On
+        Data Fabric Medium Grain Clock Gating: Off
+        Address Translation Hub Medium Grain Clock Gating: Off
+        Address Translation Hub Light Sleep: Off
+
+GFX Clocks and Power:
+        300 MHz (MCLK)
+        300 MHz (SCLK)
+        300 MHz (PSTATE_SCLK)
+        300 MHz (PSTATE_MCLK)
+        800 mV (VDDGFX)
+        7.162 W (average GPU)
+
+GPU Temperature: 31 C
+GPU Load: 25 %
+MEM Load: 7 %
+
+UVD: Disabled
+
+VCE: Disabled
+</code></pre>
+<h2 id="essential-applications-user-space">Essential applications (user space)</h2>
+<p>If you&rsquo;ve gone down the window manager (i.e. tiler) route, there is literally nothing, its a minimalist wasteland. Here&rsquo;s the progs I use to support my specific computer based workflows (as a software dev and terminal fan).</p>
+<p>My 2c, make sure to consider <a href="https://suckless.org/">suckless</a> programs.</p>
+<ul>
+<li>AUR helper: <code>yay</code> (install this first)</li>
+<li>Audio: <code>alsamixer</code>, <code>alsa-utils</code>, <code>pulseaudio</code>, <code>pulseaudio-alsa</code>, <code>pulsemixer</code></li>
+<li>Bluetooth: <code>bluez</code>, <code>bluez-utils</code>, <code>pulseaudio-bluetooth</code></li>
+<li>Database: <code>postgres</code></li>
+<li>Dev: <code>gcc</code>, <code>python</code>, <code>golang</code>, <code>java</code></li>
+<li>Documenation: <code>pandoc</code>, <code>texlive-core</code>, <code>texlive-bin</code>, <code>texlive-latexextra</code>, <code>texlive-publishers</code>, <code>texlive-fontsexta</code>, <code>troff</code>, <code>pdflatex</code></li>
+<li>DVD/CD burning: <code>dvd+rw-tools</code>, <code>cdrtools</code>, <code>lame</code></li>
+<li>Games: <code>steam</code> (enable multilib pacman repo), <code>nethack</code></li>
+<li>Fonts: <code>nerd-fonts-fira-code</code>, <code>ttf-fira-code</code>, <code>ttf-font-awesome</code>, <code>ttf-ms-fonts</code>, <code>ttf-linux-libertine</code>, <code>ttf-dejavu</code>, <code>ttf-inconsolata</code>, <code>ttf-ubuntu-font-family</code> (steer clear of noto fonts due to glyph bug with Xft which crashes <code>st</code>)</li>
+<li>Font management: <code>xorg-xfontsel</code> (GUI for specifying a font in XLFD), <code>xorg-xfontsel</code> (list fonts by name in X logical font description aka XLFD format)</li>
+<li>File manager: <code>nnn</code></li>
+<li>Hypervisor (VM&rsquo;s): <code>vbox</code></li>
+<li>Image viewer: <code>sxiv</code></li>
+<li>IRC client: <code>irssi</code></li>
+<li>Mail: <code>neomutt</code>, <code>isync</code>, <code>msmtp</code>, <code>lynx</code></li>
+<li>Music player: <code>mpd</code>, <code>mpc</code>, <code>ncmpcpp</code></li>
+<li>Networking: <code>networkmanager</code>, <code>wifi-menu</code>, <code>dialog</code></li>
+<li>Notifications: <code>dunst</code>, <code>dzen2</code></li>
+<li>PDF viewer: <code>mupdf</code></li>
+<li>Screenshots: <code>maim</code>, <code>xclip</code></li>
+<li>Shells: <code>dash</code>, <code>zsh</code></li>
+<li>System monitor: <code>conky</code> (handy for piping into <code>dzen2</code>) as per my <code>~/bin/popinfo2</code> script</li>
+<li>Terminal emulator: <code>st</code></li>
+<li>Text editor: <code>neovim</code>, <code>python-pynvim</code></li>
+<li>Video player: <code>vlc</code></li>
+<li>VPN: <code>openvpn</code></li>
+<li>Window manager: <code>dwm</code></li>
+</ul>
+<h2 id="desktop-environment-de-vs-window-manager-wm">Desktop Environment (DE) vs Window Manager (WM)</h2>
+<p>In a nutshell a DE (like gnome or kde) is heavy weight includes everything bar the kitchen sink, such as music players, document editors, file managers, status bars, network managers, start menus, etc. They are incredibly bloated, but aimed at novice users that just want their computer &ldquo;to work&rdquo;. A WM (like dwm or i3) on the other hand is incredibly lean, I mean you don&rsquo;t even get a status bar, but are very customisable and do just what you want and no more. Because of this WM&rsquo;s tend to be allot snappier. I personally prefer using a WM, and more specifically a tiling WM (aka a <em>tiler</em>) and highly recommend <a href="https://dwm.suckless.org/">dwm</a>:</p>
+<blockquote>
+<p>Because dwm is customized through editing its source code [C], it&rsquo;s pointless to make binary packages of it. This keeps its userbase small and elitist. No novices asking stupid questions.</p>
+</blockquote>
+<p>I have started to form some of my own opinions around the use of a tiler:</p>
+<ul>
+<li>Gaps between windows are literally a waste of space. Don&rsquo;t do this.</li>
+<li>Don&rsquo;t bother with lots of the cosmetic ricing hacks out there, its all bloat.</li>
+<li>Toolbars (such as <code>polybar</code>) display redundant information at the cost of cognitive overload and wasted screen real-estate. If I want to know the time I look at my watch.</li>
+</ul>
+<h3 id="dwm">dwm</h3>
+<p>I&rsquo;ve have recently discovered <a href="https://suckless.org/">suckless</a>, and their <a href="https://suckless.org/philosophy/">philosophy</a> towards software really resonates strongly with me.</p>
+<blockquote>
+<p>We are the home of quality software such as dwm, dmenu, st and plenty of other tools, with a focus on simplicity, clarity and frugality. Our philosophy is about keeping things simple, minimal and usable.</p>
+</blockquote>
+<p><code>dwm</code> is their minimal tiling window manager.</p>
+<blockquote>
+<p>Because dwm is customized through editing its source code, it&rsquo;s pointless to make binary packages of it. This keeps its userbase small and elitist. No novices asking stupid questions.</p>
+</blockquote>
+<p>The configuration of dwm is done by creating a custom <code>config.h</code>, by editing the <code>config.def.h</code> header, and (re)compiling the source code using the provided makefile.</p>
+<pre><code>pacman -Sy xorg-server xorg-xinit
+pacman -Sy xf86-video-amdgpu
+pacman -Sy dmenu git
+</code></pre>
+<p>Clone the <code>dwm</code> Git repo, and my patches:</p>
+<pre><code>git clone https://git.suckless.org/dwm
+git clone https://github.com/bm4cs/dots.git
+cd ~/dotfiles &amp;&amp; ./install.sh
+</code></pre>
+<p>Apply <a href="https://dwm.suckless.org/patches/">patches</a> for specific features wanted. The only patch I apply is <a href="https://dwm.suckless.org/patches/center/">center</a>:</p>
+<blockquote>
+<p>Add an iscentered rule to automatically center clients on the current monitor.</p>
+</blockquote>
+<p>This lets you define rules in <code>config.def.h</code> for certain programs (e.g. pulsemixer) that you&rsquo;d like to launch center screen, by adding an <code>iscentered</code> rule to automatically center clients on the current monitor:</p>
+<pre><code>static const Rule rules[] = {
+    /* xprop(1):
+     *	WM_CLASS(STRING) = instance, class
+     *	WM_NAME(STRING) = title
+     */
+    /* class      instance       title       tags mask     iscentered     isfloating   monitor */
+    { &quot;Gimp&quot;,     NULL,          NULL,       0,            0,             1,           -1 },
+</code></pre>
+<p>To you can see the <code>WM_CLASS</code> and <code>WM_NAME</code> properties of the X window are used by the rule chain to figure out what rules to apply. To determine these values, use <code>xprop</code> which will give you a mouse cursor to select the window of the running program you are interested in, and will dump its property to stdout:</p>
+<pre><code>$ xprop WM_CLASS
+WM_CLASS(STRING) = &quot;st-256color&quot;, &quot;st-256color&quot;
+
+$ xprop WM_CLASS
+WM_CLASS(STRING) = &quot;st-256color&quot;, &quot;st-256color&quot;
+
+$ xprop WM_NAME
+WM_NAME(UTF8_STRING) = &quot;vim&quot;
+</code></pre>
+<p>Build and install:</p>
+<pre><code>make &amp;&amp; sudo make install
+</code></pre>
+<p>To autostart <code>dwm</code>:</p>
+<p>Edit <code>~/.xinitrc</code> with following:</p>
+<pre><code>exec dwm
+</code></pre>
+<p>Then <code>startx</code>. A black screen desktop should appear. This is good.</p>
+<h3 id="i3-gaps">i3-gaps</h3>
+<p><code>i3-gaps</code> is a fork of the excellent <code>i3wm</code> tiling window manager. As its name implies it supports placing gaps (i.e. regions of space) between the tiled windows, providing a very neat and satisfying perception of order when windows are automatically laid out.</p>
+<p><img src="https://www.bencode.net/images/i3-snap.jpg" alt="i3-gaps in action" title="i3-gaps in action"></p>
+<pre><code>pacman -S xorg-server xorg-xinit
+pacman -S xf86-video-amdgpu
+pacman -S i3-gaps i3status rxvt-unicode dmenu
+</code></pre>
+<p>To autostart i3:</p>
+<p>Edit <code>~/.xinitrc</code> with following:</p>
+<pre><code>exec i3
+</code></pre>
+<p>Then <code>startx</code>. A black screen desktop should appear. This is good.</p>
+<h2 id="default-applications">Default applications</h2>
+<p>Programs that handle arbitrary files (e.g. web browsers, irc clients, file managers) delegate to a general purpose resource handler. <em>XDG MIME Applications</em> is the ubiquitous option here, and is not only an implementation, but a full blown specification.</p>
+<p>To check a default program to be used based on MIME type:</p>
+<pre><code>xdg-mime query default text/plain
+</code></pre>
+<p>Or, if unsure of the MIME type, to check a default program based on a sample input file:</p>
+<pre><code>xdg-mime query filetype 2016-01-12-jdbc-overflow.markdown
+</code></pre>
+<p>To set a default handler, the program needs a, the program needs a <code>.desktop</code> launcher. First make sure one exists:</p>
+<pre><code>$ locate -i nvim.desktop
+/usr/share/applications/nvim.desktop
+</code></pre>
+<p>Then bind it as the default for a given file (MIME) type:</p>
+<pre><code>xdg-mime default nvim.desktop text/plain
+</code></pre>
+<p>Test it out:</p>
+<pre><code>xdg-open 2018-01-08-pki.markdown
+</code></pre>
+<p>These are stored in <code>~/.local/mimeapps.list</code>.</p>
+<h2 id="ricing">Ricing</h2>
+<blockquote>
+<p>The term ricing originates from the auto enthusiast community, and was used predominantly as a perjorative to describe people who make modifications to their (usually Japanese) cars that add visual flair, but don&rsquo;t improve performance. In the context of unixporn, it means customizing your desktop to make it look snazzy.</p>
+</blockquote>
+<p>This rice was used on <code>i3</code>. While I enjoyed my brief time using this excellent tiler, I have moved to using suckless <code>dwm</code>. While these ricing hacks should apply to various window managers and tilers, I havent verified.</p>
+<h3 id="wallpaper">Wallpaper</h3>
+<pre><code>pacman -S feh
+</code></pre>
+<p>Add a task runner to <code>~/.config/i3/config</code> to always set the wallpaper whenever i3 runs.</p>
+<pre><code>exec_always --no-startup-id feh --bg-scale /home/ben/Pictures/Wallpapers/nature3.jpg
+</code></pre>
+<h3 id="sound">Sound</h3>
+<pre><code>pacman -S alsa-utils
+</code></pre>
+<p>Can now run <code>alsamixer</code> to manage the sound card.</p>
+<h3 id="load-xresources-at-startup">Load Xresources at startup</h3>
+<p>Used to customise the appearance of graphical (i.e. X!) apps such as <code>dwm</code>, <code>st</code> and <code>urxvt</code>.</p>
+<p>Ensure that <code>.XResouces</code> is read in when starting X by placing this in your <code>~/.xinitrc</code>:</p>
+<pre><code>xrdb -merge ~/.Xresources &amp;
+</code></pre>
+<p>If you dont have an <code>~/.Xresources</code> of your own, checkout my <a href="https://github.com/bm4cs/dots">dots</a>.</p>
+<p>Remember to run <code>xrdb ~/.Xresources</code> after editing it.</p>
+<h3 id="making-gtk-and-qt-apps-pretty">Making GTK and QT apps pretty</h3>
+<pre><code>pacman -S lxappearance gtk-chtheme gtk-engine-murrine gtk-engines gnome-themes-extra qt5ct
+</code></pre>
+<p>Define the following environment variables to override default QT styling:</p>
+<pre><code>export QT_STYLE_OVERRIDE=adwaita
+export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+</code></pre>
+<p>This is a worth while endevour to take. I now have a very tailored system that works exactly how I want, without any bloat, and its FAST. Finally if interested, all my configuration from <code>vim</code> to <code>st</code> and <code>dwm</code> is in my <a href="https://github.com/bm4cs/dots">dots</a> repo.</p>
+<p>I&rsquo;ve have recently discovered <a href="https://suckless.org/">suckless</a>, and their <a href="https://suckless.org/philosophy/">philosophy</a> towards software really resonates strongly with me.</p>
+<blockquote>
+<p>We are the home of quality software such as dwm, dmenu, st and plenty of other tools, with a focus on simplicity, clarity and frugality. Our philosophy is about keeping things simple, minimal and usable.</p>
+</blockquote>
+<p><code>dwm</code> is their minimal tiling window manager.</p>
+<blockquote>
+<p>Because dwm is customized through editing its source code, it&rsquo;s pointless to make binary packages of it. This keeps its userbase small and elitist. No novices asking stupid questions.</p>
+</blockquote>
+<p>The configuration of dwm is done by creating a custom <code>config.h</code>, by editing the <code>config.def.h</code> header, and (re)compiling the source code using the provided makefile.</p>
+<pre><code>pacman -Sy xorg-server xorg-xinit
+pacman -Sy xf86-video-amdgpu
+pacman -Sy dmenu git
+</code></pre>
+<p>Clone the <code>dwm</code> Git repo, and my patches:</p>
+<pre><code>git clone https://git.suckless.org/dwm
+git clone https://github.com/bm4cs/dots.git
+cd ~/dotfiles &amp;&amp; ./install.sh
+</code></pre>
+<p>Apply <a href="https://dwm.suckless.org/patches/">patches</a> for specific features wanted. The only patch I apply is <a href="https://dwm.suckless.org/patches/center/">center</a>:</p>
+<blockquote>
+<p>Add an iscentered rule to automatically center clients on the current monitor.</p>
+</blockquote>
+<p>This lets you define rules in <code>config.def.h</code> for certain programs (e.g. pulsemixer) that you&rsquo;d like to launch center screen, by adding an <code>iscentered</code> rule to automatically center clients on the current monitor:</p>
+<pre><code>static const Rule rules[] = {
+    /* xprop(1):
+     *	WM_CLASS(STRING) = instance, class
+     *	WM_NAME(STRING) = title
+     */
+    /* class      instance       title       tags mask     iscentered     isfloating   monitor */
+    { &quot;Gimp&quot;,     NULL,          NULL,       0,            0,             1,           -1 },
+</code></pre>
+<p>To you can see the <code>WM_CLASS</code> and <code>WM_NAME</code> properties of the X window are used by the rule chain to figure out what rules to apply. To determine these values, use <code>xprop</code> which will give you a mouse cursor to select the window of the running program you are interested in, and will dump its property to stdout:</p>
+<pre><code>$ xprop WM_CLASS
+WM_CLASS(STRING) = &quot;st-256color&quot;, &quot;st-256color&quot;
+
+$ xprop WM_CLASS
+WM_CLASS(STRING) = &quot;st-256color&quot;, &quot;st-256color&quot;
+
+$ xprop WM_NAME
+WM_NAME(UTF8_STRING) = &quot;vim&quot;
+</code></pre>
+<p>Build and install:</p>
+<pre><code>make &amp;&amp; sudo make install
+</code></pre>
+<p>To autostart <code>dwm</code>:</p>
+<p>Edit <code>~/.xinitrc</code> with following:</p>
+<pre><code>exec dwm
+</code></pre>
+<p>Then <code>startx</code>. A black screen desktop should appear. This is good.</p>
+<h3 id="i3-gaps-1">i3-gaps</h3>
+<p><code>i3-gaps</code> is a fork of the excellent <code>i3wm</code> tiling window manager. As its name implies it supports placing gaps (i.e. regions of space) between the tiled windows, providing a very neat and satisfying perception of order when windows are automatically laid out.</p>
+<p><img src="https://www.bencode.net/images/i3-snap.jpg" alt="i3-gaps in action" title="i3-gaps in action"></p>
+<pre><code>pacman -S xorg-server xorg-xinit
+pacman -S xf86-video-amdgpu
+pacman -S i3-gaps i3status rxvt-unicode dmenu
+</code></pre>
+<p>To autostart i3:</p>
+<p>Edit <code>~/.xinitrc</code> with following:</p>
+<pre><code>exec i3
+</code></pre>
+<p>Then <code>startx</code>. A black screen desktop should appear. This is good.</p>
+<h2 id="default-applications-1">Default applications</h2>
+<p>Programs that handle arbitrary files (e.g. web browsers, irc clients, file managers) delegate to a general purpose resource handler. <em>XDG MIME Applications</em> is the ubiquitous option here, and is not only an implementation, but a full blown specification.</p>
+<p>To check a default program to be used based on MIME type:</p>
+<pre><code>xdg-mime query default text/plain
+</code></pre>
+<p>Or, if unsure of the MIME type, to check a default program based on a sample input file:</p>
+<pre><code>xdg-mime query filetype 2016-01-12-jdbc-overflow.markdown
+</code></pre>
+<p>To set a default handler, the program needs a, the program needs a <code>.desktop</code> launcher. First make sure one exists:</p>
+<pre><code>$ locate -i nvim.desktop
+/usr/share/applications/nvim.desktop
+</code></pre>
+<p>Then bind it as the default for a given file (MIME) type:</p>
+<pre><code>xdg-mime default nvim.desktop text/plain
+</code></pre>
+<p>Test it out:</p>
+<pre><code>xdg-open 2018-01-08-pki.markdown
+</code></pre>
+<p>These are stored in <code>~/.local/mimeapps.list</code>.</p>
+<h2 id="ricing-1">Ricing</h2>
+<blockquote>
+<p>The term ricing originates from the auto enthusiast community, and was used predominantly as a perjorative to describe people who make modifications to their (usually Japanese) cars that add visual flair, but don&rsquo;t improve performance. In the context of unixporn, it means customizing your desktop to make it look snazzy.</p>
+</blockquote>
+<p>This rice was used on <code>i3</code>. While I enjoyed my brief time using this excellent tiler, I have moved to using suckless <code>dwm</code>. While these ricing hacks should apply to various window managers and tilers, I havent verified.</p>
+<h3 id="wallpaper-1">Wallpaper</h3>
+<pre><code>pacman -S feh
+</code></pre>
+<p>Add a task runner to <code>~/.config/i3/config</code> to always set the wallpaper whenever i3 runs.</p>
+<pre><code>exec_always --no-startup-id feh --bg-scale /home/ben/Pictures/Wallpapers/nature3.jpg
+</code></pre>
+<h3 id="sound-1">Sound</h3>
+<pre><code>pacman -S alsa-utils
+</code></pre>
+<p>Can now run <code>alsamixer</code> to manage the sound card.</p>
+<h3 id="load-xresources-at-startup-1">Load Xresources at startup</h3>
+<p>Used to customise the appearance of graphical (i.e. X!) apps such as <code>dwm</code>, <code>st</code> and <code>urxvt</code>.</p>
+<p>Ensure that <code>.XResouces</code> is read in when starting X by placing this in your <code>~/.xinitrc</code>:</p>
+<pre><code>xrdb -merge ~/.Xresources &amp;
+</code></pre>
+<p>If you dont have an <code>~/.Xresources</code> of your own, checkout my <a href="https://github.com/bm4cs/dots">dots</a>.</p>
+<p>Remember to run <code>xrdb ~/.Xresources</code> after editing it.</p>
+<h3 id="making-gtk-and-qt-apps-pretty-1">Making GTK and QT apps pretty</h3>
+<pre><code>pacman -S lxappearance gtk-chtheme gtk-engine-murrine gtk-engines gnome-themes-extra qt5ct
+</code></pre>
+<p>Define the following environment variables to override default QT styling:</p>
+<pre><code>export QT_STYLE_OVERRIDE=adwaita
+export QT_QPA_PLATFORMTHEME=&quot;qt5ct&quot;
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+</code></pre>
+<p>This is a worth while endevour to take. I now have a very tailored system that works exactly how I want, without any bloat, and its FAST. Finally if interested, all my configuration from <code>vim</code> to <code>st</code> and <code>dwm</code> is in my <a href="https://github.com/bm4cs/dots">dots</a> repo.</p>
+<p>I&rsquo;ve have recently discovered <a href="https://suckless.org/">suckless</a>, and their <a href="https://suckless.org/philosophy/">philosophy</a> towards software really resonates strongly with me.</p>
+<blockquote>
+<p>We are the home of quality software such as dwm, dmenu, st and plenty of other tools, with a focus on simplicity, clarity and frugality. Our philosophy is about keeping things simple, minimal and usable.</p>
+</blockquote>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://jacobgoldstein.tk/tags/window-manager/">Window Manager</a></span>
+        <span class="tag"><a href="https://jacobgoldstein.tk/tags/linux/">Linux</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://jacobgoldstein.tk/categories/linux/">Linux</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://jacobgoldstein.tk">Jacob Goldstein</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://jacobgoldstein.tk/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/orangemn6">Jacob Goldstein</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://jacobgoldstein.tk/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>
