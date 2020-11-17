@@ -3,38 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jacobgoldstein.tk/</loc>
-    <lastmod>2020-11-15T21:28:35-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jacobgoldstein.tk/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jacobgoldstein.tk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://jacobgoldstein.tk/posts/</loc>
-    <lastmod>2020-11-15T21:28:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacobgoldstein.tk/try-linux-online/</loc>
-    <lastmod>2020-11-15T21:28:35-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacobgoldstein.tk/all-mcu-movies-ranked/</loc>
-    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jacobgoldstein.tk/categories/</loc>
-    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -48,18 +18,38 @@
   </url>
   
   <url>
-    <loc>https://jacobgoldstein.tk/tags/mcu/</loc>
-    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
+    <loc>https://jacobgoldstein.tk/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jacobgoldstein.tk/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jacobgoldstein.tk/"
+                />
   </url>
   
   <url>
-    <loc>https://jacobgoldstein.tk/categories/mcu/</loc>
-    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
+    <loc>https://jacobgoldstein.tk/tags/philosophy/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/categories/philosophy/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/posts/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacobgoldstein.tk/tags/</loc>
-    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -70,6 +60,31 @@
                 hreflang="en"
                 href="https://jacobgoldstein.tk/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/traits-of-good-and-bad-leaders/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/try-linux-online/</loc>
+    <lastmod>2020-11-15T21:28:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/all-mcu-movies-ranked/</loc>
+    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/tags/mcu/</loc>
+    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobgoldstein.tk/categories/mcu/</loc>
+    <lastmod>2020-11-15T10:20:38-05:00</lastmod>
   </url>
   
   <url>
@@ -99,16 +114,6 @@
   
   <url>
     <loc>https://jacobgoldstein.tk/categories/minecraft/</loc>
-    <lastmod>2020-11-06T08:40:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacobgoldstein.tk/tags/philosophy/</loc>
-    <lastmod>2020-11-06T08:40:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacobgoldstein.tk/categories/philosophy/</loc>
     <lastmod>2020-11-06T08:40:14-05:00</lastmod>
   </url>
   
