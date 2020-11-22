@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/tags/windows/</link>
+    <link>https://www.jacobgoldstein.tk/tags/windows/</link>
     <description>Recent content in Windows on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 30 Sep 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Sep 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Linux is Better</title>
-      <link>https://jacobgoldstein.tk/why-linux-is-better/</link>
+      <link>https://www.jacobgoldstein.tk/why-linux-is-better/</link>
       <pubDate>Wed, 30 Sep 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://jacobgoldstein.tk/why-linux-is-better/</guid>
+      <guid>https://www.jacobgoldstein.tk/why-linux-is-better/</guid>
       <description>10 Reasons Why Linux Is Better Than Windows It is often seen that people get confused over choosing Windows or Linux as a host operating system in both server and desktop spaces. People will focus on aspects of cost, the functionality provided, hardware compatibility, support, reliability, security, pre-built software, cloud-readiness, etc. before they finalize. In this regard, this article covers ten reasons for using Linux over Windows.
 10 Reasons Why Linux Is Better Than Windows 1.</description>
     </item>
     
     <item>
       <title>Dual Boot Linux Mint</title>
-      <link>https://jacobgoldstein.tk/dual-boot-linux-mint/</link>
+      <link>https://www.jacobgoldstein.tk/dual-boot-linux-mint/</link>
       <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://jacobgoldstein.tk/dual-boot-linux-mint/</guid>
+      <guid>https://www.jacobgoldstein.tk/dual-boot-linux-mint/</guid>
       <description>Dual Boot Linux Mint 20 and Windows 10 With recent rapid increases in information technology, every user wants to customize their operating system environment according to their needs. Today, we will talk about the most popular Linux Mint 20 distribution, known as Ulyana. Linux Mint is an open-source, flexible, community-based Linux operating system in which you can customize operating environments and applications on-demand. As compared to Windows, Linux Mint is a much more secure platform.</description>
     </item>
     

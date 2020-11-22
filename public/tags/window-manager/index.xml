@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Window Manager on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/tags/window-manager/</link>
+    <link>https://www.jacobgoldstein.tk/tags/window-manager/</link>
     <description>Recent content in Window Manager on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/window-manager/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/window-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Arch Linux</title>
-      <link>https://jacobgoldstein.tk/install-arch-linux/</link>
+      <link>https://www.jacobgoldstein.tk/install-arch-linux/</link>
       <pubDate>Mon, 05 Oct 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://jacobgoldstein.tk/install-arch-linux/</guid>
+      <guid>https://www.jacobgoldstein.tk/install-arch-linux/</guid>
       <description>After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
  The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e.</description>
     </item>
