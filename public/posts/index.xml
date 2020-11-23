@@ -6,8 +6,56 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 21 Nov 2020 23:44:09 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 23 Nov 2020 16:05:38 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>How to Get Hackthebox Invite Code</title>
+            <link>https://www.jacobgoldstein.tk/how-to-get-hackthebox-invite-code/</link>
+            <pubDate>Mon, 23 Nov 2020 16:05:38 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/how-to-get-hackthebox-invite-code/</guid>
+            <description>Hack the Box: How to get the Invite Code What is Hack the Box ?
+Hack The Box is an online platform that allows you to test and advance your skills in Penetration Testing and Cybersecurity. The platform contains assorted challenges that are continuously updated. Some of the challenges simulate real world situations/scenarios, while others are more like CTFs. Needless to say, Hack the box is beyond resourceful if you want to level up your cybersecurity skills; especially as a beginner.</description>
+            <content type="html"><![CDATA[<h1 id="hack-the-box-how-to-get-the-invite-code">Hack the Box: How to get the Invite Code</h1>
+<p><strong>What is Hack the Box ?</strong></p>
+<p>Hack The Box is an online platform that allows you to test and advance your skills in Penetration Testing and Cybersecurity. The platform contains assorted challenges that are continuously updated. Some of the challenges simulate real world situations/scenarios, while others are more like CTFs. Needless to say, Hack the box is beyond resourceful if you want to level up your cybersecurity skills; especially as a beginner.</p>
+<p><strong>How do you join Hack the box ?</strong></p>
+<p>To join <a href="https://www.hackthebox.eu/invite">Hack the Box</a>, you have to hack yourself in. Sounds intimidating right ? Don’t worry, this exhaustive article will take you through how to achieve the aforementioned. However, I highly recommend that you first try to hack yourself in(on your own), and only use this article as a guide in case you need help.</p>
+<p><strong>Let’s get started.</strong></p>
+<p>First, visit the <a href="https://www.hackthebox.eu/">official Hack the Box website</a>. As you scroll down to read more information, you will eventually see a join button ; please click on it.</p>
+<p>You’ll then be directed to <a href="https://www.hackthebox.eu/invite">https://www.hackthebox.eu/invite</a> to join Hack The Box.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*DJj7mt1RopYHd4t13srurQ.png" alt="We are free to hack our way in."><em>We are free to hack our way in.</em></p>
+<p>You can clearly see a text box asking us for an invite code. Right click on the page and choose the Inspect Element option. Alternatively, you can press Ctrl + Shift + I to open Chrome’s Developer tools.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2550/1*_807D1JEkC84s9Do2qqGuw.png" alt=""></p>
+<p>Go through the Elements tab and you will eventually find a script with its source as** /js/inviteapi.min.js.**</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*QrHOt0CMis4FjVGc7J9mPg.png" alt="Closer look."><em>Closer look.</em></p>
+<p>Interesting, now visit<a href="https://www.hackthebox.eu/js/inviteapi.min.js"> https://www.hackthebox.eu/js/inviteapi.min.js</a> and you will see a JS file like the one in the image below.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2722/1*QVMH1jZmuUkwKyvXBpSpqw.png" alt="The highlighted MakeInviteCode is highly attractive to us."><em>The highlighted <strong>MakeInviteCode</strong> is highly attractive to us.</em></p>
+<p>With this new information, we go back to <a href="https://www.hackthebox.eu/invite">https://www.hackthebox.eu/invite</a> to try and find the contents of makeInviteCode</p>
+<p>Go to the Console tab and type makeInviteCode() and then press Enter . You will get a 200 Success status and data as shown below:</p>
+<p><img src="https://cdn-images-1.medium.com/max/2698/1*cInq98Vi_KEpQd8-vADMDg.png" alt="See anything interesting ?"><em>See anything interesting ?</em></p>
+<p>In my case, the encoding type of the data was <strong>ROT13.</strong> Hack The Box also uses <strong>BASE64;</strong> therefore don’t fret if our encoding types are different.</p>
+<p>It’s time to decode the message we have. Copy the contents of data and search online for a <strong>ROT13</strong> decoder. In my case, I personally used Google search’s first result: <a href="https://cryptii.com/">https://cryptii.com/</a></p>
+<p>Paste the data on the text box, and choose <strong>ROT 13(A-Z, a-z)</strong> and finally click on** DECODE . Note: only applicable for those decoding ROT 13 — **If your Encoding Type was **BASE64** search online for a decoder for the same ( Although I highly recommend <a href="https://www.base64decode.org/">https://www.base64decode.org/</a> ).</p>
+<p><img src="https://cdn-images-1.medium.com/max/2706/1*mnG18QrU6B4Vg9ZT8qpJAw.png" alt="Works like magic!!!"><em>Works like magic!!!</em></p>
+<p>Fascinating!! In order to generate a valid Hack The Box Invite Code, we have to make a POST request to /api/invite/generate.</p>
+<p>Fire up your terminal and make a POST request by typing:</p>
+<p>curl -XPOST <a href="https://www.hackthebox.eu/api/invite/generate">https://www.hackthebox.eu/api/invite/generate</a></p>
+<p><img src="https://cdn-images-1.medium.com/max/2272/1*NExpcocIklczgEzDCtBP9Q.png" alt="Success message!!"><em>Success message!!</em></p>
+<p>We now have an invite code, but there’s a catch, it’s <strong>encoded</strong>. Let’s try decoding it by using <a href="https://www.base64decode.org/">https://www.base64decode.org/</a> .</p>
+<p>Paste the code you got as a result of the POST request into the textbox and hit DECODE. Voila!!</p>
+<p><img src="https://cdn-images-1.medium.com/max/2694/1*jCQUP5w-hn5ChAxRyzRJkA.png" alt="Riveting, We now have a valid CODE!!!!!"><em>Riveting, We now have a valid CODE!!!!!</em></p>
+<p>Finally, go back to <a href="https://www.hackthebox.eu/invite">https://www.hackthebox.eu/invite</a> and paste the Invite Code you got into the text box and click on Sign Up.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*vca9z5NBaM9oDtUec2DNOw.png" alt=""></p>
+<p><img src="https://cdn-images-1.medium.com/max/2702/1*Kms4qIGRt0ch1iQnzm0rrQ.png" alt="We’re IN!!!"><em>We’re IN!!!</em></p>
+<p>Mama we made it!!!!</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*xc3dEdGEU7LVtywarwIxlw.gif" alt=""></p>
+<p>You can now easily register as a user of Hack the Box.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*dHK1K8P6_G1znz-sm-4U2g.png" alt=""></p>
+<h2 id="happy-hacking-folks">HAPPY HACKING FOLKS!!</h2>
+]]></content>
+        </item>
         
         <item>
             <title>A Linux User&#39;s Thoughts on Macos</title>

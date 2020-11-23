@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 21 Nov 2020 23:44:09 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2020 16:05:38 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hacking</title>
+      <link>https://www.jacobgoldstein.tk/categories/hacking/</link>
+      <pubDate>Mon, 23 Nov 2020 16:05:38 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/categories/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTB</title>
+      <link>https://www.jacobgoldstein.tk/categories/htb/</link>
+      <pubDate>Mon, 23 Nov 2020 16:05:38 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/categories/htb/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Linux</title>
       <link>https://www.jacobgoldstein.tk/categories/linux/</link>
@@ -77,24 +95,6 @@
       <pubDate>Tue, 03 Nov 2020 21:24:28 -0500</pubDate>
       
       <guid>https://www.jacobgoldstein.tk/categories/marvel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learn</title>
-      <link>https://www.jacobgoldstein.tk/categories/learn/</link>
-      <pubDate>Thu, 29 Oct 2020 13:50:18 -0400</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/categories/learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>https://www.jacobgoldstein.tk/categories/software/</link>
-      <pubDate>Wed, 28 Oct 2020 10:02:54 -0400</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/categories/software/</guid>
       <description></description>
     </item>
     
