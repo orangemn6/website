@@ -2,7 +2,6 @@
 author = "Jacob Goldstein"
 categories = []
 date = 2020-11-27T05:00:00Z
-draft = true
 tags = []
 title = "10 Github Repos every web dev should know"
 type = "post"
