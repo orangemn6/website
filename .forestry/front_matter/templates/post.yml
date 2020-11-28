@@ -21,4 +21,5 @@ fields:
   name: tags
   label: tags
 pages:
+- content/posts/10-github-repos-every-web-dev-should-know.md
 - content/posts/my-life-so-far.md
