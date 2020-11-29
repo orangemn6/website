@@ -1,14 +1,13 @@
 ---
-title: "Traits of Good and Bad Leaders"
+title: Traits of Good and Bad Leaders
 author: Jacob Goldstein
-date: 2020-11-16T17:37:08-05:00
-draft: true
+date: 2020-11-16T17:37:08.000-05:00
 categories:
- - Philosophy
+- Philosophy
 tags:
- - Philosophy
----
+- Philosophy
 
+---
 # Traits of Good and Bad Leaders
 
 Successful businesses need leaders, someone who can inspire employees

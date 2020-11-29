@@ -1,16 +1,15 @@
 ---
-title: "Try Linux Online"
+title: Try Linux Online
 author: Jacob Goldstein
-date: 2020-11-15T21:28:35-05:00
-draft: true
+date: 2020-11-15T21:28:35.000-05:00
 categories:
- -
- -
+- 
+- 
 tags:
- -
- -
----
+- 
+- 
 
+---
 **DistroTest** is a web service that allows you to test Linux and Unix
 operating systems online for free, without having to install them
 locally. You can try 300+ Linux and Unix operating systems online
