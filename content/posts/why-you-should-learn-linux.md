@@ -8,6 +8,7 @@ categories:
 tags:
 - Linux
 - Learn
+type: post
 
 ---
 # Why You Should Probably Learn Linux

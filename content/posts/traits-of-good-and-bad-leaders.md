@@ -6,6 +6,7 @@ categories:
 - Philosophy
 tags:
 - Philosophy
+type: post
 
 ---
 # Traits of Good and Bad Leaders

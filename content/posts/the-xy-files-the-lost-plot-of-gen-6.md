@@ -6,6 +6,7 @@ categories:
 - Pokemon
 tags:
 - Pokemon
+type: post
 
 ---
 # The XY Files: The Lost Plot of Pokemon’s 6th Generation
