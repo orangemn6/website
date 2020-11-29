@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Jacob Goldstein">
+<meta name="description" content="Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel." />
+<meta name="keywords" content="Jacob Goldstein,orangemn6,linux,jacobgoldstein, Linux, Shell" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://www.jacobgoldstein.tk/posts/important-linux-commands/" />
+
+
+    <title>
+        
+            Important Linux Commands :: Jacob Goldstein&#39;s Website 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://www.jacobgoldstein.tk/main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.jacobgoldstein.tk/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.jacobgoldstein.tk/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.jacobgoldstein.tk/favicon-16x16.png">
+    <link rel="manifest" href="https://www.jacobgoldstein.tk/site.webmanifest">
+    <link rel="mask-icon" href="https://www.jacobgoldstein.tk/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://www.jacobgoldstein.tk/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Important Linux Commands">
+<meta itemprop="description" content="Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel.">
+<meta itemprop="datePublished" content="2020-10-05T19:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-05T19:00:00+00:00" />
+<meta itemprop="wordCount" content="1243">
+<meta itemprop="image" content="https://www.jacobgoldstein.tk/"/>
+
+
+
+<meta itemprop="keywords" content="Linux,Shell," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.jacobgoldstein.tk/"/>
+
+<meta name="twitter:title" content="Important Linux Commands"/>
+<meta name="twitter:description" content="Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel."/>
+
+
+
+    <meta property="og:title" content="Important Linux Commands" />
+<meta property="og:description" content="Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jacobgoldstein.tk/posts/important-linux-commands/" />
+<meta property="og:image" content="https://www.jacobgoldstein.tk/"/>
+<meta property="article:published_time" content="2020-10-05T19:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-05T19:00:00+00:00" />
+
+
+
+
+    <meta property="article:section" content="Linux" />
+
+
+
+    <meta property="article:published_time" content="2020-10-05 19:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://www.jacobgoldstein.tk/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://www.jacobgoldstein.tk/about/">About</a></li><li><a href="https://www.jacobgoldstein.tk/minecraft-server/">Minecraft Server</a></li><li><a href="https://www.jacobgoldstein.tk/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://www.jacobgoldstein.tk/posts/important-linux-commands/">Important Linux Commands</a></h2>
+
+            
+
+            
+
+            <div class="post-content">
+                <h1 id="important-linux-commands-linux-commands-you-must-know">Important Linux Commands: Linux Commands You Must Know</h1>
+<p>In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel. People loved this operating system not just because it was free but because it brought freedom to the computer and software industry. Linux can be customized for specific users and for specific hardware requirements.<br>
+According to a survey by <a href="https://w3techs.com/technologies/details/os-linux">w3techs.com</a> in 2020, Almost 29.7% of the websites uses linux operating system. Around 49% of all the developers uses linux as their daily drive for development purpose according to survey from 2018-20 by <a href="https://www.statista.com/statistics/869211/worldwide-software-development-operating-system/">statista.com</a>. Linux is a popular choice among developers and tech enthusiasts. So today i bring to you these essential linux commands that you should know no matter you are an experienced developer or a newbie. Lets have a look -</p>
+<h3 id="-3-1-ls-option-file"><a href="https://dev.to#1-ls-option-file"> </a> 1) ls [OPTION]&hellip; [FILE]&hellip;</h3>
+<p>ls stands for list. ls command is used to list the contents of a directory or information about a file. By default ls(without any options) lists the contents of the directory you are currently in.<br>
+<strong>usage:</strong><code>ls</code> to list contents of the current directory</p>
+<p><strong>usage:</strong><code>ls -a</code> to list all the contents of the directory including hidden ones</p>
+<p><strong>usage:</strong><code>ls -A</code> to list almost all the files (ignoring <code>.</code> and <code>..</code> implied files)</p>
+<p><strong>usage:</strong><code>ls -Al</code> to list almost all the files (ignoring <code>.</code> and <code>..</code> implied files) together with their author name</p>
+<p><strong>usage:</strong><code>ls -bl</code> to list files according to the size together with their author name</p>
+<h3 id="-4-2-pwd-lp"><a href="https://dev.to#2-pwd-lp"> </a> 2) pwd [LP]</h3>
+<p>pwd stands for present working directory. This command is used to print the path of the current working directory. This command has only two options <code>-L</code> and <code>-P</code><br>
+<strong>usage:</strong><code>pwd</code> to print the path of the current working directory</p>
+<h3 id="-5-3-mkdir-option-directory"><a href="https://dev.to#3-mkdir-option-directory"> </a> 3) mkdir [OPTION]&hellip; DIRECTORY&hellip;</h3>
+<p>mkdir stands for make directory. This command is used to create one or more than one directories if they do not already exists.<br>
+<strong>usage:</strong><code>mkdir john</code> to create a directory named john</p>
+<p><strong>usage:</strong><code>mkdir john doe</code> to create two directories named john and doe</p>
+<p><strong>usage:</strong><code>mkdir -m [FILE MODE] john</code> to create a directory named john with a specified file mode</p>
+<p><strong>usage:</strong><code>mkdir -v [DIRECTORY NAME]</code> to create a directory and print a message.</p>
+<h3 id="-6-4-echo-short-option-string"><a href="https://dev.to#4-echo-shortoption-string"> </a> 4) echo [SHORT-OPTION]&hellip; [STRING]&hellip;</h3>
+<p>This command is used to print a piece of text on the screen.<br>
+<strong>usage:</strong><code>echo [MESSAGE]</code> to print the message on a new line</p>
+<p><strong>usage:</strong><code>echo -n [MESSAGE]</code> to print the message on the same line as the pointer</p>
+<h3 id="-7-5-whoami-option"><a href="https://dev.to#5-whoami-option"> </a> 5) whoami [OPTION]&hellip;</h3>
+<p>This command is used to print the name of the user associated with the current user ID. This command take only two arguments - <code>\--help</code> and <code>\--version</code>.<br>
+<strong>usage:</strong><code>whoami</code> to print the username of the current user</p>
+<h3 id="-8-6-cd--l-p--e---dir"><a href="https://dev.to#6-cd-lp-e-dir"> </a> 6) cd [-L|[-P [-e]] [-@]] [dir]</h3>
+<p>cd stands for change directory. This command is used to change the working directory. By default this command changes from current directory to home directory.<br>
+<strong>usage:</strong><code>cd Downloads</code> to move from current directory to Download directory</p>
+<p><strong>usage:</strong><code>cd</code> to move from current directory to home directory</p>
+<h3 id="-9-7-cat-option-file"><a href="https://dev.to#7-cat-option-file"> </a> 7) cat [OPTION]&hellip; [FILE]&hellip;</h3>
+<p>cat stands for concatenate. This command is used to print the contents of a file to the screen. Without any option cat is used to print output from the standard input.<br>
+<strong>usage:</strong><code>cat john.txt</code> to print the content of file john.txt to the screen</p>
+<p><strong>usage:</strong><code>cat -s john.txt</code> to print the content of john.txt by suppressing repeated empty output lines</p>
+<h3 id="-10-8-top--hv-bcehioss1--d-secs--n-max--uu-user--p-pid--o-fld--w-cols"><a href="https://dev.to#8-top-hvbcehioss1-d-secs-n-max-uu-user-p-pid-o-fld-w-cols"> </a> 8) top -hv|-bcEHiOSs1 -d secs -n max -u|U user -p pid -o fld -w [cols]</h3>
+<p>This command is used to display processes of a linux system. This command takes several options. Refer man page for a full description.<br>
+<strong>usage:</strong><code>top</code> to display linux processes to the screen</p>
+<h3 id="-11-9-man-man-options-section-page--"><a href="https://dev.to#9-man-man-options-section-page-"> </a> 9) man [man options] [[section] page &hellip;] &hellip;</h3>
+<p>man stands for manual. This command is probably the most useful but unfortunately a bit neglected command. A beginner should always first refer to the man pages for a total description,options and usage of a specific command.<br>
+<strong>usage:</strong><code>man ls</code> to the open manual page of ls command</p>
+<h3 id="-12-10-kill--s-sigspec---n-signum---sigspec-pid--jobspec--or-kill--l-sigspec"><a href="https://dev.to#10-kill-s-sigspec-n-signum-sigspec-pid-jobspec-or-kill-l-sigspec"> </a> 10) kill [-s sigspec | -n signum | -sigspec] pid | jobspec &hellip; or kill -l [sigspec]</h3>
+<p>This command as it sounds is used to kill a specific process by its PID, signal name or signal number.<br>
+<strong>usage:</strong><code>kill -15 [PID]</code> to soft kill the process of the following PID</p>
+<p><strong>usage:</strong><code>kill -9 [PID]</code> to immediately kill the process of the following PID</p>
+<p><strong>usage:</strong><code>killall [PROCESS NAME]</code> to kill all the instances of the following process owned by the current user</p>
+<h3 id="-13-11-more-options-"><a href="https://dev.to#11-more-options-"> </a> 11) more [options] &hellip;</h3>
+<p>This command is used to limit the contents of a file printed to the screen.<br>
+<strong>usage:</strong><code>more /etc/passwd</code> to print the contents of passwd file to the screen. Press ENTER to advance one line, SPACE to advance a full page and q to quit</p>
+<h3 id="-14-12-less-options-"><a href="https://dev.to#12-less-options-"> </a> 12) less [options] &hellip;</h3>
+<p>This command is used to limit the contents of a file printed to the screen. It has more options than <code>more</code> command.<br>
+<strong>usage:</strong><code>less /etc/passwd</code> to print the contents of passwd file to the screen. Press ENTER to advance one line, SPACE to advance a full page but does not quits when reaches the end.</p>
+<h3 id="-15-13-ifconfig--a--v--s-interface-af-"><a href="https://dev.to#13-ifconfig-a-v-s-ltinterfacegt-ltafgt-"> </a> 13) ifconfig [-a] [-v] [-s] &lt;=interface=&gt; [[&lt;=AF=&gt;] ]</h3>
+<p>This command is used to list all the network interfaces of the linux machine. This command can also be used to change an interface&rsquo;s IP address, assign IP address to a specific interface, take an interface offline,online and more.<br>
+<strong>usage:</strong><code>ifconfig</code> to list all the network interfaces together with information like IP address, MAC address, etc.<br>
+<em>Note:</em><code>ifconfig</code> can be installed by <code>sudo apt-get install net-tools</code> in case of debian based distros.</p>
+<h3 id="-16-14-grep-option-patterns-file"><a href="https://dev.to#14-grep-option-patterns-file"> </a> 14) grep [OPTION]&hellip; PATTERNS [FILE]&hellip;</h3>
+<p>This command is used to search for patterns in a specific file.<br>
+<strong>usage:</strong><code>grep -i 'john doe' menu.h main.c</code> to search for john doe in the following files</p>
+<h3 id="-17-15-who-option--file--arg1-arg2-"><a href="https://dev.to#15-who-option-file-arg1-arg2-"> </a> 15) who [OPTION]&hellip; [ FILE | ARG1 ARG2 ]</h3>
+<p>This command is used to print the information of the users who are currently logged in.<br>
+<strong>usage:</strong><code>who</code> to the know the information about the users currently logged in</p>
+<p><strong>usage:</strong><code>who -b</code> to print the time of the last system boot</p>
+<h3 id="-18-16-alias--p-namevalue--"><a href="https://dev.to#16-alias-p-namevalue-"> </a> 16) alias [-p] [name[=value] &hellip; ]</h3>
+<p>This command is used to give name to a command or sequence of commands. By default Without arguments, <code>alias' prints the list of aliases in the reusable form</code>alias NAME=VALUE' on standard output.</p>
+<p><strong>usage:</strong><code>alias cls=clear</code> to execute clear command by typing cls.</p>
+<h3 id="-19-17-chmod-option-modemode-file"><a href="https://dev.to#17-chmod-option-modemode-file"> </a> 17) chmod [OPTION]&hellip; MODE[,MODE]&hellip; FILE&hellip;</h3>
+<p>This command is used to set permissions for a file or to change the file mode.<br>
+<strong>usage:</strong><code>chmod 765 john.txt</code> to set the permission of john.txt as read, write and execute(7) for the owner, read and write(6) for the group and read and execute(5) for others</p>
+<h3 id="-20-18-curl-options"><a href="https://dev.to#18-curl-options"> </a> 18) curl [options&hellip;]</h3>
+<p>This command is used to retrieve information and files from or to a server using one of the supported protocols.<br>
+<strong>usage:</strong><code>curl [URL]</code> to retrieve information from the following url<br>
+*Note:*The curl tool can be installed with <code>sudo apt-get install curl</code> in case of debian based distros.</p>
+<p>This was just some of the important linux commands. For a full list of linux commands or linux cheat sheet please visit this link:<a href="https://github.com/chaitanya4vedi/Linux-Cheat-Sheet/blob/master/README.md">Linux-Cheat-Sheet</a><br>
+**Note:**If you know some commands then please take a minute and contribute to the link above.</p>
+<p>Thanks for Reading :)</p>
+
+            </div>
+            <div class="article-container"></div>
+            <script src="https://utteranc.es/client.js"
+  repo="orangemn6/website"
+  issue-term="pathname"
+  label="Comment"
+  theme="photon-dark"
+  crossorigin="anonymous"
+  async>
+</script>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/tags/linux/">Linux</a></span>
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/tags/shell/">Shell</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/categories/linux/">Linux</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://www.jacobgoldstein.tk/">Jacob Goldstein</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://www.jacobgoldstein.tk/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/orangemn6">Jacob Goldstein</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://www.jacobgoldstein.tk/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" crossorigin="anonymous"></script>
+
+
+
+    </body>
+</html>

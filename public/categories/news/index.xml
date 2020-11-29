@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 22 Oct 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My New Site</title>
-      <link>https://www.jacobgoldstein.tk/my-new-site/</link>
+      <link>https://www.jacobgoldstein.tk/posts/my-new-site/</link>
       <pubDate>Thu, 22 Oct 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://www.jacobgoldstein.tk/my-new-site/</guid>
+      <guid>https://www.jacobgoldstein.tk/posts/my-new-site/</guid>
       <description>My new site Introduction Remember my old site, with my orange theme and ugly font? Well, that is no more!! I have created a new site with a site generator called hugo. Hugo is like jekyll, but more customizable.
 Why? Why did I choose to use hugo, over anything else? The first reason is that it is more customizable. The options are not limited to github pages rules. My second reason is that it has lots of themes, like this one.</description>
     </item>
