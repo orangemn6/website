@@ -158,6 +158,6 @@ disableHugoGeneratorInject = false
     name       = "Posts"
     url        = "posts/"
   [[menu.main]]
-    identifier = "mcserver"
-    name       = "Minecraft Server"
-    url        = "minecraft-server/"
+    identifier = "rices"
+    name       = "Rices"
+    url        = "rices/"
