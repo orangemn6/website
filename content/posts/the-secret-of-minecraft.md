@@ -1,17 +1,17 @@
 ---
-title: "The Secret of Minecraft"
+title: The Secret of Minecraft
 author: Jacob Goldstein
-date: 2020-11-06T08:40:14-05:00
-draft: true
+date: 2020-11-06T08:40:14.000-05:00
 categories:
- - Minecraft
- - Philosophy
+- Minecraft
+- Philosophy
 tags:
- - Minecraft
- - Philosophy
+- Minecraft
+- Philosophy
+type: post
+draft: true
+
 ---
-
-
 # The secret of Minecraft
 
 And its challenge to the rest of us
