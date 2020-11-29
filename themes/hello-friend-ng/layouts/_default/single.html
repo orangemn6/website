@@ -30,6 +30,9 @@
             <div class="post-content">
                 {{ .Content }}
             </div>
+            <div class="article-container"></div>
+            {{ partial "comments.html" . }}
+            </div>
         </article>
 
         <hr />
