@@ -8,7 +8,7 @@ categories:
 tags:
 - 
 - 
-type: ''
+type: post
 
 ---
 **DistroTest** is a web service that allows you to test Linux and Unix
