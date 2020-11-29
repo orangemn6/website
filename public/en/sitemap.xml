@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -15,6 +15,66 @@
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/</loc>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.jacobgoldstein.tk/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jacobgoldstein.tk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/my-life-so-far/</loc>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/</loc>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/</loc>
+    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.jacobgoldstein.tk/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jacobgoldstein.tk/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/10-github-repos-every-web-dev-should-know/</loc>
+    <lastmod>2020-11-27T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/getting-started-with-i3wm/</loc>
+    <lastmod>2020-11-26T05:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,52 +103,7 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.jacobgoldstein.tk/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.jacobgoldstein.tk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.jacobgoldstein.tk/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.jacobgoldstein.tk/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/a-linux-users-thoughts-on-macos/</loc>
-    <lastmod>2020-11-21T23:44:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2020-11-21T23:44:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
     <lastmod>2020-11-21T23:44:09-05:00</lastmod>
   </url>
   

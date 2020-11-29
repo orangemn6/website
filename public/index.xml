@@ -7,7 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 23 Nov 2020 16:05:38 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Nov 2020 05:00:00 +0000</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Life So Far</title>
+      <link>https://www.jacobgoldstein.tk/my-life-so-far/</link>
+      <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/my-life-so-far/</guid>
+      <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
+Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
+    </item>
+    
+    <item>
+      <title>10 Github Repos every web dev should know</title>
+      <link>https://www.jacobgoldstein.tk/10-github-repos-every-web-dev-should-know/</link>
+      <pubDate>Fri, 27 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/10-github-repos-every-web-dev-should-know/</guid>
+      <description>10 Awesome Github Repos Every Web Developer Should Know From giant repos of resources to interview prep, there’s a lot of great stuff here
+Photo by Yancy Min on Unsplash
+I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
+1. Awesome Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with i3wm</title>
+      <link>https://www.jacobgoldstein.tk/getting-started-with-i3wm/</link>
+      <pubDate>Thu, 26 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/getting-started-with-i3wm/</guid>
+      <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
+    </item>
+    
     <item>
       <title>How to Get Hackthebox Invite Code</title>
       <link>https://www.jacobgoldstein.tk/how-to-get-hackthebox-invite-code/</link>
@@ -76,39 +107,6 @@ It’s no spoiler to reveal that in Avengers: Endgame, the good guys end up defe
       <description>The XY Files: The Lost Plot of Pokemon’s 6th Generation Scrapped, Leaked, Posted and Forgotten
 Game Freak and The Pokemon Company have always been very secretive. Alpha and Beta builds of their games are almost mythic in rarity, and we so rarely get to see early or scrapped Pokemon designs. Everything remains in the vault, even the garbage.
 This secrecy has engendered a history of speculation regarding upcoming games and Pokemon designs.</description>
-    </item>
-    
-    <item>
-      <title>The Secret of Minecraft</title>
-      <link>https://www.jacobgoldstein.tk/the-secret-of-minecraft/</link>
-      <pubDate>Fri, 06 Nov 2020 08:40:14 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/the-secret-of-minecraft/</guid>
-      <description>The secret of Minecraft And its challenge to the rest of us minecraft.gamepedia.com
-It’s almost inevitable: I encounter *Minecraft *somewhere online—it’s easy to do, because there’s a lot of Minecraft out there—and I end up convinced I’m doing the wrong thing with my life.
-Let me explain.
-Briefly, for the uninitiated: Minecraft is a video game, first released in 2009 as a buggy prototype by a solo Swedish programmer named Markus Persson.</description>
-    </item>
-    
-    <item>
-      <title>Linux Ricing Basics</title>
-      <link>https://www.jacobgoldstein.tk/linux-ricing-basics/</link>
-      <pubDate>Thu, 05 Nov 2020 17:43:02 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/linux-ricing-basics/</guid>
-      <description>TL;DR Here are my dotfiles.
-Disclaimer: I am in no way a ricing expert. This guide is intended for fellow beginners confused on the very basics when it comes to the customization of their Unix system.
-Introduction After making my departure to Arch Linux a month ago I was quickly introduced to the world of tiling window managers. The idea is that instead of having a full blown desktop environment (DE) such as Gnome or Unity, you just have a window manager that utilizes keyboard shortcuts to organize your windows.</description>
-    </item>
-    
-    <item>
-      <title>Disable Snaps in Ubuntu</title>
-      <link>https://www.jacobgoldstein.tk/disable-snaps-in-ubuntu/</link>
-      <pubDate>Thu, 05 Nov 2020 11:43:39 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/disable-snaps-in-ubuntu/</guid>
-      <description>Intro Don&amp;rsquo;t get me wrong, snaps are great in theory - If you aren&amp;rsquo;t familiar, a snap package is like a sandboxed application that is packaged in such a way that:
- You can be sure you&amp;rsquo;re running exactly what the app developer intended, as all dependencies and assets are bundled into the snap application package The snap application generally doesn&amp;rsquo;t own your entire system, it runs in an application sandbox of sorts Snaps are cross-platform and distributed independently from apt/deb packages, and as such are usually more up to date than those found in apt  Now this all sounds great, and it is in some ways (especially for app developers), but it comes at a cost: and that is generally performance and annoyances with application theming, access to user folders, and the like.</description>
     </item>
     
   </channel>

@@ -6,8 +6,167 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 23 Nov 2020 16:05:38 -0500</lastBuildDate>
+        <lastBuildDate>Sat, 28 Nov 2020 05:00:00 +0000</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My Life So Far</title>
+            <link>https://www.jacobgoldstein.tk/my-life-so-far/</link>
+            <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/my-life-so-far/</guid>
+            <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
+Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
+            <content type="html"><![CDATA[<h1 id="my-life-so-far">My Life So Far</h1>
+<p>So, I had an idea to just write about my life today, and that&rsquo;s what I&rsquo;m gonna do.  Enjoy!</p>
+<h3 id="projects-i-am-working-on">Projects I am working on</h3>
+<ul>
+<li>Opensuspect (more on this later)</li>
+<li>AlamodeBoot</li>
+<li>My website</li>
+</ul>
+<h3 id="things-i-have-done">Things I have done</h3>
+<ul>
+<li>CFWed my 3ds</li>
+<li>installed i3 and made it look cool</li>
+<li>got 1.4k upvotes on reddit</li>
+</ul>
+<h3 id="things-i-want-to-do">Things I want to do</h3>
+<ul>
+<li>Install Arch Linux</li>
+<li>Format my stupid corrupted SD card</li>
+<li>make more storage on my laptop</li>
+</ul>
+<h3 id="opensuspect">Opensuspect</h3>
+<p>So, OpenSuspect is an open-source social deduction game, similar to among us. I have been part of the team since the beginning, and it has been  a lot of fun. My main contributions are the websites: <a href="https://opensuspect.com" title="opensuspect.com">opensuspect.com</a> and <a href="https://opensuspect.gq" title="opensuspect.gq">opensuspect.gq</a> .  If you want to help out, join our matrix chat at <a href="https://matrix.to/#/#opensuspect:matrix.org" title="https://matrix.to/#/#opensuspect:matrix.org">https://matrix.to/#/#opensuspect:matrix.org</a></p>
+<h3 id="other">Other</h3>
+<p>Yeah, so thanks for reading this!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>10 Github Repos every web dev should know</title>
+            <link>https://www.jacobgoldstein.tk/10-github-repos-every-web-dev-should-know/</link>
+            <pubDate>Fri, 27 Nov 2020 05:00:00 +0000</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/10-github-repos-every-web-dev-should-know/</guid>
+            <description>10 Awesome Github Repos Every Web Developer Should Know From giant repos of resources to interview prep, there’s a lot of great stuff here
+Photo by Yancy Min on Unsplash
+I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
+1. Awesome Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business.</description>
+            <content type="html"><![CDATA[<h1 id="10-awesome-github-repos-every-web-developer-should-know">10 Awesome Github Repos Every Web Developer Should Know</h1>
+<p>From giant repos of resources to interview prep, there’s a lot of great stuff here</p>
+<p><img src="https://cdn-images-1.medium.com/max/10000/0*QkLHzS3THKhgPPDL" alt="Photo by Yancy Min on Unsplash"><em>Photo by <a href="https://unsplash.com/@yancymin?utm_source=medium&amp;utm_medium=referral">Yancy Min</a> on <a href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral">Unsplash</a></em></p>
+<p>I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.</p>
+<h2 id="1-awesome">1. Awesome</h2>
+<p>Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business. It has more than 123,000 stars on Github at this moment, and one could spend days (nights) browsing it. It is my one-stop-shop if I want to learn something new.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*UtTArdEbeF_PKNH0A0e0ng.png" alt="Awesome Github Repository"><em>Awesome Github Repository</em></p>
+<p><a href="https://github.com/sindresorhus/awesome">Link to Repo</a></p>
+<h2 id="2-list-of-advanced-javascript-questions">2. List of (Advanced) JavaScript Questions</h2>
+<p>This repository (13,000 stars) created by Lydia Hallie (great person, by the way, check her out on <a href="https://www.instagram.com/theavocoder">Instagram</a>!) is awesome if you want to test your JavaScript knowledge and/or prepare for a job interview. Lydia constantly adds new questions, so this repo is growing steadily!</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*6E2kOKLwbe4EXwAetmBW8w.png" alt="JavaScript Questions Repo"><em>JavaScript Questions Repo</em></p>
+<p><a href="https://github.com/lydiahallie/javascript-questions">Link to Repo</a></p>
+<h2 id="3-javascript-algorithms-and-data-structures">3. JavaScript Algorithms and Data Structures</h2>
+<p>JavaScript Algorithms (59,500 stars) contains a tremendous amount of JavaScript-based examples of popular and less popular algorithms and data structures. The structure is really nice because the examples are labeled either beginner or advanced. So whether you are interested in cryptography, sorting, graphs or even machine learning (and much more), there will be something for you.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*2vmkY04TS9UtJ7851LVxmA.png" alt="JavaScript Algorithms and Data Structures Repo"><em>JavaScript Algorithms and Data Structures Repo</em></p>
+<p><a href="https://github.com/trekhleb/javascript-algorithms">Link to Repo</a></p>
+<h2 id="4-clean-code-javascript">4. Clean Code JavaScript</h2>
+<p>Knowing how to write clean code is a useful skill for almost every developer and mandatory in many projects and corporations. This repository (28,400 Stars) takes the concepts of Clean Code by Robert C. Martin and adapts them for JavaScript so you can use them in future work.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*BTeil8xQf0wPePzrPQ6vmw.png" alt="Clean Code Meme"><em>Clean Code Meme</em></p>
+<p><a href="https://github.com/ryanmcdermott/clean-code-javascript">Link to Repo</a></p>
+<h2 id="5-free-fordev">5. free-for.dev</h2>
+<p>This great repository (30,000 stars) was created to helping developers find software (SaaS, PaaS, IaaS) and similar offerings that have free tiers. Using great software for free? Sounds awesome! There are services for email, CI/CD, monitoring, DNS, hosting, and many, many more.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*5YisKBAS9Upv7Oyc16-z_Q.png" alt="Free For Dev Repo"><em>Free For Dev Repo</em></p>
+<p><a href="https://github.com/ripienaar/free-for-dev">Link to Repo</a></p>
+<h2 id="6-tech-interview-handbook">6. Tech Interview Handbook</h2>
+<p>If you want to prepare yourself for a job interview in tech (and you should!), this repository is just the right place for you. It currently has 38,000 stars on Github and helps you with:</p>
+<ul>
+<li>
+<p>How to prepare for coding interviews</p>
+</li>
+<li>
+<p>Interview cheatsheet</p>
+</li>
+<li>
+<p>Algorithm tips/best practice questions</p>
+</li>
+<li>
+<p>Interview formats</p>
+</li>
+<li>
+<p>…and more</p>
+</li>
+</ul>
+<p>Check it out before heading to the next interview.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*vecej44tbLiIeA5hq4Z7tA.png" alt="Tech Interview Handbook Repository"><em>Tech Interview Handbook Repository</em></p>
+<p><a href="https://github.com/yangshun/tech-interview-handbook">Link to Repo</a></p>
+<h2 id="7-effective-engineer--notes">7. Effective Engineer — Notes</h2>
+<p>An “Effective Engineer” is someone who gets things done. But how can you become one? This Github repository (3,700 stars) has advice for you! Topics include:</p>
+<ul>
+<li>
+<p>How to optimize your learning</p>
+</li>
+<li>
+<p>How to prioritize</p>
+</li>
+<li>
+<p>Measuring your improvement</p>
+</li>
+</ul>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*Co8Bo28PrgA5yUEDRXOu6Q.png" alt="Effective Engineer Notes Repository"><em>Effective Engineer Notes Repository</em></p>
+<p><a href="https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f">Link to Repo</a></p>
+<h2 id="8-list-of-free-learning-resources">8. List of Free Learning Resources</h2>
+<p>This repository has a whopping 135,000 stars on Github and definitely is one of the most-loved curations there. It offers lots and lots of freely available programming books, screencasts, podcasts, and even online courses of all sorts. If you are looking for learning materials — look no further!</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*u2Po6Mkdnb8oQeOa4DAFDQ.png" alt="List of Free Learning Resources Repository"><em>List of Free Learning Resources Repository</em></p>
+<p><a href="https://github.com/EbookFoundation/free-programming-books">Link to Repo</a></p>
+<h2 id="9-big-list-of-naughty-strings">9. Big List of Naughty Strings</h2>
+<p>You can invest as much as you want into testing your code and programs, but when real users come into play — believe me, they will do things you would have never thought of, especially when it comes to user input. This repository (34,100 stars) has a huge list of Strings that are known to be problematic when entered as input by the user. So whether you want to impress your QA friends or uses this for testing your software, this could be quite useful!</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*oEahyZcUyWVmDsBeU6XSfg.png" alt="Big List of Naughty Strings Repository"><em>Big List of Naughty Strings Repository</em></p>
+<p><a href="https://github.com/minimaxir/big-list-of-naughty-strings">Link to Repo</a></p>
+<h2 id="10-awesome-first-pr-opportunities">10. Awesome First PR Opportunities</h2>
+<p>The last repository I want to recommend to you is great if you want to get started with Open Source. Contributing to OSS is a great way to get involved with the community, add something to your portfolio, try out new things, become a better developer, and even find a new job. But getting started is quite hard, as I know from personal experience. This repository lists Open Source projects that are known for or currently have beginner-friendly issues that you can tackle. It helped me getting started with OSS, should help you as well!</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*9rwa39nVe9wM_6PilSgMKQ.png" alt="Awesome First PR Opportunities Repository"><em>Awesome First PR Opportunities Repository</em></p>
+<p><a href="https://github.com/MunGell/awesome-for-beginners">Link to Repo</a></p>
+<p>I hope you find these repositories as awesome as I do, and I really hope that some of them will help you on your journey as a web developer.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Getting Started with i3wm</title>
+            <link>https://www.jacobgoldstein.tk/getting-started-with-i3wm/</link>
+            <pubDate>Thu, 26 Nov 2020 05:00:00 +0000</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/getting-started-with-i3wm/</guid>
+            <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
+            <content type="html"><![CDATA[<h1 id="getting-started-with-i3wm">Getting Started with i3wm</h1>
+<p>My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</p>
+<p>i3 isn’t like Gnome or Unity, because it doesn’t have basic things like brightness shortcut, so you need to configure that. Keep in mind that i3 is just a <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window manager</a>, you won’t have big icons on your desktop.</p>
+<p>i3wm has a large learning curve and people will give up before it starts to make sense (again, just like <em>vi</em>).</p>
+<p>I won’t cover installation topics and stuff, because you can easily find the instructions for your operation system.</p>
+<h2 id="configuring">Configuring</h2>
+<p>My <strong>~/.config/i3</strong> has a single file called <strong>config</strong>, which will be created after you install i3wm. These are my main modifications:</p>
+<!-- raw HTML omitted -->
+<p>My desktop looks like this:</p>
+<p><img src="https://cdn-images-1.medium.com/max/2732/1*vCkSOFUACbptQMUIv7FDzw.png" alt="My workspace with i3wm. Pretty simple, huh?"><em>My workspace with i3wm. Pretty simple, huh?</em></p>
+<p>I set system colors based on arc-theme. My browser and GTK use that theme too. You can find install instructions for that at <a href="https://github.com/brunodles/i3wm-conf">Bruno’s i3wm-conf repository</a>.</p>
+<p>You can find some inspirations and config files <a href="http://www.deviantart.com/browse/all/?section=&amp;global=1&amp;q=i3wm">searching at DeviantArt</a>.</p>
+<h2 id="navigating">Navigating</h2>
+<p>Since you doesn’t have alt+tab and your program’s window now behave different, you need to get used with the navigation on i3wm.
+My mod key is set to <em>WIN</em> key, so if I want to open a new program, I tap <em>WIN+d</em> (will open Rofi) and for terminal, <em>WIN+return</em>.</p>
+<p>To change the focus between the programs that are currently in your workspace, you can use <em>WIN+{arrow keys}</em>. Just like Gnome, i3 has multiple worspaces, and you can navigate on that using <em>WIN+{number of your workspace}</em>.</p>
+<h2 id="window-management">Window Management</h2>
+<p>When you search about i3 every screenshot you find will look like this:</p>
+<p><img src="https://cdn-images-1.medium.com/max/2560/1*D1vE7H5xKfXOox6YaIjbuQ.png" alt="Source: https://i3wm.org/screenshots/"><em>Source: <a href="https://i3wm.org/screenshots/">https://i3wm.org/screenshots/</a></em></p>
+<p>The main goal here is to adjust your programs like tiles in your screen and <a href="https://www.youtube.com/watch?v=AWA8Pl57UBY">they are a tree</a>!</p>
+<h2 id="rofi">Rofi</h2>
+<p>While using i3 you don’t have a menu bar where you can select the program you want to open. By default i3 comes with <strong>dmenu</strong>, but I use <a href="https://davedavenport.github.io/rofi/">Rofi</a> in run mode to make the same thing. As mentioned before, if I want to open a new program, I call <em>WIN+d</em> and insert <strong>the command that opens the program.</strong> e.g., if you want to open computer system’s config, you must call <em>gnome-control-center;</em> if system’s monitor you call *gnome-system-monitor. *Open browsers is easier but at the beginning, after install a new program, you might get lost.</p>
+<h2 id="memory-usage">Memory usage</h2>
+<p>Maybe, all that stuff may look hard to you, but you can re-think after see how much it costs to my computer to run it.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*oP7sf68o307tMOgArPPpZw.png" alt="Sooo lightweight :)"><em>Sooo lightweight :)</em></p>
+<p>For more info about i3, see <a href="https://i3wm.org/docs/">its docs</a>.</p>
+<p>I hope this article is a useful hello world to you :) See ya!</p>
+]]></content>
+        </item>
         
         <item>
             <title>How to Get Hackthebox Invite Code</title>
