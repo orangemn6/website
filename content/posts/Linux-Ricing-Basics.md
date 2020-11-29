@@ -1,16 +1,17 @@
 ---
-title: "Linux Ricing Basics"
+title: Linux Ricing Basics
 author: Jacob Goldstein
-date: 2020-11-05T17:43:02-05:00
-draft: true
+date: 2020-11-05T17:43:02.000-05:00
 categories:
- - Linux
- - Rice
+- Linux
+- Rice
 tags:
- - Linux
- - Rice
----
+- Linux
+- Rice
+type: post
+draft: true
 
+---
 **TL;DR** Here are my [dotfiles](https://github.com/orangemn6/dotfiles).
 
 *Disclaimer*: I am in no way a ricing expert. This guide is intended for fellow beginners confused on the very basics when it comes to the customization of their Unix system.
