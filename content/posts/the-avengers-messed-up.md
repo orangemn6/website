@@ -1,15 +1,15 @@
 ---
-title: "The Avengers Messed Up Bad"
+title: The Avengers Messed Up Bad
 author: Jacob Goldstein
-date: 2020-11-14T10:12:54-05:00
-draft: true
+date: 2020-11-14T10:12:54.000-05:00
 categories:
- - MCU
+- MCU
 tags:
- - MCU
+- MCU
+type: ''
+draft: true
+
 ---
-
-
 # The Avengers Messed Up
 
 The Avengers Messed Up
