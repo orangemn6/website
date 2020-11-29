@@ -3,6 +3,7 @@ title: "How to Get Hackthebox Invite Code"
 author: Jacob Goldstein
 date: 2020-11-23T16:05:38-05:00
 draft: true
+comments: true
 categories:
  - hacking
  - HTB
