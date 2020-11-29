@@ -6,7 +6,7 @@ categories:
 - MCU
 tags:
 - MCU
-type: ''
+type: post
 draft: true
 
 ---
