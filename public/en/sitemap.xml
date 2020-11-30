@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,8 +18,33 @@
   </url>
   
   <url>
+    <loc>https://www.jacobgoldstein.tk/tags/hacking/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/hacking/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/htb/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/htb/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -29,6 +54,26 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/</loc>
+    <lastmod>2020-11-30T15:10:07-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.jacobgoldstein.tk/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jacobgoldstein.tk/tags/"
                 />
   </url>
   
@@ -48,26 +93,6 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2020-11-28T05:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.jacobgoldstein.tk/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.jacobgoldstein.tk/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</loc>
     <lastmod>2020-11-27T05:00:00+00:00</lastmod>
   </url>
@@ -78,27 +103,7 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/tags/hacking/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/hacking/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/htb/</loc>
-    <lastmod>2020-11-23T16:05:38-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/htb/</loc>
     <lastmod>2020-11-23T16:05:38-05:00</lastmod>
   </url>
   

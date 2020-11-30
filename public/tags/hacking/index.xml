@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 23 Nov 2020 16:05:38 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 15:10:07 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Htb Writeup Be Happy</title>
+      <link>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
+      <pubDate>Mon, 30 Nov 2020 15:10:07 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
+      <description>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to https://www.jacobgoldstein.tk/happy/htb/index.html. once you do that you will get some base64 code. decode that and there is your flag!!</description>
+    </item>
+    
     <item>
       <title>How to Get Hackthebox Invite Code</title>
       <link>https://www.jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</link>

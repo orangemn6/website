@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 05:00:00 +0000</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 15:10:07 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Htb Writeup Be Happy</title>
+      <link>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
+      <pubDate>Mon, 30 Nov 2020 15:10:07 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
+      <description>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to https://www.jacobgoldstein.tk/happy/htb/index.html. once you do that you will get some base64 code. decode that and there is your flag!!</description>
+    </item>
+    
     <item>
       <title>My Life So Far</title>
       <link>https://www.jacobgoldstein.tk/posts/my-life-so-far/</link>
@@ -96,17 +105,6 @@ Eleven years and twenty-two films. It’s crazy to think about. When you look ba
       <description>The Avengers Messed Up The Avengers Messed Up
 How our favorite superheroes ruined the world they meant to save © Marvel Studios
 It’s no spoiler to reveal that in Avengers: Endgame, the good guys end up defeating the bad guys. That’s just how superhero stories work — at least in the second half of a two-part film series. But the Avengers don’t seem to realize that they’ve created many more problems in the process.</description>
-    </item>
-    
-    <item>
-      <title>The XY Files- the Lost Plot of Gen 6</title>
-      <link>https://www.jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</link>
-      <pubDate>Fri, 13 Nov 2020 10:07:58 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</guid>
-      <description>The XY Files: The Lost Plot of Pokemon’s 6th Generation Scrapped, Leaked, Posted and Forgotten
-Game Freak and The Pokemon Company have always been very secretive. Alpha and Beta builds of their games are almost mythic in rarity, and we so rarely get to see early or scrapped Pokemon designs. Everything remains in the vault, even the garbage.
-This secrecy has engendered a history of speculation regarding upcoming games and Pokemon designs.</description>
     </item>
     
   </channel>
