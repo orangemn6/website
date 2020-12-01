@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacob Goldstein&#39;s Website</title>
+    <link>https://jacobgoldstein.tk/</link>
+    <description>Recent content on Jacob Goldstein&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 01 Dec 2020 13:15:49 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Ricing and How I Do It So Fast</title>
+      <link>https://jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</link>
+      <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</guid>
+      <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
+Script 1: Pywal So for this one you need pywal.
+wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
+#! /usr/bin/env python import json import os def make_element(name, scope, **kwargs): &amp;#34;&amp;#34;&amp;#34;Helper function for generating color scheme entries&amp;#34;&amp;#34;&amp;#34; result = {} result[&amp;#39;name&amp;#39;] = name result[&amp;#39;scope&amp;#39;] = scope result.</description>
+    </item>
+    
+    <item>
+      <title>Htb Writeup Be Happy</title>
+      <link>https://jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
+      <pubDate>Mon, 30 Nov 2020 15:10:07 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
+      <description>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to https://www.jacobgoldstein.tk/happy/htb/index.html. once you do that you will get some base64 code. decode that and there is your flag!!</description>
+    </item>
+    
+    <item>
+      <title>My Life So Far</title>
+      <link>https://jacobgoldstein.tk/posts/my-life-so-far/</link>
+      <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/my-life-so-far/</guid>
+      <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
+Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
+    </item>
+    
+    <item>
+      <title>10 Github Repos every web dev should know</title>
+      <link>https://jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</link>
+      <pubDate>Fri, 27 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</guid>
+      <description>10 Awesome Github Repos Every Web Developer Should Know From giant repos of resources to interview prep, there’s a lot of great stuff here
+Photo by Yancy Min on Unsplash
+I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
+1. Awesome Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with i3wm</title>
+      <link>https://jacobgoldstein.tk/posts/getting-started-with-i3wm/</link>
+      <pubDate>Thu, 26 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/getting-started-with-i3wm/</guid>
+      <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
+    </item>
+    
+    <item>
+      <title>How to Get Hackthebox Invite Code</title>
+      <link>https://jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</link>
+      <pubDate>Mon, 23 Nov 2020 16:05:38 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</guid>
+      <description>Hack the Box: How to get the Invite Code What is Hack the Box ?
+Hack The Box is an online platform that allows you to test and advance your skills in Penetration Testing and Cybersecurity. The platform contains assorted challenges that are continuously updated. Some of the challenges simulate real world situations/scenarios, while others are more like CTFs. Needless to say, Hack the box is beyond resourceful if you want to level up your cybersecurity skills; especially as a beginner.</description>
+    </item>
+    
+    <item>
+      <title>A Linux User&#39;s Thoughts on Macos</title>
+      <link>https://jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</link>
+      <pubDate>Sat, 21 Nov 2020 23:44:09 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
+      <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
+    </item>
+    
+    <item>
+      <title>Traits of Good and Bad Leaders</title>
+      <link>https://jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</link>
+      <pubDate>Mon, 16 Nov 2020 17:37:08 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</guid>
+      <description>Traits of Good and Bad Leaders Successful businesses need leaders, someone who can inspire employees and lead them, and the business towards success. Leaders encourage others to work to their full potential, inspire creativity, and aid motivation. During turbulent economic times, the need for good leaders intensifies. Someone who presents a clear vision for recovery leads by example and instills confidence in those around them. A good leader has many traits, if you can recognize these within yourself and capitalize on them, then you may become a successful leader in your work environment.</description>
+    </item>
+    
+    <item>
+      <title>Try Linux Online</title>
+      <link>https://jacobgoldstein.tk/posts/try-linux-online/</link>
+      <pubDate>Sun, 15 Nov 2020 21:28:35 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/try-linux-online/</guid>
+      <description>DistroTest is a web service that allows you to test Linux and Unix operating systems online for free, without having to install them locally. You can try 300+ Linux and Unix operating systems online without having to install them locally. Just visit the website, choose the Linux/Unix distro of your choice and run it!
+The creators of DistroTest have hosted this web service on Debian using Qemu. There is no restrictions to use the distros listed here.</description>
+    </item>
+    
+    <item>
+      <title>All MCU Movies Ranked</title>
+      <link>https://jacobgoldstein.tk/posts/all-mcu-movies-ranked/</link>
+      <pubDate>Sun, 15 Nov 2020 10:20:38 -0500</pubDate>
+      
+      <guid>https://jacobgoldstein.tk/posts/all-mcu-movies-ranked/</guid>
+      <description>All Marvel Cinematic Universe Movies Ranked With ‘Avengers: Endgame’ in theaters, how do the 22 films of the MCU stack up?
+Eleven years and twenty-two films. It’s crazy to think about. When you look back at some of the Marvel Cinematic Universe’s early work, they look rather quaint compared to the epic *Avengers: Endgame*. The first film of the series, Iron Man (2008), was released to theaters when I was fifteen.</description>
+    </item>
+    
+  </channel>
+</rss>

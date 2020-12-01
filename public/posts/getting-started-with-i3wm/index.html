@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Jacob Goldstein">
+<meta name="description" content="Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt&#43;tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else." />
+<meta name="keywords" content="Jacob Goldstein,orangemn6,linux,jacobgoldstein, linux" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://jacobgoldstein.tk/posts/getting-started-with-i3wm/" />
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css" />
+
+
+    <title>
+        
+            Getting Started with i3wm :: Jacob Goldstein&#39;s Website 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jacobgoldstein.tk/main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jacobgoldstein.tk/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jacobgoldstein.tk/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jacobgoldstein.tk/favicon-16x16.png">
+    <link rel="manifest" href="https://jacobgoldstein.tk/site.webmanifest">
+    <link rel="mask-icon" href="https://jacobgoldstein.tk/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://jacobgoldstein.tk/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="Getting Started with i3wm">
+<meta itemprop="description" content="Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt&#43;tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.">
+<meta itemprop="datePublished" content="2020-11-26T05:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-11-26T05:00:00+00:00" />
+<meta itemprop="wordCount" content="499">
+<meta itemprop="image" content="https://jacobgoldstein.tk/"/>
+
+
+
+<meta itemprop="keywords" content="linux," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jacobgoldstein.tk/"/>
+
+<meta name="twitter:title" content="Getting Started with i3wm"/>
+<meta name="twitter:description" content="Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt&#43;tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else."/>
+
+
+
+    <meta property="og:title" content="Getting Started with i3wm" />
+<meta property="og:description" content="Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt&#43;tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jacobgoldstein.tk/posts/getting-started-with-i3wm/" />
+<meta property="og:image" content="https://jacobgoldstein.tk/"/>
+<meta property="article:published_time" content="2020-11-26T05:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-26T05:00:00+00:00" />
+
+
+
+
+    <meta property="article:section" content="linux" />
+
+
+
+    <meta property="article:published_time" content="2020-11-26 05:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jacobgoldstein.tk/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jacobgoldstein.tk/about/">About</a></li><li><a href="https://jacobgoldstein.tk/posts/">Posts</a></li><li><a href="https://jacobgoldstein.tk/rices/">Rices</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://jacobgoldstein.tk/posts/getting-started-with-i3wm/">Getting Started with i3wm</a></h2>
+
+            
+
+            
+
+            <div class="post-content">
+                <h1 id="getting-started-with-i3wm">Getting Started with i3wm</h1>
+<p>My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</p>
+<p>i3 isn’t like Gnome or Unity, because it doesn’t have basic things like brightness shortcut, so you need to configure that. Keep in mind that i3 is just a <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window manager</a>, you won’t have big icons on your desktop.</p>
+<p>i3wm has a large learning curve and people will give up before it starts to make sense (again, just like <em>vi</em>).</p>
+<p>I won’t cover installation topics and stuff, because you can easily find the instructions for your operation system.</p>
+<h2 id="configuring">Configuring</h2>
+<p>My <strong>~/.config/i3</strong> has a single file called <strong>config</strong>, which will be created after you install i3wm. These are my main modifications:</p>
+<!-- raw HTML omitted -->
+<p>My desktop looks like this:</p>
+<p><img src="https://cdn-images-1.medium.com/max/2732/1*vCkSOFUACbptQMUIv7FDzw.png" alt="My workspace with i3wm. Pretty simple, huh?"><em>My workspace with i3wm. Pretty simple, huh?</em></p>
+<p>I set system colors based on arc-theme. My browser and GTK use that theme too. You can find install instructions for that at <a href="https://github.com/brunodles/i3wm-conf">Bruno’s i3wm-conf repository</a>.</p>
+<p>You can find some inspirations and config files <a href="http://www.deviantart.com/browse/all/?section=&amp;global=1&amp;q=i3wm">searching at DeviantArt</a>.</p>
+<h2 id="navigating">Navigating</h2>
+<p>Since you doesn’t have alt+tab and your program’s window now behave different, you need to get used with the navigation on i3wm.
+My mod key is set to <em>WIN</em> key, so if I want to open a new program, I tap <em>WIN+d</em> (will open Rofi) and for terminal, <em>WIN+return</em>.</p>
+<p>To change the focus between the programs that are currently in your workspace, you can use <em>WIN+{arrow keys}</em>. Just like Gnome, i3 has multiple worspaces, and you can navigate on that using <em>WIN+{number of your workspace}</em>.</p>
+<h2 id="window-management">Window Management</h2>
+<p>When you search about i3 every screenshot you find will look like this:</p>
+<p><img src="https://cdn-images-1.medium.com/max/2560/1*D1vE7H5xKfXOox6YaIjbuQ.png" alt="Source: https://i3wm.org/screenshots/"><em>Source: <a href="https://i3wm.org/screenshots/">https://i3wm.org/screenshots/</a></em></p>
+<p>The main goal here is to adjust your programs like tiles in your screen and <a href="https://www.youtube.com/watch?v=AWA8Pl57UBY">they are a tree</a>!</p>
+<h2 id="rofi">Rofi</h2>
+<p>While using i3 you don’t have a menu bar where you can select the program you want to open. By default i3 comes with <strong>dmenu</strong>, but I use <a href="https://davedavenport.github.io/rofi/">Rofi</a> in run mode to make the same thing. As mentioned before, if I want to open a new program, I call <em>WIN+d</em> and insert <strong>the command that opens the program.</strong> e.g., if you want to open computer system’s config, you must call <em>gnome-control-center;</em> if system’s monitor you call *gnome-system-monitor. *Open browsers is easier but at the beginning, after install a new program, you might get lost.</p>
+<h2 id="memory-usage">Memory usage</h2>
+<p>Maybe, all that stuff may look hard to you, but you can re-think after see how much it costs to my computer to run it.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*oP7sf68o307tMOgArPPpZw.png" alt="Sooo lightweight :)"><em>Sooo lightweight :)</em></p>
+<p>For more info about i3, see <a href="https://i3wm.org/docs/">its docs</a>.</p>
+<p>I hope this article is a useful hello world to you :) See ya!</p>
+
+            </div>
+            <div class="article-container"></div>
+            <script src="https://utteranc.es/client.js"
+  repo="orangemn6/website"
+  issue-term="pathname"
+  label="Comment"
+  theme="photon-dark"
+  crossorigin="anonymous"
+  async>
+</script>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://jacobgoldstein.tk/tags/linux/">linux</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://jacobgoldstein.tk/categories/linux/">linux</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://jacobgoldstein.tk/">Jacob Goldstein</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://jacobgoldstein.tk/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/orangemn6">Jacob Goldstein</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://jacobgoldstein.tk/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" crossorigin="anonymous"></script>
+
+
+
+    </body>
+</html>
