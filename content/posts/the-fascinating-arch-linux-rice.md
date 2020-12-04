@@ -3,7 +3,7 @@ title: "The Fascinating Arch Linux Rice"
 author: Jacob Goldstein
 date: 2020-12-04T16:45:48-05:00
 draft: false
-type: post
+type: posts
 categories:
  - linux
 tags:
