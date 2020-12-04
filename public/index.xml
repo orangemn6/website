@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 13:15:49 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 16:45:48 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Fascinating Arch Linux Rice</title>
+      <link>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</link>
+      <pubDate>Fri, 04 Dec 2020 16:45:48 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</guid>
+      <description>Recently, I dive into Linux the third time. The first time is in my childhood, I was attracted by the magazines, which introduced me the hacker culture. The second time was weird, I wanted to focus on study instead of PC gaming.
+This time, it&amp;rsquo;s totally different. /r/unixporn and /r/MechanicalKeyboards attracted me. The most fascinating part of that is RICE or RICE culture.
+RICE RICE is not the food rice. Instead, it is the acronym of Race Inspired Cosmetic Enhancements.</description>
+    </item>
+    
     <item>
       <title>Linux Ricing and How I Do It So Fast</title>
       <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</link>
@@ -96,16 +107,6 @@ Hack The Box is an online platform that allows you to test and advance your skil
       <guid>https://www.jacobgoldstein.tk/posts/try-linux-online/</guid>
       <description>DistroTest is a web service that allows you to test Linux and Unix operating systems online for free, without having to install them locally. You can try 300+ Linux and Unix operating systems online without having to install them locally. Just visit the website, choose the Linux/Unix distro of your choice and run it!
 The creators of DistroTest have hosted this web service on Debian using Qemu. There is no restrictions to use the distros listed here.</description>
-    </item>
-    
-    <item>
-      <title>All MCU Movies Ranked</title>
-      <link>https://www.jacobgoldstein.tk/posts/all-mcu-movies-ranked/</link>
-      <pubDate>Sun, 15 Nov 2020 10:20:38 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/all-mcu-movies-ranked/</guid>
-      <description>All Marvel Cinematic Universe Movies Ranked With ‘Avengers: Endgame’ in theaters, how do the 22 films of the MCU stack up?
-Eleven years and twenty-two films. It’s crazy to think about. When you look back at some of the Marvel Cinematic Universe’s early work, they look rather quaint compared to the epic *Avengers: Endgame*. The first film of the series, Iron Man (2008), was released to theaters when I was fifteen.</description>
     </item>
     
   </channel>
