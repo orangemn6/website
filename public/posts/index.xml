@@ -211,11 +211,11 @@ that, I have had a lot of happiness.</p>
         </item>
         
         <item>
-            <title>Linux Ricing and How I Do It So Fast</title>
-            <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</link>
+            <title>Linux Ricing and How I Do It (just the basics)</title>
+            <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
             <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
             
-            <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</guid>
+            <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
             <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
 Script 1: Pywal So for this one you need pywal.
 wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
@@ -301,7 +301,15 @@ wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i $HOME/Pictures/wallpapers -o wal-set
 sleep 0.02
 pywal_sublime.py
-</code></pre></div><p>set theme to a keybind and you are finished! This only changes the colors of your system, and does not apply other effects.</p>
+</code></pre></div><p>Now to set gtk themes, you will need a tool called <code>wpgtk</code>. Wpgtk will take our data from the previous scripts, and use it to make a GTK theme.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/deviantfero/wpgtk
+cd wpgtk
+sudo pip install .
+cd
+wpg-install.sh -g -i
+wpg
+</code></pre></div><p>Now hit add and select your wallpaper. Then hit set.</p>
+<p>You Now have a fully functional linux rice!!</p>
 ]]></content>
         </item>
         

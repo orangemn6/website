@@ -9,11 +9,11 @@
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 01 Dec 2020 13:15:49 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/ricing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Linux Ricing and How I Do It So Fast</title>
-      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</link>
+      <title>Linux Ricing and How I Do It (just the basics)</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
       <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
       
-      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-so-fast/</guid>
+      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
       <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
 Script 1: Pywal So for this one you need pywal.
 wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script

@@ -1,5 +1,5 @@
 ---
-title: Linux Ricing and How I Do It So Fast
+title: Linux Ricing and How I Do It (just the basics)
 author: Jacob Goldstein
 date: 2020-12-01T13:15:49.000-05:00
 categories:
@@ -110,4 +110,16 @@ sleep 0.02
 pywal_sublime.py
 ```
 
-set theme to a keybind and you are finished! This only changes the colors of your system, and does not apply other effects.
+Now to set gtk themes, you will need a tool called `wpgtk`. Wpgtk will take our data from the previous scripts, and use it to make a GTK theme.
+
+```bash
+git clone https://github.com/deviantfero/wpgtk
+cd wpgtk
+sudo pip install .
+cd
+wpg-install.sh -g -i
+wpg
+```
+Now hit add and select your wallpaper. Then hit set. 
+
+You Now have a fully functional linux rice!!
