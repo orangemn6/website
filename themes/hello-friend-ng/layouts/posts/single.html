@@ -102,6 +102,12 @@
       </div>
     {{- end }}
 
+    <div class="views">
+        <span class="views">
+            <img src="https://visitor-badge.glitch.me/badge?page_id={{ .Permalink }}" alt="Views"/>
+        </span>
+    </div>
+
     {{ if and (not $.Site.Params.DisableReadOtherPosts) (or .NextInSection .PrevInSection) }}
       <div class="pagination">
         <div class="pagination__title">
@@ -131,12 +137,6 @@
       </div>
     {{ end }}
 
-
-   <div class="views">
-        <span class="views">
-            <img src="https://visitor-badge.glitch.me/badge?page_id={{ .Permalink }}" alt="Views"/>
-        </span>
-    </div>
 
   </main>
 {{ end }}
