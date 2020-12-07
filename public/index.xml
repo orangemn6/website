@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 04 Dec 2020 16:45:48 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 21:44:06 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12 Reasons Why Linux Is Better</title>
+      <link>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
+      <pubDate>Sun, 06 Dec 2020 21:44:06 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</guid>
+      <description>12 reasons why Linux is better than Windows The myth that Linux is complex and only needed by programmers and developers is not true.
+Windows is the most popular operating system, and it is well deserved. She has come a long way, constantly improving and developing. However, although Microsoft claims that the Ten is its best creation, in some things Linux is far superior to Windows.
+1. Convenient implementation of updates Perhaps we all know about this situation.</description>
+    </item>
+    
     <item>
       <title>The Fascinating Arch Linux Rice</title>
       <link>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</link>
@@ -97,16 +108,6 @@ Hack The Box is an online platform that allows you to test and advance your skil
       
       <guid>https://www.jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</guid>
       <description>Traits of Good and Bad Leaders Successful businesses need leaders, someone who can inspire employees and lead them, and the business towards success. Leaders encourage others to work to their full potential, inspire creativity, and aid motivation. During turbulent economic times, the need for good leaders intensifies. Someone who presents a clear vision for recovery leads by example and instills confidence in those around them. A good leader has many traits, if you can recognize these within yourself and capitalize on them, then you may become a successful leader in your work environment.</description>
-    </item>
-    
-    <item>
-      <title>Try Linux Online</title>
-      <link>https://www.jacobgoldstein.tk/posts/try-linux-online/</link>
-      <pubDate>Sun, 15 Nov 2020 21:28:35 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/try-linux-online/</guid>
-      <description>DistroTest is a web service that allows you to test Linux and Unix operating systems online for free, without having to install them locally. You can try 300+ Linux and Unix operating systems online without having to install them locally. Just visit the website, choose the Linux/Unix distro of your choice and run it!
-The creators of DistroTest have hosted this web service on Debian using Qemu. There is no restrictions to use the distros listed here.</description>
     </item>
     
   </channel>
