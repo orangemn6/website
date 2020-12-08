@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 06 Dec 2020 21:44:06 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 08:55:35 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Ricing Checklist</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-checklist/</link>
+      <pubDate>Tue, 08 Dec 2020 08:55:35 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-checklist/</guid>
+      <description>I just started ricing at the start of August 2019. So I made this list of things you might want to know when getting started with ricing your setup so that I couldn&amp;rsquo;t forget it easily.
+Hopefully, it can be useful for you, too.
+NOTE: The listed programs is mostly applied to Linux-based systems. You can look for some alternatives if you&amp;rsquo;re using anything else. Sorry, can&amp;rsquo;t help much with that.</description>
+    </item>
+    
     <item>
       <title>12 Reasons Why Linux Is Better</title>
       <link>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
@@ -99,15 +110,6 @@ Hack The Box is an online platform that allows you to test and advance your skil
       
       <guid>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
       <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
-    </item>
-    
-    <item>
-      <title>Traits of Good and Bad Leaders</title>
-      <link>https://www.jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</link>
-      <pubDate>Mon, 16 Nov 2020 17:37:08 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</guid>
-      <description>Traits of Good and Bad Leaders Successful businesses need leaders, someone who can inspire employees and lead them, and the business towards success. Leaders encourage others to work to their full potential, inspire creativity, and aid motivation. During turbulent economic times, the need for good leaders intensifies. Someone who presents a clear vision for recovery leads by example and instills confidence in those around them. A good leader has many traits, if you can recognize these within yourself and capitalize on them, then you may become a successful leader in your work environment.</description>
     </item>
     
   </channel>

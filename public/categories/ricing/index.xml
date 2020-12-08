@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 13:15:49 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/ricing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 08:55:35 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/ricing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Ricing Checklist</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-checklist/</link>
+      <pubDate>Tue, 08 Dec 2020 08:55:35 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-checklist/</guid>
+      <description>I just started ricing at the start of August 2019. So I made this list of things you might want to know when getting started with ricing your setup so that I couldn&amp;rsquo;t forget it easily.
+Hopefully, it can be useful for you, too.
+NOTE: The listed programs is mostly applied to Linux-based systems. You can look for some alternatives if you&amp;rsquo;re using anything else. Sorry, can&amp;rsquo;t help much with that.</description>
+    </item>
+    
     <item>
       <title>Linux Ricing and How I Do It (just the basics)</title>
       <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>

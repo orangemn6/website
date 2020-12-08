@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 06 Dec 2020 21:44:06 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 08:55:35 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Ricing Checklist</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-checklist/</link>
+      <pubDate>Tue, 08 Dec 2020 08:55:35 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-checklist/</guid>
+      <description>I just started ricing at the start of August 2019. So I made this list of things you might want to know when getting started with ricing your setup so that I couldn&amp;rsquo;t forget it easily.
+Hopefully, it can be useful for you, too.
+NOTE: The listed programs is mostly applied to Linux-based systems. You can look for some alternatives if you&amp;rsquo;re using anything else. Sorry, can&amp;rsquo;t help much with that.</description>
+    </item>
+    
     <item>
       <title>12 Reasons Why Linux Is Better</title>
       <link>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
@@ -98,17 +109,6 @@ Introduction After making my departure to Arch Linux a month ago I was quickly i
       
       <guid>https://www.jacobgoldstein.tk/posts/why-you-should-learn-linux/</guid>
       <description>Why You Should Probably Learn Linux Let’s face it, Linux sounds scary to the untrained ear. Most average users think of black and white terminals, and pale, white, basement dwellers clacking assembly and basic into an ancient IBM machine when they hear the term “ Linux” arise in conversation. Of course, the same might not be said for Data Scientists, and programmers alike, but the stigma is certainly still illustrated inside of that particular clique.</description>
-    </item>
-    
-    <item>
-      <title>6 Terminal Commands You Should Know</title>
-      <link>https://www.jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</link>
-      <pubDate>Wed, 28 Oct 2020 10:05:01 -0400</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</guid>
-      <description>6 Terminal Commands You Should Know From switching your private keys to directory listings with hidden files
-As a developer, there are two key things that are paramount to a productive setup: speed and efficiency.
-The more time you take to accomplish simple tasks like searching for files or displaying their contents, the more is taken from critical development time. When working on the command-line, things like aliases and custom functions can speed things up and let you get back to developing more quickly.</description>
     </item>
     
   </channel>
