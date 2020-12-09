@@ -1,15 +1,14 @@
 ---
-title: "12 Reasons Why Linux Is Better"
+title: 12 Reasons Why Linux Is Better
 author: Jacob Goldstein
-date: 2020-12-06T21:44:06-05:00
-draft: false
-type: posts
+date: 2020-12-06T21:44:06.000-05:00
+type: post
 categories:
- - linux
+- linux
 tags:
- - linux
----
+- linux
 
+---
 # 12 reasons why Linux is better than Windows
 
 The myth that Linux is complex and only needed by programmers and developers is not true.
