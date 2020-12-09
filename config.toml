@@ -161,3 +161,7 @@ disableHugoGeneratorInject = false
     identifier = "rices"
     name       = "Rices"
     url        = "rices/"
+  [[menu.main]]
+    identifier = "mcserver"
+    name      =  "Minecraft Server"
+    url       =  "https://play.jacobgoldstein.tk"
