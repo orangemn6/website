@@ -1,15 +1,14 @@
 ---
 title: Why Linux is Better
 author: Jacob Goldstein
-type: post
-date: 2020-09-30T19:00:00
+date: 2020-09-30T19:00:00.000+00:00
 categories:
-  - Linux
+- Linux
 tags:
-  - Linux
-  - Windows
----
+- Linux
+- Windows
 
+---
 # 10 Reasons Why Linux Is Better Than Windows
 
 It is often seen that people get confused over choosing Windows or Linux as a host operating system in both server and desktop spaces. People will focus on aspects of cost, the functionality provided, hardware compatibility, support, reliability, security, pre-built software, cloud-readiness, etc. before they finalize. In this regard, this article covers ten reasons for using Linux over Windows.  
@@ -111,5 +110,3 @@ Linux will undoubtedly emerge as the winner when all aspects are considered. The
 [8]: http://www.linuxandubuntu.com/wp-content/uploads/2019/07/linux-server.jpg
 [9]: http://www.linuxandubuntu.com/wp-content/uploads/2019/07/linux-is-everywhere.jpg
 [10]: http://www.linuxandubuntu.com/wp-content/uploads/2020/09/join-telegram-channel.png
-
-  
