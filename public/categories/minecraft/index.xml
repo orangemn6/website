@@ -22,12 +22,13 @@ Briefly, for the uninitiated: Minecraft is a video game, first released in 2009 
     
     <item>
       <title>Minecraft Server</title>
-      <link>https://www.jacobgoldstein.tk/posts/minecraft-server/</link>
+      <link>https://www.jacobgoldstein.tk/minecraft-server/</link>
       <pubDate>Mon, 26 Oct 2020 10:26:18 -0400</pubDate>
       
-      <guid>https://www.jacobgoldstein.tk/posts/minecraft-server/</guid>
+      <guid>https://www.jacobgoldstein.tk/minecraft-server/</guid>
       <description>Wow. I have been working for so long, just to get to this point. I finally have done it. Ihave made the official jacob MC server!! This might seem out of the blue, but I have been working on this more than anything.
-How to join If you are on java edition or bedrock edition you can join. This server is a plugin called GeyserMC. To join the server, put the following into minecraft:</description>
+How to join Because ngrok only supports TCP, I cant run a bedrock server. Sorry! To join the server, put the following into minecraft:
+name: Jacob MC ip: mc.</description>
     </item>
     
   </channel>

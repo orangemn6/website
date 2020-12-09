@@ -2040,32 +2040,6 @@ done
         </item>
         
         <item>
-            <title>Minecraft Server</title>
-            <link>https://www.jacobgoldstein.tk/posts/minecraft-server/</link>
-            <pubDate>Mon, 26 Oct 2020 10:26:18 -0400</pubDate>
-            
-            <guid>https://www.jacobgoldstein.tk/posts/minecraft-server/</guid>
-            <description>Wow. I have been working for so long, just to get to this point. I finally have done it. Ihave made the official jacob MC server!! This might seem out of the blue, but I have been working on this more than anything.
-How to join If you are on java edition or bedrock edition you can join. This server is a plugin called GeyserMC. To join the server, put the following into minecraft:</description>
-            <content type="html"><![CDATA[<p>Wow. I have been working for so long, just to get to this point. I finally have done it. Ihave made the official jacob MC server!! This might seem out of the blue, but I have been working on this more than anything.</p>
-<h2 id="how-to-join">How to join</h2>
-<p>If you are on java edition or bedrock edition you can join. This server is a plugin called GeyserMC. To join the server, put the following into minecraft:</p>
-<pre><code>name: Jacob MC
-ip: Jaggle.ga
-**Dont Change Port**
-</code></pre><p>Now you should be able to join the server!! If you want to help out, <a href="mailto:linuxjacob@mail.com">email me</a>.</p>
-<h2 id="about-the-server">About the server</h2>
-<p>Now, the server is running off a home server in my basement, accessable through ssh. I used the geyser and floodgate plugins to make it available on bedrock and java. the domain was easily configurable also. I port forwarded. and directed the ip to the domain name. the port is default (thanks again geyser).</p>
-<h2 id="more-info">More Info</h2>
-<pre><code>Gamemode: Creative
-Cheats: on
-permissions: member
-</code></pre><h2 id="conclusion">Conclusion</h2>
-<p>I finally made the server. Now i need you guys to join it. Thank you for reading!!</p>
-]]></content>
-        </item>
-        
-        <item>
             <title>Ventoy Persistence</title>
             <link>https://www.jacobgoldstein.tk/posts/ventoy-persistence/</link>
             <pubDate>Sun, 25 Oct 2020 19:00:00 +0000</pubDate>
