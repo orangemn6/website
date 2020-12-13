@@ -165,3 +165,4 @@ disableHugoGeneratorInject = false
     identifier = "mcserver"
     name      =  "Minecraft Server"
     url       =  "https://play.jacobgoldstein.tk"
+
