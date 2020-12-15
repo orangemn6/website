@@ -3,7 +3,7 @@ title: "To Be or Not to Be"
 author: Jacob Goldstein
 date: 2020-12-14T22:40:05-05:00
 draft: false
-type: posts
+type: post
 categories:
  - philosophy
 tags:
