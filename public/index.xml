@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 10 Dec 2020 17:20:31 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 22:40:05 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To Be or Not to Be</title>
+      <link>https://www.jacobgoldstein.tk/posts/to-be-or-not-to-be/</link>
+      <pubDate>Mon, 14 Dec 2020 22:40:05 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/to-be-or-not-to-be/</guid>
+      <description>To Be or Not to Be, That is the Question Sometimes, people will question their actions. Sometimes people have 2 different identities: the one they keep to themselves, and the one that they share with others. This personality, this way of life, is common in lots of people. When you think something to yourself, and say something else. When you have a secret that you know can not be told. To Be or Not To Be, That is the Question.</description>
+    </item>
+    
     <item>
       <title>How to Build a Blog With Hugo</title>
       <link>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
@@ -245,15 +254,6 @@ I have collected ten great repositories you can find on GitHub that will definit
       <guid>https://www.jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</guid>
       <description>Hack the Box: How to get the Invite Code What is Hack the Box ?
 Hack The Box is an online platform that allows you to test and advance your skills in Penetration Testing and Cybersecurity. The platform contains assorted challenges that are continuously updated. Some of the challenges simulate real world situations/scenarios, while others are more like CTFs. Needless to say, Hack the box is beyond resourceful if you want to level up your cybersecurity skills; especially as a beginner.</description>
-    </item>
-    
-    <item>
-      <title>A Linux User&#39;s Thoughts on Macos</title>
-      <link>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</link>
-      <pubDate>Sat, 21 Nov 2020 23:44:09 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
-      <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
     </item>
     
   </channel>
