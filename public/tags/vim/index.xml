@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Jacob Goldstein&#39;s Website</title>
+    <link>https://www.jacobgoldstein.tk/tags/vim/</link>
+    <description>Recent content in vim on Jacob Goldstein&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Still Use Vim</title>
+      <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
+      <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
+      <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
+Image: http://amzn.to/2umsBaY
+I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
+    </item>
+    
+  </channel>
+</rss>

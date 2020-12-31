@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 30 Dec 2020 23:12:17 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Still Use Vim</title>
+      <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
+      <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
+      <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
+Image: http://amzn.to/2umsBaY
+I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
+    </item>
+    
     <item>
       <title>How to Install Galliumos on Chromebook</title>
       <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
@@ -246,15 +257,6 @@ Projects I am working on  Opensuspect (more on this later) AlamodeBoot My websit
 Photo by Yancy Min on Unsplash
 I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
 1. Awesome Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with i3wm</title>
-      <link>https://www.jacobgoldstein.tk/posts/getting-started-with-i3wm/</link>
-      <pubDate>Thu, 26 Nov 2020 05:00:00 +0000</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/getting-started-with-i3wm/</guid>
-      <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
     </item>
     
   </channel>
