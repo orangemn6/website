@@ -6,101 +6,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 31 Dec 2020 16:25:33 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Why I Still Use Vim</title>
-            <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
-            <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
-            
-            <guid>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
-            <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
-Image: http://amzn.to/2umsBaY
-I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
-            <content type="html"><![CDATA[<h1 id="why-i-still-use-vim">Why I Still Use Vim</h1>
-<p>And no, it’s not because I can’t figure out how to close it.</p>
-<p><img src="https://cdn-images-1.medium.com/max/2372/1*a_p-T4EittG0H3Krt9bUZw.jpeg" alt="Image: http://amzn.to/2umsBaY"><em>Image: <a href="http://amzn.to/2umsBaY">http://amzn.to/2umsBaY</a></em></p>
-<p>I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</p>
-<p>Sure Vim isn’t a bad editor, it’s highly extensible, it’s easy to shell out to the, err well shell, its everywhere so when you ssh into some obscure server you can just type vim (or vi) and you’re good to go.</p>
-<p>But this isn’t a pitch about Vim being a great editor, that’s a matter of subjective taste. I’ve primarily stuck with it because it’s an extensible editor that doesn’t hog all the resources and kill my machines. Using Atom or Code I experience frequent freezes for several minutes when just typing a single character.</p>
-<p>How much memory would you expect an editor needs to open the following C file?</p>
-<pre><code>**#include** &lt;stdio.h&gt;
-
-**int** main() {
-  printf(&quot;Hello, world!\n&quot;);
-}
-</code></pre>
-<h2 id="memory-usage">Memory Usage</h2>
-<p>The answer is… crazy.</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*ZdqL3eJXV4v-ZlkDKJIlNg.png" alt="Memory used in KiB opening a ~60 byte C source file."><em>Memory used in KiB opening a ~60 byte C source file.</em></p>
-<p>Code requires a whopping 349 megabytes in order to open a 60 byte file. Atom comes in at 256 megabytes. Where Vim “only” needs 5 megabytes, which is still kind of high, but representative of an average configuration.</p>
-<p>I’ve also included Nano to have another text mode editor to compare Vim with, which came out at less than a megabyte.</p>
-<p>What about larger files? Opening a 6 megabyte XML file in Vim consumes around 12 megabytes. Nano is pretty much neck-and-neck with Vim. Code needs 392 megabytes, and Atom needs a whopping <strong>845</strong> megabytes.</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*UoLGhJjMeCbXfL0rBpcfBw.png" alt="Memory used in KiB opening a ~6 Megabyte XML file."><em>Memory used in KiB opening a ~6 Megabyte XML file.</em></p>
-<h2 id="startup-time">Startup Time</h2>
-<p>What about the amount of time necessary to open that same XML file, then move your cursor to the end of it? This tells a similar story. Atom and Code take nearly 20 seconds. Vim takes around 4 seconds. Sublime is surprisingly fast here taking only a mere second.</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*nWL-IyPzxygwIKBkhvuzQA.png" alt="Time used in seconds to open a 6 megabyte XML file"><em>Time used in seconds to open a 6 megabyte XML file</em></p>
-<p>Doing a search and replace for 100,000 instances of a word in that same XML file yields somewhat surprising results. Nano and Atom failed, taking nearly 10 minutes on average to complete. Atom crashed quite a few times trying to get a result. Code took around 80 seconds. Sublime finished in 6 seconds. And Vim only took 4 seconds.</p>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*9m9YNUPgQWRgk-6dtlSFMg.png" alt="Time used in seconds to search and replace 100 000 instances of a word"><em>Time used in seconds to search and replace 100 000 instances of a word</em></p>
-<h2 id="conclusion">Conclusion</h2>
-<p><strong>Learn Vim.</strong> It’s worth checking out <a href="http://vimcasts.org">http://vimcasts.or</a>g, which is basically Vim golfing, tips, and tricks made by Drew Neil, who also wrote <a href="http://amzn.to/2vnBcJX">this awesome book</a></p>
-<p><img src="https://cdn-images-1.medium.com/max/4500/1*wccPc-PPVWx_nkLO6M32dg.jpeg" alt="Practical Vim by Drew Neil"><em>Practical Vim by Drew Neil</em></p>
-<p>If not Vim, then maybe Emacs. Or, well, just anything that is not a web browser masquerading as a text editor.</p>
-<p>It’s just flat out ridiculous to have an editor consume all the processing power and memory available on a “modern” expensive laptop, when it doesn’t need to do so at all.</p>
-<p>The test files used in these benchmarks were taken from <a href="https://github.com/jhallen/joes-sandbox/tree/master/editor-perf">this repository</a>, results were averaged between that dataset and my own.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>How to Install Galliumos on Chromebook</title>
-            <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
-            <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
-            
-            <guid>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
-            <description>— May 24, 2020
-This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
-This post is about how I got my chromebook dual booting galliumOS.</description>
-            <content type="html"><![CDATA[<p>— May 24, 2020<a href="https://fediverse.blog/~/Cmm/how-to-install-gallium-os-on-a-chromebook-using-chrx/"></a></p>
-<h2 id="this-is-a-repost-of-a-guide-i-made-on-a-different-blogging-platform-when-i-only-owned-an-ex-chromebook-it-talks-about-how-to-install-unlocked-bios-and-install-galliumos-a-linux-distro-using-xfce-to-make-a-chromeos---like-linux-experience">This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.))</h2>
-<p><strong>Note</strong>: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.</p>
-<p>This post is about how I got my chromebook dual booting galliumOS.</p>
-<p><img src="https://i.postimg.cc/Kjggpd08/galliumos.png" alt="my galliumOS"></p>
-<h2 id="step-one-go-into-developer-mode"><strong>Step one</strong>: go into Developer mode.</h2>
-<p>Developer mode is a setting that lets you do development. It&rsquo;s not on by default because it also makes it easier to install a malicious package. (APKs, or android packages, can&rsquo;t be opened without developer mode.)</p>
-<p>To turn on developer mode, hold down the <code>esc</code> and <code>reload</code> key, then tap the <code>power</code> key. You will be greeted by a very scary popup saying &ldquo;CHROMEOS IS MISSING OR DAMAGED.&rdquo; Hit <code>control-D</code>, and then it will say something along the lines of &ldquo;START DEVELOPER MODE? all your data will be wiped.&rdquo; press <code>enter</code>. It will start.</p>
-<h2 id="step-two-login"><strong>Step two</strong>: login</h2>
-<p>Your computer will restart and say &ldquo;OS VERIFICATION IS OFF.&rdquo; Press <code>control-D</code>.</p>
-<p>since starting Developer mode wiped all your data, you will have to log in again, etc. If you don&rsquo;t want to that, you can just go into guest mode.</p>
-<h2 id="step-two-install-chrxhttpschrxorg"><strong>Step two</strong>: install <a href="https://chrx.org/">Chrx</a></h2>
-<p>You will have to install and run Chrx, which is really easy. Just one curl command:</p>
-<pre><code>cd ; curl -Os https://chrx.org/go &amp;&amp; sh go
-</code></pre>
-<p>Copy and paste that command in chrosh shell (<code>ctrl-alt-T</code> and then type <code>shell</code>.)</p>
-<p>Go through the install script. At the bottom, it will have a &ldquo;diagnosis.&rdquo; If it says it will only succeed if it has a firmware update keep that in mind. Reboot.</p>
-<h2 id="step-twotwo-update-firmware"><strong>Step two.two</strong>: Update firmware</h2>
-<p>If you need to update your firmware, you will have to download <a href="https://mrchromebox.tech/">MrChromebox</a>. Type this in the crosh shell:</p>
-<pre><code>cd; curl -LO https://mrchromebox.tech/firmware-util.sh &amp;&amp; sudo bash firmware-util.sh
-</code></pre>
-<p>You will see this menu:</p>
-<p><img src="https://mrchromebox.tech/images/fwutil_main.png" alt="MrChromebox menu"></p>
-<p>Press 1 to update the firmware. (When you do this, you will install BIOS [Basic Input/Output System]).</p>
-<h2 id="step-three-repeat-step-six"><strong>Step three</strong>: repeat &ldquo;step six&rdquo;</h2>
-<p>Type this command in chrosh (again):</p>
-<pre><code>cd ; curl -Os https://chrx.org/go &amp;&amp; sh go
-</code></pre>
-<p>That will install GaliumOS.</p>
-<h2 id="step-four-get-into-galliumos"><strong>Step four</strong>: Get into GalliumOS</h2>
-<p>Reboot. This time, when you have to type <code>control-D</code>, type <code>control-L</code>. It will go into BIOS, then GalliumOS. Username is <code>chrx</code> and password is <code>chrx</code>.</p>
-<h2 id="bonus-install-whatever-oses-you-want"><strong>Bonus</strong>: install whatever OSes you want</h2>
-<p>Since you have BIOS installed, you drive can boot into any flash as you wish. Just stick it into your chromebook, get into seaBIOS (<code>control-L</code>), and press <code>esc</code>. then it will tell you to select which drive to boot out of with a corresponding number.</p>
-]]></content>
-        </item>
         
         <item>
             <title>10 Essential Vim Plugins</title>
             <link>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
-            <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
+            <pubDate>Thu, 31 Dec 2020 16:25:33 -0500</pubDate>
             
             <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
             <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
@@ -235,6 +147,94 @@ call plug#end()
 <h2 id="closing-notes">Closing notes</h2>
 <p>These are just some of my picks for general-purpose Vim editing, and I hope most people who read this will find at least one useful thing. Feel free to comment if you think I missed anything!</p>
 <p>Vim still isn’t quite my primary editor, but over a period of years I’ve slowly been using it more and more. Thanks to some looking around and great help from the community above, I’ve been able to significantly improve and personalise my Vim experience with each new setting and plugin. This also takes time. If you’ve read this article and want more, definitely explore the vast selection of other plugins out there for yourself — <a href="https://vimawesome.com/">**VimAwesome</a>** is the place to look***.***</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Why I Still Use Vim</title>
+            <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
+            <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
+            <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
+Image: http://amzn.to/2umsBaY
+I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
+            <content type="html"><![CDATA[<h1 id="why-i-still-use-vim">Why I Still Use Vim</h1>
+<p>And no, it’s not because I can’t figure out how to close it.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2372/1*a_p-T4EittG0H3Krt9bUZw.jpeg" alt="Image: http://amzn.to/2umsBaY"><em>Image: <a href="http://amzn.to/2umsBaY">http://amzn.to/2umsBaY</a></em></p>
+<p>I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</p>
+<p>Sure Vim isn’t a bad editor, it’s highly extensible, it’s easy to shell out to the, err well shell, its everywhere so when you ssh into some obscure server you can just type vim (or vi) and you’re good to go.</p>
+<p>But this isn’t a pitch about Vim being a great editor, that’s a matter of subjective taste. I’ve primarily stuck with it because it’s an extensible editor that doesn’t hog all the resources and kill my machines. Using Atom or Code I experience frequent freezes for several minutes when just typing a single character.</p>
+<p>How much memory would you expect an editor needs to open the following C file?</p>
+<pre><code>**#include** &lt;stdio.h&gt;
+
+**int** main() {
+  printf(&quot;Hello, world!\n&quot;);
+}
+</code></pre>
+<h2 id="memory-usage">Memory Usage</h2>
+<p>The answer is… crazy.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*ZdqL3eJXV4v-ZlkDKJIlNg.png" alt="Memory used in KiB opening a ~60 byte C source file."><em>Memory used in KiB opening a ~60 byte C source file.</em></p>
+<p>Code requires a whopping 349 megabytes in order to open a 60 byte file. Atom comes in at 256 megabytes. Where Vim “only” needs 5 megabytes, which is still kind of high, but representative of an average configuration.</p>
+<p>I’ve also included Nano to have another text mode editor to compare Vim with, which came out at less than a megabyte.</p>
+<p>What about larger files? Opening a 6 megabyte XML file in Vim consumes around 12 megabytes. Nano is pretty much neck-and-neck with Vim. Code needs 392 megabytes, and Atom needs a whopping <strong>845</strong> megabytes.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*UoLGhJjMeCbXfL0rBpcfBw.png" alt="Memory used in KiB opening a ~6 Megabyte XML file."><em>Memory used in KiB opening a ~6 Megabyte XML file.</em></p>
+<h2 id="startup-time">Startup Time</h2>
+<p>What about the amount of time necessary to open that same XML file, then move your cursor to the end of it? This tells a similar story. Atom and Code take nearly 20 seconds. Vim takes around 4 seconds. Sublime is surprisingly fast here taking only a mere second.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*nWL-IyPzxygwIKBkhvuzQA.png" alt="Time used in seconds to open a 6 megabyte XML file"><em>Time used in seconds to open a 6 megabyte XML file</em></p>
+<p>Doing a search and replace for 100,000 instances of a word in that same XML file yields somewhat surprising results. Nano and Atom failed, taking nearly 10 minutes on average to complete. Atom crashed quite a few times trying to get a result. Code took around 80 seconds. Sublime finished in 6 seconds. And Vim only took 4 seconds.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*9m9YNUPgQWRgk-6dtlSFMg.png" alt="Time used in seconds to search and replace 100 000 instances of a word"><em>Time used in seconds to search and replace 100 000 instances of a word</em></p>
+<h2 id="conclusion">Conclusion</h2>
+<p><strong>Learn Vim.</strong> It’s worth checking out <a href="http://vimcasts.org">http://vimcasts.or</a>g, which is basically Vim golfing, tips, and tricks made by Drew Neil, who also wrote <a href="http://amzn.to/2vnBcJX">this awesome book</a></p>
+<p><img src="https://cdn-images-1.medium.com/max/4500/1*wccPc-PPVWx_nkLO6M32dg.jpeg" alt="Practical Vim by Drew Neil"><em>Practical Vim by Drew Neil</em></p>
+<p>If not Vim, then maybe Emacs. Or, well, just anything that is not a web browser masquerading as a text editor.</p>
+<p>It’s just flat out ridiculous to have an editor consume all the processing power and memory available on a “modern” expensive laptop, when it doesn’t need to do so at all.</p>
+<p>The test files used in these benchmarks were taken from <a href="https://github.com/jhallen/joes-sandbox/tree/master/editor-perf">this repository</a>, results were averaged between that dataset and my own.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>How to Install Galliumos on Chromebook</title>
+            <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
+            <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
+            <description>— May 24, 2020
+This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
+This post is about how I got my chromebook dual booting galliumOS.</description>
+            <content type="html"><![CDATA[<p>— May 24, 2020<a href="https://fediverse.blog/~/Cmm/how-to-install-gallium-os-on-a-chromebook-using-chrx/"></a></p>
+<h2 id="this-is-a-repost-of-a-guide-i-made-on-a-different-blogging-platform-when-i-only-owned-an-ex-chromebook-it-talks-about-how-to-install-unlocked-bios-and-install-galliumos-a-linux-distro-using-xfce-to-make-a-chromeos---like-linux-experience">This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.))</h2>
+<p><strong>Note</strong>: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.</p>
+<p>This post is about how I got my chromebook dual booting galliumOS.</p>
+<p><img src="https://i.postimg.cc/Kjggpd08/galliumos.png" alt="my galliumOS"></p>
+<h2 id="step-one-go-into-developer-mode"><strong>Step one</strong>: go into Developer mode.</h2>
+<p>Developer mode is a setting that lets you do development. It&rsquo;s not on by default because it also makes it easier to install a malicious package. (APKs, or android packages, can&rsquo;t be opened without developer mode.)</p>
+<p>To turn on developer mode, hold down the <code>esc</code> and <code>reload</code> key, then tap the <code>power</code> key. You will be greeted by a very scary popup saying &ldquo;CHROMEOS IS MISSING OR DAMAGED.&rdquo; Hit <code>control-D</code>, and then it will say something along the lines of &ldquo;START DEVELOPER MODE? all your data will be wiped.&rdquo; press <code>enter</code>. It will start.</p>
+<h2 id="step-two-login"><strong>Step two</strong>: login</h2>
+<p>Your computer will restart and say &ldquo;OS VERIFICATION IS OFF.&rdquo; Press <code>control-D</code>.</p>
+<p>since starting Developer mode wiped all your data, you will have to log in again, etc. If you don&rsquo;t want to that, you can just go into guest mode.</p>
+<h2 id="step-two-install-chrxhttpschrxorg"><strong>Step two</strong>: install <a href="https://chrx.org/">Chrx</a></h2>
+<p>You will have to install and run Chrx, which is really easy. Just one curl command:</p>
+<pre><code>cd ; curl -Os https://chrx.org/go &amp;&amp; sh go
+</code></pre>
+<p>Copy and paste that command in chrosh shell (<code>ctrl-alt-T</code> and then type <code>shell</code>.)</p>
+<p>Go through the install script. At the bottom, it will have a &ldquo;diagnosis.&rdquo; If it says it will only succeed if it has a firmware update keep that in mind. Reboot.</p>
+<h2 id="step-twotwo-update-firmware"><strong>Step two.two</strong>: Update firmware</h2>
+<p>If you need to update your firmware, you will have to download <a href="https://mrchromebox.tech/">MrChromebox</a>. Type this in the crosh shell:</p>
+<pre><code>cd; curl -LO https://mrchromebox.tech/firmware-util.sh &amp;&amp; sudo bash firmware-util.sh
+</code></pre>
+<p>You will see this menu:</p>
+<p><img src="https://mrchromebox.tech/images/fwutil_main.png" alt="MrChromebox menu"></p>
+<p>Press 1 to update the firmware. (When you do this, you will install BIOS [Basic Input/Output System]).</p>
+<h2 id="step-three-repeat-step-six"><strong>Step three</strong>: repeat &ldquo;step six&rdquo;</h2>
+<p>Type this command in chrosh (again):</p>
+<pre><code>cd ; curl -Os https://chrx.org/go &amp;&amp; sh go
+</code></pre>
+<p>That will install GaliumOS.</p>
+<h2 id="step-four-get-into-galliumos"><strong>Step four</strong>: Get into GalliumOS</h2>
+<p>Reboot. This time, when you have to type <code>control-D</code>, type <code>control-L</code>. It will go into BIOS, then GalliumOS. Username is <code>chrx</code> and password is <code>chrx</code>.</p>
+<h2 id="bonus-install-whatever-oses-you-want"><strong>Bonus</strong>: install whatever OSes you want</h2>
+<p>Since you have BIOS installed, you drive can boot into any flash as you wish. Just stick it into your chromebook, get into seaBIOS (<code>control-L</code>), and press <code>esc</code>. then it will tell you to select which drive to boot out of with a corresponding number.</p>
 ]]></content>
         </item>
         

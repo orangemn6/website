@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</loc>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,7 +24,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -34,22 +39,22 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -64,12 +69,12 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/vim/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/vim/</loc>
-    <lastmod>2020-12-31T15:37:14-05:00</lastmod>
+    <lastmod>2020-12-31T16:25:33-05:00</lastmod>
   </url>
   
   <url>
@@ -80,11 +85,6 @@
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</loc>
     <lastmod>2020-12-30T23:12:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</loc>
-    <lastmod>2020-12-25T16:25:33-05:00</lastmod>
   </url>
   
   <url>

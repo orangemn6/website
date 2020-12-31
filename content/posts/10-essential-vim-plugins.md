@@ -1,7 +1,7 @@
 ---
 title: "10 Essential Vim Plugins"
 author: Jacob Goldstein
-date: 2020-12-25T16:25:33-05:00
+date: 2020-12-31T16:25:33-05:00
 draft: false
 type: post
 categories:
