@@ -19,5 +19,15 @@ Image: http://amzn.to/2umsBaY
 I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
     </item>
     
+    <item>
+      <title>10 Essential Vim Plugins</title>
+      <link>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
+      <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
+      <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
+    </item>
+    
   </channel>
 </rss>

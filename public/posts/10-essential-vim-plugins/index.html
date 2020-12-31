@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Jacob Goldstein">
+<meta name="description" content="10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough." />
+<meta name="keywords" content="Jacob Goldstein,orangemn6,linux,jacobgoldstein,rices,ricing,rice,orangemn6, vim, linux" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/" />
+
+
+<script data-goatcounter="https://orangemn6.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css" />
+
+
+    <title>
+        
+            10 Essential Vim Plugins :: Jacob Goldstein&#39;s Website 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://www.jacobgoldstein.tk/main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.jacobgoldstein.tk/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.jacobgoldstein.tk/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.jacobgoldstein.tk/favicon-16x16.png">
+    <link rel="manifest" href="https://www.jacobgoldstein.tk/site.webmanifest">
+    <link rel="mask-icon" href="https://www.jacobgoldstein.tk/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://www.jacobgoldstein.tk/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="10 Essential Vim Plugins">
+<meta itemprop="description" content="10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.">
+<meta itemprop="datePublished" content="2020-12-25T16:25:33-05:00" />
+<meta itemprop="dateModified" content="2020-12-25T16:25:33-05:00" />
+<meta itemprop="wordCount" content="1156">
+<meta itemprop="image" content="https://www.jacobgoldstein.tk/"/>
+
+
+
+<meta itemprop="keywords" content="vim,linux," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.jacobgoldstein.tk/"/>
+
+<meta name="twitter:title" content="10 Essential Vim Plugins"/>
+<meta name="twitter:description" content="10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough."/>
+
+
+
+    <meta property="og:title" content="10 Essential Vim Plugins" />
+<meta property="og:description" content="10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/" />
+<meta property="og:image" content="https://www.jacobgoldstein.tk/"/>
+<meta property="article:published_time" content="2020-12-25T16:25:33-05:00" />
+<meta property="article:modified_time" content="2020-12-25T16:25:33-05:00" />
+
+
+
+
+    <meta property="article:section" content="vim" />
+
+    <meta property="article:section" content="linux" />
+
+
+
+    <meta property="article:published_time" content="2020-12-25 16:25:33 -0500 EST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://www.jacobgoldstein.tk/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://www.jacobgoldstein.tk/about/">About</a></li><li><a href="https://play.jacobgoldstein.tk">Minecraft Server</a></li><li><a href="https://www.jacobgoldstein.tk/posts/">Posts</a></li><li><a href="https://www.jacobgoldstein.tk/rices/">Rices</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/">10 Essential Vim Plugins</a></h2>
+
+            
+
+            
+
+            <div class="post-content">
+                <h1 id="10-essential-vim-plugins">10 essential Vim plugins</h1>
+<p>Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.</p>
+<p>If you’ve never set up a Vim plugin before, see the <em>Installing Vim plugins</em> section later on for a runthrough.</p>
+<h2 id="1-fzf">1. fzf</h2>
+<p><a href="https://github.com/junegunn/fzf.vim">https://github.com/junegunn/fzf.vim</a></p>
+<p>Working on a substantial codebase usually involves traversing several files at a time. fzf* *stands for “fuzzy finder” and works similarly to the *Goto Anything* menu in Sublime Text, allowing you to open a file instantly after typing a rough representation of its name.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2452/1*RoYld2a27k4GvXtw_lsr6w.gif" alt=""></p>
+<p>Whilst <a href="https://github.com/kien/ctrlp.vim">CtrlP</a>* *has existed for a while, fzf offers significantly better performance. You can activate the search pane with the :Files command, but I use this so often that I’ve mapped it to a single key.</p>
+<pre><code>map ; :Files&lt;CR&gt;
+</code></pre>
+<p><a href="https://github.com/junegunn/fzf">fzf</a> is actually its own terminal command as well, which you can use to get the same awesome file searching functionality anywhere.</p>
+<h2 id="2-lightline">2. lightline</h2>
+<p><a href="https://github.com/itchyny/lightline.vim">https://github.com/itchyny/lightline.vim</a></p>
+<p>Many users like to use a plugin to replace their statusline — whether as an improved visual aid (particularly in split panes), or just to make their editor more attractive. For me, lightline is an elegant and versatile choice.</p>
+<p><img src="https://cdn-images-1.medium.com/max/3680/1*HZFdxYLMRd1ib-eI2tGD9A.png" alt="Image source: lightline repository"><em>Image source: <a href="https://github.com/itchyny/lightline.vim">lightline repository</a></em></p>
+<p>The default layout is pretty clean, displaying the current mode with some nice colour feedback, as well as the file name, file properties and cursor position. It’s easy to configure what to show in each section in your <em>.vimrc</em> file, and there’s also a choice of built-in colour schemes.</p>
+<pre><code>let g:lightline = {
+  \     'active': {
+  \         'left': [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
+  \         'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
+  \     }
+  \ }
+</code></pre>
+<h2 id="3-vim-multiple-cursors">3. vim-multiple-cursors</h2>
+<p><a href="https://github.com/terryma/vim-multiple-cursors">https://github.com/terryma/vim-multiple-cursors</a></p>
+<p>This is another plugin bringing a much-loved Sublime feature to Vim, doing exactly what it says in the name. You’ve got to love multiple selections.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*riGGLxW_H1VfJ-U_xNOH7Q.gif" alt=""></p>
+<p>To make a basic selection, use the Ctrl+N keystroke in normal mode, followed by a motion:</p>
+<ul>
+<li>
+<p>c – change text.</p>
+</li>
+<li>
+<p>I – insert at start of range.</p>
+</li>
+<li>
+<p>A – insert at end of range.</p>
+</li>
+</ul>
+<p>More actions can be found in the plugin’s <a href="https://github.com/terryma/vim-multiple-cursors#quick-start">quick start</a> information.</p>
+<h2 id="4-vim-eunuch">4. vim-eunuch</h2>
+<p><a href="https://github.com/tpope/vim-eunuch">https://github.com/tpope/vim-eunuch</a></p>
+<p>This cryptically-named plugin adds a dozen core Unix file operations as Vim commands in the context of the current file. :!mv no more!</p>
+<pre><code>:Rename new_name.sh
+:Chmod +x
+:SudoWrite
+</code></pre>
+<p>These small helpers add up fast to not breaking your Vim workflow. All commands are documented in the <a href="https://github.com/tpope/vim-eunuch">project README</a>.</p>
+<h2 id="5-surround">5. surround</h2>
+<p><a href="https://github.com/tpope/vim-surround">https://github.com/tpope/vim-surround</a></p>
+<p>In a graphical text editor, typing an open bracket or quotes on a selected region will wrap or <em>surround</em> that region with with a matching pair of characters.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*irUO17VQPMrJRK5LKnTIVA.gif" alt=""></p>
+<p>With this plugin, you can do that and more — with motions to add, change or remove surrounding characters and strings in a variety of ways. Definitely check out <a href="https://github.com/tpope/vim-surround">the docs</a> for this one.</p>
+<h2 id="6-nerdtree">6. NERDTree</h2>
+<p><a href="https://github.com/scrooloose/nerdtree">https://github.com/scrooloose/nerdtree</a></p>
+<p><img src="https://cdn-images-1.medium.com/max/4896/1*MUyy8PyijV6teba92mATrg.png" alt=""></p>
+<p>NERDTree is a popular plugin to display an interactive file tree view in a side panel, which can be useful when working in larger project. I have the NERDTreeToggle command mapped to Ctrl+O.</p>
+<pre><code>map &lt;C-o&gt; :NERDTreeToggle&lt;CR&gt;
+</code></pre>
+<h2 id="7-editorconfig">7. EditorConfig</h2>
+<p><a href="https://github.com/editorconfig/editorconfig-vim">https://github.com/editorconfig/editorconfig-vim</a></p>
+<p>EditorConfig is a <a href="http://editorconfig.org/">multi-editor tool</a> for defining base file handling and code style preferences in a project and aligning these between editors. With this plugin, rulesets defined in a local <em>.editorconfig</em> file will automatically configure Vim settings such as indentation size, and apply formatting such as removing trailing whitespace on save.</p>
+<pre><code>root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+</code></pre>
+<p>This is a boon for everyone, and prevents incoming developers from altering their default preferences manually when working between projects. Recommended for every editor you use.</p>
+<h2 id="8-emmet">8. Emmet</h2>
+<p><a href="https://github.com/mattn/emmet-vim">https://github.com/mattn/emmet-vim</a></p>
+<p>Another plugin you’re likely to have used in another editor is Emmet. Emmet is a powerful completion tool for HTML, CSS and JavaScript which allows you to make dynamic completions from a shorthand expression.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*Fwplb-elRqxffoeeiRMJfw.gif" alt=""></p>
+<p>In Vim, enter a expression such as the above in an HTML file and use Ctrl+Y, , from normal mode to expand it. If you’re not familiar with the abbreviation syntax, there’s a short demo video as well as documentation on the <a href="https://www.emmet.io/">Emmet website</a>. Along with Vim’s snippets feature, this plugin can seriously up your code completion game, and again is essential if you’re working on web projects in other editors.</p>
+<h2 id="9-ale">9. ALE</h2>
+<p><a href="https://github.com/w0rp/ale">https://github.com/w0rp/ale</a></p>
+<p>ALE (Asynchronous Lint Engine) is a comprehensive code analysis plugin for Vim. As you edit, it’ll run the current file through an external tool of choice and displays marks for any errors and warnings directly in Vim’s sign column. Navigate to these or toggle a summary pane with :ALEDetail to see a specific message.</p>
+<p><img src="https://cdn-images-1.medium.com/max/3864/1*AifpzFxsXggIzG-Q_oqO8Q.png" alt=""></p>
+<p>Built-in are strong defaults for matching common tools for most programming and config languages if they are present on your system. It’s also fairly easy to reconfigure these mappings. Remember, you can define per-file-type settings for Vim in ~/.vim/ftplugin/{filetype}.vim. Here, I’ve extended the available linters for Python files:</p>
+<pre><code>let b:ale_linters = ['pyflakes', 'flake8', 'pylint']
+</code></pre>
+<p>You can also configure <em>fixers</em> for applying formatting on save:</p>
+<pre><code>let b:ale_fixers = ['eslint']
+let b:ale_fix_on_save = 1
+</code></pre>
+<h2 id="10-vim-gitgutter">10. vim-gitgutter</h2>
+<p><a href="https://github.com/airblade/vim-gitgutter">https://github.com/airblade/vim-gitgutter</a></p>
+<p>This plugin adds a column to the left margin indicating lines changed in the active file since the last Git revision. As in other editors, this can be a useful bit of context during editing.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*XMEE5_I3A415OrLktZq0ng.png" alt=""></p>
+<p>*vim-gitgutter *also lets you jump between changes and stage/discard individual hunks. Here are the default mappings:</p>
+<pre><code>nmap ]c &lt;Plug&gt;GitGutterNextHunk
+nmap [c &lt;Plug&gt;GitGutterPrevHunk
+nmap &lt;Leader&gt;hs &lt;Plug&gt;GitGutterStageHunk
+nmap &lt;Leader&gt;hu &lt;Plug&gt;GitGutterUndoHunk
+</code></pre>
+<h2 id="installing-vim-plugins">Installing Vim plugins</h2>
+<p>There are several to manage plugins Vim, including <a href="https://github.com/tpope/vim-pathogen">Pathogen</a>, <a href="https://github.com/VundleVim/Vundle.vim">Vundle</a>, and Vim 8’s native package loading. I recommend <a href="https://github.com/junegunn/vim-plug">**vim-plug</a>**, which can be installed using curl, or <a href="https://github.com/huntie/dotfiles/blob/f8a129f8e306c853ab52234f605b1d872b0448b1/vim/.vimrc#L72-L77">auto-installed in .vimrc</a>:</p>
+<pre><code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</code></pre>
+<p>With vim-plug, I create a <em>~/.vim/plugins.vim</em> file and add a Plug line for each dependency to install, between the required plug#begin and plug#endcalls.</p>
+<pre><code>call plug#begin('~/.vim/plugged')
+
+Plug 'airblade/vim-gitgutter'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'mattn/emmet-vim'
+Plug 'scrooloose/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
+
+call plug#end()
+</code></pre>
+<p>Source this by adding the following statement to your <em>.vimrc</em>.</p>
+<pre><code>so ~/.vim/plugins.vim
+</code></pre>
+<p>Finally, launch Vim and run :PlugInstall.</p>
+<h2 id="closing-notes">Closing notes</h2>
+<p>These are just some of my picks for general-purpose Vim editing, and I hope most people who read this will find at least one useful thing. Feel free to comment if you think I missed anything!</p>
+<p>Vim still isn’t quite my primary editor, but over a period of years I’ve slowly been using it more and more. Thanks to some looking around and great help from the community above, I’ve been able to significantly improve and personalise my Vim experience with each new setting and plugin. This also takes time. If you’ve read this article and want more, definitely explore the vast selection of other plugins out there for yourself — <a href="https://vimawesome.com/">**VimAwesome</a>** is the place to look***.***</p>
+
+            </div>
+            <div class="article-container"></div>
+                    <div id="dark-mode">
+            <script src="https://utteranc.es/client.js"
+                repo="orangemn6/website"
+                issue-term="pathname"
+                theme="photon-dark"
+                crossorigin="anonymous"
+                async>
+            </script>
+        </div>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/tags/vim/">vim</a></span>
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/tags/linux/">linux</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/categories/vim/">vim</a></span>
+        <span class="tag"><a href="https://www.jacobgoldstein.tk/categories/linux/">linux</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://www.jacobgoldstein.tk/">Jacob Goldstein</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="https://www.jacobgoldstein.tk/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/orangemn6">Jacob Goldstein</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://www.jacobgoldstein.tk/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" crossorigin="anonymous"></script>
+
+
+
+    </body>
+</html>

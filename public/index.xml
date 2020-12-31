@@ -31,6 +31,16 @@ This post is about how I got my chromebook dual booting galliumOS.</description>
     </item>
     
     <item>
+      <title>10 Essential Vim Plugins</title>
+      <link>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
+      <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
+      <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
+    </item>
+    
+    <item>
       <title>To Be or Not to Be</title>
       <link>https://www.jacobgoldstein.tk/posts/to-be-or-not-to-be/</link>
       <pubDate>Mon, 14 Dec 2020 22:40:05 -0500</pubDate>
@@ -245,18 +255,6 @@ wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is
       <guid>https://www.jacobgoldstein.tk/posts/my-life-so-far/</guid>
       <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
 Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
-    </item>
-    
-    <item>
-      <title>10 Github Repos every web dev should know</title>
-      <link>https://www.jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</link>
-      <pubDate>Fri, 27 Nov 2020 05:00:00 +0000</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</guid>
-      <description>10 Awesome Github Repos Every Web Developer Should Know From giant repos of resources to interview prep, there’s a lot of great stuff here
-Photo by Yancy Min on Unsplash
-I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
-1. Awesome Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business.</description>
     </item>
     
   </channel>
