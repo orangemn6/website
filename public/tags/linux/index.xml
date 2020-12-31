@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 06 Dec 2020 21:44:06 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 23:12:17 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Galliumos on Chromebook</title>
+      <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
+      <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
+      <description>— May 24, 2020
+This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
+This post is about how I got my chromebook dual booting galliumOS.</description>
+    </item>
+    
     <item>
       <title>12 Reasons Why Linux Is Better</title>
       <link>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
@@ -98,17 +109,6 @@ Introduction After making my departure to Arch Linux a month ago I was quickly i
       <description>6 Terminal Commands You Should Know From switching your private keys to directory listings with hidden files
 As a developer, there are two key things that are paramount to a productive setup: speed and efficiency.
 The more time you take to accomplish simple tasks like searching for files or displaying their contents, the more is taken from critical development time. When working on the command-line, things like aliases and custom functions can speed things up and let you get back to developing more quickly.</description>
-    </item>
-    
-    <item>
-      <title>Best Linux Software</title>
-      <link>https://www.jacobgoldstein.tk/posts/best-linux-software/</link>
-      <pubDate>Wed, 28 Oct 2020 10:02:54 -0400</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/best-linux-software/</guid>
-      <description>Best Linux Desktop Software Awards per Category for 2017! hey! you do realize that this post is only written because i was bored to do anything else, right?
-also i want to make super clear that on these awards, we ran a set of completely democratic procedures, with a fully transparent voting. and by “we” i mean “me”, and by “voting” i mean a single vote! “mine” 👐
-i will try to cover some basic categories, but not everything!</description>
     </item>
     
   </channel>

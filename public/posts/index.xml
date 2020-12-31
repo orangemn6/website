@@ -6,8 +6,53 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 14 Dec 2020 22:40:05 -0500</lastBuildDate>
+        <lastBuildDate>Wed, 30 Dec 2020 23:12:17 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>How to Install Galliumos on Chromebook</title>
+            <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
+            <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
+            <description>— May 24, 2020
+This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
+This post is about how I got my chromebook dual booting galliumOS.</description>
+            <content type="html"><![CDATA[<p>— May 24, 2020<a href="https://fediverse.blog/~/Cmm/how-to-install-gallium-os-on-a-chromebook-using-chrx/"></a></p>
+<h2 id="this-is-a-repost-of-a-guide-i-made-on-a-different-blogging-platform-when-i-only-owned-an-ex-chromebook-it-talks-about-how-to-install-unlocked-bios-and-install-galliumos-a-linux-distro-using-xfce-to-make-a-chromeos---like-linux-experience">This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.))</h2>
+<p><strong>Note</strong>: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.</p>
+<p>This post is about how I got my chromebook dual booting galliumOS.</p>
+<p><img src="https://i.postimg.cc/Kjggpd08/galliumos.png" alt="my galliumOS"></p>
+<h2 id="step-one-go-into-developer-mode"><strong>Step one</strong>: go into Developer mode.</h2>
+<p>Developer mode is a setting that lets you do development. It&rsquo;s not on by default because it also makes it easier to install a malicious package. (APKs, or android packages, can&rsquo;t be opened without developer mode.)</p>
+<p>To turn on developer mode, hold down the <code>esc</code> and <code>reload</code> key, then tap the <code>power</code> key. You will be greeted by a very scary popup saying &ldquo;CHROMEOS IS MISSING OR DAMAGED.&rdquo; Hit <code>control-D</code>, and then it will say something along the lines of &ldquo;START DEVELOPER MODE? all your data will be wiped.&rdquo; press <code>enter</code>. It will start.</p>
+<h2 id="step-two-login"><strong>Step two</strong>: login</h2>
+<p>Your computer will restart and say &ldquo;OS VERIFICATION IS OFF.&rdquo; Press <code>control-D</code>.</p>
+<p>since starting Developer mode wiped all your data, you will have to log in again, etc. If you don&rsquo;t want to that, you can just go into guest mode.</p>
+<h2 id="step-two-install-chrxhttpschrxorg"><strong>Step two</strong>: install <a href="https://chrx.org/">Chrx</a></h2>
+<p>You will have to install and run Chrx, which is really easy. Just one curl command:</p>
+<pre><code>cd ; curl -Os https://chrx.org/go &amp;&amp; sh go
+</code></pre>
+<p>Copy and paste that command in chrosh shell (<code>ctrl-alt-T</code> and then type <code>shell</code>.)</p>
+<p>Go through the install script. At the bottom, it will have a &ldquo;diagnosis.&rdquo; If it says it will only succeed if it has a firmware update keep that in mind. Reboot.</p>
+<h2 id="step-twotwo-update-firmware"><strong>Step two.two</strong>: Update firmware</h2>
+<p>If you need to update your firmware, you will have to download <a href="https://mrchromebox.tech/">MrChromebox</a>. Type this in the crosh shell:</p>
+<pre><code>cd; curl -LO https://mrchromebox.tech/firmware-util.sh &amp;&amp; sudo bash firmware-util.sh
+</code></pre>
+<p>You will see this menu:</p>
+<p><img src="https://mrchromebox.tech/images/fwutil_main.png" alt="MrChromebox menu"></p>
+<p>Press 1 to update the firmware. (When you do this, you will install BIOS [Basic Input/Output System]).</p>
+<h2 id="step-three-repeat-step-six"><strong>Step three</strong>: repeat &ldquo;step six&rdquo;</h2>
+<p>Type this command in chrosh (again):</p>
+<pre><code>cd ; curl -Os https://chrx.org/go &amp;&amp; sh go
+</code></pre>
+<p>That will install GaliumOS.</p>
+<h2 id="step-four-get-into-galliumos"><strong>Step four</strong>: Get into GalliumOS</h2>
+<p>Reboot. This time, when you have to type <code>control-D</code>, type <code>control-L</code>. It will go into BIOS, then GalliumOS. Username is <code>chrx</code> and password is <code>chrx</code>.</p>
+<h2 id="bonus-install-whatever-oses-you-want"><strong>Bonus</strong>: install whatever OSes you want</h2>
+<p>Since you have BIOS installed, you drive can boot into any flash as you wish. Just stick it into your chromebook, get into seaBIOS (<code>control-L</code>), and press <code>esc</code>. then it will tell you to select which drive to boot out of with a corresponding number.</p>
+]]></content>
+        </item>
         
         <item>
             <title>To Be or Not to Be</title>

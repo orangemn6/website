@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,8 +18,13 @@
   </url>
   
   <url>
+    <loc>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</loc>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -33,23 +38,23 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/tags/philosophy/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+    <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/categories/philosophy/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+    <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+    <lastmod>2020-12-30T23:12:17-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -60,6 +65,16 @@
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/philosophy/</loc>
+    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/philosophy/</loc>
+    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
   </url>
   
   <url>
@@ -84,16 +99,6 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</loc>
-    <lastmod>2020-12-06T21:44:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2020-12-06T21:44:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
     <lastmod>2020-12-06T21:44:06-05:00</lastmod>
   </url>
   
