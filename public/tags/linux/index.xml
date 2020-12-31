@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 31 Dec 2020 16:25:33 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>10 Essential Vim Plugins</title>
-      <link>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
-      <pubDate>Thu, 31 Dec 2020 16:25:33 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
-      <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
-If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I Still Use Vim</title>
       <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
@@ -38,6 +28,16 @@ I often get asked about why I use Vim as my primary editor, there is no particul
       <description>— May 24, 2020
 This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
 This post is about how I got my chromebook dual booting galliumOS.</description>
+    </item>
+    
+    <item>
+      <title>10 Essential Vim Plugins</title>
+      <link>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
+      <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
+      <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
     </item>
     
     <item>
