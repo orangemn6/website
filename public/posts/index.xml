@@ -6,8 +6,142 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 31 Dec 2020 22:57:24 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 01 Jan 2021 18:26:02 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Boost Your Productivity With Markdown</title>
+            <link>https://www.jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</link>
+            <pubDate>Fri, 01 Jan 2021 18:26:02 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</guid>
+            <description>Boost your productivity using Markdown. What’s Markdown?
+ Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. from Wikipedia
+ Introducing the markdown formatting ⛷
+1. Heading # h1 ## h2 ### h3 standard  2. Emphasis *Italic type* **Bold** ~~Negative~~  3. Fold Fold the long sentences.</description>
+            <content type="html"><![CDATA[<h1 id="boost-your-productivity-using-markdown">Boost your productivity using Markdown.</h1>
+<p>What’s Markdown?</p>
+<blockquote>
+<p><em>Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name.
+from <a href="https://en.wikipedia.org/wiki/Markdown">Wikipedia</a></em></p>
+</blockquote>
+<p>Introducing the markdown formatting ⛷</p>
+<h2 id="1-heading">1. Heading</h2>
+<pre><code># h1
+## h2
+### h3
+standard
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*KsvszRuwIOC03FSK.png" alt=""></p>
+<h2 id="2-emphasis">2. Emphasis</h2>
+<pre><code>*Italic type*
+**Bold**
+~~Negative~~
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*W3MH_7fI7nmfEooK.png" alt=""></p>
+<h2 id="3-fold">3. Fold</h2>
+<p>Fold the long sentences.</p>
+<pre><code>&lt;details&gt;&lt;summary&gt;Boostnote is a notepad corresponding to markdown notation, which is a tool for organizing and sharing information.&lt;/summary&gt;
+- Features - &lt;br&gt;
+· Search function to find memos in one shot
+· Supports markdown notation &lt;br&gt;
+· Support for Mac, Windows, Linux, iOS, Android &lt;br&gt;
+· Export and import to Plain text (.txt), Markdown (.md) format &lt;br&gt;
+· Supports PDF saving &lt;br&gt;
+· Can be used offline &lt;br&gt;
+· Synchronize to dropbox etc. with setting &lt;br&gt;
+· Supports theme colors and numerous fonts &lt;br&gt;
+&lt;/details&gt;
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*gUVs9-OGh-2PpqQS.png" alt=""></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*ClaO3PLkAVAhfizO.png" alt=""></p>
+<h2 id="4-list">4. List</h2>
+<pre><code>- List 1
+- List 2
+* List 3
+* List 4
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*knUJTMnjVIcyS38d.png" alt=""></p>
+<h2 id="5-link">5. Link</h2>
+<p>Put a text on the left and a url on the right.</p>
+<pre><code>[Boostnote](https://boostnote.io)
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*XL49Ku80hYNs3PHL.png" alt=""></p>
+<h2 id="6-check-box">6. Check box</h2>
+<pre><code>- [x] Task 1
+- [ ] Task 2
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*lgM-eF76MYoVb2zN.png" alt=""></p>
+<h2 id="7-quotation">7. Quotation</h2>
+<pre><code>&gt; Quotation
+&gt; Quotation Quotation
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*1Sf6NpHetPKUIndg.png" alt=""></p>
+<h2 id="8-horizontal-line">8. Horizontal line</h2>
+<pre><code>* * *
+***
+--------
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*TRfcTyZVM6-_aSXH.png" alt=""></p>
+<h2 id="9-image">9. Image</h2>
+<pre><code>![Image title](https://boostnote.io/assets/img/logo.png)
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/5140/1*t6n2WF4icGlp-VWjYeZd4g.png" alt=""></p>
+<h2 id="10-source-code">10. Source code</h2>
+<pre><code>Render: function () {
+  Return (
+    &lt;div className=&quot;commentBox&quot;&gt;
+      &lt;h1&gt; Comments &lt;/h1&gt;
+      &lt;CommentList data={this.state.data} /&gt;
+      &lt;CommentForm onCommentSubmit={this.handleCommentSubmit} /&gt;
+    &lt;/div&gt;
+  );
+}
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*DJdgyYVRMlf7nad0.png" alt=""></p>
+<h2 id="11-table">11. Table</h2>
+<pre><code>|Fruits|Price|
+|:--|:--|
+|Apple|1$|
+|Grapes|4$|
+|Orange|2$|
+|Lemon|1$|
+|Peach|3$|
+|Melon|20$|
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*uadyBVyiW-BJuHWS.png" alt=""></p>
+<p>These are the basic markdown formatting.
+In addition to above, you can also complex formatting like following in <a href="https://boostnote.io/">Boostnote</a>.</p>
+<h2 id="latex">Latex</h2>
+<p>Mathematical formatting.</p>
+<pre><code>$$$
+\mathrm{e}^{\mathrm{i}\theta} = \cos(\theta) + \mathrm{i}\sin(\theta)
+$$$
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*hrkthRD487i94FMT.png" alt=""></p>
+<h2 id="flowchart">Flowchart</h2>
+<pre><code>st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something…
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*5q7QED2tz4KnLo70.png" alt=""></p>
+<h2 id="sequence">Sequence</h2>
+<pre><code>Title: Here is a title
+A-&gt; B: Normal line
+B -&gt; C: Dashed line
+C -&gt; D: Open arrow
+D -&gt; A: Dashed open arrow
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/0*VxHmMo2lXQkZH9Mv.png" alt=""></p>
+<p>That’s all. Enjoy Markdown ;)</p>
+]]></content>
+        </item>
         
         <item>
             <title>Orion Twitch Client for Linux</title>
