@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 22:57:24 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orion Twitch Client for Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</link>
+      <pubDate>Thu, 31 Dec 2020 22:57:24 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</guid>
+      <description>Orion- Twitch Client For Linux Orion is a free and open source QML / C++ client for Twitch.tv which can use multiple player backends (including mpv). The application runs on Linux, Windows, macOS and Android. Using Orion you can watch live Twitch streams and past broadcasts, and browse or search games and channels using a nice material user interface. What&amp;rsquo;s more, Orion lets you login to Twitch, so you can chat and follow channels (and receive notifications when a channel you follow goes online).</description>
+    </item>
+    
     <item>
       <title>Why I Still Use Vim</title>
       <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
@@ -100,17 +109,6 @@ Projects I am working on  Opensuspect (more on this later) AlamodeBoot My websit
       
       <guid>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
       <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
-    </item>
-    
-    <item>
-      <title>Linux Ricing Basics</title>
-      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-basics/</link>
-      <pubDate>Thu, 05 Nov 2020 17:43:02 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-basics/</guid>
-      <description>TL;DR Here are my dotfiles.
-Disclaimer: I am in no way a ricing expert. This guide is intended for fellow beginners confused on the very basics when it comes to the customization of their Unix system.
-Introduction After making my departure to Arch Linux a month ago I was quickly introduced to the world of tiling window managers. The idea is that instead of having a full blown desktop environment (DE) such as Gnome or Unity, you just have a window manager that utilizes keyboard shortcuts to organize your windows.</description>
     </item>
     
   </channel>

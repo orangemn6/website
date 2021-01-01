@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 22:57:24 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>apps</title>
+      <link>https://www.jacobgoldstein.tk/categories/apps/</link>
+      <pubDate>Thu, 31 Dec 2020 22:57:24 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/categories/apps/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>https://www.jacobgoldstein.tk/categories/linux/</link>
-      <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
+      <pubDate>Thu, 31 Dec 2020 22:57:24 -0500</pubDate>
       
       <guid>https://www.jacobgoldstein.tk/categories/linux/</guid>
       <description></description>
@@ -86,15 +95,6 @@
       <pubDate>Fri, 13 Nov 2020 10:07:58 -0500</pubDate>
       
       <guid>https://www.jacobgoldstein.tk/categories/pokemon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Minecraft</title>
-      <link>https://www.jacobgoldstein.tk/categories/minecraft/</link>
-      <pubDate>Fri, 06 Nov 2020 08:40:14 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/categories/minecraft/</guid>
       <description></description>
     </item>
     
