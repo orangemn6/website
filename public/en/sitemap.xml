@@ -103,21 +103,6 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/tags/philosophy/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/philosophy/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/posts/to-be-or-not-to-be/</loc>
-    <lastmod>2020-12-14T22:40:05-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</loc>
     <lastmod>2020-12-10T17:20:31-05:00</lastmod>
   </url>
@@ -205,6 +190,16 @@
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</loc>
     <lastmod>2020-11-21T23:44:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/philosophy/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/philosophy/</loc>
+    <lastmod>2020-11-16T17:37:08-05:00</lastmod>
   </url>
   
   <url>

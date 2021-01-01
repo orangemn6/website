@@ -36,15 +36,6 @@
     </item>
     
     <item>
-      <title>Philosophy</title>
-      <link>https://www.jacobgoldstein.tk/tags/philosophy/</link>
-      <pubDate>Mon, 14 Dec 2020 22:40:05 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/tags/philosophy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>web</title>
       <link>https://www.jacobgoldstein.tk/tags/web/</link>
       <pubDate>Thu, 10 Dec 2020 17:20:31 -0500</pubDate>
@@ -77,6 +68,15 @@
       <pubDate>Mon, 30 Nov 2020 15:10:07 -0500</pubDate>
       
       <guid>https://www.jacobgoldstein.tk/tags/htb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>https://www.jacobgoldstein.tk/tags/philosophy/</link>
+      <pubDate>Mon, 16 Nov 2020 17:37:08 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/tags/philosophy/</guid>
       <description></description>
     </item>
     

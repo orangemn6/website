@@ -50,15 +50,6 @@ If you’ve never set up a Vim plugin before, see the Installing Vim plugins sec
     </item>
     
     <item>
-      <title>To Be or Not to Be</title>
-      <link>https://www.jacobgoldstein.tk/posts/to-be-or-not-to-be/</link>
-      <pubDate>Mon, 14 Dec 2020 22:40:05 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/to-be-or-not-to-be/</guid>
-      <description>To Be or Not to Be, That is the Question Sometimes, people will question their actions. Sometimes people have 2 different identities: the one they keep to themselves, and the one that they share with others. This personality, this way of life, is common in lots of people. When you think something to yourself, and say something else. When you have a secret that you know can not be told. To Be or Not To Be, That is the Question.</description>
-    </item>
-    
-    <item>
       <title>How to Build a Blog With Hugo</title>
       <link>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
       <pubDate>Thu, 10 Dec 2020 17:20:31 -0500</pubDate>
@@ -254,6 +245,16 @@ wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is
       
       <guid>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
       <description>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to https://www.jacobgoldstein.tk/happy/htb/index.html. once you do that you will get some base64 code. decode that and there is your flag!!</description>
+    </item>
+    
+    <item>
+      <title>My Life So Far</title>
+      <link>https://www.jacobgoldstein.tk/posts/my-life-so-far/</link>
+      <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/my-life-so-far/</guid>
+      <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
+Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
     </item>
     
   </channel>
