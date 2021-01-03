@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,7 +19,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -38,23 +33,28 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/tags/markdown/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/markdown/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/programming/</loc>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/programming/</loc>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/simple-programming-jokes/</loc>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
+    <lastmod>2021-01-03T10:30:23-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -65,6 +65,21 @@
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</loc>
+    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/markdown/</loc>
+    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/markdown/</loc>
+    <lastmod>2021-01-01T18:26:02-05:00</lastmod>
   </url>
   
   <url>
