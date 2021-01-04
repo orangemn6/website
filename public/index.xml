@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 03 Jan 2021 10:30:23 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 09:05:39 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Markdown in Vim</title>
+      <link>https://www.jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
+      <pubDate>Mon, 04 Jan 2021 09:05:39 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/using-markdown-in-vim/</guid>
+      <description>If you are working with something that works like CommonMark and does not insert a &amp;lt;br&amp;gt; for every newline character then you&amp;rsquo;ll probably want to display trailing spaces, so that you know when you actually have the two trailing spaces needed to insert a &amp;lt;br&amp;gt;. See Showing Invisible Things In Vim for how to do this.
+Troubleshooting In the course of writing this I encountered a number of problems.
+Terminal Vim displayed a background color for italic text and bold text was bolded, but in my Gui Vim they both just looked like all the other text.</description>
+    </item>
+    
     <item>
       <title>Simple Programming Jokes</title>
       <link>https://www.jacobgoldstein.tk/posts/simple-programming-jokes/</link>
@@ -248,18 +259,6 @@ Windows is the most popular operating system, and it is well deserved. She has c
       <description>Recently, I dive into Linux the third time. The first time is in my childhood, I was attracted by the magazines, which introduced me the hacker culture. The second time was weird, I wanted to focus on study instead of PC gaming.
 This time, it&amp;rsquo;s totally different. /r/unixporn and /r/MechanicalKeyboards attracted me. The most fascinating part of that is RICE or RICE culture.
 RICE RICE is not the food rice. Instead, it is the acronym of Race Inspired Cosmetic Enhancements.</description>
-    </item>
-    
-    <item>
-      <title>Linux Ricing and How I Do It (just the basics)</title>
-      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
-      <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
-      <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
-Script 1: Pywal So for this one you need pywal.
-wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
-#! /usr/bin/env python import json import os def make_element(name, scope, **kwargs): &amp;#34;&amp;#34;&amp;#34;Helper function for generating color scheme entries&amp;#34;&amp;#34;&amp;#34; result = {} result[&amp;#39;name&amp;#39;] = name result[&amp;#39;scope&amp;#39;] = scope result.</description>
     </item>
     
   </channel>

@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 31 Dec 2020 15:37:14 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 09:05:39 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Markdown in Vim</title>
+      <link>https://www.jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
+      <pubDate>Mon, 04 Jan 2021 09:05:39 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/using-markdown-in-vim/</guid>
+      <description>If you are working with something that works like CommonMark and does not insert a &amp;lt;br&amp;gt; for every newline character then you&amp;rsquo;ll probably want to display trailing spaces, so that you know when you actually have the two trailing spaces needed to insert a &amp;lt;br&amp;gt;. See Showing Invisible Things In Vim for how to do this.
+Troubleshooting In the course of writing this I encountered a number of problems.
+Terminal Vim displayed a background color for italic text and bold text was bolded, but in my Gui Vim they both just looked like all the other text.</description>
+    </item>
+    
     <item>
       <title>Why I Still Use Vim</title>
       <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
