@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 09:05:39 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 12:17:55 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Arch Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/install-arch-linux/</link>
+      <pubDate>Mon, 04 Jan 2021 12:17:55 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/install-arch-linux/</guid>
+      <description>Brief: This tutorial shows you how to install Arch Linux in easy to follow steps.
+Arch Linux is a general-purpose rolling release Linux distribution which is very popular among the DIY enthusiasts and hardcore Linux users.
+The default installation covers only a minimal base system and expects the end user to configure the system by himself/herself.
+This is why installing Arch Linux is a challenge in itself but at the same time, it is a learning opportunity for intermediate Linux users.</description>
+    </item>
+    
     <item>
       <title>Using Markdown in Vim</title>
       <link>https://www.jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
@@ -248,17 +260,6 @@ If you’re not technical and you are using WordPress it can be difficult to int
       <description>12 reasons why Linux is better than Windows The myth that Linux is complex and only needed by programmers and developers is not true.
 Windows is the most popular operating system, and it is well deserved. She has come a long way, constantly improving and developing. However, although Microsoft claims that the Ten is its best creation, in some things Linux is far superior to Windows.
 1. Convenient implementation of updates Perhaps we all know about this situation.</description>
-    </item>
-    
-    <item>
-      <title>The Fascinating Arch Linux Rice</title>
-      <link>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</link>
-      <pubDate>Fri, 04 Dec 2020 16:45:48 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</guid>
-      <description>Recently, I dive into Linux the third time. The first time is in my childhood, I was attracted by the magazines, which introduced me the hacker culture. The second time was weird, I wanted to focus on study instead of PC gaming.
-This time, it&amp;rsquo;s totally different. /r/unixporn and /r/MechanicalKeyboards attracted me. The most fascinating part of that is RICE or RICE culture.
-RICE RICE is not the food rice. Instead, it is the acronym of Race Inspired Cosmetic Enhancements.</description>
     </item>
     
   </channel>

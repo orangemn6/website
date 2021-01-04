@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 09:05:39 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 12:17:55 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Arch Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/install-arch-linux/</link>
+      <pubDate>Mon, 04 Jan 2021 12:17:55 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/install-arch-linux/</guid>
+      <description>Brief: This tutorial shows you how to install Arch Linux in easy to follow steps.
+Arch Linux is a general-purpose rolling release Linux distribution which is very popular among the DIY enthusiasts and hardcore Linux users.
+The default installation covers only a minimal base system and expects the end user to configure the system by himself/herself.
+This is why installing Arch Linux is a challenge in itself but at the same time, it is a learning opportunity for intermediate Linux users.</description>
+    </item>
+    
     <item>
       <title>Using Markdown in Vim</title>
       <link>https://www.jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
@@ -100,15 +112,6 @@ Projects I am working on  Opensuspect (more on this later) AlamodeBoot My websit
       
       <guid>https://www.jacobgoldstein.tk/posts/getting-started-with-i3wm/</guid>
       <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
-    </item>
-    
-    <item>
-      <title>A Linux User&#39;s Thoughts on Macos</title>
-      <link>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</link>
-      <pubDate>Sat, 21 Nov 2020 23:44:09 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
-      <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
     </item>
     
   </channel>
