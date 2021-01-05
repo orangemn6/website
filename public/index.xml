@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 12:17:55 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 19:42:37 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Min Browser Almost Good Enough</title>
+      <link>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</link>
+      <pubDate>Mon, 04 Jan 2021 19:42:37 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</guid>
+      <description>Min Browser: Almost good enough The Min Browser is a minimalist web browser designed for productivity. In this review, I, Cukmekerb, will try it and tell you what I think.
+First thoughts Min is not in the AUR (there&amp;rsquo;s a beta version that hasn&amp;rsquo;t been updated since 2018), but it it is available to download as a .deb or .rpm. Since I&amp;rsquo;m running Manjaro, which is not based on Debian, I&amp;rsquo;ll be using Debtap to install it.</description>
+    </item>
+    
     <item>
       <title>Install Arch Linux</title>
       <link>https://www.jacobgoldstein.tk/posts/install-arch-linux/</link>
@@ -249,17 +259,6 @@ If you’re not technical and you are using WordPress it can be difficult to int
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Still, it would be better if you could have more control over the summary. Sometimes an excerpt might be fine, but like you saw with the first post, it can look a bit mangled.&lt;/p&gt;
 &lt;p&gt;To control the summary you can use the `&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>12 Reasons Why Linux Is Better</title>
-      <link>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
-      <pubDate>Sun, 06 Dec 2020 21:44:06 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</guid>
-      <description>12 reasons why Linux is better than Windows The myth that Linux is complex and only needed by programmers and developers is not true.
-Windows is the most popular operating system, and it is well deserved. She has come a long way, constantly improving and developing. However, although Microsoft claims that the Ten is its best creation, in some things Linux is far superior to Windows.
-1. Convenient implementation of updates Perhaps we all know about this situation.</description>
     </item>
     
   </channel>

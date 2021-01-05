@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,13 +18,8 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/posts/install-arch-linux/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -39,22 +34,27 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</loc>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
+    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -65,6 +65,11 @@
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/install-arch-linux/</loc>
+    <lastmod>2021-01-04T12:17:55-05:00</lastmod>
   </url>
   
   <url>

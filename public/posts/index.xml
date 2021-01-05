@@ -6,8 +6,43 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 04 Jan 2021 12:17:55 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jan 2021 19:42:37 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Min Browser Almost Good Enough</title>
+            <link>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</link>
+            <pubDate>Mon, 04 Jan 2021 19:42:37 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</guid>
+            <description>Min Browser: Almost good enough The Min Browser is a minimalist web browser designed for productivity. In this review, I, Cukmekerb, will try it and tell you what I think.
+First thoughts Min is not in the AUR (there&amp;rsquo;s a beta version that hasn&amp;rsquo;t been updated since 2018), but it it is available to download as a .deb or .rpm. Since I&amp;rsquo;m running Manjaro, which is not based on Debian, I&amp;rsquo;ll be using Debtap to install it.</description>
+            <content type="html"><![CDATA[<h1 id="min-browser-almost-good-enough">Min Browser: Almost good enough</h1>
+<p>The Min Browser is a minimalist web browser designed for productivity. In this review, I, Cukmekerb, will try it and tell you what I think.</p>
+<h2 id="first-thoughts">First thoughts</h2>
+<p>Min is not in the AUR (there&rsquo;s a beta version that hasn&rsquo;t been updated since 2018), but it it <em>is</em> available to download as a .deb or .rpm. Since I&rsquo;m running Manjaro, which is not based on Debian, I&rsquo;ll be using <a href="https://github.com/helixarch/debtap">Debtap</a> to install it. This is a small inconvenience, but not a real problem. After generating the install file, I had to modify it to remove the dependency <code>kde-runtime</code> so that it would install. This was annoying, but if you&rsquo;re running a Debian or rpm-based distro, such as Fedora or Mint, you won&rsquo;t have this problem.
+When I first launched the app, I was greeted by this screen: <img src="https://i.imgur.com/4ZCWXjm.jpg" alt="Min start screen">Looks nice, I thought, and opted to take a tour. After enjoying the tour of the browser&rsquo;s features, I decided to start browsing. I pressed the button and it showed me an input. I typed in a URL, pressed enter, and the browser immediately crashed. That&rsquo;s not good. I restarted the browser and tried again. This time it worked, but I noticed that it was extremely slow.</p>
+<h2 id="overall-experience">Overall experience</h2>
+<h3 id="pros">Pros</h3>
+<p>Min&rsquo;s overall design reminds me a lot of Safari, the default browser on MacOS. However, Min has &ldquo;tasks&rdquo; which are essentially tab groups. I like that it has this feature, and while it takes some getting used to, it&rsquo;s very well executed and certainly better than what most browsers have to offer. <img src="https://i.imgur.com/7cXyujn.jpg" alt="Min Tasks">Another feature that Min has is the ability to have private tabs in the same window as normal tabs, as well as having a little icon indicating that a tab is private.<img src="https://i.imgur.com/b3Umxuy.jpg" alt="A private tab in min">As you can see in the image above, the tab that I don&rsquo;t want in my browsing history is sitting right alongside my other tabs, but it has an icon so I don&rsquo;t accidentally click it in public.
+As you may have noticed, Min&rsquo;s tab bar changes color based on the current site&rsquo;s color scheme. This makes for a more cohesive browser experience which looks quite nice. Min also gives you the ability to write your own scripts in JavaScript which affect the behavior of webpages.</p>
+<h3 id="cons">Cons</h3>
+<p>Min is slow. Especially when loading images. See benchmark section for more.
+While Min has support for custom scripts, these are non-standard and it does not support the standard WebExtensions API, which is commonly used to create browser extensions.
+Min also crashes more often than any other browser I have used, usually when some action, such as switching tabs or loading a page, is taken.</p>
+<h2 id="benchmarks">Benchmarks</h2>
+<p>I was planning on using the <a href="https://browserbench.org/">BrowserBench</a> benchmarks, but for some reason Min refused to load the page, giving me this message instead:
+<img src="https://i.imgur.com/QNxGbHr.jpg" alt="Min does not let me load browserbench">
+This is rather unfortunate, and trust me, I tried everything. Instead of BrowserBench, I&rsquo;ll be using <a href="https://web.basemark.com/">Basemark</a> and <a href="http://speed-battle.com/">Speed Battle</a>and comparing the score with what I get on Firefox and Chromium, with no extensions or other tabs open.</p>
+<h3 id="basemark">Basemark</h3>
+<p><img src="https://i.imgur.com/ayAJIGF.jpg" alt="Min&rsquo;s basemark score">Min got a score of 709.95, which beat both Firefox and Chromium
+<img src="https://i.imgur.com/S4bvIHx.jpg" alt="firefox basemark">Firefox got a terrible score of 60.26, but the webgl tests didn&rsquo;t seem to have run properly. I&rsquo;m not sure what happened here so let me know in the comments. Chromium got a score of 644.79<img src="https://i.imgur.com/l400EXv.jpg" alt="chrome basemark">which is okay, but still worse than Min.</p>
+<p>On Speed Battle Min also beat Firefox and Chromium:
+<img src="https://i.imgur.com/vog06Oc.jpg" alt="min speed-battle">Min got a score of 1118.75, while Chromium got a score of 1051.33 and Firefox got a score of 536.65.</p>
+<h2 id="the-verdict">The Verdict</h2>
+<p>Min Browser is almost good. The benchmark scores are impressive, but unfortunately Min still feels slow and chunky compared to the more popular browsers. While its productivity features are useful, its design is pleasing, and its benchmarks are fast, Min feels slow and bogged down, crashes often, and doesn&rsquo;t load BrowserBench (why?). If these issue were fixed, I think Min would make a great minimalist browser for those who like to be organized. However, I&rsquo;m sticking with Firefox, which despite getting terrible scores in both benchmarks, still feels the fastest, crashes the least often, and protects you privacy the best. Min browser is a good project to keep an eye on, as it could go on to do great things, but for now it&rsquo;s just not ready.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Install Arch Linux</title>

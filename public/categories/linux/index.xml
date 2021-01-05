@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 12:17:55 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 19:42:37 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Min Browser Almost Good Enough</title>
+      <link>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</link>
+      <pubDate>Mon, 04 Jan 2021 19:42:37 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</guid>
+      <description>Min Browser: Almost good enough The Min Browser is a minimalist web browser designed for productivity. In this review, I, Cukmekerb, will try it and tell you what I think.
+First thoughts Min is not in the AUR (there&amp;rsquo;s a beta version that hasn&amp;rsquo;t been updated since 2018), but it it is available to download as a .deb or .rpm. Since I&amp;rsquo;m running Manjaro, which is not based on Debian, I&amp;rsquo;ll be using Debtap to install it.</description>
+    </item>
+    
     <item>
       <title>Install Arch Linux</title>
       <link>https://www.jacobgoldstein.tk/posts/install-arch-linux/</link>
@@ -104,16 +114,6 @@ RICE RICE is not the food rice. Instead, it is the acronym of Race Inspired Cosm
 Script 1: Pywal So for this one you need pywal.
 wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
 #! /usr/bin/env python import json import os def make_element(name, scope, **kwargs): &amp;#34;&amp;#34;&amp;#34;Helper function for generating color scheme entries&amp;#34;&amp;#34;&amp;#34; result = {} result[&amp;#39;name&amp;#39;] = name result[&amp;#39;scope&amp;#39;] = scope result.</description>
-    </item>
-    
-    <item>
-      <title>My Life So Far</title>
-      <link>https://www.jacobgoldstein.tk/posts/my-life-so-far/</link>
-      <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/my-life-so-far/</guid>
-      <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
-Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
     </item>
     
   </channel>
