@@ -126,7 +126,7 @@ disableHugoGeneratorInject = false
   #   alt      = "Portrait"
   #   maxWidth = "50px"
 
-  # Social icons
+# Social icons
   
   [[params.social]]
     name = "email"
@@ -165,4 +165,7 @@ disableHugoGeneratorInject = false
     identifier = "mcserver"
     name      =  "Minecraft Server"
     url       =  "https://play.jacobgoldstein.tk"
-
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "contact/"

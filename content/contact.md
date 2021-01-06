@@ -4,6 +4,8 @@ date: "2020-02-25"
 ---
 You can contact us here!
 
+{{< raw-html >}}
+
 <form name="contact" netlify>
   <p>
     <label>Name <input type="text" name="name" /></label>
@@ -15,3 +17,5 @@ You can contact us here!
     <button type="submit">Send</button>
   </p>
 </form>
+
+{{< / raw-html >}}
