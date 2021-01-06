@@ -4,7 +4,7 @@ date: "2020-02-25"
 ---
 You can contact us here!
 
-<form name="contact" method="post" action="https://forms.un-static.com/forms/2ea3a935b97f416ea86853974b7b49126508a012" netlify>
+<form name="contact" netlify>
   <div class="form-group row">
     <label for="name" class="col-4 col-form-label">Name</label>
     <div class="col-8">
