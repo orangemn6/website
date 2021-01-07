@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 19:42:37 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 14:32:34 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worst MCU Plotholes</title>
+      <link>https://www.jacobgoldstein.tk/posts/worst-mcu-plotholes/</link>
+      <pubDate>Thu, 07 Jan 2021 14:32:34 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/worst-mcu-plotholes/</guid>
+      <description>There is no denying that the Marvel Cinematic Universe, more commonly known as the MCU, has pretty much taken over the world. Since Iron Man first burst onto our screens back in 2008, the MCU has laid out a series of intricate movies and TV shows that have created not just an entertainment universe, but an entire entertainment experience and a new way to enjoy and experience movies.
+Generally speaking, the MCU has prided itself on its continuity throughout its universe with each movie being a single, stand alone installment but also a small cog in a larger, overarching storyline.</description>
+    </item>
+    
     <item>
       <title>Min Browser Almost Good Enough</title>
       <link>https://www.jacobgoldstein.tk/posts/min-browser-almost-good-enough/</link>
@@ -104,161 +114,6 @@ This post is about how I got my chromebook dual booting galliumOS.</description>
       <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
       <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
 If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
-    </item>
-    
-    <item>
-      <title>How to Build a Blog With Hugo</title>
-      <link>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
-      <pubDate>Thu, 10 Dec 2020 17:20:31 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</guid>
-      <description>&lt;p&gt;In this guide I’m going to explain how you can build your own blog using a tool called &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and then put it online. You don’t need any previous experience to follow along, just a willingness to learn.&lt;/p&gt;
-&lt;p&gt;I think Hugo is a great alternative to Wordpress and site builders like Squarespace or Wix. Although there can be more of a learning curve, in return you get much more control, flexibility and ownership over your blog. I’ll go into more detail on the differences in this guide.&lt;/p&gt;
-&lt;p&gt;Even if you’re not very technical I think you’d wrap your head around the basics within a day or less.&lt;/p&gt;
-&lt;p&gt;By the end of this guide you’ll have built a basic blog and put it online. &lt;a href=&#34;https://ibby-hugo-tutorial.github.io/&#34;&gt;This&lt;/a&gt; is what the finished product will look like.&lt;/p&gt;
-&lt;p&gt;If you hit a snag in the tutorial and can’t figure it out feel free to drop me an email or leave a comment. I’ll do my best to help!&lt;/p&gt;
-&lt;p&gt;If you’re interested, you can find the source code for this tutorial &lt;a href=&#34;https://github.com/PARC6502/hugo-blog-tutorial&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a &lt;em&gt;static site generator&lt;/em&gt;. It’s a tool which combines a bunch of files and turns them into HTML, CSS and JavaScript files. Or in other words it uses these files to generate a &lt;em&gt;static site&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Normally the files you write are &lt;em&gt;markdown&lt;/em&gt; files for pages and blog posts, as well as configuration files and HTML templates.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Markdown is a markup language that’s much simpler to use and read than HTML. For example typing&lt;/em&gt; &lt;code&gt;_**this**_&lt;/code&gt; &lt;em&gt;produces bold text like&lt;/em&gt; &lt;strong&gt;&lt;em&gt;this&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;. You can find out more using&lt;/em&gt; &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;&gt;&lt;em&gt;this cheatsheet&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;You can think of a static site generator as a compromise between between a static site and a content management system (CMS) like WordPress or Ghost.&lt;/p&gt;
-&lt;h2 id=&#34;why-not-just-write-html-css-and-javascript-files&#34;&gt;Why not just write HTML, CSS and JavaScript files?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Easier to learn&lt;/strong&gt;&lt;br&gt;
-If you’re learning from scratch there’s less to learn with static site generators. Markdown is easier to pick up than HTML and you can use preconfigured templates or themes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Less repetition&lt;/strong&gt;&lt;br&gt;
-With an HTML site bits that are the same in different pages have to be repeated. For example you have to insert the top menu into every page. If you change the menu, you have to change it in every page. Hugo takes care of that for you. You will only have to change the menu in one place and Hugo will do the rest.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugins and themes galore!&lt;/strong&gt;&lt;br&gt;
-Hugo makes it very easy to use plugins and themes. If someone else has figured out the solution to your problem, or made a very pretty blog, you can easily use that.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;why-not-use-a-cms-like-wordpress-or-ghost&#34;&gt;Why not use a CMS like WordPress or Ghost?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Uses less resources&lt;/strong&gt;&lt;br&gt;
-A content management system runs a lot of code on the server. In comparison, the server for a static site only has to serve the content. This means you can spend less money on the server (and more on coffee). Better for your wallet and the environment!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Simpler to manage&lt;/strong&gt;&lt;br&gt;
-CMS’ have a lot of moving parts. If you’ve ever tried to manage your own wordpress install, you’ve probably run into database issues, incompatible PHP versions and baffling errors that suddenly appear out of nowhere. It can be hard to figure out where the problem came from with so many moving parts. Not to mention the difficulty of figuring out how to do backups and restores when databases are involved. There’s a lot less points of failure with a tool like Hugo, and because there’s no database backing up can be as simple as copying the files.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Easier access to &lt;em&gt;your&lt;/em&gt; data&lt;/strong&gt;&lt;br&gt;
-If you’re not technical and you are using WordPress it can be difficult to interact with your data from outside the administration area. Figuring out where your posts are stored or trying to recover them after a server failure can be daunting tasks. Even worse, popular site builders like SquareSpace and Wix don’t even offer the functionality to export the site you worked so hard to build. It’s _your_data, _your_work, _your_creativity, shouldn’t you get to own and control that?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
-&lt;p&gt;On &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;the Hugo website&lt;/a&gt; there’s a big list of all the ways you can install it. I’ll go over the basic methods for Linux, Windows and Mac.&lt;/p&gt;
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-&lt;p&gt;You can use &lt;code&gt;snap&lt;/code&gt; to install Hugo on Linux. Snap comes pre-installed on Ubuntu, and if you&amp;rsquo;re using a distribution based on Ubuntu or Debian you can install snap by opening a terminal and typing the following:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Checkout &lt;a href=&#34;https://snapcraft.io/docs/installing-snapd&#34;&gt;this page&lt;/a&gt; if you need more information about how to install snap on your specific distribution.&lt;/p&gt;
-&lt;p&gt;After that you can use snap to install Hugo with this command:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-&lt;p&gt;This is a complete video guide to installing Hugo on Windows.&lt;/p&gt;
-&lt;p&gt;Or if you prefer text instructions, you first need to head over to &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;this releases page&lt;/a&gt; and find the first file that ends in either &lt;code&gt;Windows-32bit.zip&lt;/code&gt; or &lt;code&gt;Windows-64bit.zip&lt;/code&gt;. &lt;a href=&#34;https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq&#34;&gt;Check this page out&lt;/a&gt; if you&amp;rsquo;re not sure whether your computer is 32-bit or 64-bit. (But it&amp;rsquo;s probably 64-bit.)&lt;/p&gt;
-&lt;p&gt;After you download and extract the zip file, you should find a &lt;code&gt;hugo.exe&lt;/code&gt; file. Copy that file.&lt;/p&gt;
-&lt;p&gt;In your &lt;code&gt;C:\&lt;/code&gt; drive, create a folder named &lt;code&gt;Hugo&lt;/code&gt; and inside that create a folder named &lt;code&gt;bin&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Now, paste the &lt;code&gt;hugo.exe&lt;/code&gt; file into the &lt;code&gt;C:\Hugo\bin&lt;/code&gt; folder. Your file structure should look like this:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Next you’ll need to open the Control Panel, click on &lt;code&gt;Advanced Setting&lt;/code&gt; then the &lt;code&gt;Environment Variables&lt;/code&gt; button at the bottom of that tab.&lt;/p&gt;
-&lt;p&gt;Select the &lt;code&gt;Path&lt;/code&gt; variable and click edit. Then click the &lt;code&gt;New&lt;/code&gt; button and type in &lt;code&gt;C:\Hugo\bin&lt;/code&gt;. After that OK out of all the windows.&lt;/p&gt;
-&lt;p&gt;To test it works open the command prompt by clicking the windows key and starting to type the word command. The command prompt progam should appear.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;After opening it, type the following:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;If everything is working fine the hugo version should appear.&lt;/p&gt;
-&lt;h1 id=&#34;macos&#34;&gt;MacOS&lt;/h1&gt;
-&lt;p&gt;You can install Hugo on Mac using a tool called &lt;a href=&#34;https://brew.sh/&#34;&gt;homebrew&lt;/a&gt; which you can install from the terminal.&lt;/p&gt;
-&lt;p&gt;To open the terminal use the ⌘ &lt;em&gt;Cmd+Space&lt;/em&gt; keyboard shortcut to open Spotlight. From here type the word &lt;code&gt;Terminal&lt;/code&gt; and open the app that shows up.&lt;/p&gt;
-&lt;p&gt;Now to install homebrew, type the following into your terminal:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;After that is intalled you can install Hugo by typing the following:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;You can check whether or not it’s installed by typing &lt;code&gt;hugo version&lt;/code&gt; in the terminal. If it&amp;rsquo;s installed fine, the version should appear.&lt;/p&gt;
-&lt;h1 id=&#34;a-quick-word-about-the-command-line&#34;&gt;A quick word about the command line&lt;/h1&gt;
-&lt;p&gt;If you’ve made it through the installation section you’ve come across the command line. On Mac and Linux it’s called the ‘Terminal’, on Windows it’s ‘Command Prompt’ or ‘Powershell’.&lt;/p&gt;
-&lt;p&gt;Don’t worry if you’ve never used it before, it’s not as scary as it seems. Instead of interacting with your computer by pointing at and clicking things, you do it by typing commands. No need to learn any commands in advance, just follow along!&lt;/p&gt;
-&lt;h1 id=&#34;setting-the-stage&#34;&gt;Setting the stage&lt;/h1&gt;
-&lt;p&gt;First of all, you want to decide where your hugo site will be stored on your computer. You might just decide to put it in your documents folder and name it something like &lt;code&gt;my-blog&lt;/code&gt;. Or you might create a folder in your home directory called &lt;code&gt;websites&lt;/code&gt; or &lt;code&gt;blogs&lt;/code&gt; and store your blog(s) there. For the sake of this tutorial, I&amp;rsquo;m going with the second option.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;The&lt;/em&gt; &lt;strong&gt;&lt;em&gt;home directory&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;is where all your personal files are stored. It includes your&lt;/em&gt; &lt;code&gt;_Documents_&lt;/code&gt; &lt;em&gt;folder, your&lt;/em&gt; &lt;code&gt;_Desktop_&lt;/code&gt; &lt;em&gt;folder and quite a few other folders. On Windows this folder is&lt;/em&gt; &lt;code&gt;_C:\Users\&amp;lt;your-username&amp;gt;_&lt;/code&gt;&lt;em&gt;, on Linux it&amp;rsquo;s&lt;/em&gt; &lt;code&gt;_/home/&amp;lt;your-username&amp;gt;_&lt;/code&gt; &lt;em&gt;and on MacOS it&amp;rsquo;s&lt;/em&gt; &lt;code&gt;_/Users/&amp;lt;your-username&amp;gt;_&lt;/code&gt;&lt;em&gt;. By default the command line opens in the home directory. From the command line, check which directory you&amp;rsquo;re by using the&lt;/em&gt; &lt;code&gt;_pwd_&lt;/code&gt; &lt;em&gt;(print working directory) command on Linux/Mac or the&lt;/em&gt; &lt;code&gt;_chdir_&lt;/code&gt; &lt;em&gt;(check directory) command on Windows.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Open up your command line, which should by default be in the home directory, and type in the following commands.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;The first command creates a folder (&lt;code&gt;mkdir&lt;/code&gt; as in &amp;lsquo;make directory&amp;rsquo;) called websites and the second command moves you into that folder (&lt;code&gt;cd&lt;/code&gt; as in &amp;lsquo;change directory&amp;rsquo;).&lt;/p&gt;
-&lt;p&gt;Now you’re ready to make your hugo site. From the command line, type in this command:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;This will create a folder called &lt;code&gt;my-blog&lt;/code&gt; which contains the files and folders that will generate your blog. Before you can see the blog though, you&amp;rsquo;ll need to add a theme.&lt;/p&gt;
-&lt;h1 id=&#34;installing-a-theme&#34;&gt;Installing a theme&lt;/h1&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Before you can have a look at your site, you’ll need to install a theme. Hugo has &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;a huge selection of themes&lt;/a&gt;, so hopefully you’ll find a few that you like.&lt;/p&gt;
-&lt;p&gt;For this tutorial I’m going to use the &lt;a href=&#34;https://themes.gohugo.io/hugo-theme-anubis/&#34;&gt;anubis theme&lt;/a&gt;, which is a very simple theme for blogs. Download it &lt;a href=&#34;https://github.com/Mitrichius/hugo-theme-anubis/archive/master.zip&#34;&gt;from this link&lt;/a&gt; and extract the file. After extracting, you should get a folder called &lt;code&gt;hugo-theme-anubis-master&lt;/code&gt;, rename this folder to &lt;code&gt;anubis&lt;/code&gt;, and move it into &lt;code&gt;themes&lt;/code&gt; folder inside &lt;code&gt;my-blog&lt;/code&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;During the rest of this guide when I talk about a folder by saying something like&lt;/em&gt; &lt;code&gt;_my-blog/content_&lt;/code&gt; &lt;em&gt;that means the&lt;/em&gt; &lt;code&gt;_content_&lt;/code&gt; &lt;em&gt;folder inside the&lt;/em&gt; &lt;code&gt;_my-blog_&lt;/code&gt; &lt;em&gt;folder.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here’s what the &lt;code&gt;my-blog&lt;/code&gt; folder should look like:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Inside the &lt;code&gt;my-blog&lt;/code&gt; folder you&amp;rsquo;ll find a file called &lt;code&gt;config.toml&lt;/code&gt;. This is a configuration file that lets you set different options for the site.&lt;/p&gt;
-&lt;p&gt;Open this configuration file with a text editor like gedit or notepad. This is what it&amp;rsquo;ll look like:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;You’ll need to add a new line for the theme option, and whilst you’re here you may as well change the title. You want to end up with a &lt;code&gt;config.toml&lt;/code&gt; file that looks like this:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;You’re now ready to have your first look at your site! In the command line, you need to navigate to the &lt;code&gt;my-blog&lt;/code&gt; folder. If you&amp;rsquo;ve just opened the command line and you&amp;rsquo;re in the home directory, use this command to change the directory:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Now run this command to run your blog:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;This command line window is now running a &lt;em&gt;Hugo server&lt;/em&gt;. Head over to your browser and go to &lt;code&gt;http://localhost:1313/&lt;/code&gt; to view your blog.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Unfortunately, without any pages, it’s quite boring to look at. Let’s fix that.&lt;/p&gt;
-&lt;h1 id=&#34;your-first-hugo-page&#34;&gt;Your first hugo page&lt;/h1&gt;
-&lt;p&gt;Open a new command line window (you need to keep the other one running so you can see updates when they happen to your site.) Like you did earlier, navigate to the &lt;code&gt;my-blog&lt;/code&gt; folder:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Now, run this command to create a new post:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;If you head to your browser, you should see that this empty post has been added.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Use your file explorer to open up the &lt;code&gt;my-blog/content/posts/&lt;/code&gt; folder. Inside you&amp;rsquo;ll find a file called &lt;code&gt;my-first-post.md&lt;/code&gt;, which you created with the command used earlier.&lt;/p&gt;
-&lt;p&gt;Open this file up with a text editor, it will look a bit like this:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;What you see here is called &lt;em&gt;frontmatter&lt;/em&gt;, specifically this is &lt;em&gt;YAML frontmatter&lt;/em&gt;. This is information about the post that’s not post content. In other words, metadata.&lt;/p&gt;
-&lt;p&gt;You can add other metadata to the frontmatter such as tags, categories or a summary.&lt;/p&gt;
-&lt;p&gt;Below the three dashes is where you’ll add your content, try adding the following below the three dashes:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Save the file, then check your browser to see what it looks like.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Click the post title to navigate to the post page. You should see &lt;code&gt;http://localhost:1313/posts/my-first-post/&lt;/code&gt; in your browser URL bar.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Use &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;this markdown cheatsheet&lt;/a&gt; to play around with your page and add some content.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Although using a plain text editor works fine, it’ll probably make your life easier to look into an editor with markdown support.&lt;/em&gt; &lt;a href=&#34;https://typora.io/&#34;&gt;&lt;em&gt;Typora&lt;/em&gt;&lt;/a&gt;&lt;em&gt;,&lt;/em&gt; &lt;a href=&#34;https://marktext.app/&#34;&gt;&lt;em&gt;Mark Text&lt;/em&gt;&lt;/a&gt; &lt;em&gt;and&lt;/em&gt; &lt;a href=&#34;https://wereturtle.github.io/ghostwriter/&#34;&gt;&lt;em&gt;ghostwriter&lt;/em&gt;&lt;/a&gt; &lt;em&gt;are all specialised markdown editors. Most code editors like&lt;/em&gt; &lt;a href=&#34;https://notepad-plus-plus.org/&#34;&gt;&lt;em&gt;Notepad++&lt;/em&gt;&lt;/a&gt; &lt;em&gt;and&lt;/em&gt; &lt;a href=&#34;https://vscodium.com/&#34;&gt;&lt;em&gt;VSCodium&lt;/em&gt;&lt;/a&gt; &lt;em&gt;have plugins that support markdown.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;changing-the-summary&#34;&gt;Changing the summary&lt;/h1&gt;
-&lt;p&gt;Now you’ve got the bones of a blog, but you may have noticed that the formatting of the post summary on the homepage isn’t all that great. All the content is showing up, without any of the formatting!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Although it looks like it’s all the text, it’s actually the first ~70 words, it’s just that your first post has less than that so it shows all the text.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Let’s create a new post to play around with these content summaries.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Put some nonsense text in your &lt;code&gt;summaries.md&lt;/code&gt; file. Here&amp;rsquo;s what my file looks like:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;After checking it out in the browser you can see the summary doesn’t contain the whole text.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Still, it would be better if you could have more control over the summary. Sometimes an excerpt might be fine, but like you saw with the first post, it can look a bit mangled.&lt;/p&gt;
-&lt;p&gt;To control the summary you can use the `&lt;/p&gt;</description>
     </item>
     
   </channel>
