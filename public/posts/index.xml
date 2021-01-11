@@ -6,8 +6,58 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 07 Jan 2021 14:32:34 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 11 Jan 2021 12:21:01 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Super Productivity Todo App</title>
+            <link>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</link>
+            <pubDate>Mon, 11 Jan 2021 12:21:01 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</guid>
+            <description>Brief: Super Productivity is an awesome open-source to-do app that helps you manage tasks, track tickets, and manage time.
+No matter what you do, improving productivity is a common goal for most of the people. Usually, you would end up trying various to-do list apps or a note-taking app to help yourself organize and remind things to efficiently keep up with your work.
+Sure, you can check out those lists and try them as you like.</description>
+            <content type="html"><![CDATA[<p><strong><em>Brief: Super Productivity is an awesome open-source to-do app that helps you manage tasks, track tickets, and manage time.</em></strong></p>
+<p>No matter what you do, improving productivity is a common goal for most of the people. Usually, you would end up trying various <a href="https://itsfoss.com/to-do-list-apps-linux/">to-do list apps</a> or a <a href="https://itsfoss.com/note-taking-apps-linux/">note-taking app</a> to help yourself organize and remind things to efficiently keep up with your work.</p>
+<p>Sure, you can check out those lists and try them as you like. Here, I&rsquo;ve come across something unique that you also may want to try if you wanted a desktop to-do application with a solid user interface, GitHub/GitLab integration, and a list of essential features.</p>
+<p>Super Productivity seems to be an impressive to-do list app with some unique features to offer. In this article, I&rsquo;ll let you know all about it briefly.</p>
+<h2 id="super-productivity-a-simple--attractive-open-source-to-do-app">Super Productivity: A Simple &amp; Attractive Open-Source To-do App</h2>
+<p>Super Productivity is an open-source app, and it is actively maintained by <a href="https://github.com/johannesjo">Johannes Millan</a> on GitHub.</p>
+<p>To me, the user experience matters the most, and I&rsquo;m completely impressed with the UI offered by Super Productivity.</p>
+<p>It also offers a bunch of essential features along with some interesting options. Let&rsquo;s take a look at them.</p>
+<h2 id="features-of-super-productivity">Features of Super Productivity</h2>
+<ul>
+<li>Add to-do tasks, description</li>
+<li>Track time spent on tasks and break</li>
+<li>Project management (with JIRA, GitHub, and GitLab integration)</li>
+<li>Ability to schedule tasks</li>
+<li>Language selection option</li>
+<li>Sync option to Dropbox, Google Drive, or any other WebDAV storage location</li>
+<li>Import/Export functionality</li>
+<li>Auto-backup functionality</li>
+<li>Ability to tweak the behavior of timers and counters</li>
+<li>Dark Mode them available</li>
+<li>Add attachment to tasks</li>
+<li>Ability to repeat tasks completely for free</li>
+<li>Cross-platform support</li>
+</ul>
+<p>In addition to the features I mentioned, you will find more detailed settings and tweaks to configure.</p>
+<p>Especially, the integration with <a href="https://www.atlassian.com/software/jira">JIRA</a>, <a href="https://github.com/">GitHub</a> and <a href="https://about.gitlab.com">GitL</a> <a href="https://about.gitlab.com">ab</a>. You can automatically assign tasks to work on without needing to check your email for the recent updates to issue trackers or tickets.</p>
+<p>Compared to many premium to-do web services that I&rsquo;ve used so far, you will be surprised to find many useful features completely for free. You can also take a look at the video below to get some idea:</p>
+<h2 id="installing-super-productivity-on-linux">Installing Super Productivity on Linux</h2>
+<p><img src="https://i0.wp.com/itsfoss.com/wp-content/uploads/2021/01/super-productivity-1.jpg?resize=800%2C574&amp;ssl=1" alt=""></p>
+<p>You get a variety of options to install. I downloaded the AppImage file to test. But, you can also get the deb package for Debian-based distros.</p>
+<p>It is also available as a <a href="https://snapcraft.io/superproductivity">snap</a>. You can find all the packages in the <a href="https://github.com/johannesjo/super-productivity/releases">GitHub releases section</a>.</p>
+<p>If you&rsquo;re curious, you can check out its <a href="https://github.com/johannesjo/super-productivity">GitHub page</a> to know more about it.</p>
+<h2 id="concluding-thoughts">Concluding Thoughts</h2>
+<p>I found the user experience fantastic with Super Productivity. The features offered are incredibly useful and considering that you get some premium functionalities (that you&rsquo;d get normally with to-do web services) it could be a perfect replacement for most of the users.</p>
+<p>You can simply sync the data using Google Drive, Dropbox, or any other WebDAV storage location.</p>
+<p>It could also replace a service like <a href="https://itsfoss.com/activitywatch/">ActivityWatch</a> to help you track the time you work on your tasks and remain idle. So, it could be your all-in-one solution for improving productivity!</p>
+<p>Sounds exciting, right?</p>
+<p>What do you think about Super Productivity? Let me know your thoughts in the comments section below.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Worst MCU Plotholes</title>

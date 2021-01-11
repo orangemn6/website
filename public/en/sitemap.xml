@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2021-01-07T14:32:34-05:00</lastmod>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2021-01-07T14:32:34-05:00</lastmod>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -29,6 +29,41 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/</loc>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</loc>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/</loc>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.jacobgoldstein.tk/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.jacobgoldstein.tk/tags/"
                 />
   </url>
   
@@ -43,38 +78,8 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2021-01-07T14:32:34-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2021-01-07T14:32:34-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.jacobgoldstein.tk/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.jacobgoldstein.tk/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/worst-mcu-plotholes/</loc>
     <lastmod>2021-01-07T14:32:34-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
-    <lastmod>2021-01-04T19:42:37-05:00</lastmod>
   </url>
   
   <url>
