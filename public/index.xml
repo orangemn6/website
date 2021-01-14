@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 11 Jan 2021 12:21:01 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 12:05:56 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Preset Layouts in I3</title>
+      <link>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</link>
+      <pubDate>Thu, 14 Jan 2021 12:05:56 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</guid>
+      <description>While I already knew how to launch programs with my i3 config file, I was lacking a way to predefine specific workspace layouts that I would want to launch on startup.
+That’s where i3 layouts come in handy.
+The first step in creating a layout is to spawn the windows you want to be launched when the layout is deployed.
+In this example I created a monitor layout, which I use to monitor system stats, crypto prices, the news, and more.</description>
+    </item>
+    
     <item>
       <title>Super Productivity Todo App</title>
       <link>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</link>
@@ -104,17 +116,6 @@ They all have a sense of humor that can make us all laugh even if we’re not a 
       <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
 Image: http://amzn.to/2umsBaY
 I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
-    </item>
-    
-    <item>
-      <title>How to Install Galliumos on Chromebook</title>
-      <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
-      <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
-      <description>— May 24, 2020
-This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
-This post is about how I got my chromebook dual booting galliumOS.</description>
     </item>
     
   </channel>

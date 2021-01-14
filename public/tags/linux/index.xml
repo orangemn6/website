@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 11 Jan 2021 12:21:01 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 12:05:56 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Preset Layouts in I3</title>
+      <link>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</link>
+      <pubDate>Thu, 14 Jan 2021 12:05:56 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</guid>
+      <description>While I already knew how to launch programs with my i3 config file, I was lacking a way to predefine specific workspace layouts that I would want to launch on startup.
+That’s where i3 layouts come in handy.
+The first step in creating a layout is to spawn the windows you want to be launched when the layout is deployed.
+In this example I created a monitor layout, which I use to monitor system stats, crypto prices, the news, and more.</description>
+    </item>
+    
     <item>
       <title>Super Productivity Todo App</title>
       <link>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</link>
@@ -102,18 +114,6 @@ If you’ve never set up a Vim plugin before, see the Installing Vim plugins sec
       <description>12 reasons why Linux is better than Windows The myth that Linux is complex and only needed by programmers and developers is not true.
 Windows is the most popular operating system, and it is well deserved. She has come a long way, constantly improving and developing. However, although Microsoft claims that the Ten is its best creation, in some things Linux is far superior to Windows.
 1. Convenient implementation of updates Perhaps we all know about this situation.</description>
-    </item>
-    
-    <item>
-      <title>Linux Ricing and How I Do It (just the basics)</title>
-      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
-      <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
-      <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
-Script 1: Pywal So for this one you need pywal.
-wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
-#! /usr/bin/env python import json import os def make_element(name, scope, **kwargs): &amp;#34;&amp;#34;&amp;#34;Helper function for generating color scheme entries&amp;#34;&amp;#34;&amp;#34; result = {} result[&amp;#39;name&amp;#39;] = name result[&amp;#39;scope&amp;#39;] = scope result.</description>
     </item>
     
   </channel>

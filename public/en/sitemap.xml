@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,8 +18,18 @@
   </url>
   
   <url>
+    <loc>https://www.jacobgoldstein.tk/tags/i3/</loc>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/i3/</loc>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -34,27 +44,32 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/linux/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <loc>https://www.jacobgoldstein.tk/tags/ricing/</loc>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/ricing/</loc>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -65,6 +80,16 @@
                 hreflang="en"
                 href="https://www.jacobgoldstein.tk/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</loc>
+    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/super-productivity-todo-app/</loc>
+    <lastmod>2021-01-11T12:21:01-05:00</lastmod>
   </url>
   
   <url>
@@ -188,22 +213,12 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/tags/ricing/</loc>
-    <lastmod>2020-12-04T16:45:48-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</loc>
     <lastmod>2020-12-04T16:45:48-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</loc>
-    <lastmod>2020-12-01T13:15:49-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jacobgoldstein.tk/categories/ricing/</loc>
     <lastmod>2020-12-01T13:15:49-05:00</lastmod>
   </url>
   

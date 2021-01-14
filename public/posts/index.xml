@@ -6,8 +6,49 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 11 Jan 2021 12:21:01 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 14 Jan 2021 12:05:56 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Using Preset Layouts in I3</title>
+            <link>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</link>
+            <pubDate>Thu, 14 Jan 2021 12:05:56 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</guid>
+            <description>While I already knew how to launch programs with my i3 config file, I was lacking a way to predefine specific workspace layouts that I would want to launch on startup.
+That’s where i3 layouts come in handy.
+The first step in creating a layout is to spawn the windows you want to be launched when the layout is deployed.
+In this example I created a monitor layout, which I use to monitor system stats, crypto prices, the news, and more.</description>
+            <content type="html"><![CDATA[<p>While I already knew how to launch programs with my i3 <code>config</code> file, I was lacking a way to predefine specific workspace layouts that I would want to launch on startup.</p>
+<p>That’s where i3 layouts come in handy.</p>
+<p>The first step in creating a layout is to spawn the windows you want to be launched when the layout is deployed.</p>
+<p>In this example I created a <code>monitor</code> layout, which I use to monitor system stats, crypto prices, the news, and more.</p>
+<p>We can save the layout of the target workspace into a <code>json</code> file with the following command:</p>
+<pre><code>i3-save-tree --workspace 8 &gt; ./monitor.json
+</code></pre>
+<p>In this command <code>8</code> is the number of the workspace I wanted to capture.</p>
+<p>Opening this file should give you a <code>json</code> layout that includes the programs and position of your windows.</p>
+<p>We can save this <code>json</code> file in a safe place for later use.</p>
+<p>Let’s say we want this layout to launch when we log into i3. First, we need to add the following command to your i3 <code>config</code> file.</p>
+<pre><code>exec --no-startup-id &quot;i3-msg 'workspace 8: Monitor ; append_layout /home/gideon/.config/i3/layouts/monitor.json'&quot;
+</code></pre>
+<p>Here we would replace <code>workspace 8: Monitor </code> with the number and name of the workspace where you want this layout to be deployed.</p>
+<p>We would also change the filepath to reflect the actual location of the file where you stored your layout.</p>
+<p>What this will do is open up a series of windows corresponding to the position defined in the <code>json</code> file. However, these windows will not be populated with any programs.</p>
+<p>These windows are placeholders, and as soon as they see a specific program has been launched, it swallows it into that window.</p>
+<p>So to get the programs to launch into our layout, we can launch them with our i3 <code>config</code>. Here is an example for <code>urxvt</code></p>
+<p>What this will do is open up a series of windows corresponding to the position defined in the <code>json</code> file. However, these windows will not be populated with any programs.</p>
+<p>These windows are placeholders, and as soon as they see a specific program has been launched, it swallows it into that window.</p>
+<p>So to get the programs to launch into our layout, we can launch them with our i3 <code>config</code>. Here is an example for <code>urxvt</code>.</p>
+<pre><code>exec i3-msg 'exec urxvt -name cointop-startup -e fish -c cointop'
+exec i3-msg 'exec urxvt -name gotop-startup -e fish -c gotop'
+exec i3-msg 'exec urxvt -name mop-startup -e fish -c mop'
+exec i3-msg 'exec urxvt -name newsboat-startup -e fish -c newsboat'
+</code></pre>
+<p>If you know you want a certain series of windows opened up in a certain way, i3 layouts are for you.</p>
+<p>I only covered launching a layout as i3 starts, but you could just as easily bind a hotkey to start a layout for a specific task.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Super Productivity Todo App</title>
