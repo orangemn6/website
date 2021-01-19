@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webdev on Jacob Goldstein&#39;s Website</title>
+    <link>https://www.jacobgoldstein.tk/categories/webdev/</link>
+    <description>Recent content in webdev on Jacob Goldstein&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 19 Jan 2021 13:06:15 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making My Resume Site</title>
+      <link>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</link>
+      <pubDate>Tue, 19 Jan 2021 13:06:15 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</guid>
+      <description>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](https://beta.jacobgoldstein.tk], and it looks SICK. In this post I am going to walk you through some of the things I did.
+Contact Page So for the contact page, the form is controlled by a JS snippet that gets data from a PHP file. The PHP file has info like who to send it to, and all the email variables.</description>
+    </item>
+    
+  </channel>
+</rss>

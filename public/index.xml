@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 14 Jan 2021 12:05:56 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2021 13:06:15 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making My Resume Site</title>
+      <link>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</link>
+      <pubDate>Tue, 19 Jan 2021 13:06:15 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</guid>
+      <description>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](https://beta.jacobgoldstein.tk], and it looks SICK. In this post I am going to walk you through some of the things I did.
+Contact Page So for the contact page, the form is controlled by a JS snippet that gets data from a PHP file. The PHP file has info like who to send it to, and all the email variables.</description>
+    </item>
+    
     <item>
       <title>Using Preset Layouts in I3</title>
       <link>https://www.jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</link>
@@ -105,17 +115,6 @@ They all have a sense of humor that can make us all laugh even if we’re not a 
       
       <guid>https://www.jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</guid>
       <description>Orion- Twitch Client For Linux Orion is a free and open source QML / C++ client for Twitch.tv which can use multiple player backends (including mpv). The application runs on Linux, Windows, macOS and Android. Using Orion you can watch live Twitch streams and past broadcasts, and browse or search games and channels using a nice material user interface. What&amp;rsquo;s more, Orion lets you login to Twitch, so you can chat and follow channels (and receive notifications when a channel you follow goes online).</description>
-    </item>
-    
-    <item>
-      <title>Why I Still Use Vim</title>
-      <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
-      <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
-      
-      <guid>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
-      <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
-Image: http://amzn.to/2umsBaY
-I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
     </item>
     
   </channel>
