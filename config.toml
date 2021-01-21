@@ -136,6 +136,9 @@ disableHugoGeneratorInject = false
     name = "github"
     url  = "https://github.com/orangemn6"
 
+  [[params.social]]
+    name = "keybase"
+    url = "https://keybase.io/orangemn6"
     
 [languages]
   [languages.en]
