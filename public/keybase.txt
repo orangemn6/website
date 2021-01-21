@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/orangemn6
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jacobgoldstein.tk
+  * I am orangemn6 (https://keybase.io/orangemn6) on keybase.
+  * I have a public key with fingerprint 9F92 5FD1 8474 92E2 6A60  D9BD 1D78 9953 E0CB 2BFD
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018f63976ca47f98a11ed96f787e7aa8f0c1dba102041caa2ca171f6fb8cf6e0110a",
+      "fingerprint": "9f925fd1847492e26a60d9bd1d789953e0cb2bfd",
+      "host": "keybase.io",
+      "key_id": "1d789953e0cb2bfd",
+      "kid": "01018f63976ca47f98a11ed96f787e7aa8f0c1dba102041caa2ca171f6fb8cf6e0110a",
+      "uid": "770a016cfa66199d391ac2c45e546a19",
+      "username": "orangemn6"
+    },
+    "service": {
+      "hostname": "jacobgoldstein.tk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1611249681,
+  "expire_in": 157680000,
+  "prev": "a6c6ff559ef2c4c3b5c7b8697ba1809e8b58a58f0588c9a5e93720800ab57b39",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJbSBVBGD6WGRmlJQRCN9aiiIPu7NmdywnMblYUSGVkaB1nZ2eOm7Z7
+3N1zKkTpKbKwy0NSRBfqoSKopySE7GJZEVJE2A3rJUgyJDiChQjNir312LwM88/3
+ffN9H/NkzvRIfk75YMVoTfojynn56GI6Uj/r3rwWxXStw0q8RWnkkxtvsrgfJBpt
+S4krKlABFjBGEGRUR4JgCgC3CBQII44oxUJlwDIpUDVVB4xSjVGAgIDCxExArgKg
+UiWqCNtJci/l2U4gZYkgmiEsgHWkE41rkELVIqYFLIQJMWJcZaZmCksSG1w/ZEhz
+JvV5qe3KmTwkJu39A/+ffacn5RBSqQogExRCQIgVI4AyjekGN3RIAQmBPvcceoBL
+tOtRGfaAA5XWqCLHGZvxsNkwyhRkP2WumXSbLD/gtlMaNEqFlOcGLnOb5HVDEKT8
+eEgPDqdC/EFuJqaUEqbtWLJNychwz7ddR4kDiWSBHUoDCICmE4hBVOGHUrbHE3aI
+MBDEqlzhOzwjJSlkUAjDIFzIJCxmGgyZGBIkS8Eq4dg0MDVkTwbGjFCDkxjSVKlB
+TQOZsTCzz5sdV4kb0iZNSknfTjo0SHtcaX38sC43kpMfyZsxLfxlkfxZhX//3sm2
+meN5tP7+QG/j8vaPXdt4TXb3s7fZ59Xp25fXZJc0P08u2V/aMXhuW1HFozFSOHG+
+K3svWIZaV1cFQ4n2B+va+wrO3C18P1Iw0hBfvLbnwnA0qdePts24daK3bVGme/bC
+G6fOnL2wvljtyH+x/fuxX7N7e55em4iW5e31Vxdd7b8+tG7Xxt+fvuHP9LqdqX04
+tGCwpOhSzU6jqry6rL4jd3zp0f70m+Orrn0p7pg2+n7Br68vbg637BMFVu2eread
+LZu7xn5WNfWVfOh892Nuz46xqrWdo6e7Lw098epEd2V38GpTad1Ajl5oV8wHGypf
+V05c6V+Js7tXPOsbqCkeiR0xVKXr0x978ESV
+=Mk6d
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/orangemn6
+
+==================================================================
+
