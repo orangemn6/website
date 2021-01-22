@@ -18,7 +18,7 @@ name: Jacob MC
 ip: mc.jacobgoldstein.tk
 **Dont Change Port**
 ```
-Now you should be able to join the server!! If you want to help out, [email me](mailto:linuxjacob@mail.com).
+Now you should be able to join the server!! If you want to help out, [email me](mailto:linuxjacob@mail.com), or see the website [here](https://play.jacobgoldstein.tk)
 
 ## About the server
 Now, the server is running off a VM on google, accessable through ssh. The domain was easily configurable also. I ran ngrok, and directed the ip to the domain name. the port is default (thanks again geyser).
