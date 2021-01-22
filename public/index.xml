@@ -117,5 +117,562 @@ They all have a sense of humor that can make us all laugh even if we’re not a 
       <description>Orion- Twitch Client For Linux Orion is a free and open source QML / C++ client for Twitch.tv which can use multiple player backends (including mpv). The application runs on Linux, Windows, macOS and Android. Using Orion you can watch live Twitch streams and past broadcasts, and browse or search games and channels using a nice material user interface. What&amp;rsquo;s more, Orion lets you login to Twitch, so you can chat and follow channels (and receive notifications when a channel you follow goes online).</description>
     </item>
     
+    <item>
+      <title>Why I Still Use Vim</title>
+      <link>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
+      <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
+      <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
+Image: http://amzn.to/2umsBaY
+I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Galliumos on Chromebook</title>
+      <link>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
+      <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
+      <description>— May 24, 2020
+This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
+This post is about how I got my chromebook dual booting galliumOS.</description>
+    </item>
+    
+    <item>
+      <title>10 Essential Vim Plugins</title>
+      <link>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
+      <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
+      <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
+If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Blog With Hugo</title>
+      <link>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
+      <pubDate>Thu, 10 Dec 2020 17:20:31 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</guid>
+      <description>&lt;p&gt;In this guide I’m going to explain how you can build your own blog using a tool called &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and then put it online. You don’t need any previous experience to follow along, just a willingness to learn.&lt;/p&gt;
+&lt;p&gt;I think Hugo is a great alternative to Wordpress and site builders like Squarespace or Wix. Although there can be more of a learning curve, in return you get much more control, flexibility and ownership over your blog. I’ll go into more detail on the differences in this guide.&lt;/p&gt;
+&lt;p&gt;Even if you’re not very technical I think you’d wrap your head around the basics within a day or less.&lt;/p&gt;
+&lt;p&gt;By the end of this guide you’ll have built a basic blog and put it online. &lt;a href=&#34;https://ibby-hugo-tutorial.github.io/&#34;&gt;This&lt;/a&gt; is what the finished product will look like.&lt;/p&gt;
+&lt;p&gt;If you hit a snag in the tutorial and can’t figure it out feel free to drop me an email or leave a comment. I’ll do my best to help!&lt;/p&gt;
+&lt;p&gt;If you’re interested, you can find the source code for this tutorial &lt;a href=&#34;https://github.com/PARC6502/hugo-blog-tutorial&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;what-is-hugo&#34;&gt;What is Hugo?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a &lt;em&gt;static site generator&lt;/em&gt;. It’s a tool which combines a bunch of files and turns them into HTML, CSS and JavaScript files. Or in other words it uses these files to generate a &lt;em&gt;static site&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Normally the files you write are &lt;em&gt;markdown&lt;/em&gt; files for pages and blog posts, as well as configuration files and HTML templates.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Markdown is a markup language that’s much simpler to use and read than HTML. For example typing&lt;/em&gt; &lt;code&gt;_**this**_&lt;/code&gt; &lt;em&gt;produces bold text like&lt;/em&gt; &lt;strong&gt;&lt;em&gt;this&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;. You can find out more using&lt;/em&gt; &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;&gt;&lt;em&gt;this cheatsheet&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can think of a static site generator as a compromise between between a static site and a content management system (CMS) like WordPress or Ghost.&lt;/p&gt;
+&lt;h2 id=&#34;why-not-just-write-html-css-and-javascript-files&#34;&gt;Why not just write HTML, CSS and JavaScript files?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Easier to learn&lt;/strong&gt;&lt;br&gt;
+If you’re learning from scratch there’s less to learn with static site generators. Markdown is easier to pick up than HTML and you can use preconfigured templates or themes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Less repetition&lt;/strong&gt;&lt;br&gt;
+With an HTML site bits that are the same in different pages have to be repeated. For example you have to insert the top menu into every page. If you change the menu, you have to change it in every page. Hugo takes care of that for you. You will only have to change the menu in one place and Hugo will do the rest.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugins and themes galore!&lt;/strong&gt;&lt;br&gt;
+Hugo makes it very easy to use plugins and themes. If someone else has figured out the solution to your problem, or made a very pretty blog, you can easily use that.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-not-use-a-cms-like-wordpress-or-ghost&#34;&gt;Why not use a CMS like WordPress or Ghost?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Uses less resources&lt;/strong&gt;&lt;br&gt;
+A content management system runs a lot of code on the server. In comparison, the server for a static site only has to serve the content. This means you can spend less money on the server (and more on coffee). Better for your wallet and the environment!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simpler to manage&lt;/strong&gt;&lt;br&gt;
+CMS’ have a lot of moving parts. If you’ve ever tried to manage your own wordpress install, you’ve probably run into database issues, incompatible PHP versions and baffling errors that suddenly appear out of nowhere. It can be hard to figure out where the problem came from with so many moving parts. Not to mention the difficulty of figuring out how to do backups and restores when databases are involved. There’s a lot less points of failure with a tool like Hugo, and because there’s no database backing up can be as simple as copying the files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Easier access to &lt;em&gt;your&lt;/em&gt; data&lt;/strong&gt;&lt;br&gt;
+If you’re not technical and you are using WordPress it can be difficult to interact with your data from outside the administration area. Figuring out where your posts are stored or trying to recover them after a server failure can be daunting tasks. Even worse, popular site builders like SquareSpace and Wix don’t even offer the functionality to export the site you worked so hard to build. It’s _your_data, _your_work, _your_creativity, shouldn’t you get to own and control that?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;On &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;the Hugo website&lt;/a&gt; there’s a big list of all the ways you can install it. I’ll go over the basic methods for Linux, Windows and Mac.&lt;/p&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+&lt;p&gt;You can use &lt;code&gt;snap&lt;/code&gt; to install Hugo on Linux. Snap comes pre-installed on Ubuntu, and if you&amp;rsquo;re using a distribution based on Ubuntu or Debian you can install snap by opening a terminal and typing the following:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Checkout &lt;a href=&#34;https://snapcraft.io/docs/installing-snapd&#34;&gt;this page&lt;/a&gt; if you need more information about how to install snap on your specific distribution.&lt;/p&gt;
+&lt;p&gt;After that you can use snap to install Hugo with this command:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;This is a complete video guide to installing Hugo on Windows.&lt;/p&gt;
+&lt;p&gt;Or if you prefer text instructions, you first need to head over to &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;this releases page&lt;/a&gt; and find the first file that ends in either &lt;code&gt;Windows-32bit.zip&lt;/code&gt; or &lt;code&gt;Windows-64bit.zip&lt;/code&gt;. &lt;a href=&#34;https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq&#34;&gt;Check this page out&lt;/a&gt; if you&amp;rsquo;re not sure whether your computer is 32-bit or 64-bit. (But it&amp;rsquo;s probably 64-bit.)&lt;/p&gt;
+&lt;p&gt;After you download and extract the zip file, you should find a &lt;code&gt;hugo.exe&lt;/code&gt; file. Copy that file.&lt;/p&gt;
+&lt;p&gt;In your &lt;code&gt;C:\&lt;/code&gt; drive, create a folder named &lt;code&gt;Hugo&lt;/code&gt; and inside that create a folder named &lt;code&gt;bin&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now, paste the &lt;code&gt;hugo.exe&lt;/code&gt; file into the &lt;code&gt;C:\Hugo\bin&lt;/code&gt; folder. Your file structure should look like this:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Next you’ll need to open the Control Panel, click on &lt;code&gt;Advanced Setting&lt;/code&gt; then the &lt;code&gt;Environment Variables&lt;/code&gt; button at the bottom of that tab.&lt;/p&gt;
+&lt;p&gt;Select the &lt;code&gt;Path&lt;/code&gt; variable and click edit. Then click the &lt;code&gt;New&lt;/code&gt; button and type in &lt;code&gt;C:\Hugo\bin&lt;/code&gt;. After that OK out of all the windows.&lt;/p&gt;
+&lt;p&gt;To test it works open the command prompt by clicking the windows key and starting to type the word command. The command prompt progam should appear.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;After opening it, type the following:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;If everything is working fine the hugo version should appear.&lt;/p&gt;
+&lt;h1 id=&#34;macos&#34;&gt;MacOS&lt;/h1&gt;
+&lt;p&gt;You can install Hugo on Mac using a tool called &lt;a href=&#34;https://brew.sh/&#34;&gt;homebrew&lt;/a&gt; which you can install from the terminal.&lt;/p&gt;
+&lt;p&gt;To open the terminal use the ⌘ &lt;em&gt;Cmd+Space&lt;/em&gt; keyboard shortcut to open Spotlight. From here type the word &lt;code&gt;Terminal&lt;/code&gt; and open the app that shows up.&lt;/p&gt;
+&lt;p&gt;Now to install homebrew, type the following into your terminal:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;After that is intalled you can install Hugo by typing the following:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;You can check whether or not it’s installed by typing &lt;code&gt;hugo version&lt;/code&gt; in the terminal. If it&amp;rsquo;s installed fine, the version should appear.&lt;/p&gt;
+&lt;h1 id=&#34;a-quick-word-about-the-command-line&#34;&gt;A quick word about the command line&lt;/h1&gt;
+&lt;p&gt;If you’ve made it through the installation section you’ve come across the command line. On Mac and Linux it’s called the ‘Terminal’, on Windows it’s ‘Command Prompt’ or ‘Powershell’.&lt;/p&gt;
+&lt;p&gt;Don’t worry if you’ve never used it before, it’s not as scary as it seems. Instead of interacting with your computer by pointing at and clicking things, you do it by typing commands. No need to learn any commands in advance, just follow along!&lt;/p&gt;
+&lt;h1 id=&#34;setting-the-stage&#34;&gt;Setting the stage&lt;/h1&gt;
+&lt;p&gt;First of all, you want to decide where your hugo site will be stored on your computer. You might just decide to put it in your documents folder and name it something like &lt;code&gt;my-blog&lt;/code&gt;. Or you might create a folder in your home directory called &lt;code&gt;websites&lt;/code&gt; or &lt;code&gt;blogs&lt;/code&gt; and store your blog(s) there. For the sake of this tutorial, I&amp;rsquo;m going with the second option.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The&lt;/em&gt; &lt;strong&gt;&lt;em&gt;home directory&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;is where all your personal files are stored. It includes your&lt;/em&gt; &lt;code&gt;_Documents_&lt;/code&gt; &lt;em&gt;folder, your&lt;/em&gt; &lt;code&gt;_Desktop_&lt;/code&gt; &lt;em&gt;folder and quite a few other folders. On Windows this folder is&lt;/em&gt; &lt;code&gt;_C:\Users\&amp;lt;your-username&amp;gt;_&lt;/code&gt;&lt;em&gt;, on Linux it&amp;rsquo;s&lt;/em&gt; &lt;code&gt;_/home/&amp;lt;your-username&amp;gt;_&lt;/code&gt; &lt;em&gt;and on MacOS it&amp;rsquo;s&lt;/em&gt; &lt;code&gt;_/Users/&amp;lt;your-username&amp;gt;_&lt;/code&gt;&lt;em&gt;. By default the command line opens in the home directory. From the command line, check which directory you&amp;rsquo;re by using the&lt;/em&gt; &lt;code&gt;_pwd_&lt;/code&gt; &lt;em&gt;(print working directory) command on Linux/Mac or the&lt;/em&gt; &lt;code&gt;_chdir_&lt;/code&gt; &lt;em&gt;(check directory) command on Windows.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Open up your command line, which should by default be in the home directory, and type in the following commands.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;The first command creates a folder (&lt;code&gt;mkdir&lt;/code&gt; as in &amp;lsquo;make directory&amp;rsquo;) called websites and the second command moves you into that folder (&lt;code&gt;cd&lt;/code&gt; as in &amp;lsquo;change directory&amp;rsquo;).&lt;/p&gt;
+&lt;p&gt;Now you’re ready to make your hugo site. From the command line, type in this command:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This will create a folder called &lt;code&gt;my-blog&lt;/code&gt; which contains the files and folders that will generate your blog. Before you can see the blog though, you&amp;rsquo;ll need to add a theme.&lt;/p&gt;
+&lt;h1 id=&#34;installing-a-theme&#34;&gt;Installing a theme&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Before you can have a look at your site, you’ll need to install a theme. Hugo has &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;a huge selection of themes&lt;/a&gt;, so hopefully you’ll find a few that you like.&lt;/p&gt;
+&lt;p&gt;For this tutorial I’m going to use the &lt;a href=&#34;https://themes.gohugo.io/hugo-theme-anubis/&#34;&gt;anubis theme&lt;/a&gt;, which is a very simple theme for blogs. Download it &lt;a href=&#34;https://github.com/Mitrichius/hugo-theme-anubis/archive/master.zip&#34;&gt;from this link&lt;/a&gt; and extract the file. After extracting, you should get a folder called &lt;code&gt;hugo-theme-anubis-master&lt;/code&gt;, rename this folder to &lt;code&gt;anubis&lt;/code&gt;, and move it into &lt;code&gt;themes&lt;/code&gt; folder inside &lt;code&gt;my-blog&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;During the rest of this guide when I talk about a folder by saying something like&lt;/em&gt; &lt;code&gt;_my-blog/content_&lt;/code&gt; &lt;em&gt;that means the&lt;/em&gt; &lt;code&gt;_content_&lt;/code&gt; &lt;em&gt;folder inside the&lt;/em&gt; &lt;code&gt;_my-blog_&lt;/code&gt; &lt;em&gt;folder.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here’s what the &lt;code&gt;my-blog&lt;/code&gt; folder should look like:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Inside the &lt;code&gt;my-blog&lt;/code&gt; folder you&amp;rsquo;ll find a file called &lt;code&gt;config.toml&lt;/code&gt;. This is a configuration file that lets you set different options for the site.&lt;/p&gt;
+&lt;p&gt;Open this configuration file with a text editor like gedit or notepad. This is what it&amp;rsquo;ll look like:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;You’ll need to add a new line for the theme option, and whilst you’re here you may as well change the title. You want to end up with a &lt;code&gt;config.toml&lt;/code&gt; file that looks like this:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;You’re now ready to have your first look at your site! In the command line, you need to navigate to the &lt;code&gt;my-blog&lt;/code&gt; folder. If you&amp;rsquo;ve just opened the command line and you&amp;rsquo;re in the home directory, use this command to change the directory:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now run this command to run your blog:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This command line window is now running a &lt;em&gt;Hugo server&lt;/em&gt;. Head over to your browser and go to &lt;code&gt;http://localhost:1313/&lt;/code&gt; to view your blog.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Unfortunately, without any pages, it’s quite boring to look at. Let’s fix that.&lt;/p&gt;
+&lt;h1 id=&#34;your-first-hugo-page&#34;&gt;Your first hugo page&lt;/h1&gt;
+&lt;p&gt;Open a new command line window (you need to keep the other one running so you can see updates when they happen to your site.) Like you did earlier, navigate to the &lt;code&gt;my-blog&lt;/code&gt; folder:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now, run this command to create a new post:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;If you head to your browser, you should see that this empty post has been added.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Use your file explorer to open up the &lt;code&gt;my-blog/content/posts/&lt;/code&gt; folder. Inside you&amp;rsquo;ll find a file called &lt;code&gt;my-first-post.md&lt;/code&gt;, which you created with the command used earlier.&lt;/p&gt;
+&lt;p&gt;Open this file up with a text editor, it will look a bit like this:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;What you see here is called &lt;em&gt;frontmatter&lt;/em&gt;, specifically this is &lt;em&gt;YAML frontmatter&lt;/em&gt;. This is information about the post that’s not post content. In other words, metadata.&lt;/p&gt;
+&lt;p&gt;You can add other metadata to the frontmatter such as tags, categories or a summary.&lt;/p&gt;
+&lt;p&gt;Below the three dashes is where you’ll add your content, try adding the following below the three dashes:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Save the file, then check your browser to see what it looks like.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Click the post title to navigate to the post page. You should see &lt;code&gt;http://localhost:1313/posts/my-first-post/&lt;/code&gt; in your browser URL bar.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Use &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;this markdown cheatsheet&lt;/a&gt; to play around with your page and add some content.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Although using a plain text editor works fine, it’ll probably make your life easier to look into an editor with markdown support.&lt;/em&gt; &lt;a href=&#34;https://typora.io/&#34;&gt;&lt;em&gt;Typora&lt;/em&gt;&lt;/a&gt;&lt;em&gt;,&lt;/em&gt; &lt;a href=&#34;https://marktext.app/&#34;&gt;&lt;em&gt;Mark Text&lt;/em&gt;&lt;/a&gt; &lt;em&gt;and&lt;/em&gt; &lt;a href=&#34;https://wereturtle.github.io/ghostwriter/&#34;&gt;&lt;em&gt;ghostwriter&lt;/em&gt;&lt;/a&gt; &lt;em&gt;are all specialised markdown editors. Most code editors like&lt;/em&gt; &lt;a href=&#34;https://notepad-plus-plus.org/&#34;&gt;&lt;em&gt;Notepad++&lt;/em&gt;&lt;/a&gt; &lt;em&gt;and&lt;/em&gt; &lt;a href=&#34;https://vscodium.com/&#34;&gt;&lt;em&gt;VSCodium&lt;/em&gt;&lt;/a&gt; &lt;em&gt;have plugins that support markdown.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;changing-the-summary&#34;&gt;Changing the summary&lt;/h1&gt;
+&lt;p&gt;Now you’ve got the bones of a blog, but you may have noticed that the formatting of the post summary on the homepage isn’t all that great. All the content is showing up, without any of the formatting!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Although it looks like it’s all the text, it’s actually the first ~70 words, it’s just that your first post has less than that so it shows all the text.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Let’s create a new post to play around with these content summaries.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Put some nonsense text in your &lt;code&gt;summaries.md&lt;/code&gt; file. Here&amp;rsquo;s what my file looks like:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;After checking it out in the browser you can see the summary doesn’t contain the whole text.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Still, it would be better if you could have more control over the summary. Sometimes an excerpt might be fine, but like you saw with the first post, it can look a bit mangled.&lt;/p&gt;
+&lt;p&gt;To control the summary you can use the `&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>12 Reasons Why Linux Is Better</title>
+      <link>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
+      <pubDate>Sun, 06 Dec 2020 21:44:06 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</guid>
+      <description>12 reasons why Linux is better than Windows The myth that Linux is complex and only needed by programmers and developers is not true.
+Windows is the most popular operating system, and it is well deserved. She has come a long way, constantly improving and developing. However, although Microsoft claims that the Ten is its best creation, in some things Linux is far superior to Windows.
+1. Convenient implementation of updates Perhaps we all know about this situation.</description>
+    </item>
+    
+    <item>
+      <title>The Fascinating Arch Linux Rice</title>
+      <link>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</link>
+      <pubDate>Fri, 04 Dec 2020 16:45:48 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</guid>
+      <description>Recently, I dive into Linux the third time. The first time is in my childhood, I was attracted by the magazines, which introduced me the hacker culture. The second time was weird, I wanted to focus on study instead of PC gaming.
+This time, it&amp;rsquo;s totally different. /r/unixporn and /r/MechanicalKeyboards attracted me. The most fascinating part of that is RICE or RICE culture.
+RICE RICE is not the food rice. Instead, it is the acronym of Race Inspired Cosmetic Enhancements.</description>
+    </item>
+    
+    <item>
+      <title>Linux Ricing and How I Do It (just the basics)</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
+      <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
+      <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
+Script 1: Pywal So for this one you need pywal.
+wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
+#! /usr/bin/env python import json import os def make_element(name, scope, **kwargs): &amp;#34;&amp;#34;&amp;#34;Helper function for generating color scheme entries&amp;#34;&amp;#34;&amp;#34; result = {} result[&amp;#39;name&amp;#39;] = name result[&amp;#39;scope&amp;#39;] = scope result.</description>
+    </item>
+    
+    <item>
+      <title>Htb Writeup Be Happy</title>
+      <link>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
+      <pubDate>Mon, 30 Nov 2020 15:10:07 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
+      <description>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to https://www.jacobgoldstein.tk/happy/htb/index.html. once you do that you will get some base64 code. decode that and there is your flag!!</description>
+    </item>
+    
+    <item>
+      <title>My Life So Far</title>
+      <link>https://www.jacobgoldstein.tk/posts/my-life-so-far/</link>
+      <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/my-life-so-far/</guid>
+      <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
+Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
+    </item>
+    
+    <item>
+      <title>10 Github Repos every web dev should know</title>
+      <link>https://www.jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</link>
+      <pubDate>Fri, 27 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</guid>
+      <description>10 Awesome Github Repos Every Web Developer Should Know From giant repos of resources to interview prep, there’s a lot of great stuff here
+Photo by Yancy Min on Unsplash
+I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
+1. Awesome Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with i3wm</title>
+      <link>https://www.jacobgoldstein.tk/posts/getting-started-with-i3wm/</link>
+      <pubDate>Thu, 26 Nov 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/getting-started-with-i3wm/</guid>
+      <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
+    </item>
+    
+    <item>
+      <title>How to Get Hackthebox Invite Code</title>
+      <link>https://www.jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</link>
+      <pubDate>Mon, 23 Nov 2020 16:05:38 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</guid>
+      <description>Hack the Box: How to get the Invite Code What is Hack the Box ?
+Hack The Box is an online platform that allows you to test and advance your skills in Penetration Testing and Cybersecurity. The platform contains assorted challenges that are continuously updated. Some of the challenges simulate real world situations/scenarios, while others are more like CTFs. Needless to say, Hack the box is beyond resourceful if you want to level up your cybersecurity skills; especially as a beginner.</description>
+    </item>
+    
+    <item>
+      <title>A Linux User&#39;s Thoughts on Macos</title>
+      <link>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</link>
+      <pubDate>Sat, 21 Nov 2020 23:44:09 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
+      <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
+    </item>
+    
+    <item>
+      <title>Traits of Good and Bad Leaders</title>
+      <link>https://www.jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</link>
+      <pubDate>Mon, 16 Nov 2020 17:37:08 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</guid>
+      <description>Traits of Good and Bad Leaders Successful businesses need leaders, someone who can inspire employees and lead them, and the business towards success. Leaders encourage others to work to their full potential, inspire creativity, and aid motivation. During turbulent economic times, the need for good leaders intensifies. Someone who presents a clear vision for recovery leads by example and instills confidence in those around them. A good leader has many traits, if you can recognize these within yourself and capitalize on them, then you may become a successful leader in your work environment.</description>
+    </item>
+    
+    <item>
+      <title>Try Linux Online</title>
+      <link>https://www.jacobgoldstein.tk/posts/try-linux-online/</link>
+      <pubDate>Sun, 15 Nov 2020 21:28:35 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/try-linux-online/</guid>
+      <description>DistroTest is a web service that allows you to test Linux and Unix operating systems online for free, without having to install them locally. You can try 300+ Linux and Unix operating systems online without having to install them locally. Just visit the website, choose the Linux/Unix distro of your choice and run it!
+The creators of DistroTest have hosted this web service on Debian using Qemu. There is no restrictions to use the distros listed here.</description>
+    </item>
+    
+    <item>
+      <title>All MCU Movies Ranked</title>
+      <link>https://www.jacobgoldstein.tk/posts/all-mcu-movies-ranked/</link>
+      <pubDate>Sun, 15 Nov 2020 10:20:38 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/all-mcu-movies-ranked/</guid>
+      <description>All Marvel Cinematic Universe Movies Ranked With ‘Avengers: Endgame’ in theaters, how do the 22 films of the MCU stack up?
+Eleven years and twenty-two films. It’s crazy to think about. When you look back at some of the Marvel Cinematic Universe’s early work, they look rather quaint compared to the epic *Avengers: Endgame*. The first film of the series, Iron Man (2008), was released to theaters when I was fifteen.</description>
+    </item>
+    
+    <item>
+      <title>The Avengers Messed Up Bad</title>
+      <link>https://www.jacobgoldstein.tk/posts/the-avengers-messed-up-bad/</link>
+      <pubDate>Sat, 14 Nov 2020 10:12:54 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/the-avengers-messed-up-bad/</guid>
+      <description>The Avengers Messed Up The Avengers Messed Up
+How our favorite superheroes ruined the world they meant to save © Marvel Studios
+It’s no spoiler to reveal that in Avengers: Endgame, the good guys end up defeating the bad guys. That’s just how superhero stories work — at least in the second half of a two-part film series. But the Avengers don’t seem to realize that they’ve created many more problems in the process.</description>
+    </item>
+    
+    <item>
+      <title>The XY Files- the Lost Plot of Gen 6</title>
+      <link>https://www.jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</link>
+      <pubDate>Fri, 13 Nov 2020 10:07:58 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</guid>
+      <description>The XY Files: The Lost Plot of Pokemon’s 6th Generation Scrapped, Leaked, Posted and Forgotten
+Game Freak and The Pokemon Company have always been very secretive. Alpha and Beta builds of their games are almost mythic in rarity, and we so rarely get to see early or scrapped Pokemon designs. Everything remains in the vault, even the garbage.
+This secrecy has engendered a history of speculation regarding upcoming games and Pokemon designs.</description>
+    </item>
+    
+    <item>
+      <title>The Secret of Minecraft</title>
+      <link>https://www.jacobgoldstein.tk/posts/the-secret-of-minecraft/</link>
+      <pubDate>Fri, 06 Nov 2020 08:40:14 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/the-secret-of-minecraft/</guid>
+      <description>The secret of Minecraft And its challenge to the rest of us minecraft.gamepedia.com
+It’s almost inevitable: I encounter *Minecraft *somewhere online—it’s easy to do, because there’s a lot of Minecraft out there—and I end up convinced I’m doing the wrong thing with my life.
+Let me explain.
+Briefly, for the uninitiated: Minecraft is a video game, first released in 2009 as a buggy prototype by a solo Swedish programmer named Markus Persson.</description>
+    </item>
+    
+    <item>
+      <title>Linux Ricing Basics</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-ricing-basics/</link>
+      <pubDate>Thu, 05 Nov 2020 17:43:02 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/linux-ricing-basics/</guid>
+      <description>TL;DR Here are my dotfiles.
+Disclaimer: I am in no way a ricing expert. This guide is intended for fellow beginners confused on the very basics when it comes to the customization of their Unix system.
+Introduction After making my departure to Arch Linux a month ago I was quickly introduced to the world of tiling window managers. The idea is that instead of having a full blown desktop environment (DE) such as Gnome or Unity, you just have a window manager that utilizes keyboard shortcuts to organize your windows.</description>
+    </item>
+    
+    <item>
+      <title>Disable Snaps in Ubuntu</title>
+      <link>https://www.jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</link>
+      <pubDate>Thu, 05 Nov 2020 11:43:39 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</guid>
+      <description>Intro Don&amp;rsquo;t get me wrong, snaps are great in theory - If you aren&amp;rsquo;t familiar, a snap package is like a sandboxed application that is packaged in such a way that:
+ You can be sure you&amp;rsquo;re running exactly what the app developer intended, as all dependencies and assets are bundled into the snap application package The snap application generally doesn&amp;rsquo;t own your entire system, it runs in an application sandbox of sorts Snaps are cross-platform and distributed independently from apt/deb packages, and as such are usually more up to date than those found in apt  Now this all sounds great, and it is in some ways (especially for app developers), but it comes at a cost: and that is generally performance and annoyances with application theming, access to user folders, and the like.</description>
+    </item>
+    
+    <item>
+      <title>Entire Mcu Timeline Explained</title>
+      <link>https://www.jacobgoldstein.tk/posts/entire-mcu-timeline-explained/</link>
+      <pubDate>Tue, 03 Nov 2020 21:24:28 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/entire-mcu-timeline-explained/</guid>
+      <description>With over 20 films and a handful of TV shows spread out over more than a decade, the Marvel Cinematic Universe is the biggest franchise in the pop culture landscape — and despite the fact that they called the most recent movie Endgame, it doesn&amp;rsquo;t seem like it&amp;rsquo;s going to be stopping any time soon. That massive scope has allowed Marvel Studios to create a sprawling, interconnected universe built on a shared continuity, and much like the comics the MCU is based on, that means things can get pretty complicated.</description>
+    </item>
+    
+    <item>
+      <title>Why You Should Learn Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/why-you-should-learn-linux/</link>
+      <pubDate>Thu, 29 Oct 2020 13:50:18 -0400</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/why-you-should-learn-linux/</guid>
+      <description>Why You Should Probably Learn Linux Let’s face it, Linux sounds scary to the untrained ear. Most average users think of black and white terminals, and pale, white, basement dwellers clacking assembly and basic into an ancient IBM machine when they hear the term “ Linux” arise in conversation. Of course, the same might not be said for Data Scientists, and programmers alike, but the stigma is certainly still illustrated inside of that particular clique.</description>
+    </item>
+    
+    <item>
+      <title>6 Terminal Commands You Should Know</title>
+      <link>https://www.jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</link>
+      <pubDate>Wed, 28 Oct 2020 10:05:01 -0400</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</guid>
+      <description>6 Terminal Commands You Should Know From switching your private keys to directory listings with hidden files
+As a developer, there are two key things that are paramount to a productive setup: speed and efficiency.
+The more time you take to accomplish simple tasks like searching for files or displaying their contents, the more is taken from critical development time. When working on the command-line, things like aliases and custom functions can speed things up and let you get back to developing more quickly.</description>
+    </item>
+    
+    <item>
+      <title>Best Linux Software</title>
+      <link>https://www.jacobgoldstein.tk/posts/best-linux-software/</link>
+      <pubDate>Wed, 28 Oct 2020 10:02:54 -0400</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/best-linux-software/</guid>
+      <description>Best Linux Desktop Software Awards per Category for 2017! hey! you do realize that this post is only written because i was bored to do anything else, right?
+also i want to make super clear that on these awards, we ran a set of completely democratic procedures, with a fully transparent voting. and by “we” i mean “me”, and by “voting” i mean a single vote! “mine” 👐
+i will try to cover some basic categories, but not everything!</description>
+    </item>
+    
+    <item>
+      <title>Linux Survival Guide</title>
+      <link>https://www.jacobgoldstein.tk/posts/linux-survival-guide/</link>
+      <pubDate>Mon, 26 Oct 2020 13:02:06 -0400</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/linux-survival-guide/</guid>
+      <description>Linux: A Survival Guide for Beginners I survived the transition to Linux—and you can too
+Photo by Chris Ried on Unsplash
+Switching from Windows to Linux can be really scary. But if you can survive the first few months, the eventual returns are exponential. Here’s how I survived.
+TLDR   Though I am just an amateur in Linux, I was able to survive the transition and indeed benefitted from it.</description>
+    </item>
+    
+    <item>
+      <title>Minecraft Server</title>
+      <link>https://www.jacobgoldstein.tk/minecraft-server/</link>
+      <pubDate>Mon, 26 Oct 2020 10:26:18 -0400</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/minecraft-server/</guid>
+      <description>Wow. I have been working for so long, just to get to this point. I finally have done it. Ihave made the official jacob MC server!! This might seem out of the blue, but I have been working on this more than anything.
+How to join Because ngrok only supports TCP, I cant run a bedrock server. Sorry! To join the server, put the following into minecraft:
+name: Jacob MC ip: mc.</description>
+    </item>
+    
+    <item>
+      <title>Ventoy Persistence</title>
+      <link>https://www.jacobgoldstein.tk/posts/ventoy-persistence/</link>
+      <pubDate>Sun, 25 Oct 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/ventoy-persistence/</guid>
+      <description>A while ago, I have discussed how to create multiboot USB drives with Ventoy application. Today, I will see how to create persistent bootable USB using Ventoy in Linux. As you may already know, a regular bootable medium allows us to test the Linux distributions without having to install them on the hard drive. When you are on a Live OS, you can do all sort of things, such as installing applications, downloading files, playing media, creating files and folders, customizing it as per your liking and a lot more.</description>
+    </item>
+    
+    <item>
+      <title>Ventoy Multiboot USB</title>
+      <link>https://www.jacobgoldstein.tk/posts/ventoy-multiboot-usb/</link>
+      <pubDate>Fri, 23 Oct 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/ventoy-multiboot-usb/</guid>
+      <description>Ventoy is a free, open source and cross-platform program to create multiboot USB drives in Linux and MS Windows. You don&amp;rsquo;t need to format your USB devices over and over. Just create a bootable USB drive once and add as many as ISOs you want in future. Ventoy will automatically create the menu entries for the newly added ISOs and add them to the boot menu. Once you created the multiboot USB, boot your system with the USB drive, select the ISO you want to load and start using it in no time.</description>
+    </item>
+    
+    <item>
+      <title>My New Site</title>
+      <link>https://www.jacobgoldstein.tk/posts/my-new-site/</link>
+      <pubDate>Thu, 22 Oct 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/my-new-site/</guid>
+      <description>My new site Introduction Remember my old site, with my orange theme and ugly font? Well, that is no more!! I have created a new site with a site generator called hugo. Hugo is like jekyll, but more customizable.
+Why? Why did I choose to use hugo, over anything else? The first reason is that it is more customizable. The options are not limited to github pages rules. My second reason is that it has lots of themes, like this one.</description>
+    </item>
+    
+    <item>
+      <title>Important Linux Commands</title>
+      <link>https://www.jacobgoldstein.tk/posts/important-linux-commands/</link>
+      <pubDate>Mon, 05 Oct 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/important-linux-commands/</guid>
+      <description>Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel.</description>
+    </item>
+    
+    <item>
+      <title>Install Arch Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/install-arch-linux/</link>
+      <pubDate>Mon, 05 Oct 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/install-arch-linux/</guid>
+      <description>After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
+ The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e.</description>
+    </item>
+    
+    <item>
+      <title>Why Linux is Better</title>
+      <link>https://www.jacobgoldstein.tk/posts/why-linux-is-better/</link>
+      <pubDate>Wed, 30 Sep 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/why-linux-is-better/</guid>
+      <description>10 Reasons Why Linux Is Better Than Windows It is often seen that people get confused over choosing Windows or Linux as a host operating system in both server and desktop spaces. People will focus on aspects of cost, the functionality provided, hardware compatibility, support, reliability, security, pre-built software, cloud-readiness, etc. before they finalize. In this regard, this article covers ten reasons for using Linux over Windows.
+10 Reasons Why Linux Is Better Than Windows 1.</description>
+    </item>
+    
+    <item>
+      <title>Best Gaming Distros</title>
+      <link>https://www.jacobgoldstein.tk/posts/best-gaming-distros/</link>
+      <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/best-gaming-distros/</guid>
+      <description>Best Linux Distros for Gaming There are so many Linux distributions for gamers you would find today. If you’re confused with all the options you could choose from, we got you covered.
+We’ve compiled a list to help you pick the best Linux distro for your gaming preference and needs.
+1. Steam OS Let’s start the list off with Steam OS. This is one of the most popular gaming distros today.</description>
+    </item>
+    
+    <item>
+      <title>Dual Boot Linux Mint</title>
+      <link>https://www.jacobgoldstein.tk/posts/dual-boot-linux-mint/</link>
+      <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/dual-boot-linux-mint/</guid>
+      <description>Dual Boot Linux Mint 20 and Windows 10 With recent rapid increases in information technology, every user wants to customize their operating system environment according to their needs. Today, we will talk about the most popular Linux Mint 20 distribution, known as Ulyana. Linux Mint is an open-source, flexible, community-based Linux operating system in which you can customize operating environments and applications on-demand. As compared to Windows, Linux Mint is a much more secure platform.</description>
+    </item>
+    
+    <item>
+      <title>Plagiarism in Free software</title>
+      <link>https://www.jacobgoldstein.tk/posts/plagiarism-in-free-software/</link>
+      <pubDate>Tue, 29 Sep 2020 08:24:28 -0400</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/plagiarism-in-free-software/</guid>
+      <description>Plagiarism in Free Software Note: the opinions expressed here are solely mine. (Duh)
+Something that I take rather seriously is the copying and redistibution without credit (intentionally or otherwise) of free software, i.e. plagiarism.
+There&amp;rsquo;s a huge difference between something being in the public domain and being free and open source. The latter has a license, for one, and the purpose of it being under license is to preserve the rights of the author(s) to their work(s) but some people either misunderstand or ignore that distinction.</description>
+    </item>
+    
+    <item>
+      <title>10 things to do in Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/10-things-to-do-in-linux/</link>
+      <pubDate>Mon, 28 Sep 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/10-things-to-do-in-linux/</guid>
+      <description>10 Things To Do After Installing Linux Welcome to Linux! So you&amp;rsquo;ve found [a site][1], read some blog or other online article that tells you that switching to Linux is worthwhile and you&amp;rsquo;ve made the switch. So of course you&amp;rsquo;re now asking yourself &amp;ldquo;what are the next ten things that I should to do?&amp;rdquo; which is understandable because that&amp;rsquo;s what we all do when we start using something unfamiliar to us.</description>
+    </item>
+    
+    <item>
+      <title>Install Linux with CHRX</title>
+      <link>https://www.jacobgoldstein.tk/posts/install-linux-with-chrx/</link>
+      <pubDate>Wed, 16 Sep 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/install-linux-with-chrx/</guid>
+      <description>Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
+This post is about how I got my chromebook dual booting galliumOS.
+Step one: go into Developer mode. Developer mode is a setting that lets you do development. It&amp;rsquo;s not on by default because it also makes it easier to install a malicious package. (APKs, or android packages, can&amp;rsquo;t be opened without developer mode.</description>
+    </item>
+    
+    <item>
+      <title>Install Linux</title>
+      <link>https://www.jacobgoldstein.tk/posts/install-linux/</link>
+      <pubDate>Tue, 08 Sep 2020 19:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/install-linux/</guid>
+      <description>{: .box-warning} Warning: This will wipe all data from device
+Getting an iso
+-step 1: download an iso of the distro. some user friendly distros i recommend for beginners are ubuntu, and linux lite. once you get the iso file, it should be 1.0GB+
+-step 2: Burn the iso to a disk or usb drive. i use a tool called etcher. download it at https://etcher.io once the iso is burned, put usb or disk in device and move on to your device instructions</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.jacobgoldstein.tk/contact/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/contact/</guid>
+      <description>You can contact us here!
+ Name   Email   Message   Send  </description>
+    </item>
+    
   </channel>
 </rss>
