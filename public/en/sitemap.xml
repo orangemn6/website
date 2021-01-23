@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/</loc>
-    <lastmod>2021-01-19T13:06:15-05:00</lastmod>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://www.jacobgoldstein.tk/</loc>
-    <lastmod>2021-01-19T13:06:15-05:00</lastmod>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -33,18 +33,13 @@
   </url>
   
   <url>
-    <loc>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</loc>
-    <lastmod>2021-01-19T13:06:15-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jacobgoldstein.tk/posts/</loc>
-    <lastmod>2021-01-19T13:06:15-05:00</lastmod>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/tags/</loc>
-    <lastmod>2021-01-19T13:06:15-05:00</lastmod>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -58,12 +53,32 @@
   </url>
   
   <url>
+    <loc>https://www.jacobgoldstein.tk/posts/vscode-review/</loc>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/tags/web-dev/</loc>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/categories/web-dev/</loc>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jacobgoldstein.tk/tags/webdev/</loc>
-    <lastmod>2021-01-19T13:06:15-05:00</lastmod>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jacobgoldstein.tk/categories/webdev/</loc>
+    <lastmod>2021-01-23T00:00:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</loc>
     <lastmod>2021-01-19T13:06:15-05:00</lastmod>
   </url>
   

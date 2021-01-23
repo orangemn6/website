@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 19 Jan 2021 13:06:15 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 00:00:45 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VSCode Review</title>
+      <link>https://www.jacobgoldstein.tk/posts/vscode-review/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:45 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/vscode-review/</guid>
+      <description>I mean, I have only been using VS Code for 1-2 hours and I already love it. You see, it just makes programming and writing so much easier when you have a good editor. In this article I will go over my top things I like about Visual Studio Code
+The Plugins One of the best things about VS Code is the plugins. There are probably thousands of plugins in the library.</description>
+    </item>
+    
     <item>
       <title>Making My Resume Site</title>
       <link>https://www.jacobgoldstein.tk/posts/making-my-resume-site/</link>

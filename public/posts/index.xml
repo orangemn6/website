@@ -6,8 +6,34 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 19 Jan 2021 13:06:15 -0500</lastBuildDate>
+        <lastBuildDate>Sat, 23 Jan 2021 00:00:45 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>VSCode Review</title>
+            <link>https://www.jacobgoldstein.tk/posts/vscode-review/</link>
+            <pubDate>Sat, 23 Jan 2021 00:00:45 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/vscode-review/</guid>
+            <description>I mean, I have only been using VS Code for 1-2 hours and I already love it. You see, it just makes programming and writing so much easier when you have a good editor. In this article I will go over my top things I like about Visual Studio Code
+The Plugins One of the best things about VS Code is the plugins. There are probably thousands of plugins in the library.</description>
+            <content type="html"><![CDATA[<p>I mean, I have only been using VS Code for 1-2 hours and I already love it. You see, it just makes programming and writing <em>so</em> much easier when you have a good editor. In this article I will go over my top things I like about Visual Studio Code</p>
+<h2 id="the-plugins">The Plugins</h2>
+<p>One of the best things about VS Code is the plugins. There are probably <strong><em>thousands</em></strong> of plugins in the library. (I think they are supposed to be called &ldquo;extensions&rdquo; but screw that) Also, some plugins/extensions make life a lot easier, eg. an extension called CodeTogether that allows you to code live with anyone with the link.</p>
+<h2 id="the-themes">The Themes</h2>
+<p>In addition to plugins, VS Code has a lot of themes. Currently, I am using the github dark theme. I also personally think that Monokai Dimmed fits my (current) setup. Some other cool themes are Dracula, Aeon, and Night Owl. These themes are <strong><em>so simple</em></strong> to install that customization is easy.</p>
+<h2 id="the-ui">The UI</h2>
+<p>Now, the vscode UI is a bit different than other editors. It has a file tree and tabs, but it also has a side menu with options to run your code, git information, a search, and settings. There is also a bottom bar with some information about your code like git, spaces, language, encoding, and line number/column.</p>
+<h2 id="the-syntax-highlighting">The Syntax Highlighting</h2>
+<p>I am not sure if this is just my theme, but the syntax highlighting is just plain AMAZING. Like, as I am writing this, it highlights and formats all my markdown. I was working on a web project, and VS Code highlighted all of the html and CSS within a minute, which is comparably faster than sublime text and brackets.</p>
+<h2 id="git-info">Git Info</h2>
+<p>One of my favorite parts of VS Code is the git info, which is <strong><em>everywhere</em></strong>. On the bottom bar, it shows my branch, on the sidebar there is a whole git menu that shows everything you could ever think of, and on the file tree it shows tracked and untracked files.</p>
+<h2 id="drawbacks">Drawbacks</h2>
+<p>When I saw all these features, I knew it had to be too good to be true. One instance is the speed of the app. On my Intel N3060 CPU, the app seems pretty snappy while editing, but when I open the command pallet or run my code, it tends to &ldquo;lag&rdquo; a lot. Another drawback is that <strong>VSCODE IS NOT OPEN SOURCE</strong>. My way around this was using VSCodium, which is an open-source version of VSCode.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Overall, VSCode is a very good editor. Some say it is more than an editor, an IDE. I personally said that vscode can do more than emacs. Now all we have to do is make a vscode window manager!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Making My Resume Site</title>
