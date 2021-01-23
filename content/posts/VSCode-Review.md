@@ -2,6 +2,7 @@
 title: "VSCode Review"
 author: Jacob Goldstein
 date: 2021-01-23T00:00:45-05:00
+type: post
 draft: true
 categories:
  - webdev
