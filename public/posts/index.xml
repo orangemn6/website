@@ -6,8 +6,90 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 23 Jan 2021 00:00:45 -0500</lastBuildDate>
+        <lastBuildDate>Sun, 24 Jan 2021 11:38:56 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Switching From VSCode to VSCodium</title>
+            <link>https://www.jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</link>
+            <pubDate>Sun, 24 Jan 2021 11:38:56 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</guid>
+            <description>24 Oct 2019
+Blogception: a post on VSCodium as it’s being written in VSCodium.
+I am writing this blog post in VSCodium. What? Is that like VSCode?
+Yes, it’s basically VSCode minus the corporate bullshit like surveillance and proprietary-licensed binaries.
+An ode to VSCode VSCode is the best code editor I’ve ever used.
+It’s actually rather delightful.
+There, I’ve said it – and I’ve used a lot of editors across 30+ years of programming.</description>
+            <content type="html"><![CDATA[<p>24 Oct 2019</p>
+<p><img src="https://ar.al/2019/10/24/how-to-migrate-from-vscode-to-vscodium-the-best-code-editor-ever-minus-the-corporate-bullshit/writing-this-post-in-vscodium.jpeg" alt="Screenshot of this post as I write it in VSCodium."></p>
+<p>Blogception: a post on VSCodium as it’s being written in VSCodium.</p>
+<p>I am writing this blog post in <a href="https://github.com/VSCodium/">VSCodium</a>. What? Is that like VSCode?</p>
+<p>Yes, it’s basically VSCode minus the corporate bullshit like surveillance and proprietary-licensed binaries.</p>
+<h2 id="an-ode-to-vscode">An ode to VSCode</h2>
+<p>VSCode is the best code editor I’ve ever used.</p>
+<p>It’s actually rather delightful.</p>
+<p>There, I’ve said it – and I’ve used a lot of editors across 30+ years of programming.</p>
+<h2 id="vs-what">VS-what?</h2>
+<p><img src="https://ar.al/2019/10/24/how-to-migrate-from-vscode-to-vscodium-the-best-code-editor-ever-minus-the-corporate-bullshit/vscode-logo.jpeg" alt="Screenshot of the VSCode logo"></p>
+<p>VSCode: it’s not just for code (ok, it is).</p>
+<p>For those of you who are not programmers (yet!) or have been living under a rock, VSCode is an open source code editor from Microsoft.</p>
+<p>I know, I was shocked too.</p>
+<h2 id="enter-the-bullshit">Enter, the bullshit</h2>
+<p>Even though it’s awesome, Microsoft is still Microsoft so – of course – it comes with telemetry (read: surveillance) by default. So while I love using it, I had to qualify every recommendation to others with “and remember to turn telemetry off.”</p>
+<p>Well, no longer!</p>
+<h2 id="beyond-the-bullshit">Beyond the bullshit</h2>
+<p>When I started using vscode, I heard about an open-source version called VS Codium.</p>
+<p>It sounded great so I decided to check it out and I’m very glad I did (thanks, cukmekerb).</p>
+<h2 id="enter-vscodium">Enter VSCodium</h2>
+<p><img src="https://ar.al/2019/10/24/how-to-migrate-from-vscode-to-vscodium-the-best-code-editor-ever-minus-the-corporate-bullshit/vscodium.jpeg" alt="Screenshot of the VSCodium page on GitHub showing the VSCodium logo – looks like a blue coral or mycelium of some sort – and reads “VSCodium: Free/Libre Open Source Software Binaries of VSCode”"></p>
+<p>The VSCodium project page on Microsoft GitHub.</p>
+<p>So it turns out that some enterprising freedom-lovers created a project called VSCodium that takes the MIT-licensed source code, removes the telemetry (read: surveillance) from the codebase (along with the branding and licenses the resulting binaries under the MIT license, just like the code itself.</p>
+<p>How yummy!</p>
+<h2 id="bonus-auto-updates">Bonus: auto updates!</h2>
+<p>Also, given that my main development machine is a laptop running Linux, I had to keep installing VSCode updates by hand as Microsoft does not make automatic updates available for my platform. VSCodium fixes that for me as <a href="https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo#how-to-install-for-debianubuntulinux-mint">they have an apt repository</a>.</p>
+<h2 id="shut-up-and-dont-take-my-money">Shut up and don’t take my money!</h2>
+<p>So how does one install VSCodium? Also, given there’s a high chance you’re already running VSCode (because, like, who isn’t, amirite?), how do you migrate your extensions and other settings to it?</p>
+<p>Easy peasy!</p>
+<p>If you’re on a Debian-derived operating system, you can just copy/paste the following commands and be up and running in the next few seconds.</p>
+<p>For other platforms, it’s just as easy if not easier (<a href="https://github.com/VSCodium/vscodium#downloadinstall">read the download/install instructions</a> and the <a href="https://github.com/VSCodium/vscodium/blob/master/DOCS.md#migrating-from-visual-studio-code-to-vscodium">migrating from Visual Studio Code to VSCodium</a> section of the documentation for details).</p>
+<ol>
+<li>
+<h2 id="install-vscodium-with-auto-updates">Install VSCodium with auto updates</h2>
+<p>On Debian-derived operating systems that have the <code>apt</code> package manager:</p>
+<pre><code># Authorise Paul Carroty’s repository.
+# (https://twitter.com/paulcarroty)
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+    
+# Add Paul’s custom apt repository to your apt sources list.
+echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list
+    
+# Update your apt package list and install VSCodium.
+sudo apt update
+sudo apt install codium
+</code></pre>
+</li>
+<li>
+<h2 id="copy-your-extensions-and-settings-over-from-vscode-to-vscodium">Copy your extensions and settings over from VSCode to VSCodium.</h2>
+<p>On Linux:</p>
+<pre><code># Create the folder to host your extensions.
+mkdir -p ~/.vscode-oss/
+    
+# Copy your extensions over from VSCode.
+cp -R ~/.vscode/extensions ~/.vscode-oss/
+    
+# Create the folder to hold your settings.
+mkdir -p $HOME/.config/VSCodium/
+    
+# Copy your settings over from VSCode.
+cp -R $HOME/.config/Code/User $HOME/.config/VSCodium/User/
+</code></pre>
+</li>
+</ol>
+<p>After you’ve followed the above instructions – or those for your own platform – you should be able to launch VSCodium by just typing <code>codium</code> in Terminal</p>
+]]></content>
+        </item>
         
         <item>
             <title>VSCode Review</title>
