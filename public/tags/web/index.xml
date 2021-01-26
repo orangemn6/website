@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web on Jacob Goldstein&#39;s Website</title>
-    <link>https://www.jacobgoldstein.tk/tags/web/</link>
+    <link>https://jacobgoldstein.tk/tags/web/</link>
     <description>Recent content in web on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2020 17:20:31 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 17:20:31 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build a Blog With Hugo</title>
-      <link>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
+      <link>https://jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
       <pubDate>Thu, 10 Dec 2020 17:20:31 -0500</pubDate>
       
-      <guid>https://www.jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</guid>
+      <guid>https://jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</guid>
       <description>&lt;p&gt;In this guide I’m going to explain how you can build your own blog using a tool called &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and then put it online. You don’t need any previous experience to follow along, just a willingness to learn.&lt;/p&gt;
 &lt;p&gt;I think Hugo is a great alternative to Wordpress and site builders like Squarespace or Wix. Although there can be more of a learning curve, in return you get much more control, flexibility and ownership over your blog. I’ll go into more detail on the differences in this guide.&lt;/p&gt;
 &lt;p&gt;Even if you’re not very technical I think you’d wrap your head around the basics within a day or less.&lt;/p&gt;
