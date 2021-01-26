@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distros on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/tags/distros/</link>
+    <link>http://jacobgoldstein.tk/tags/distros/</link>
     <description>Recent content in Distros on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2020 19:00:00 +0000</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/distros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Sep 2020 19:00:00 +0000</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/distros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Gaming Distros</title>
-      <link>https://jacobgoldstein.tk/posts/best-gaming-distros/</link>
+      <link>http://jacobgoldstein.tk/posts/best-gaming-distros/</link>
       <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/best-gaming-distros/</guid>
+      <guid>http://jacobgoldstein.tk/posts/best-gaming-distros/</guid>
       <description>Best Linux Distros for Gaming There are so many Linux distributions for gamers you would find today. If you’re confused with all the options you could choose from, we got you covered.
 We’ve compiled a list to help you pick the best Linux distro for your gaming preference and needs.
 1. Steam OS Let’s start the list off with Steam OS. This is one of the most popular gaming distros today.</description>

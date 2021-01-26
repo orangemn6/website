@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vscode on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/tags/vscode/</link>
+    <link>http://jacobgoldstein.tk/tags/vscode/</link>
     <description>Recent content in vscode on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 11:38:56 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 11:38:56 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Switching From VSCode to VSCodium</title>
-      <link>https://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</link>
+      <link>http://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</link>
       <pubDate>Sun, 24 Jan 2021 11:38:56 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</guid>
+      <guid>http://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</guid>
       <description>24 Oct 2019
 Blogception: a post on VSCodium as it’s being written in VSCodium.
 I am writing this blog post in VSCodium. What? Is that like VSCode?

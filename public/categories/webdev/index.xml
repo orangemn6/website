@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>webdev on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/categories/webdev/</link>
+    <link>http://jacobgoldstein.tk/categories/webdev/</link>
     <description>Recent content in webdev on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 21:48:19 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 21:48:19 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>7 Important Tips for Writing Better CSS</title>
-      <link>https://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
+      <link>http://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
       <pubDate>Mon, 25 Jan 2021 21:48:19 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</guid>
+      <guid>http://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</guid>
       <description>One of the biggest issues in programming is dealing with maintenance. In a real-world scenario, we don&amp;rsquo;t always start developing projects from scratch. Mostly, we are assigned (or take) a project that has already been written maybe a couple of years before or even longer.
 To work efficiently on that project, first we need to understand the source code. This is the point when we immediately realize the importance of **clean code.</description>
     </item>
     
     <item>
       <title>VSCode Review</title>
-      <link>https://jacobgoldstein.tk/posts/vscode-review/</link>
+      <link>http://jacobgoldstein.tk/posts/vscode-review/</link>
       <pubDate>Sat, 23 Jan 2021 00:00:45 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/vscode-review/</guid>
+      <guid>http://jacobgoldstein.tk/posts/vscode-review/</guid>
       <description>I mean, I have only been using VS Code for 1-2 hours and I already love it. You see, it just makes programming and writing so much easier when you have a good editor. In this article I will go over my top things I like about Visual Studio Code
 The Plugins One of the best things about VS Code is the plugins. There are probably thousands of plugins in the library.</description>
     </item>
     
     <item>
       <title>Making My Resume Site</title>
-      <link>https://jacobgoldstein.tk/posts/making-my-resume-site/</link>
+      <link>http://jacobgoldstein.tk/posts/making-my-resume-site/</link>
       <pubDate>Tue, 19 Jan 2021 13:06:15 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/making-my-resume-site/</guid>
+      <guid>http://jacobgoldstein.tk/posts/making-my-resume-site/</guid>
       <description>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](https://beta.jacobgoldstein.tk], and it looks SICK. In this post I am going to walk you through some of the things I did.
 Contact Page So for the contact page, the form is controlled by a JS snippet that gets data from a PHP file. The PHP file has info like who to send it to, and all the email variables.</description>
     </item>

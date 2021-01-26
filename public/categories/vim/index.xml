@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vim on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/categories/vim/</link>
+    <link>http://jacobgoldstein.tk/categories/vim/</link>
     <description>Recent content in vim on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2021 09:05:39 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 09:05:39 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Markdown in Vim</title>
-      <link>https://jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
+      <link>http://jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
       <pubDate>Mon, 04 Jan 2021 09:05:39 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/using-markdown-in-vim/</guid>
+      <guid>http://jacobgoldstein.tk/posts/using-markdown-in-vim/</guid>
       <description>If you are working with something that works like CommonMark and does not insert a &amp;lt;br&amp;gt; for every newline character then you&amp;rsquo;ll probably want to display trailing spaces, so that you know when you actually have the two trailing spaces needed to insert a &amp;lt;br&amp;gt;. See Showing Invisible Things In Vim for how to do this.
 Troubleshooting In the course of writing this I encountered a number of problems.
 Terminal Vim displayed a background color for italic text and bold text was bolded, but in my Gui Vim they both just looked like all the other text.</description>
@@ -20,10 +20,10 @@ Terminal Vim displayed a background color for italic text and bold text was bold
     
     <item>
       <title>Why I Still Use Vim</title>
-      <link>https://jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
+      <link>http://jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
       <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
+      <guid>http://jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
       <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
 Image: http://amzn.to/2umsBaY
 I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
@@ -31,10 +31,10 @@ I often get asked about why I use Vim as my primary editor, there is no particul
     
     <item>
       <title>10 Essential Vim Plugins</title>
-      <link>https://jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
+      <link>http://jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
       <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
+      <guid>http://jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
       <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
 If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
     </item>

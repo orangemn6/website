@@ -1,4 +1,4 @@
-baseURL = "https://jacobgoldstein.tk/"
+baseURL = "http://jacobgoldstein.tk/"
 title   = "Jacob Goldstein's Website"
 languageCode = "en-us"
 theme = "hello-friend-ng"

@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/tags/shell/</link>
+    <link>http://jacobgoldstein.tk/tags/shell/</link>
     <description>Recent content in Shell on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2020 11:43:39 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2020 11:43:39 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disable Snaps in Ubuntu</title>
-      <link>https://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</link>
+      <link>http://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</link>
       <pubDate>Thu, 05 Nov 2020 11:43:39 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</guid>
+      <guid>http://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</guid>
       <description>Intro Don&amp;rsquo;t get me wrong, snaps are great in theory - If you aren&amp;rsquo;t familiar, a snap package is like a sandboxed application that is packaged in such a way that:
  You can be sure you&amp;rsquo;re running exactly what the app developer intended, as all dependencies and assets are bundled into the snap application package The snap application generally doesn&amp;rsquo;t own your entire system, it runs in an application sandbox of sorts Snaps are cross-platform and distributed independently from apt/deb packages, and as such are usually more up to date than those found in apt  Now this all sounds great, and it is in some ways (especially for app developers), but it comes at a cost: and that is generally performance and annoyances with application theming, access to user folders, and the like.</description>
     </item>
     
     <item>
       <title>6 Terminal Commands You Should Know</title>
-      <link>https://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</link>
+      <link>http://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</link>
       <pubDate>Wed, 28 Oct 2020 10:05:01 -0400</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</guid>
+      <guid>http://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</guid>
       <description>6 Terminal Commands You Should Know From switching your private keys to directory listings with hidden files
 As a developer, there are two key things that are paramount to a productive setup: speed and efficiency.
 The more time you take to accomplish simple tasks like searching for files or displaying their contents, the more is taken from critical development time. When working on the command-line, things like aliases and custom functions can speed things up and let you get back to developing more quickly.</description>
@@ -30,19 +30,19 @@ The more time you take to accomplish simple tasks like searching for files or di
     
     <item>
       <title>Important Linux Commands</title>
-      <link>https://jacobgoldstein.tk/posts/important-linux-commands/</link>
+      <link>http://jacobgoldstein.tk/posts/important-linux-commands/</link>
       <pubDate>Mon, 05 Oct 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/important-linux-commands/</guid>
+      <guid>http://jacobgoldstein.tk/posts/important-linux-commands/</guid>
       <description>Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel.</description>
     </item>
     
     <item>
       <title>10 things to do in Linux</title>
-      <link>https://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</link>
+      <link>http://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</link>
       <pubDate>Mon, 28 Sep 2020 19:00:00 +0000</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</guid>
+      <guid>http://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</guid>
       <description>10 Things To Do After Installing Linux Welcome to Linux! So you&amp;rsquo;ve found [a site][1], read some blog or other online article that tells you that switching to Linux is worthwhile and you&amp;rsquo;ve made the switch. So of course you&amp;rsquo;re now asking yourself &amp;ldquo;what are the next ten things that I should to do?&amp;rdquo; which is understandable because that&amp;rsquo;s what we all do when we start using something unfamiliar to us.</description>
     </item>
     

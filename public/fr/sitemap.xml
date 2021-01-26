@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jacobgoldstein.tk/fr/categories/</loc>
+    <loc>http://jacobgoldstein.tk/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jacobgoldstein.tk/categories/"
+                href="http://jacobgoldstein.tk/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://jacobgoldstein.tk/fr/categories/"
+                href="http://jacobgoldstein.tk/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://jacobgoldstein.tk/fr/</loc>
+    <loc>http://jacobgoldstein.tk/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jacobgoldstein.tk/"
+                href="http://jacobgoldstein.tk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://jacobgoldstein.tk/fr/"
+                href="http://jacobgoldstein.tk/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://jacobgoldstein.tk/fr/series/</loc>
+    <loc>http://jacobgoldstein.tk/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jacobgoldstein.tk/series/"
+                href="http://jacobgoldstein.tk/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://jacobgoldstein.tk/fr/series/"
+                href="http://jacobgoldstein.tk/fr/series/"
                 />
   </url>
   
   <url>
-    <loc>https://jacobgoldstein.tk/fr/tags/</loc>
+    <loc>http://jacobgoldstein.tk/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jacobgoldstein.tk/tags/"
+                href="http://jacobgoldstein.tk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://jacobgoldstein.tk/fr/tags/"
+                href="http://jacobgoldstein.tk/fr/tags/"
                 />
   </url>
   

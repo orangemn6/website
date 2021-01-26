@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Jacob Goldstein&#39;s Website</title>
-        <link>https://jacobgoldstein.tk/posts/</link>
+        <link>http://jacobgoldstein.tk/posts/</link>
         <description>Recent content in Posts on Jacob Goldstein&#39;s Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 25 Jan 2021 21:48:19 -0500</lastBuildDate>
-        <atom:link href="https://jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>7 Important Tips for Writing Better CSS</title>
-            <link>https://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
+            <link>http://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
             <pubDate>Mon, 25 Jan 2021 21:48:19 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</guid>
+            <guid>http://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</guid>
             <description>One of the biggest issues in programming is dealing with maintenance. In a real-world scenario, we don&amp;rsquo;t always start developing projects from scratch. Mostly, we are assigned (or take) a project that has already been written maybe a couple of years before or even longer.
 To work efficiently on that project, first we need to understand the source code. This is the point when we immediately realize the importance of **clean code.</description>
             <content type="html"><![CDATA[<p>One of the biggest issues in programming is dealing with maintenance. In a real-world scenario, we don&rsquo;t always start developing projects from scratch. Mostly, we are assigned (or take) a project that has already been written maybe a couple of years before or even longer.</p>
@@ -185,10 +185,10 @@ To work efficiently on that project, first we need to understand the source code
         
         <item>
             <title>Switching From VSCode to VSCodium</title>
-            <link>https://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</link>
+            <link>http://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</link>
             <pubDate>Sun, 24 Jan 2021 11:38:56 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</guid>
+            <guid>http://jacobgoldstein.tk/posts/switching-from-vscode-to-vscodium/</guid>
             <description>24 Oct 2019
 Blogception: a post on VSCodium as it’s being written in VSCodium.
 I am writing this blog post in VSCodium. What? Is that like VSCode?
@@ -267,10 +267,10 @@ cp -R $HOME/.config/Code/User $HOME/.config/VSCodium/User/
         
         <item>
             <title>VSCode Review</title>
-            <link>https://jacobgoldstein.tk/posts/vscode-review/</link>
+            <link>http://jacobgoldstein.tk/posts/vscode-review/</link>
             <pubDate>Sat, 23 Jan 2021 00:00:45 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/vscode-review/</guid>
+            <guid>http://jacobgoldstein.tk/posts/vscode-review/</guid>
             <description>I mean, I have only been using VS Code for 1-2 hours and I already love it. You see, it just makes programming and writing so much easier when you have a good editor. In this article I will go over my top things I like about Visual Studio Code
 The Plugins One of the best things about VS Code is the plugins. There are probably thousands of plugins in the library.</description>
             <content type="html"><![CDATA[<p>I mean, I have only been using VS Code for 1-2 hours and I already love it. You see, it just makes programming and writing <em>so</em> much easier when you have a good editor. In this article I will go over my top things I like about Visual Studio Code</p>
@@ -293,10 +293,10 @@ The Plugins One of the best things about VS Code is the plugins. There are proba
         
         <item>
             <title>Making My Resume Site</title>
-            <link>https://jacobgoldstein.tk/posts/making-my-resume-site/</link>
+            <link>http://jacobgoldstein.tk/posts/making-my-resume-site/</link>
             <pubDate>Tue, 19 Jan 2021 13:06:15 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/making-my-resume-site/</guid>
+            <guid>http://jacobgoldstein.tk/posts/making-my-resume-site/</guid>
             <description>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](https://beta.jacobgoldstein.tk], and it looks SICK. In this post I am going to walk you through some of the things I did.
 Contact Page So for the contact page, the form is controlled by a JS snippet that gets data from a PHP file. The PHP file has info like who to send it to, and all the email variables.</description>
             <content type="html"><![CDATA[<p>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](<a href="https://beta.jacobgoldstein.tk">https://beta.jacobgoldstein.tk</a>], and it looks SICK. In this post I am going to walk you through some of the things I did.</p>
@@ -372,10 +372,10 @@ Contact Page So for the contact page, the form is controlled by a JS snippet tha
         
         <item>
             <title>Using Preset Layouts in I3</title>
-            <link>https://jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</link>
+            <link>http://jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</link>
             <pubDate>Thu, 14 Jan 2021 12:05:56 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</guid>
+            <guid>http://jacobgoldstein.tk/posts/using-preset-layouts-in-i3/</guid>
             <description>While I already knew how to launch programs with my i3 config file, I was lacking a way to predefine specific workspace layouts that I would want to launch on startup.
 That’s where i3 layouts come in handy.
 The first step in creating a layout is to spawn the windows you want to be launched when the layout is deployed.
@@ -413,10 +413,10 @@ exec i3-msg 'exec urxvt -name newsboat-startup -e fish -c newsboat'
         
         <item>
             <title>Super Productivity Todo App</title>
-            <link>https://jacobgoldstein.tk/posts/super-productivity-todo-app/</link>
+            <link>http://jacobgoldstein.tk/posts/super-productivity-todo-app/</link>
             <pubDate>Mon, 11 Jan 2021 12:21:01 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/super-productivity-todo-app/</guid>
+            <guid>http://jacobgoldstein.tk/posts/super-productivity-todo-app/</guid>
             <description>Brief: Super Productivity is an awesome open-source to-do app that helps you manage tasks, track tickets, and manage time.
 No matter what you do, improving productivity is a common goal for most of the people. Usually, you would end up trying various to-do list apps or a note-taking app to help yourself organize and remind things to efficiently keep up with your work.
 Sure, you can check out those lists and try them as you like.</description>
@@ -463,10 +463,10 @@ Sure, you can check out those lists and try them as you like.</description>
         
         <item>
             <title>Worst MCU Plotholes</title>
-            <link>https://jacobgoldstein.tk/posts/worst-mcu-plotholes/</link>
+            <link>http://jacobgoldstein.tk/posts/worst-mcu-plotholes/</link>
             <pubDate>Thu, 07 Jan 2021 14:32:34 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/worst-mcu-plotholes/</guid>
+            <guid>http://jacobgoldstein.tk/posts/worst-mcu-plotholes/</guid>
             <description>There is no denying that the Marvel Cinematic Universe, more commonly known as the MCU, has pretty much taken over the world. Since Iron Man first burst onto our screens back in 2008, the MCU has laid out a series of intricate movies and TV shows that have created not just an entertainment universe, but an entire entertainment experience and a new way to enjoy and experience movies.
 Generally speaking, the MCU has prided itself on its continuity throughout its universe with each movie being a single, stand alone installment but also a small cog in a larger, overarching storyline.</description>
             <content type="html"><![CDATA[<!-- raw HTML omitted -->
@@ -597,10 +597,10 @@ Generally speaking, the MCU has prided itself on its continuity throughout its u
         
         <item>
             <title>Min Browser Almost Good Enough</title>
-            <link>https://jacobgoldstein.tk/posts/min-browser-almost-good-enough/</link>
+            <link>http://jacobgoldstein.tk/posts/min-browser-almost-good-enough/</link>
             <pubDate>Mon, 04 Jan 2021 19:42:37 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/min-browser-almost-good-enough/</guid>
+            <guid>http://jacobgoldstein.tk/posts/min-browser-almost-good-enough/</guid>
             <description>Min Browser: Almost good enough The Min Browser is a minimalist web browser designed for productivity. In this review, I, Cukmekerb, will try it and tell you what I think.
 First thoughts Min is not in the AUR (there&amp;rsquo;s a beta version that hasn&amp;rsquo;t been updated since 2018), but it it is available to download as a .deb or .rpm. Since I&amp;rsquo;m running Manjaro, which is not based on Debian, I&amp;rsquo;ll be using Debtap to install it.</description>
             <content type="html"><![CDATA[<h1 id="min-browser-almost-good-enough">Min Browser: Almost good enough</h1>
@@ -632,10 +632,10 @@ This is rather unfortunate, and trust me, I tried everything. Instead of Browser
         
         <item>
             <title>Install Arch Linux</title>
-            <link>https://jacobgoldstein.tk/posts/install-arch-linux/</link>
+            <link>http://jacobgoldstein.tk/posts/install-arch-linux/</link>
             <pubDate>Mon, 04 Jan 2021 12:17:55 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/install-arch-linux/</guid>
+            <guid>http://jacobgoldstein.tk/posts/install-arch-linux/</guid>
             <description>Brief: This tutorial shows you how to install Arch Linux in easy to follow steps.
 Arch Linux is a general-purpose rolling release Linux distribution which is very popular among the DIY enthusiasts and hardcore Linux users.
 The default installation covers only a minimal base system and expects the end user to configure the system by himself/herself.
@@ -825,10 +825,10 @@ systemctl enable NetworkManager.service
         
         <item>
             <title>Using Markdown in Vim</title>
-            <link>https://jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
+            <link>http://jacobgoldstein.tk/posts/using-markdown-in-vim/</link>
             <pubDate>Mon, 04 Jan 2021 09:05:39 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/using-markdown-in-vim/</guid>
+            <guid>http://jacobgoldstein.tk/posts/using-markdown-in-vim/</guid>
             <description>If you are working with something that works like CommonMark and does not insert a &amp;lt;br&amp;gt; for every newline character then you&amp;rsquo;ll probably want to display trailing spaces, so that you know when you actually have the two trailing spaces needed to insert a &amp;lt;br&amp;gt;. See Showing Invisible Things In Vim for how to do this.
 Troubleshooting In the course of writing this I encountered a number of problems.
 Terminal Vim displayed a background color for italic text and bold text was bolded, but in my Gui Vim they both just looked like all the other text.</description>
@@ -884,10 +884,10 @@ Terminal Vim displayed a background color for italic text and bold text was bold
         
         <item>
             <title>Simple Programming Jokes</title>
-            <link>https://jacobgoldstein.tk/posts/simple-programming-jokes/</link>
+            <link>http://jacobgoldstein.tk/posts/simple-programming-jokes/</link>
             <pubDate>Sun, 03 Jan 2021 10:30:23 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/simple-programming-jokes/</guid>
+            <guid>http://jacobgoldstein.tk/posts/simple-programming-jokes/</guid>
             <description>Life of a Programmer in Simple Jokes That Will Make You Laugh You don’t have to be a programmer to laugh at their humor.
 Credit: gfycat.com
 Programmers code all day, debug all night and go through thousands of code lines. But it doesn’t mean programming is what they all know and good at.
@@ -957,10 +957,10 @@ They all have a sense of humor that can make us all laugh even if we’re not a 
         
         <item>
             <title>Boost Your Productivity With Markdown</title>
-            <link>https://jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</link>
+            <link>http://jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</link>
             <pubDate>Fri, 01 Jan 2021 18:26:02 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</guid>
+            <guid>http://jacobgoldstein.tk/posts/boost-your-productivity-with-markdown/</guid>
             <description>Boost your productivity using Markdown. What’s Markdown?
  Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. from Wikipedia
  Introducing the markdown formatting ⛷
@@ -1091,10 +1091,10 @@ D -&gt; A: Dashed open arrow
         
         <item>
             <title>Orion Twitch Client for Linux</title>
-            <link>https://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</link>
+            <link>http://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</link>
             <pubDate>Thu, 31 Dec 2020 22:57:24 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</guid>
+            <guid>http://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</guid>
             <description>Orion- Twitch Client For Linux Orion is a free and open source QML / C++ client for Twitch.tv which can use multiple player backends (including mpv). The application runs on Linux, Windows, macOS and Android. Using Orion you can watch live Twitch streams and past broadcasts, and browse or search games and channels using a nice material user interface. What&amp;rsquo;s more, Orion lets you login to Twitch, so you can chat and follow channels (and receive notifications when a channel you follow goes online).</description>
             <content type="html"><![CDATA[<h1 id="orion--twitch-client-for-linux">Orion- Twitch Client For Linux</h1>
 <p>Orion is a free and open source QML / C++ client for Twitch.tv which can use multiple player backends (including mpv). The application runs on Linux, Windows, macOS and Android. Using Orion you can watch live Twitch streams and past broadcasts, and browse or search games and channels using a nice material user interface. What&rsquo;s more, Orion lets you login to Twitch, so you can chat and follow channels (and receive notifications when a channel you follow goes online). The application allows customizing various aspects, like changing the stream quality, switching between light and dark user interface themes, and changing the chat position and font size.
@@ -1155,10 +1155,10 @@ sed -i 's/Exec=orion/Exec=env QT_STYLE_OVERRIDE= orion/' ~/.local/share/applicat
         
         <item>
             <title>Why I Still Use Vim</title>
-            <link>https://jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
+            <link>http://jacobgoldstein.tk/posts/why-i-still-use-vim/</link>
             <pubDate>Thu, 31 Dec 2020 15:37:14 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
+            <guid>http://jacobgoldstein.tk/posts/why-i-still-use-vim/</guid>
             <description>Why I Still Use Vim And no, it’s not because I can’t figure out how to close it.
 Image: http://amzn.to/2umsBaY
 I often get asked about why I use Vim as my primary editor, there is no particular reason for this, except that I ended up learning it when I moved over to Linux full time many years ago. I ended up liking it because I could edit my small source files on my quad-core machine without needing to wait forever for the file to open.</description>
@@ -1198,10 +1198,10 @@ I often get asked about why I use Vim as my primary editor, there is no particul
         
         <item>
             <title>How to Install Galliumos on Chromebook</title>
-            <link>https://jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
+            <link>http://jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</link>
             <pubDate>Wed, 30 Dec 2020 23:12:17 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
+            <guid>http://jacobgoldstein.tk/posts/how-to-install-galliumos-on-chromebook/</guid>
             <description>— May 24, 2020
 This is a repost of a guide I made on a different blogging platform when I only owned an ex-chromebook. It talks about how to install unlocked BIOS and install GalliumOS (a linux distro using xfce to make a chromeOS - like linux experience.)) Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
 This post is about how I got my chromebook dual booting galliumOS.</description>
@@ -1243,10 +1243,10 @@ This post is about how I got my chromebook dual booting galliumOS.</description>
         
         <item>
             <title>10 Essential Vim Plugins</title>
-            <link>https://jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
+            <link>http://jacobgoldstein.tk/posts/10-essential-vim-plugins/</link>
             <pubDate>Fri, 25 Dec 2020 16:25:33 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
+            <guid>http://jacobgoldstein.tk/posts/10-essential-vim-plugins/</guid>
             <description>10 essential Vim plugins Vim remains a powerful and ubiquitous application to tackle any number of text editing tasks conveniently from the terminal (some learning required). If you’re looking to add Vim to your toolkit this year, here is my list of absolutely essential plugins to begin supercharging your workflow.
 If you’ve never set up a Vim plugin before, see the Installing Vim plugins section later on for a runthrough.</description>
             <content type="html"><![CDATA[<h1 id="10-essential-vim-plugins">10 essential Vim plugins</h1>
@@ -1384,10 +1384,10 @@ call plug#end()
         
         <item>
             <title>How to Build a Blog With Hugo</title>
-            <link>https://jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
+            <link>http://jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</link>
             <pubDate>Thu, 10 Dec 2020 17:20:31 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</guid>
+            <guid>http://jacobgoldstein.tk/posts/how-to-build-a-blog-with-hugo/</guid>
             <description>&lt;p&gt;In this guide I’m going to explain how you can build your own blog using a tool called &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and then put it online. You don’t need any previous experience to follow along, just a willingness to learn.&lt;/p&gt;
 &lt;p&gt;I think Hugo is a great alternative to Wordpress and site builders like Squarespace or Wix. Although there can be more of a learning curve, in return you get much more control, flexibility and ownership over your blog. I’ll go into more detail on the differences in this guide.&lt;/p&gt;
 &lt;p&gt;Even if you’re not very technical I think you’d wrap your head around the basics within a day or less.&lt;/p&gt;
@@ -1831,10 +1831,10 @@ If you’re not technical and you are using WordPress it can be difficult to int
         
         <item>
             <title>12 Reasons Why Linux Is Better</title>
-            <link>https://jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
+            <link>http://jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</link>
             <pubDate>Sun, 06 Dec 2020 21:44:06 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</guid>
+            <guid>http://jacobgoldstein.tk/posts/12-reasons-why-linux-is-better/</guid>
             <description>12 reasons why Linux is better than Windows The myth that Linux is complex and only needed by programmers and developers is not true.
 Windows is the most popular operating system, and it is well deserved. She has come a long way, constantly improving and developing. However, although Microsoft claims that the Ten is its best creation, in some things Linux is far superior to Windows.
 1. Convenient implementation of updates Perhaps we all know about this situation.</description>
@@ -1899,10 +1899,10 @@ Windows is the most popular operating system, and it is well deserved. She has c
         
         <item>
             <title>The Fascinating Arch Linux Rice</title>
-            <link>https://jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</link>
+            <link>http://jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</link>
             <pubDate>Fri, 04 Dec 2020 16:45:48 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</guid>
+            <guid>http://jacobgoldstein.tk/posts/the-fascinating-arch-linux-rice/</guid>
             <description>Recently, I dive into Linux the third time. The first time is in my childhood, I was attracted by the magazines, which introduced me the hacker culture. The second time was weird, I wanted to focus on study instead of PC gaming.
 This time, it&amp;rsquo;s totally different. /r/unixporn and /r/MechanicalKeyboards attracted me. The most fascinating part of that is RICE or RICE culture.
 RICE RICE is not the food rice. Instead, it is the acronym of Race Inspired Cosmetic Enhancements.</description>
@@ -2100,10 +2100,10 @@ that, I have had a lot of happiness.</p>
         
         <item>
             <title>Linux Ricing and How I Do It (just the basics)</title>
-            <link>https://jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
+            <link>http://jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</link>
             <pubDate>Tue, 01 Dec 2020 13:15:49 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
+            <guid>http://jacobgoldstein.tk/posts/linux-ricing-and-how-i-do-it-just-the-basics/</guid>
             <description>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.
 Script 1: Pywal So for this one you need pywal.
 wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is a python script
@@ -2203,10 +2203,10 @@ wpg
         
         <item>
             <title>Htb Writeup Be Happy</title>
-            <link>https://jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
+            <link>http://jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
             <pubDate>Mon, 30 Nov 2020 15:10:07 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
+            <guid>http://jacobgoldstein.tk/posts/htb-writeup-be-happy/</guid>
             <description>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to https://www.jacobgoldstein.tk/happy/htb/index.html. once you do that you will get some base64 code. decode that and there is your flag!!</description>
             <content type="html"><![CDATA[<p>So when you first unzip the file, you will get an image file. it is an unprotected steganographed image. put it through steghide or stegosuite, and you will get instructions to make a GET request to <a href="https://www.jacobgoldstein.tk/happy/htb/index.html">https://www.jacobgoldstein.tk/happy/htb/index.html</a>. once you do that you will get some base64 code. decode that and there is your flag!!</p>
 ]]></content>
@@ -2214,10 +2214,10 @@ wpg
         
         <item>
             <title>My Life So Far</title>
-            <link>https://jacobgoldstein.tk/posts/my-life-so-far/</link>
+            <link>http://jacobgoldstein.tk/posts/my-life-so-far/</link>
             <pubDate>Sat, 28 Nov 2020 05:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/my-life-so-far/</guid>
+            <guid>http://jacobgoldstein.tk/posts/my-life-so-far/</guid>
             <description>My Life So Far So, I had an idea to just write about my life today, and that&amp;rsquo;s what I&amp;rsquo;m gonna do. Enjoy!
 Projects I am working on  Opensuspect (more on this later) AlamodeBoot My website  Things I have done  CFWed my 3ds installed i3 and made it look cool got 1.4k upvotes on reddit  Things I want to do  Install Arch Linux Format my stupid corrupted SD card make more storage on my laptop  Opensuspect So, OpenSuspect is an open-source social deduction game, similar to among us.</description>
             <content type="html"><![CDATA[<h1 id="my-life-so-far">My Life So Far</h1>
@@ -2249,10 +2249,10 @@ Projects I am working on  Opensuspect (more on this later) AlamodeBoot My websit
         
         <item>
             <title>10 Github Repos every web dev should know</title>
-            <link>https://jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</link>
+            <link>http://jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</link>
             <pubDate>Fri, 27 Nov 2020 05:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</guid>
+            <guid>http://jacobgoldstein.tk/posts/10-github-repos-every-web-dev-should-know/</guid>
             <description>10 Awesome Github Repos Every Web Developer Should Know From giant repos of resources to interview prep, there’s a lot of great stuff here
 Photo by Yancy Min on Unsplash
 I have collected ten great repositories you can find on GitHub that will definitely give you an instant knowledge boost.
@@ -2336,10 +2336,10 @@ I have collected ten great repositories you can find on GitHub that will definit
         
         <item>
             <title>Getting Started with i3wm</title>
-            <link>https://jacobgoldstein.tk/posts/getting-started-with-i3wm/</link>
+            <link>http://jacobgoldstein.tk/posts/getting-started-with-i3wm/</link>
             <pubDate>Thu, 26 Nov 2020 05:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/getting-started-with-i3wm/</guid>
+            <guid>http://jacobgoldstein.tk/posts/getting-started-with-i3wm/</guid>
             <description>Getting Started with i3wm My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</description>
             <content type="html"><![CDATA[<h1 id="getting-started-with-i3wm">Getting Started with i3wm</h1>
 <p>My friends always get surprised when I show them how do I use i3. Unfortunately, the problem of using i3 is probably the same as in vi. You won’t be able to use alt+tab and everything is command-based, so by the end of the day, restart your computer to select an GUI will be easier, but I hope that after a few days (or maybe weeks) using it, you won’t want to use anything else.</p>
@@ -2373,10 +2373,10 @@ My mod key is set to <em>WIN</em> key, so if I want to open a new program, I tap
         
         <item>
             <title>How to Get Hackthebox Invite Code</title>
-            <link>https://jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</link>
+            <link>http://jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</link>
             <pubDate>Mon, 23 Nov 2020 16:05:38 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</guid>
+            <guid>http://jacobgoldstein.tk/posts/how-to-get-hackthebox-invite-code/</guid>
             <description>Hack the Box: How to get the Invite Code What is Hack the Box ?
 Hack The Box is an online platform that allows you to test and advance your skills in Penetration Testing and Cybersecurity. The platform contains assorted challenges that are continuously updated. Some of the challenges simulate real world situations/scenarios, while others are more like CTFs. Needless to say, Hack the box is beyond resourceful if you want to level up your cybersecurity skills; especially as a beginner.</description>
             <content type="html"><![CDATA[<h1 id="hack-the-box-how-to-get-the-invite-code">Hack the Box: How to get the Invite Code</h1>
@@ -2421,10 +2421,10 @@ Hack The Box is an online platform that allows you to test and advance your skil
         
         <item>
             <title>A Linux User&#39;s Thoughts on Macos</title>
-            <link>https://jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</link>
+            <link>http://jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</link>
             <pubDate>Sat, 21 Nov 2020 23:44:09 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
+            <guid>http://jacobgoldstein.tk/posts/a-linux-users-thoughts-on-macos/</guid>
             <description>A MacBook Pro isn&amp;rsquo;t a professional machine, and macOS isn&amp;rsquo;t impressive As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.</description>
             <content type="html"><![CDATA[<h3 id="a-macbook-pro-isnt-a-professional-machine-and-macos-isnt-impressive">A MacBook Pro isn&rsquo;t a professional machine, and macOS isn&rsquo;t impressive</h3>
 <p>As a full-time Linux user, I have never cared much about Apple products.
@@ -2554,10 +2554,10 @@ already upon us, even if the world fails to take notice.</p>
         
         <item>
             <title>Traits of Good and Bad Leaders</title>
-            <link>https://jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</link>
+            <link>http://jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</link>
             <pubDate>Mon, 16 Nov 2020 17:37:08 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</guid>
+            <guid>http://jacobgoldstein.tk/posts/traits-of-good-and-bad-leaders/</guid>
             <description>Traits of Good and Bad Leaders Successful businesses need leaders, someone who can inspire employees and lead them, and the business towards success. Leaders encourage others to work to their full potential, inspire creativity, and aid motivation. During turbulent economic times, the need for good leaders intensifies. Someone who presents a clear vision for recovery leads by example and instills confidence in those around them. A good leader has many traits, if you can recognize these within yourself and capitalize on them, then you may become a successful leader in your work environment.</description>
             <content type="html"><![CDATA[<h1 id="traits-of-good-and-bad-leaders">Traits of Good and Bad Leaders</h1>
 <p>Successful businesses need leaders, someone who can inspire employees
@@ -2693,10 +2693,10 @@ potential as a leader.</p>
         
         <item>
             <title>Try Linux Online</title>
-            <link>https://jacobgoldstein.tk/posts/try-linux-online/</link>
+            <link>http://jacobgoldstein.tk/posts/try-linux-online/</link>
             <pubDate>Sun, 15 Nov 2020 21:28:35 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/try-linux-online/</guid>
+            <guid>http://jacobgoldstein.tk/posts/try-linux-online/</guid>
             <description>DistroTest is a web service that allows you to test Linux and Unix operating systems online for free, without having to install them locally. You can try 300+ Linux and Unix operating systems online without having to install them locally. Just visit the website, choose the Linux/Unix distro of your choice and run it!
 The creators of DistroTest have hosted this web service on Debian using Qemu. There is no restrictions to use the distros listed here.</description>
             <content type="html"><![CDATA[<p><strong>DistroTest</strong> is a web service that allows you to test Linux and Unix
@@ -2955,10 +2955,10 @@ below.</p>
         
         <item>
             <title>All MCU Movies Ranked</title>
-            <link>https://jacobgoldstein.tk/posts/all-mcu-movies-ranked/</link>
+            <link>http://jacobgoldstein.tk/posts/all-mcu-movies-ranked/</link>
             <pubDate>Sun, 15 Nov 2020 10:20:38 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/all-mcu-movies-ranked/</guid>
+            <guid>http://jacobgoldstein.tk/posts/all-mcu-movies-ranked/</guid>
             <description>All Marvel Cinematic Universe Movies Ranked With ‘Avengers: Endgame’ in theaters, how do the 22 films of the MCU stack up?
 Eleven years and twenty-two films. It’s crazy to think about. When you look back at some of the Marvel Cinematic Universe’s early work, they look rather quaint compared to the epic *Avengers: Endgame*. The first film of the series, Iron Man (2008), was released to theaters when I was fifteen.</description>
             <content type="html"><![CDATA[<h1 id="all-marvel-cinematic-universe-movies-ranked">All Marvel Cinematic Universe Movies Ranked</h1>
@@ -3053,10 +3053,10 @@ Eleven years and twenty-two films. It’s crazy to think about. When you look ba
         
         <item>
             <title>The Avengers Messed Up Bad</title>
-            <link>https://jacobgoldstein.tk/posts/the-avengers-messed-up-bad/</link>
+            <link>http://jacobgoldstein.tk/posts/the-avengers-messed-up-bad/</link>
             <pubDate>Sat, 14 Nov 2020 10:12:54 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/the-avengers-messed-up-bad/</guid>
+            <guid>http://jacobgoldstein.tk/posts/the-avengers-messed-up-bad/</guid>
             <description>The Avengers Messed Up The Avengers Messed Up
 How our favorite superheroes ruined the world they meant to save © Marvel Studios
 It’s no spoiler to reveal that in Avengers: Endgame, the good guys end up defeating the bad guys. That’s just how superhero stories work — at least in the second half of a two-part film series. But the Avengers don’t seem to realize that they’ve created many more problems in the process.</description>
@@ -3092,10 +3092,10 @@ It’s no spoiler to reveal that in Avengers: Endgame, the good guys end up defe
         
         <item>
             <title>The XY Files- the Lost Plot of Gen 6</title>
-            <link>https://jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</link>
+            <link>http://jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</link>
             <pubDate>Fri, 13 Nov 2020 10:07:58 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</guid>
+            <guid>http://jacobgoldstein.tk/posts/the-xy-files-the-lost-plot-of-gen-6/</guid>
             <description>The XY Files: The Lost Plot of Pokemon’s 6th Generation Scrapped, Leaked, Posted and Forgotten
 Game Freak and The Pokemon Company have always been very secretive. Alpha and Beta builds of their games are almost mythic in rarity, and we so rarely get to see early or scrapped Pokemon designs. Everything remains in the vault, even the garbage.
 This secrecy has engendered a history of speculation regarding upcoming games and Pokemon designs.</description>
@@ -3228,10 +3228,10 @@ This secrecy has engendered a history of speculation regarding upcoming games an
         
         <item>
             <title>The Secret of Minecraft</title>
-            <link>https://jacobgoldstein.tk/posts/the-secret-of-minecraft/</link>
+            <link>http://jacobgoldstein.tk/posts/the-secret-of-minecraft/</link>
             <pubDate>Fri, 06 Nov 2020 08:40:14 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/the-secret-of-minecraft/</guid>
+            <guid>http://jacobgoldstein.tk/posts/the-secret-of-minecraft/</guid>
             <description>The secret of Minecraft And its challenge to the rest of us minecraft.gamepedia.com
 It’s almost inevitable: I encounter *Minecraft *somewhere online—it’s easy to do, because there’s a lot of Minecraft out there—and I end up convinced I’m doing the wrong thing with my life.
 Let me explain.
@@ -3293,10 +3293,10 @@ Briefly, for the uninitiated: Minecraft is a video game, first released in 2009 
         
         <item>
             <title>Linux Ricing Basics</title>
-            <link>https://jacobgoldstein.tk/posts/linux-ricing-basics/</link>
+            <link>http://jacobgoldstein.tk/posts/linux-ricing-basics/</link>
             <pubDate>Thu, 05 Nov 2020 17:43:02 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/linux-ricing-basics/</guid>
+            <guid>http://jacobgoldstein.tk/posts/linux-ricing-basics/</guid>
             <description>TL;DR Here are my dotfiles.
 Disclaimer: I am in no way a ricing expert. This guide is intended for fellow beginners confused on the very basics when it comes to the customization of their Unix system.
 Introduction After making my departure to Arch Linux a month ago I was quickly introduced to the world of tiling window managers. The idea is that instead of having a full blown desktop environment (DE) such as Gnome or Unity, you just have a window manager that utilizes keyboard shortcuts to organize your windows.</description>
@@ -3333,10 +3333,10 @@ The last part of ricing that I&rsquo;m going to explain in this guide is the ter
         
         <item>
             <title>Disable Snaps in Ubuntu</title>
-            <link>https://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</link>
+            <link>http://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</link>
             <pubDate>Thu, 05 Nov 2020 11:43:39 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</guid>
+            <guid>http://jacobgoldstein.tk/posts/disable-snaps-in-ubuntu/</guid>
             <description>Intro Don&amp;rsquo;t get me wrong, snaps are great in theory - If you aren&amp;rsquo;t familiar, a snap package is like a sandboxed application that is packaged in such a way that:
  You can be sure you&amp;rsquo;re running exactly what the app developer intended, as all dependencies and assets are bundled into the snap application package The snap application generally doesn&amp;rsquo;t own your entire system, it runs in an application sandbox of sorts Snaps are cross-platform and distributed independently from apt/deb packages, and as such are usually more up to date than those found in apt  Now this all sounds great, and it is in some ways (especially for app developers), but it comes at a cost: and that is generally performance and annoyances with application theming, access to user folders, and the like.</description>
             <content type="html"><![CDATA[<h2 id="intro">Intro</h2>
@@ -3399,10 +3399,10 @@ sudo rm -rf /var/lib/snapd
         
         <item>
             <title>Entire Mcu Timeline Explained</title>
-            <link>https://jacobgoldstein.tk/posts/entire-mcu-timeline-explained/</link>
+            <link>http://jacobgoldstein.tk/posts/entire-mcu-timeline-explained/</link>
             <pubDate>Tue, 03 Nov 2020 21:24:28 -0500</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/entire-mcu-timeline-explained/</guid>
+            <guid>http://jacobgoldstein.tk/posts/entire-mcu-timeline-explained/</guid>
             <description>With over 20 films and a handful of TV shows spread out over more than a decade, the Marvel Cinematic Universe is the biggest franchise in the pop culture landscape — and despite the fact that they called the most recent movie Endgame, it doesn&amp;rsquo;t seem like it&amp;rsquo;s going to be stopping any time soon. That massive scope has allowed Marvel Studios to create a sprawling, interconnected universe built on a shared continuity, and much like the comics the MCU is based on, that means things can get pretty complicated.</description>
             <content type="html"><![CDATA[<p>With over 20 films and a handful of TV shows spread out over more than a decade, the Marvel Cinematic Universe is the biggest franchise in the pop culture landscape — and despite the fact that they called the most recent movie Endgame, it doesn&rsquo;t seem like it&rsquo;s going to be stopping any time soon. That massive scope has allowed Marvel Studios to create a sprawling, interconnected universe built on a shared continuity, and much like the comics the MCU is based on, that means things can get pretty complicated.</p>
 <p>For the most part, the events of the films happen in the same order as the movies themselves, but there are a few exceptions. If you want a good look at when everything happened in the MCU, read on as we explain the complete timeline of the Marvel Cinematic Universe.</p>
@@ -3462,10 +3462,10 @@ sudo rm -rf /var/lib/snapd
         
         <item>
             <title>Why You Should Learn Linux</title>
-            <link>https://jacobgoldstein.tk/posts/why-you-should-learn-linux/</link>
+            <link>http://jacobgoldstein.tk/posts/why-you-should-learn-linux/</link>
             <pubDate>Thu, 29 Oct 2020 13:50:18 -0400</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/why-you-should-learn-linux/</guid>
+            <guid>http://jacobgoldstein.tk/posts/why-you-should-learn-linux/</guid>
             <description>Why You Should Probably Learn Linux Let’s face it, Linux sounds scary to the untrained ear. Most average users think of black and white terminals, and pale, white, basement dwellers clacking assembly and basic into an ancient IBM machine when they hear the term “ Linux” arise in conversation. Of course, the same might not be said for Data Scientists, and programmers alike, but the stigma is certainly still illustrated inside of that particular clique.</description>
             <content type="html"><![CDATA[<h1 id="why-you-should-probably-learn-linux">Why You Should Probably Learn Linux</h1>
 <p>Let’s face it, Linux sounds scary to the untrained ear. Most average users think of black and white terminals, and pale, white, basement dwellers clacking assembly and basic into an ancient IBM machine when they hear the term “ Linux” arise in conversation. Of course, the same might not be said for Data Scientists, and programmers alike, but the stigma is certainly still illustrated inside of that particular clique. However, despite this idea that Linux is only for the most advanced of power users, these days, Linux is easier, and better to use than it ever has been before. Regardless of whether or not you want to switch your primary computer to Linux, or love your Mac or Windows comforts all but too much, familiarity with Linux is an essential tool for any developer.</p>
@@ -3507,10 +3507,10 @@ sudo rm -rf /var/lib/snapd
         
         <item>
             <title>6 Terminal Commands You Should Know</title>
-            <link>https://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</link>
+            <link>http://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</link>
             <pubDate>Wed, 28 Oct 2020 10:05:01 -0400</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</guid>
+            <guid>http://jacobgoldstein.tk/posts/6-terminal-commands-you-should-know/</guid>
             <description>6 Terminal Commands You Should Know From switching your private keys to directory listings with hidden files
 As a developer, there are two key things that are paramount to a productive setup: speed and efficiency.
 The more time you take to accomplish simple tasks like searching for files or displaying their contents, the more is taken from critical development time. When working on the command-line, things like aliases and custom functions can speed things up and let you get back to developing more quickly.</description>
@@ -3591,10 +3591,10 @@ line3
         
         <item>
             <title>Best Linux Software</title>
-            <link>https://jacobgoldstein.tk/posts/best-linux-software/</link>
+            <link>http://jacobgoldstein.tk/posts/best-linux-software/</link>
             <pubDate>Wed, 28 Oct 2020 10:02:54 -0400</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/best-linux-software/</guid>
+            <guid>http://jacobgoldstein.tk/posts/best-linux-software/</guid>
             <description>Best Linux Desktop Software Awards per Category for 2017! hey! you do realize that this post is only written because i was bored to do anything else, right?
 also i want to make super clear that on these awards, we ran a set of completely democratic procedures, with a fully transparent voting. and by “we” i mean “me”, and by “voting” i mean a single vote! “mine” 👐
 i will try to cover some basic categories, but not everything!</description>
@@ -3722,10 +3722,10 @@ i will try to cover some basic categories, but not everything!</description>
         
         <item>
             <title>Linux Survival Guide</title>
-            <link>https://jacobgoldstein.tk/posts/linux-survival-guide/</link>
+            <link>http://jacobgoldstein.tk/posts/linux-survival-guide/</link>
             <pubDate>Mon, 26 Oct 2020 13:02:06 -0400</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/linux-survival-guide/</guid>
+            <guid>http://jacobgoldstein.tk/posts/linux-survival-guide/</guid>
             <description>Linux: A Survival Guide for Beginners I survived the transition to Linux—and you can too
 Photo by Chris Ried on Unsplash
 Switching from Windows to Linux can be really scary. But if you can survive the first few months, the eventual returns are exponential. Here’s how I survived.
@@ -3861,10 +3861,10 @@ done
         
         <item>
             <title>Ventoy Persistence</title>
-            <link>https://jacobgoldstein.tk/posts/ventoy-persistence/</link>
+            <link>http://jacobgoldstein.tk/posts/ventoy-persistence/</link>
             <pubDate>Sun, 25 Oct 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/ventoy-persistence/</guid>
+            <guid>http://jacobgoldstein.tk/posts/ventoy-persistence/</guid>
             <description>A while ago, I have discussed how to create multiboot USB drives with Ventoy application. Today, I will see how to create persistent bootable USB using Ventoy in Linux. As you may already know, a regular bootable medium allows us to test the Linux distributions without having to install them on the hard drive. When you are on a Live OS, you can do all sort of things, such as installing applications, downloading files, playing media, creating files and folders, customizing it as per your liking and a lot more.</description>
             <content type="html"><![CDATA[<p>A while ago, I have discussed how to <a href="https://www.jacobgoldstein.tk/posts/2020/10/ventoy-multiboot-usb/"><strong>create multiboot USB drives
 with
@@ -4065,10 +4065,10 @@ documentation</strong></a></li>
         
         <item>
             <title>Ventoy Multiboot USB</title>
-            <link>https://jacobgoldstein.tk/posts/ventoy-multiboot-usb/</link>
+            <link>http://jacobgoldstein.tk/posts/ventoy-multiboot-usb/</link>
             <pubDate>Fri, 23 Oct 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/ventoy-multiboot-usb/</guid>
+            <guid>http://jacobgoldstein.tk/posts/ventoy-multiboot-usb/</guid>
             <description>Ventoy is a free, open source and cross-platform program to create multiboot USB drives in Linux and MS Windows. You don&amp;rsquo;t need to format your USB devices over and over. Just create a bootable USB drive once and add as many as ISOs you want in future. Ventoy will automatically create the menu entries for the newly added ISOs and add them to the boot menu. Once you created the multiboot USB, boot your system with the USB drive, select the ISO you want to load and start using it in no time.</description>
             <content type="html"><![CDATA[<p><strong>Ventoy</strong> is a free, open source and cross-platform program to create
 multiboot USB drives in Linux and MS Windows. You don&rsquo;t need to format
@@ -4729,10 +4729,10 @@ you&rsquo;re ok with this, but you can opt-out if you wish.
         
         <item>
             <title>My New Site</title>
-            <link>https://jacobgoldstein.tk/posts/my-new-site/</link>
+            <link>http://jacobgoldstein.tk/posts/my-new-site/</link>
             <pubDate>Thu, 22 Oct 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/my-new-site/</guid>
+            <guid>http://jacobgoldstein.tk/posts/my-new-site/</guid>
             <description>My new site Introduction Remember my old site, with my orange theme and ugly font? Well, that is no more!! I have created a new site with a site generator called hugo. Hugo is like jekyll, but more customizable.
 Why? Why did I choose to use hugo, over anything else? The first reason is that it is more customizable. The options are not limited to github pages rules. My second reason is that it has lots of themes, like this one.</description>
             <content type="html"><![CDATA[<h1 id="my-new-site">My new site</h1>
@@ -4747,10 +4747,10 @@ Why? Why did I choose to use hugo, over anything else? The first reason is that 
         
         <item>
             <title>Important Linux Commands</title>
-            <link>https://jacobgoldstein.tk/posts/important-linux-commands/</link>
+            <link>http://jacobgoldstein.tk/posts/important-linux-commands/</link>
             <pubDate>Mon, 05 Oct 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/important-linux-commands/</guid>
+            <guid>http://jacobgoldstein.tk/posts/important-linux-commands/</guid>
             <description>Important Linux Commands: Linux Commands You Must Know In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel.</description>
             <content type="html"><![CDATA[<h1 id="important-linux-commands-linux-commands-you-must-know">Important Linux Commands: Linux Commands You Must Know</h1>
 <p>In 1991 when Linus Torvalds for the first time publicly shared his newly made kernel completely free from minix code, then even he was not aware of its capabilities in bringing the revolution in the software industry at that time. The open source we hear today was not much popular back then, not until linux was founded. You see, Git a very popular VCS(Version Control System) was founded by the same guy to maintain the linux kernel. People loved this operating system not just because it was free but because it brought freedom to the computer and software industry. Linux can be customized for specific users and for specific hardware requirements.<br>
@@ -4832,10 +4832,10 @@ According to a survey by <a href="https://w3techs.com/technologies/details/os-li
         
         <item>
             <title>Install Arch Linux</title>
-            <link>https://jacobgoldstein.tk/posts/install-arch-linux/</link>
+            <link>http://jacobgoldstein.tk/posts/install-arch-linux/</link>
             <pubDate>Mon, 05 Oct 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/install-arch-linux/</guid>
+            <guid>http://jacobgoldstein.tk/posts/install-arch-linux/</guid>
             <description>After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
  The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e.</description>
             <content type="html"><![CDATA[<p>After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:</p>
@@ -5371,10 +5371,10 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=0
         
         <item>
             <title>Why Linux is Better</title>
-            <link>https://jacobgoldstein.tk/posts/why-linux-is-better/</link>
+            <link>http://jacobgoldstein.tk/posts/why-linux-is-better/</link>
             <pubDate>Wed, 30 Sep 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/why-linux-is-better/</guid>
+            <guid>http://jacobgoldstein.tk/posts/why-linux-is-better/</guid>
             <description>10 Reasons Why Linux Is Better Than Windows It is often seen that people get confused over choosing Windows or Linux as a host operating system in both server and desktop spaces. People will focus on aspects of cost, the functionality provided, hardware compatibility, support, reliability, security, pre-built software, cloud-readiness, etc. before they finalize. In this regard, this article covers ten reasons for using Linux over Windows.
 10 Reasons Why Linux Is Better Than Windows 1.</description>
             <content type="html"><![CDATA[<h1 id="10-reasons-why-linux-is-better-than-windows">10 Reasons Why Linux Is Better Than Windows</h1>
@@ -5429,10 +5429,10 @@ Linux systems are known for consuming fewer system resources (RAM, disk space, e
         
         <item>
             <title>Best Gaming Distros</title>
-            <link>https://jacobgoldstein.tk/posts/best-gaming-distros/</link>
+            <link>http://jacobgoldstein.tk/posts/best-gaming-distros/</link>
             <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/best-gaming-distros/</guid>
+            <guid>http://jacobgoldstein.tk/posts/best-gaming-distros/</guid>
             <description>Best Linux Distros for Gaming There are so many Linux distributions for gamers you would find today. If you’re confused with all the options you could choose from, we got you covered.
 We’ve compiled a list to help you pick the best Linux distro for your gaming preference and needs.
 1. Steam OS Let’s start the list off with Steam OS. This is one of the most popular gaming distros today.</description>
@@ -5508,10 +5508,10 @@ Before you decide which Linux distro you’d install, it’s very important that
         
         <item>
             <title>Dual Boot Linux Mint</title>
-            <link>https://jacobgoldstein.tk/posts/dual-boot-linux-mint/</link>
+            <link>http://jacobgoldstein.tk/posts/dual-boot-linux-mint/</link>
             <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/dual-boot-linux-mint/</guid>
+            <guid>http://jacobgoldstein.tk/posts/dual-boot-linux-mint/</guid>
             <description>Dual Boot Linux Mint 20 and Windows 10 With recent rapid increases in information technology, every user wants to customize their operating system environment according to their needs. Today, we will talk about the most popular Linux Mint 20 distribution, known as Ulyana. Linux Mint is an open-source, flexible, community-based Linux operating system in which you can customize operating environments and applications on-demand. As compared to Windows, Linux Mint is a much more secure platform.</description>
             <content type="html"><![CDATA[<h1 id="dual-boot-linux-mint-20-and-windows-10">Dual Boot Linux Mint 20 and Windows 10</h1>
 <p>With recent rapid increases in information technology, every user wants to customize their operating system environment according to their needs. Today, we will talk about the most popular Linux Mint 20 distribution, known as Ulyana. Linux Mint is an open-source, flexible, community-based Linux operating system in which you can customize operating environments and applications on-demand. As compared to Windows, Linux Mint is a much more secure platform. Sometimes, developers who work on Windows may also require the Linux platform to perform their daily development tasks. For this purpose, it is easy to install the Linux Mint 20 along with Microsoft Windows OS.</p>
@@ -5617,10 +5617,10 @@ Before you decide which Linux distro you’d install, it’s very important that
         
         <item>
             <title>Plagiarism in Free software</title>
-            <link>https://jacobgoldstein.tk/posts/plagiarism-in-free-software/</link>
+            <link>http://jacobgoldstein.tk/posts/plagiarism-in-free-software/</link>
             <pubDate>Tue, 29 Sep 2020 08:24:28 -0400</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/plagiarism-in-free-software/</guid>
+            <guid>http://jacobgoldstein.tk/posts/plagiarism-in-free-software/</guid>
             <description>Plagiarism in Free Software Note: the opinions expressed here are solely mine. (Duh)
 Something that I take rather seriously is the copying and redistibution without credit (intentionally or otherwise) of free software, i.e. plagiarism.
 There&amp;rsquo;s a huge difference between something being in the public domain and being free and open source. The latter has a license, for one, and the purpose of it being under license is to preserve the rights of the author(s) to their work(s) but some people either misunderstand or ignore that distinction.</description>
@@ -5638,10 +5638,10 @@ There&amp;rsquo;s a huge difference between something being in the public domain
         
         <item>
             <title>10 things to do in Linux</title>
-            <link>https://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</link>
+            <link>http://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</link>
             <pubDate>Mon, 28 Sep 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</guid>
+            <guid>http://jacobgoldstein.tk/posts/10-things-to-do-in-linux/</guid>
             <description>10 Things To Do After Installing Linux Welcome to Linux! So you&amp;rsquo;ve found [a site][1], read some blog or other online article that tells you that switching to Linux is worthwhile and you&amp;rsquo;ve made the switch. So of course you&amp;rsquo;re now asking yourself &amp;ldquo;what are the next ten things that I should to do?&amp;rdquo; which is understandable because that&amp;rsquo;s what we all do when we start using something unfamiliar to us.</description>
             <content type="html"><![CDATA[<h1 id="10-things-to-do-after-installing-linux">10 Things To Do After Installing Linux</h1>
 <h2 id="welcome-to-linux">Welcome to Linux!</h2>
@@ -5685,10 +5685,10 @@ There&amp;rsquo;s a huge difference between something being in the public domain
         
         <item>
             <title>Install Linux with CHRX</title>
-            <link>https://jacobgoldstein.tk/posts/install-linux-with-chrx/</link>
+            <link>http://jacobgoldstein.tk/posts/install-linux-with-chrx/</link>
             <pubDate>Wed, 16 Sep 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/install-linux-with-chrx/</guid>
+            <guid>http://jacobgoldstein.tk/posts/install-linux-with-chrx/</guid>
             <description>Note: to do this, all your chromeOS data will be wiped. I recommend reading through all of this post before starting.
 This post is about how I got my chromebook dual booting galliumOS.
 Step one: go into Developer mode. Developer mode is a setting that lets you do development. It&amp;rsquo;s not on by default because it also makes it easier to install a malicious package. (APKs, or android packages, can&amp;rsquo;t be opened without developer mode.</description>
@@ -6063,10 +6063,10 @@ ChromeOS and your Linux needs are limited, it should serve well.</li>
         
         <item>
             <title>Install Linux</title>
-            <link>https://jacobgoldstein.tk/posts/install-linux/</link>
+            <link>http://jacobgoldstein.tk/posts/install-linux/</link>
             <pubDate>Tue, 08 Sep 2020 19:00:00 +0000</pubDate>
             
-            <guid>https://jacobgoldstein.tk/posts/install-linux/</guid>
+            <guid>http://jacobgoldstein.tk/posts/install-linux/</guid>
             <description>{: .box-warning} Warning: This will wipe all data from device
 Getting an iso
 -step 1: download an iso of the distro. some user friendly distros i recommend for beginners are ubuntu, and linux lite. once you get the iso file, it should be 1.0GB+

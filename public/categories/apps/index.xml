@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>apps on Jacob Goldstein&#39;s Website</title>
-    <link>https://jacobgoldstein.tk/categories/apps/</link>
+    <link>http://jacobgoldstein.tk/categories/apps/</link>
     <description>Recent content in apps on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Dec 2020 22:57:24 -0500</lastBuildDate><atom:link href="https://jacobgoldstein.tk/categories/apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 22:57:24 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orion Twitch Client for Linux</title>
-      <link>https://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</link>
+      <link>http://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</link>
       <pubDate>Thu, 31 Dec 2020 22:57:24 -0500</pubDate>
       
-      <guid>https://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</guid>
+      <guid>http://jacobgoldstein.tk/posts/orion-twitch-client-for-linux/</guid>
       <description>Orion- Twitch Client For Linux Orion is a free and open source QML / C++ client for Twitch.tv which can use multiple player backends (including mpv). The application runs on Linux, Windows, macOS and Android. Using Orion you can watch live Twitch streams and past broadcasts, and browse or search games and channels using a nice material user interface. What&amp;rsquo;s more, Orion lets you login to Twitch, so you can chat and follow channels (and receive notifications when a channel you follow goes online).</description>
     </item>
     
