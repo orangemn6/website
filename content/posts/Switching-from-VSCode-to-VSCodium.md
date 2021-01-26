@@ -27,7 +27,7 @@ VSCode is the best code editor I’ve ever used.
 
 It’s actually rather delightful.
 
-There, I’ve said it – and I’ve used a lot of editors across 30+ years of programming.
+There, I’ve said it – and I’ve used a lot of editors across 10+ years of programming.
 
 VS-what?
 --------
