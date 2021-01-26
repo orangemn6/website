@@ -162,69 +162,69 @@ Contact Page So for the contact page, the form is controlled by a JS snippet tha
                 <p>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](<a href="https://beta.jacobgoldstein.tk">https://beta.jacobgoldstein.tk</a>], and it looks SICK. In this post I am going to walk you through some of the things I did.</p>
 <h4 id="contact-pagehttpsbetajacobgoldsteintkcontacthtml"><a href="https://beta.jacobgoldstein.tk/contact.html">Contact Page</a></h4>
 <p>So for the contact page, the form is controlled by a JS snippet that gets data from a PHP file. The PHP file has info like who to send it to, and all the email variables. Here is what it looks like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#ff79c6">&lt;?</span>php
-    <span style="color:#8be9fd;font-style:italic">$to</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;linuxjacob@mail.com&#34;</span>; <span style="color:#6272a4">// replace this mail with yours
-</span><span style="color:#6272a4"></span>    <span style="color:#8be9fd;font-style:italic">$from</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_SERVER</span>[<span style="color:#f1fa8c">&#39;PHP_SELF&#39;</span>]<span style="color:#ff79c6">.</span><span style="color:#f1fa8c">&#34; &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;email&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$fname</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;name&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$email</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;email&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$lname</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;subject&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$headers</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;From: </span><span style="color:#f1fa8c">$from</span><span style="color:#f1fa8c">&#34;</span>;
-    <span style="color:#8be9fd;font-style:italic">$message</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;message&#34;</span>];
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+    $to <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;linuxjacob@mail.com&#34;</span>; <span style="color:#75715e">// replace this mail with yours
+</span><span style="color:#75715e"></span>    $from <span style="color:#f92672">=</span> $_SERVER[<span style="color:#e6db74">&#39;PHP_SELF&#39;</span>]<span style="color:#f92672">.</span><span style="color:#e6db74">&#34; &#34;</span><span style="color:#f92672">.</span>$_POST[<span style="color:#e6db74">&#34;email&#34;</span>];
+    $fname <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;name&#34;</span>];
+    $email <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;email&#34;</span>];
+    $lname <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;subject&#34;</span>];
+    $headers <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;From: </span><span style="color:#e6db74">$from</span><span style="color:#e6db74">&#34;</span>;
+    $message <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;message&#34;</span>];
 
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;User Message </span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Name: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$name</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Email: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$email</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Subject: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$subject</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Message: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$message</span>;
+    $body <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;User Message </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Name: &#34;</span><span style="color:#f92672">.</span>$name;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Email: &#34;</span><span style="color:#f92672">.</span>$email;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Subject: &#34;</span><span style="color:#f92672">.</span>$subject;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Message: &#34;</span><span style="color:#f92672">.</span>$message;
 
-    <span style="color:#ff79c6">if</span>(mail(<span style="color:#8be9fd;font-style:italic">$to</span>, <span style="color:#8be9fd;font-style:italic">$subject</span>, <span style="color:#8be9fd;font-style:italic">$body</span>, <span style="color:#8be9fd;font-style:italic">$headers</span>)){
-        <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#39;&lt;label class=&#34;success&#34;&gt;Sent your &lt;b&gt;e-mail.&lt;/b&gt;&lt;/label&gt;&#39;</span>;
-    }<span style="color:#ff79c6">else</span>{
-        <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#39;&lt;label class=&#34;error&#34;&gt;Something went wrong! please try again.&lt;/label&gt;&#39;</span>;
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">mail</span>($to, $subject, $body, $headers)){
+        <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#39;&lt;label class=&#34;success&#34;&gt;Sent your &lt;b&gt;e-mail.&lt;/b&gt;&lt;/label&gt;&#39;</span>;
+    }<span style="color:#66d9ef">else</span>{
+        <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#39;&lt;label class=&#34;error&#34;&gt;Something went wrong! please try again.&lt;/label&gt;&#39;</span>;
     }
 </code></pre></div><h4 id="about-pagehttpsbetajacobgoldsteintkabouthtml"><a href="https://beta.jacobgoldstein.tk/about.html">About Page</a></h4>
 <p>On my about page, you can see the animated skills bar. That is done with some html and css. Here is an example.</p>
 <p>HTML:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#ff79c6">p</span>&gt;HTML&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills html&#34;</span>&gt;90%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">p</span>&gt;HTML&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills html&#34;</span>&gt;90%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
-&lt;<span style="color:#ff79c6">p</span>&gt;CSS&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills css&#34;</span>&gt;80%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;CSS&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills css&#34;</span>&gt;80%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
-&lt;<span style="color:#ff79c6">p</span>&gt;JavaScript&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills js&#34;</span>&gt;65%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;JavaScript&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills js&#34;</span>&gt;65%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
-&lt;<span style="color:#ff79c6">p</span>&gt;PHP&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills php&#34;</span>&gt;60%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;PHP&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills php&#34;</span>&gt;60%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 </code></pre></div><p>CSS</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#6272a4">/* Make sure that padding behaves as expected */</span>
-<span style="color:#ff79c6">*</span> {<span style="color:#ff79c6">box-sizing</span>:<span style="color:#ff79c6">border-box</span>}
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* Make sure that padding behaves as expected */</span>
+<span style="color:#f92672">*</span> {<span style="color:#66d9ef">box-sizing</span>:<span style="color:#66d9ef">border-box</span>}
 
-<span style="color:#6272a4">/* Container for skill bars */</span>
-.<span style="color:#50fa7b">container</span> {
-  <span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">100</span><span style="color:#8be9fd">%</span>; <span style="color:#6272a4">/* Full width */</span>
-  <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#ddd</span>; <span style="color:#6272a4">/* Grey background */</span>
+<span style="color:#75715e">/* Container for skill bars */</span>
+.<span style="color:#a6e22e">container</span> {
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; <span style="color:#75715e">/* Full width */</span>
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#ddd</span>; <span style="color:#75715e">/* Grey background */</span>
 }
 
-.<span style="color:#50fa7b">skills</span> {
-  <span style="color:#ff79c6">text-align</span>: <span style="color:#ff79c6">right</span>; <span style="color:#6272a4">/* Right-align text */</span>
-  <span style="color:#ff79c6">padding-top</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>; <span style="color:#6272a4">/* Add top padding */</span>
-  <span style="color:#ff79c6">padding-bottom</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>; <span style="color:#6272a4">/* Add bottom padding */</span>
-  <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">white</span>; <span style="color:#6272a4">/* White text color */</span>
+.<span style="color:#a6e22e">skills</span> {
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">right</span>; <span style="color:#75715e">/* Right-align text */</span>
+  <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>; <span style="color:#75715e">/* Add top padding */</span>
+  <span style="color:#66d9ef">padding-bottom</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>; <span style="color:#75715e">/* Add bottom padding */</span>
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>; <span style="color:#75715e">/* White text color */</span>
 }
 
-.<span style="color:#50fa7b">html</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">90</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#4CAF50</span>;} <span style="color:#6272a4">/* Green */</span>
-.<span style="color:#50fa7b">css</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">80</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#2196F3</span>;} <span style="color:#6272a4">/* Blue */</span>
-.<span style="color:#50fa7b">js</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">65</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#f44336</span>;} <span style="color:#6272a4">/* Red */</span>
-.<span style="color:#50fa7b">php</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">60</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#808080</span>;} <span style="color:#6272a4">/* Dark Grey */</span>
+.<span style="color:#a6e22e">html</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">90</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#4CAF50</span>;} <span style="color:#75715e">/* Green */</span>
+.<span style="color:#a6e22e">css</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">80</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#2196F3</span>;} <span style="color:#75715e">/* Blue */</span>
+.<span style="color:#a6e22e">js</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">65</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#f44336</span>;} <span style="color:#75715e">/* Red */</span>
+.<span style="color:#a6e22e">php</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">60</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#808080</span>;} <span style="color:#75715e">/* Dark Grey */</span>
 </code></pre></div><h4 id="conclusion">Conclusion</h4>
 <p>A magician never reveals their secrets, which is why I didn&rsquo;t include everything. You <em>can</em> view the source code [here](<a href="https://github.com/orangemn6/portfolio-site%5D">https://github.com/orangemn6/portfolio-site]</a>. See ya next time!</p>
 

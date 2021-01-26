@@ -23,74 +23,74 @@ To work efficiently on that project, first we need to understand the source code
 <h2 id="1-dry">1. DRY</h2>
 <p><strong>DRY stands for &ldquo;Don&rsquo;t Repeat Yourself&rdquo;</strong>. This is a general software development principle and can be applied in any programming language, as well as in CSS. As we can understand from its name, DRY aims to avoid or reduce repetition as much as possible.</p>
 <p>For example, we can create 3 CSS classes for 3 buttons like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">primary-button</span> {
-  <span style="color:#ff79c6">background</span>: <span style="color:#ff79c6">blue</span>;
-  <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">white</span>;
-  <span style="color:#ff79c6">border-radius</span>: <span style="color:#bd93f9">5</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">text-align</span>: <span style="color:#ff79c6">center</span>;
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">16</span><span style="color:#8be9fd">px</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">primary-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">blue</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
 }
 
-.<span style="color:#50fa7b">form-button</span> {
-  <span style="color:#ff79c6">background</span>: <span style="color:#ff79c6">green</span>;
-  <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">white</span>;
-  <span style="color:#ff79c6">border-radius</span>: <span style="color:#bd93f9">5</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">text-align</span>: <span style="color:#ff79c6">center</span>;
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">16</span><span style="color:#8be9fd">px</span>;
+.<span style="color:#a6e22e">form-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">green</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
 }
 
-.<span style="color:#50fa7b">cancel-button</span> {
-  <span style="color:#ff79c6">background</span>: <span style="color:#ff79c6">red</span>;
-  <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">white</span>;
-  <span style="color:#ff79c6">border-radius</span>: <span style="color:#bd93f9">5</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">text-align</span>: <span style="color:#ff79c6">center</span>;
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">16</span><span style="color:#8be9fd">px</span>;
+.<span style="color:#a6e22e">cancel-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">red</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
 }
 </code></pre></div><p>Or we can use the DRY principle by writing the common rules <strong>once</strong> in an additional class and the different rules each in other classes:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">button</span> {
-  <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">white</span>;
-  <span style="color:#ff79c6">border-radius</span>: <span style="color:#bd93f9">5</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">text-align</span>: <span style="color:#ff79c6">center</span>;
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">16</span><span style="color:#8be9fd">px</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">button</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
 }
 
-.<span style="color:#50fa7b">primary-button</span> {
-  <span style="color:#ff79c6">background</span>: <span style="color:#ff79c6">blue</span>;
+.<span style="color:#a6e22e">primary-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">blue</span>;
 }
 
-.<span style="color:#50fa7b">form-button</span> {
-  <span style="color:#ff79c6">background</span>: <span style="color:#ff79c6">green</span>;
+.<span style="color:#a6e22e">form-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">green</span>;
 }
 
-.<span style="color:#50fa7b">cancel-button</span> {
-  <span style="color:#ff79c6">background</span>: <span style="color:#ff79c6">red</span>;
+.<span style="color:#a6e22e">cancel-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">red</span>;
 }
 </code></pre></div><p>As we can see, applying the DRY principle avoids repetition, decreases the number of lines, and improves readability and even performance.</p>
 <h2 id="2-naming">2. Naming</h2>
 <p>Naming CSS selectors is another important point for writing better CSS. The name of a selector should be <strong>self-descriptive and readable</strong>&hellip;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#ff79c6">//</span> <span style="color:#ff79c6">BAD</span> <span style="color:#ff79c6">NAMING</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">//</span> <span style="color:#f92672">BAD</span> <span style="color:#f92672">NAMING</span>
 
-.<span style="color:#50fa7b">p</span> {
-  // Rules
+.<span style="color:#a6e22e">p</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
 }
 
-.<span style="color:#50fa7b">myFirstForm</span> {
-  // Rules
+.<span style="color:#a6e22e">myFirstForm</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
 }
 </code></pre></div><p>Normally, is an HTML tag and stands for paragraph. Above, we can&rsquo;t really understand what <strong>class p</strong> is. Also, you should avoid names like <strong>myFirstForm</strong>, and I don&rsquo;t advise using <strong>camel case</strong>.</p>
 <p>Instead, use declarative names (separated by a dash for multiple names):</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#ff79c6">//</span> <span style="color:#ff79c6">GOOD</span> <span style="color:#ff79c6">NAMING</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">//</span> <span style="color:#f92672">GOOD</span> <span style="color:#f92672">NAMING</span>
 
-.<span style="color:#50fa7b">article-paragraph</span> {
-  // Rules
+.<span style="color:#a6e22e">article-paragraph</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
 }
 
-.<span style="color:#50fa7b">contact-form</span> {
-  // Rules
+.<span style="color:#a6e22e">contact-form</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
 }
 </code></pre></div><p>I think the names make more sense now :)</p>
 <p>Naming things in programming is not that easy, but there are various naming conventions that you can use in your project. <strong>BEM (block element modifier)</strong> is one of them. I&rsquo;ve worked with BEM before and I can recommend it.</p>
@@ -99,47 +99,47 @@ To work efficiently on that project, first we need to understand the source code
 <p>In my opinion, the best practice is actually not using inline styles. I will focus here on why we shouldn&rsquo;t.</p>
 <p>According to the separation of concerns principle, design (CSS), content (HTML) and logic (JavaScript) should be separated for reasons like better readability and maintenance.</p>
 <p>Including CSS rules inside HTML tags breaks this rule:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
 </code></pre></div><blockquote>
 <p>We should rather keep our styling rules in external CSS files.</p>
 </blockquote>
 <p>Another problem with using inline-styles is that we can&rsquo;t search for them. So when we need to make a change on styling, we normally look for CSS selectors of the HTML element.</p>
 <p>For example, let&rsquo;s change the <strong>font-size</strong> of text on our webpage. To do that, first we find that specific part on the browser where the change is needed by looking at the HTML structure:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
 </code></pre></div><p>Then we need to find the selector, which is the <strong>text-bold</strong> class here. Finally, we go to that class and make the changes:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">text-bold</span> {
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">16</span><span style="color:#8be9fd">px</span>;    // change the font-size to 14px
-  <span style="color:#ff79c6">font-weight</span>: <span style="color:#ff79c6">bold</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">change</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">font-size</span> <span style="color:#960050;background-color:#1e0010">to</span> <span style="color:#960050;background-color:#1e0010">14px</span>
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
 }
 </code></pre></div><p>But if the rules are written <strong>inline-style</strong> instead of using classes:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
 </code></pre></div><p>Even if we find the HTML tag, we can&rsquo;t know whether there are other <strong>font-size</strong> rules inside the HTML or not. Since there is no selector used, we have to go through all the HTML pages one by one, try to find the other <strong>font-size</strong> rules and change them too.</p>
 <p>Wouldn&rsquo;t it be easier with a CSS selector? But there&rsquo;s something even worse&hellip;</p>
 <p>Inline-Styles have the highest specificity among CSS selectors (when we don&rsquo;t count <strong>!important tags</strong>).</p>
 <p>Considering we are using both a class and an inline-style for an element:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">text-bold</span> {
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">16</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">font-weight</span>: <span style="color:#ff79c6">bold</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
 }
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
 </code></pre></div><p>Here, the <strong>font-size</strong> of the text will be <strong>14px</strong>, because inline-styles have higher specificity than CSS classes. When you make a change in the class:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">text-bold</span> {
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">font-weight</span>: <span style="color:#ff79c6">bold</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
 }
 </code></pre></div><p>The font-size will still be 14px. So your change in the CSS class won&rsquo;t work, which will cause you to end up saying:</p>
 <blockquote>
 <p>&ldquo;Hey, why is my CSS code not working? I hate CSS!&rdquo;</p>
 </blockquote>
 <p>and lead you to use an <strong>!important tag</strong>which does the magic:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">text-bold</span> {
-  <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span> <span style="color:#ff79c6">!important</span>;
-  <span style="color:#ff79c6">font-weight</span>: <span style="color:#ff79c6">bold</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span> <span style="color:#75715e">!important</span>;
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
 }
 </code></pre></div><p>Which is a big no-no and leads us to the next point&hellip;</p>
 <h2 id="4-avoid-the-important-tag">4. Avoid the !important tag</h2>
 <p>OK, so your CSS wasn&rsquo;t working as was supposed to, and you made it work by applying the <strong>important tag:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#ff79c6">!</span><span style="color:#ff79c6">important</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">!</span><span style="color:#f92672">important</span>
 </code></pre></div><p>What happens next? <strong>The !important tag has the highest specificity of all CSS selectors.</strong></p>
 <p>You&rsquo;re basically saying to the browser to apply that specific rule with the <strong>!important tag</strong> always and under any circumstances. This is not good because CSS rules can differ from one selector to another, from parent selector to child.</p>
 <p><strong>The only way to override an important tag is to use another important tag</strong>. And this leads to using more and more important tags. Trust me, in the near future your project code will be full of ! <strong>important tags</strong>, which makes your CSS code much harder to maintain. So try not to use it.</p>
@@ -151,30 +151,30 @@ To work efficiently on that project, first we need to understand the source code
 <h2 id="6-use-shorthands">6. Use Shorthands</h2>
 <p>Some of the CSS properties like paddings, margins, fonts and borders can be written in a much simpler way by shorthands. Using shorthands helps to reduce the lines of rules.</p>
 <p>So without shorthands, a CSS class would look like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">article-container</span> {
-  <span style="color:#ff79c6">padding-top</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding-bottom</span>: <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding-left</span>: <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">padding-right</span>: <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">margin-top</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">margin-bottom</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">margin-left</span>: <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">margin-right</span>: <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">border-width</span>: <span style="color:#bd93f9">1</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">border-style</span>: <span style="color:#ff79c6">solid</span><span style="color:#ff79c6">:</span>
-  <span style="color:#ff79c6">border</span><span style="color:#ff79c6">-</span><span style="color:#ff79c6">color</span><span style="color:#ff79c6">:</span> <span style="color:#ff79c6">black</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">article-container</span> {
+  <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding-bottom</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding-left</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border-width</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border-style</span>: <span style="color:#66d9ef">solid</span><span style="color:#f92672">:</span>
+  <span style="color:#66d9ef">border</span><span style="color:#f92672">-</span><span style="color:#66d9ef">color</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">black</span>;
 }
 </code></pre></div><p>and with shorthands it looks like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#50fa7b">article-container</span> {
-  <span style="color:#ff79c6">padding</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">20</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">margin</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span> <span style="color:#bd93f9">15</span><span style="color:#8be9fd">px</span>;
-  <span style="color:#ff79c6">border</span>: <span style="color:#bd93f9">1</span><span style="color:#8be9fd">px</span> <span style="color:#ff79c6">solid</span> <span style="color:#ff79c6">black</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">article-container</span> {
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">black</span>;
 }
 </code></pre></div><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">You can find here</a> more info about how to use shorthands properties and for which CSS properties they can be applied.</p>
 <p>Normally, quality code doesn&rsquo;t need comments because it should already be clear and self-descriptive. But still, in some cases, we may need to write additional explanations.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#ff79c6">//</span> <span style="color:#ff79c6">Your</span> <span style="color:#ff79c6">Comments</span>
-.<span style="color:#50fa7b">example-class</span> {
-  // your rules
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">//</span> <span style="color:#f92672">Your</span> <span style="color:#f92672">Comments</span>
+.<span style="color:#a6e22e">example-class</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">your</span> <span style="color:#960050;background-color:#1e0010">rules</span>
 }
 </code></pre></div><p>So when you feel that some parts of the code are unclear, then don&rsquo;t be afraid to add comments (but on the other hand, make sure not to overdo it :)).</p>
 <p>As a Frontend Developer with a couple of years of experience, these are the most important tips that I can suggest for improving your CSS skills. If you have any questions, or you think there are also other tips for writing better CSS, don&rsquo;t hesitate to comment down below.</p>
@@ -302,69 +302,69 @@ Contact Page So for the contact page, the form is controlled by a JS snippet tha
             <content type="html"><![CDATA[<p>So as some of you may know, I made a new resume site for myself. The url is [beta.jacobgoldstein.tk](<a href="https://beta.jacobgoldstein.tk">https://beta.jacobgoldstein.tk</a>], and it looks SICK. In this post I am going to walk you through some of the things I did.</p>
 <h4 id="contact-pagehttpsbetajacobgoldsteintkcontacthtml"><a href="https://beta.jacobgoldstein.tk/contact.html">Contact Page</a></h4>
 <p>So for the contact page, the form is controlled by a JS snippet that gets data from a PHP file. The PHP file has info like who to send it to, and all the email variables. Here is what it looks like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#ff79c6">&lt;?</span>php
-    <span style="color:#8be9fd;font-style:italic">$to</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;linuxjacob@mail.com&#34;</span>; <span style="color:#6272a4">// replace this mail with yours
-</span><span style="color:#6272a4"></span>    <span style="color:#8be9fd;font-style:italic">$from</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_SERVER</span>[<span style="color:#f1fa8c">&#39;PHP_SELF&#39;</span>]<span style="color:#ff79c6">.</span><span style="color:#f1fa8c">&#34; &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;email&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$fname</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;name&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$email</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;email&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$lname</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;subject&#34;</span>];
-    <span style="color:#8be9fd;font-style:italic">$headers</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;From: </span><span style="color:#f1fa8c">$from</span><span style="color:#f1fa8c">&#34;</span>;
-    <span style="color:#8be9fd;font-style:italic">$message</span> <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">$_POST</span>[<span style="color:#f1fa8c">&#34;message&#34;</span>];
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+    $to <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;linuxjacob@mail.com&#34;</span>; <span style="color:#75715e">// replace this mail with yours
+</span><span style="color:#75715e"></span>    $from <span style="color:#f92672">=</span> $_SERVER[<span style="color:#e6db74">&#39;PHP_SELF&#39;</span>]<span style="color:#f92672">.</span><span style="color:#e6db74">&#34; &#34;</span><span style="color:#f92672">.</span>$_POST[<span style="color:#e6db74">&#34;email&#34;</span>];
+    $fname <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;name&#34;</span>];
+    $email <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;email&#34;</span>];
+    $lname <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;subject&#34;</span>];
+    $headers <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;From: </span><span style="color:#e6db74">$from</span><span style="color:#e6db74">&#34;</span>;
+    $message <span style="color:#f92672">=</span> $_POST[<span style="color:#e6db74">&#34;message&#34;</span>];
 
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;User Message </span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Name: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$name</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Email: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$email</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Subject: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$subject</span>;
-    <span style="color:#8be9fd;font-style:italic">$body</span> <span style="color:#ff79c6">.=</span> <span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">\n\n\t</span><span style="color:#f1fa8c"> Message: &#34;</span><span style="color:#ff79c6">.</span><span style="color:#8be9fd;font-style:italic">$message</span>;
+    $body <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;User Message </span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Name: &#34;</span><span style="color:#f92672">.</span>$name;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Email: &#34;</span><span style="color:#f92672">.</span>$email;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Subject: &#34;</span><span style="color:#f92672">.</span>$subject;
+    $body <span style="color:#f92672">.=</span> <span style="color:#e6db74">&#34; </span><span style="color:#ae81ff">\n\n\t</span><span style="color:#e6db74"> Message: &#34;</span><span style="color:#f92672">.</span>$message;
 
-    <span style="color:#ff79c6">if</span>(mail(<span style="color:#8be9fd;font-style:italic">$to</span>, <span style="color:#8be9fd;font-style:italic">$subject</span>, <span style="color:#8be9fd;font-style:italic">$body</span>, <span style="color:#8be9fd;font-style:italic">$headers</span>)){
-        <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#39;&lt;label class=&#34;success&#34;&gt;Sent your &lt;b&gt;e-mail.&lt;/b&gt;&lt;/label&gt;&#39;</span>;
-    }<span style="color:#ff79c6">else</span>{
-        <span style="color:#ff79c6">echo</span> <span style="color:#f1fa8c">&#39;&lt;label class=&#34;error&#34;&gt;Something went wrong! please try again.&lt;/label&gt;&#39;</span>;
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">mail</span>($to, $subject, $body, $headers)){
+        <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#39;&lt;label class=&#34;success&#34;&gt;Sent your &lt;b&gt;e-mail.&lt;/b&gt;&lt;/label&gt;&#39;</span>;
+    }<span style="color:#66d9ef">else</span>{
+        <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#39;&lt;label class=&#34;error&#34;&gt;Something went wrong! please try again.&lt;/label&gt;&#39;</span>;
     }
 </code></pre></div><h4 id="about-pagehttpsbetajacobgoldsteintkabouthtml"><a href="https://beta.jacobgoldstein.tk/about.html">About Page</a></h4>
 <p>On my about page, you can see the animated skills bar. That is done with some html and css. Here is an example.</p>
 <p>HTML:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#ff79c6">p</span>&gt;HTML&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills html&#34;</span>&gt;90%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">p</span>&gt;HTML&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills html&#34;</span>&gt;90%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
-&lt;<span style="color:#ff79c6">p</span>&gt;CSS&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills css&#34;</span>&gt;80%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;CSS&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills css&#34;</span>&gt;80%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
-&lt;<span style="color:#ff79c6">p</span>&gt;JavaScript&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills js&#34;</span>&gt;65%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;JavaScript&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills js&#34;</span>&gt;65%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 
-&lt;<span style="color:#ff79c6">p</span>&gt;PHP&lt;/<span style="color:#ff79c6">p</span>&gt;
-&lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;container&#34;</span>&gt;
-  &lt;<span style="color:#ff79c6">div</span> <span style="color:#50fa7b">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;skills php&#34;</span>&gt;60%&lt;/<span style="color:#ff79c6">div</span>&gt;
-&lt;/<span style="color:#ff79c6">div</span>&gt;
+&lt;<span style="color:#f92672">p</span>&gt;PHP&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;skills php&#34;</span>&gt;60%&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
 </code></pre></div><p>CSS</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#6272a4">/* Make sure that padding behaves as expected */</span>
-<span style="color:#ff79c6">*</span> {<span style="color:#ff79c6">box-sizing</span>:<span style="color:#ff79c6">border-box</span>}
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* Make sure that padding behaves as expected */</span>
+<span style="color:#f92672">*</span> {<span style="color:#66d9ef">box-sizing</span>:<span style="color:#66d9ef">border-box</span>}
 
-<span style="color:#6272a4">/* Container for skill bars */</span>
-.<span style="color:#50fa7b">container</span> {
-  <span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">100</span><span style="color:#8be9fd">%</span>; <span style="color:#6272a4">/* Full width */</span>
-  <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#ddd</span>; <span style="color:#6272a4">/* Grey background */</span>
+<span style="color:#75715e">/* Container for skill bars */</span>
+.<span style="color:#a6e22e">container</span> {
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; <span style="color:#75715e">/* Full width */</span>
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#ddd</span>; <span style="color:#75715e">/* Grey background */</span>
 }
 
-.<span style="color:#50fa7b">skills</span> {
-  <span style="color:#ff79c6">text-align</span>: <span style="color:#ff79c6">right</span>; <span style="color:#6272a4">/* Right-align text */</span>
-  <span style="color:#ff79c6">padding-top</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>; <span style="color:#6272a4">/* Add top padding */</span>
-  <span style="color:#ff79c6">padding-bottom</span>: <span style="color:#bd93f9">10</span><span style="color:#8be9fd">px</span>; <span style="color:#6272a4">/* Add bottom padding */</span>
-  <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">white</span>; <span style="color:#6272a4">/* White text color */</span>
+.<span style="color:#a6e22e">skills</span> {
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">right</span>; <span style="color:#75715e">/* Right-align text */</span>
+  <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>; <span style="color:#75715e">/* Add top padding */</span>
+  <span style="color:#66d9ef">padding-bottom</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>; <span style="color:#75715e">/* Add bottom padding */</span>
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>; <span style="color:#75715e">/* White text color */</span>
 }
 
-.<span style="color:#50fa7b">html</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">90</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#4CAF50</span>;} <span style="color:#6272a4">/* Green */</span>
-.<span style="color:#50fa7b">css</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">80</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#2196F3</span>;} <span style="color:#6272a4">/* Blue */</span>
-.<span style="color:#50fa7b">js</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">65</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#f44336</span>;} <span style="color:#6272a4">/* Red */</span>
-.<span style="color:#50fa7b">php</span> {<span style="color:#ff79c6">width</span>: <span style="color:#bd93f9">60</span><span style="color:#8be9fd">%</span>; <span style="color:#ff79c6">background-color</span>: <span style="color:#bd93f9">#808080</span>;} <span style="color:#6272a4">/* Dark Grey */</span>
+.<span style="color:#a6e22e">html</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">90</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#4CAF50</span>;} <span style="color:#75715e">/* Green */</span>
+.<span style="color:#a6e22e">css</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">80</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#2196F3</span>;} <span style="color:#75715e">/* Blue */</span>
+.<span style="color:#a6e22e">js</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">65</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#f44336</span>;} <span style="color:#75715e">/* Red */</span>
+.<span style="color:#a6e22e">php</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">60</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#808080</span>;} <span style="color:#75715e">/* Dark Grey */</span>
 </code></pre></div><h4 id="conclusion">Conclusion</h4>
 <p>A magician never reveals their secrets, which is why I didn&rsquo;t include everything. You <em>can</em> view the source code [here](<a href="https://github.com/orangemn6/portfolio-site%5D">https://github.com/orangemn6/portfolio-site]</a>. See ya next time!</p>
 ]]></content>
@@ -2111,89 +2111,89 @@ wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is
             <content type="html"><![CDATA[<p>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.</p>
 <h3 id="script-1-pywal">Script 1: Pywal</h3>
 <p>So for this one you need pywal.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i <span style="color:#8be9fd;font-style:italic">$HOME</span>/Pictures/wallpapers -o wal-set
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i $HOME/Pictures/wallpapers -o wal-set
 </code></pre></div><h3 id="script-2-sublime-text-theme">Script 2: Sublime text theme</h3>
 <p>This is a python script</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6272a4">#! /usr/bin/env python</span>
-<span style="color:#ff79c6">import</span> json
-<span style="color:#ff79c6">import</span> os
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#! /usr/bin/env python</span>
+<span style="color:#f92672">import</span> json
+<span style="color:#f92672">import</span> os
 
 
-<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">make_element</span>(name, scope, <span style="color:#ff79c6">**</span>kwargs):
-    <span style="color:#f1fa8c">&#34;&#34;&#34;Helper function for generating color scheme entries&#34;&#34;&#34;</span>
-    result <span style="color:#ff79c6">=</span> {}
-    result[<span style="color:#f1fa8c">&#39;name&#39;</span>] <span style="color:#ff79c6">=</span> name
-    result[<span style="color:#f1fa8c">&#39;scope&#39;</span>] <span style="color:#ff79c6">=</span> scope
-    result<span style="color:#ff79c6">.</span>update(kwargs)
-    <span style="color:#ff79c6">return</span> result
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_element</span>(name, scope, <span style="color:#f92672">**</span>kwargs):
+    <span style="color:#e6db74">&#34;&#34;&#34;Helper function for generating color scheme entries&#34;&#34;&#34;</span>
+    result <span style="color:#f92672">=</span> {}
+    result[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">=</span> name
+    result[<span style="color:#e6db74">&#39;scope&#39;</span>] <span style="color:#f92672">=</span> scope
+    result<span style="color:#f92672">.</span>update(kwargs)
+    <span style="color:#66d9ef">return</span> result
 
 
-<span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;__main__&#39;</span>:
-    wal_path <span style="color:#ff79c6">=</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>join(os<span style="color:#ff79c6">.</span>environ[<span style="color:#f1fa8c">&#34;HOME&#34;</span>], <span style="color:#f1fa8c">&#39;.cache/wal/colors.json&#39;</span>)
-    <span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(wal_path) <span style="color:#ff79c6">as</span> <span style="color:#8be9fd;font-style:italic">file</span>:
-        wal_scheme <span style="color:#ff79c6">=</span> json<span style="color:#ff79c6">.</span>load(<span style="color:#8be9fd;font-style:italic">file</span>)
-    wal_colors <span style="color:#ff79c6">=</span> [wal_scheme[<span style="color:#f1fa8c">&#39;colors&#39;</span>][<span style="color:#f1fa8c">&#39;color</span><span style="color:#f1fa8c">%d</span><span style="color:#f1fa8c">&#39;</span> <span style="color:#ff79c6">%</span> i] <span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">16</span>)]
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+    wal_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;HOME&#34;</span>], <span style="color:#e6db74">&#39;.cache/wal/colors.json&#39;</span>)
+    <span style="color:#66d9ef">with</span> open(wal_path) <span style="color:#66d9ef">as</span> file:
+        wal_scheme <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>load(file)
+    wal_colors <span style="color:#f92672">=</span> [wal_scheme[<span style="color:#e6db74">&#39;colors&#39;</span>][<span style="color:#e6db74">&#39;color</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">%</span> i] <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">16</span>)]
 
-    result_scheme <span style="color:#ff79c6">=</span> {}
-    result_scheme[<span style="color:#f1fa8c">&#39;name&#39;</span>] <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;Pywal&#39;</span>
+    result_scheme <span style="color:#f92672">=</span> {}
+    result_scheme[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Pywal&#39;</span>
 
-    <span style="color:#6272a4"># global settings</span>
-    global_settings <span style="color:#ff79c6">=</span> {}
-    global_settings[<span style="color:#f1fa8c">&#39;background&#39;</span>] <span style="color:#ff79c6">=</span> wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;background&#39;</span>]
-    global_settings[<span style="color:#f1fa8c">&#39;foreground&#39;</span>] <span style="color:#ff79c6">=</span> wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>]
-    global_settings[<span style="color:#f1fa8c">&#39;caret&#39;</span>] <span style="color:#ff79c6">=</span> wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>]
-    global_settings[<span style="color:#f1fa8c">&#39;invisibles&#39;</span>] <span style="color:#ff79c6">=</span> wal_colors[<span style="color:#bd93f9">1</span>]
-    global_settings[<span style="color:#f1fa8c">&#39;lineHighlight&#39;</span>] <span style="color:#ff79c6">=</span> wal_colors[<span style="color:#bd93f9">2</span>]
-    global_settings[<span style="color:#f1fa8c">&#39;selection&#39;</span>] <span style="color:#ff79c6">=</span> wal_colors[<span style="color:#bd93f9">6</span>]
+    <span style="color:#75715e"># global settings</span>
+    global_settings <span style="color:#f92672">=</span> {}
+    global_settings[<span style="color:#e6db74">&#39;background&#39;</span>] <span style="color:#f92672">=</span> wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;background&#39;</span>]
+    global_settings[<span style="color:#e6db74">&#39;foreground&#39;</span>] <span style="color:#f92672">=</span> wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>]
+    global_settings[<span style="color:#e6db74">&#39;caret&#39;</span>] <span style="color:#f92672">=</span> wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>]
+    global_settings[<span style="color:#e6db74">&#39;invisibles&#39;</span>] <span style="color:#f92672">=</span> wal_colors[<span style="color:#ae81ff">1</span>]
+    global_settings[<span style="color:#e6db74">&#39;lineHighlight&#39;</span>] <span style="color:#f92672">=</span> wal_colors[<span style="color:#ae81ff">2</span>]
+    global_settings[<span style="color:#e6db74">&#39;selection&#39;</span>] <span style="color:#f92672">=</span> wal_colors[<span style="color:#ae81ff">6</span>]
 
-    <span style="color:#6272a4"># Color scheme elements</span>
-    settings <span style="color:#ff79c6">=</span> []
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Comment&#39;</span>, <span style="color:#f1fa8c">&#39;comment&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">2</span>]))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;String&#39;</span>, <span style="color:#f1fa8c">&#39;string&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">4</span>]))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Number&#39;</span>, <span style="color:#f1fa8c">&#39;constant.numeric&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Built-in constant&#39;</span>, <span style="color:#f1fa8c">&#39;constant.language&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;User-defined constant&#39;</span>, <span style="color:#f1fa8c">&#39;constant.character, constant.other&#39;</span>,
-                                 foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Variable&#39;</span>, <span style="color:#f1fa8c">&#39;variable&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Storage&#39;</span>, <span style="color:#f1fa8c">&#39;storage&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">3</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Storage type&#39;</span>, <span style="color:#f1fa8c">&#39;storage.type&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Class name&#39;</span>, <span style="color:#f1fa8c">&#39;entity.name.class&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>],
-                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Inherited class&#39;</span>, <span style="color:#f1fa8c">&#39;entity.other.inherited-class&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>],
-                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Function name&#39;</span>, <span style="color:#f1fa8c">&#39;entity.name.function&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Function argument&#39;</span>, <span style="color:#f1fa8c">&#39;variable.parameter&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Tag name&#39;</span>, <span style="color:#f1fa8c">&#39;entity.name.tag&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">3</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Tag attribute&#39;</span>, <span style="color:#f1fa8c">&#39;entity.other.attribute-name&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>],
-                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library function&#39;</span>, <span style="color:#f1fa8c">&#39;support.function&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library constant&#39;</span>, <span style="color:#f1fa8c">&#39;support.constant&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library class/type&#39;</span>, <span style="color:#f1fa8c">&#39;support.class, support.type&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>],
-                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library variable&#39;</span>, <span style="color:#f1fa8c">&#39;support.other.variable&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Invalid&#39;</span>, <span style="color:#f1fa8c">&#39;invalid&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>,
-                                 foreground<span style="color:#ff79c6">=</span>wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>], background<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
-    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Invalid deprecaded&#39;</span>, <span style="color:#f1fa8c">&#39;invalid.deprecated&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>,
-                                 foreground<span style="color:#ff79c6">=</span>wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>], background<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">4</span>]))
+    <span style="color:#75715e"># Color scheme elements</span>
+    settings <span style="color:#f92672">=</span> []
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Comment&#39;</span>, <span style="color:#e6db74">&#39;comment&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">2</span>]))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;String&#39;</span>, <span style="color:#e6db74">&#39;string&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">4</span>]))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Number&#39;</span>, <span style="color:#e6db74">&#39;constant.numeric&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Built-in constant&#39;</span>, <span style="color:#e6db74">&#39;constant.language&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;User-defined constant&#39;</span>, <span style="color:#e6db74">&#39;constant.character, constant.other&#39;</span>,
+                                 foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Variable&#39;</span>, <span style="color:#e6db74">&#39;variable&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Storage&#39;</span>, <span style="color:#e6db74">&#39;storage&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">3</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Storage type&#39;</span>, <span style="color:#e6db74">&#39;storage.type&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Class name&#39;</span>, <span style="color:#e6db74">&#39;entity.name.class&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>],
+                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Inherited class&#39;</span>, <span style="color:#e6db74">&#39;entity.other.inherited-class&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>],
+                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Function name&#39;</span>, <span style="color:#e6db74">&#39;entity.name.function&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Function argument&#39;</span>, <span style="color:#e6db74">&#39;variable.parameter&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Tag name&#39;</span>, <span style="color:#e6db74">&#39;entity.name.tag&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">3</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Tag attribute&#39;</span>, <span style="color:#e6db74">&#39;entity.other.attribute-name&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>],
+                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library function&#39;</span>, <span style="color:#e6db74">&#39;support.function&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library constant&#39;</span>, <span style="color:#e6db74">&#39;support.constant&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library class/type&#39;</span>, <span style="color:#e6db74">&#39;support.class, support.type&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>],
+                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library variable&#39;</span>, <span style="color:#e6db74">&#39;support.other.variable&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Invalid&#39;</span>, <span style="color:#e6db74">&#39;invalid&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>,
+                                 foreground<span style="color:#f92672">=</span>wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>], background<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
+    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Invalid deprecaded&#39;</span>, <span style="color:#e6db74">&#39;invalid.deprecated&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>,
+                                 foreground<span style="color:#f92672">=</span>wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>], background<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">4</span>]))
 
-    result_scheme[<span style="color:#f1fa8c">&#39;globals&#39;</span>] <span style="color:#ff79c6">=</span> global_settings
-    result_scheme[<span style="color:#f1fa8c">&#39;rules&#39;</span>] <span style="color:#ff79c6">=</span> settings
-    result_scheme[<span style="color:#f1fa8c">&#39;semanticClass&#39;</span>] <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;theme.dark.pywal&#39;</span>
+    result_scheme[<span style="color:#e6db74">&#39;globals&#39;</span>] <span style="color:#f92672">=</span> global_settings
+    result_scheme[<span style="color:#e6db74">&#39;rules&#39;</span>] <span style="color:#f92672">=</span> settings
+    result_scheme[<span style="color:#e6db74">&#39;semanticClass&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;theme.dark.pywal&#39;</span>
 
-    theme_path <span style="color:#ff79c6">=</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>join(os<span style="color:#ff79c6">.</span>environ[<span style="color:#f1fa8c">&#39;HOME&#39;</span>], <span style="color:#f1fa8c">&#39;.config/sublime-text-3/Packages/User/PyWal.sublime-color-scheme&#39;</span>)
-    <span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(theme_path, <span style="color:#f1fa8c">&#39;w&#39;</span>) <span style="color:#ff79c6">as</span> <span style="color:#8be9fd;font-style:italic">file</span>:
-        json<span style="color:#ff79c6">.</span>dump(result_scheme, <span style="color:#8be9fd;font-style:italic">file</span>, indent<span style="color:#ff79c6">=</span><span style="color:#bd93f9">4</span>)
+    theme_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#39;HOME&#39;</span>], <span style="color:#e6db74">&#39;.config/sublime-text-3/Packages/User/PyWal.sublime-color-scheme&#39;</span>)
+    <span style="color:#66d9ef">with</span> open(theme_path, <span style="color:#e6db74">&#39;w&#39;</span>) <span style="color:#66d9ef">as</span> file:
+        json<span style="color:#f92672">.</span>dump(result_scheme, file, indent<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>)
 </code></pre></div><h3 id="script-3-put-it-all-together">Script 3: Put it all together</h3>
 <p>Put these scripts in /usr/local/bin</p>
 <p>Make one last shell script called theme</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i <span style="color:#8be9fd;font-style:italic">$HOME</span>/Pictures/wallpapers -o wal-set
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i $HOME/Pictures/wallpapers -o wal-set
 sleep 0.02
 pywal_sublime.py
 </code></pre></div><p>Now to set gtk themes, you will need a tool called <code>wpgtk</code>. Wpgtk will take our data from the previous scripts, and use it to make a GTK theme.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/deviantfero/wpgtk
-<span style="color:#8be9fd;font-style:italic">cd</span> wpgtk
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/deviantfero/wpgtk
+cd wpgtk
 sudo pip install .
-<span style="color:#8be9fd;font-style:italic">cd</span>
+cd
 wpg-install.sh -g -i
 wpg
 </code></pre></div><p>Now hit add and select your wallpaper. Then hit set.</p>
@@ -3354,13 +3354,13 @@ The last part of ricing that I&rsquo;m going to explain in this guide is the ter
 </blockquote>
 <h2 id="1-remove-existing-snaps">1. Remove existing Snaps</h2>
 <p>On a fresh Ubuntu install, a few snaps come preinstalled. You can see the list of them using <code>snap list</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
 Name               Version             Rev   Tracking         Publisher   Notes
-core18             <span style="color:#bd93f9">20200724</span>            <span style="color:#bd93f9">1885</span>  latest/stable    canonical✓  base
-gnome-3-34-1804    0+git.3556cb3       <span style="color:#bd93f9">60</span>    latest/stable/…  canonical✓  -
-gtk-common-themes  0.1-36-gc75f853     <span style="color:#bd93f9">1506</span>  latest/stable/…  canonical✓  -
-snap-store         3.36.0-82-g80486d0  <span style="color:#bd93f9">481</span>   latest/stable/…  canonical✓  -
-snapd              2.47.1              <span style="color:#bd93f9">9721</span>  latest/stable    canonical✓  snapd
+core18             <span style="color:#ae81ff">20200724</span>            <span style="color:#ae81ff">1885</span>  latest/stable    canonical✓  base
+gnome-3-34-1804    0+git.3556cb3       <span style="color:#ae81ff">60</span>    latest/stable/…  canonical✓  -
+gtk-common-themes  0.1-36-gc75f853     <span style="color:#ae81ff">1506</span>  latest/stable/…  canonical✓  -
+snap-store         3.36.0-82-g80486d0  <span style="color:#ae81ff">481</span>   latest/stable/…  canonical✓  -
+snapd              2.47.1              <span style="color:#ae81ff">9721</span>  latest/stable    canonical✓  snapd
 </code></pre></div><p>To remove these, you will need them using <code>sudo snap remove &lt;package&gt;</code>.</p>
 <p>Run the following command to remove them all (the order of removal seems to be of importance here):</p>
 <pre><code>sudo snap remove snap-store
@@ -3369,22 +3369,22 @@ sudo snap remove gnome-3-34-1804
 sudo snap remove core18
 sudo snap remove snapd
 </code></pre><p>Typing <code>snap list</code> now should show the following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
-No snaps are installed yet. Try <span style="color:#f1fa8c">&#39;snap install hello-world&#39;</span>.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
+No snaps are installed yet. Try <span style="color:#e6db74">&#39;snap install hello-world&#39;</span>.
 </code></pre></div><h2 id="2-unmount-the-snap-mount-points">2. Unmount the snap mount points</h2>
 <p>If running Ubuntu 20.04 LTS, you may need to perform this step.  I did not see the need on 20.10.</p>
 <h4 id="ubuntu-2004-lts">Ubuntu 20.04 LTS</h4>
 <p>You&rsquo;ll need to replace the <code>xxxx</code> with the actual ID inside the <code>core</code> directory on your system, which you can find out by running <code>df</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /snap/core/xxxx
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /snap/core/xxxx
 </code></pre></div><h4 id="ubuntu-2010">Ubuntu 20.10</h4>
 <p>In Ubuntu 20.10, I found that this is now under <code>/var/snap</code>.  Simply run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /var/snap
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /var/snap
 </code></pre></div><h2 id="3-remove-and-purge-the-snapd-package">3. Remove and purge the snapd package</h2>
 <p>Next, to remove the snapd package and all of its related services, run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt purge snapd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt purge snapd
 </code></pre></div><h2 id="4-remove-any-lingering-snap-directories">4. Remove any lingering snap directories</h2>
 <p>Finally, you can remove the remaining snap directories on the system.  You may not have any of these directories after step 3, and that&rsquo;s okay.  I didn&rsquo;t have these directories on a fresh Ubuntu 20.04 install once snapd was removed, but your mileage may vary.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf ~/snap
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf ~/snap
 sudo rm -rf /snap
 sudo rm -rf /var/snap
 sudo rm -rf /var/lib/snapd
@@ -3758,7 +3758,7 @@ TLDR   Though I am just an amateur in Linux, I was able to survive the transitio
 <h3 id="lack-of-familiarity">Lack of familiarity</h3>
 <p>To address the issue of familiarity, I started using Linux on my office laptop as well as my personal laptop. I started reading blogs about Linux and followed some interesting Linux-related accounts on Twitter. I reached out to people who were good at Linux. I would walk up to their cubicles and ask them to show me their command history. I learned a lot more from this than from reading the blogs. Most of the times, since it’s just muscle memory, the programmers can’t explain it. But their history is a treasure trove.</p>
 <p>I would recommend running the following command. You will get many insights into the commands your Linux heroes use frequently.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8be9fd;font-style:italic">history</span> | awk ‘<span style="color:#ff79c6">{</span> <span style="color:#8be9fd;font-style:italic">$1</span><span style="color:#ff79c6">=</span>””; print <span style="color:#8be9fd;font-style:italic">$0</span> <span style="color:#ff79c6">}</span>’ | sort | uniq -c | sort -nr | head -20
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">history | awk ‘<span style="color:#f92672">{</span> $1<span style="color:#f92672">=</span>””; print $0 <span style="color:#f92672">}</span>’ | sort | uniq -c | sort -nr | head -20
 </code></pre></div><p>Run the command on the terminals of the Linux gurus in your office. Ask them about the commands you are not familiar with and you should be able to learn a lot more than what a couple of books could teach you. Don’t forget that these are battle-tested commands and hence much more valuable than standard examples in blogs. If you cannot understand what the above command does, don’t worry—I’ll explain it later on in the piece.</p>
 <h3 id="fear-of-screwing-up">Fear of screwing up</h3>
 <p>I have been using Linux for a couple of years but I still have this fear. This fear was multi-fold when I started. One thing that helped me a lot was, I spoke to Linux pros in my company and made a blacklist—a list of commands that I should never use or use with caution. sudo rm -rf was the top of the list. If you are anxious like me you can use <a href="https://github.com/nivekuil/rip">https://github.com/nivekuil/rip</a> on your local machine.</p>
