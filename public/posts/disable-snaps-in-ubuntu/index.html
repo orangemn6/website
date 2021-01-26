@@ -183,13 +183,13 @@
 </blockquote>
 <h2 id="1-remove-existing-snaps">1. Remove existing Snaps</h2>
 <p>On a fresh Ubuntu install, a few snaps come preinstalled. You can see the list of them using <code>snap list</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
 Name               Version             Rev   Tracking         Publisher   Notes
-core18             <span style="color:#ae81ff">20200724</span>            <span style="color:#ae81ff">1885</span>  latest/stable    canonical✓  base
-gnome-3-34-1804    0+git.3556cb3       <span style="color:#ae81ff">60</span>    latest/stable/…  canonical✓  -
-gtk-common-themes  0.1-36-gc75f853     <span style="color:#ae81ff">1506</span>  latest/stable/…  canonical✓  -
-snap-store         3.36.0-82-g80486d0  <span style="color:#ae81ff">481</span>   latest/stable/…  canonical✓  -
-snapd              2.47.1              <span style="color:#ae81ff">9721</span>  latest/stable    canonical✓  snapd
+core18             <span style="color:#bd93f9">20200724</span>            <span style="color:#bd93f9">1885</span>  latest/stable    canonical✓  base
+gnome-3-34-1804    0+git.3556cb3       <span style="color:#bd93f9">60</span>    latest/stable/…  canonical✓  -
+gtk-common-themes  0.1-36-gc75f853     <span style="color:#bd93f9">1506</span>  latest/stable/…  canonical✓  -
+snap-store         3.36.0-82-g80486d0  <span style="color:#bd93f9">481</span>   latest/stable/…  canonical✓  -
+snapd              2.47.1              <span style="color:#bd93f9">9721</span>  latest/stable    canonical✓  snapd
 </code></pre></div><p>To remove these, you will need them using <code>sudo snap remove &lt;package&gt;</code>.</p>
 <p>Run the following command to remove them all (the order of removal seems to be of importance here):</p>
 <pre><code>sudo snap remove snap-store
@@ -198,22 +198,22 @@ sudo snap remove gnome-3-34-1804
 sudo snap remove core18
 sudo snap remove snapd
 </code></pre><p>Typing <code>snap list</code> now should show the following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
-No snaps are installed yet. Try <span style="color:#e6db74">&#39;snap install hello-world&#39;</span>.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kevin@olubuntu2010:~$ snap list
+No snaps are installed yet. Try <span style="color:#f1fa8c">&#39;snap install hello-world&#39;</span>.
 </code></pre></div><h2 id="2-unmount-the-snap-mount-points">2. Unmount the snap mount points</h2>
 <p>If running Ubuntu 20.04 LTS, you may need to perform this step.  I did not see the need on 20.10.</p>
 <h4 id="ubuntu-2004-lts">Ubuntu 20.04 LTS</h4>
 <p>You&rsquo;ll need to replace the <code>xxxx</code> with the actual ID inside the <code>core</code> directory on your system, which you can find out by running <code>df</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /snap/core/xxxx
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /snap/core/xxxx
 </code></pre></div><h4 id="ubuntu-2010">Ubuntu 20.10</h4>
 <p>In Ubuntu 20.10, I found that this is now under <code>/var/snap</code>.  Simply run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /var/snap
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo umount /var/snap
 </code></pre></div><h2 id="3-remove-and-purge-the-snapd-package">3. Remove and purge the snapd package</h2>
 <p>Next, to remove the snapd package and all of its related services, run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt purge snapd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt purge snapd
 </code></pre></div><h2 id="4-remove-any-lingering-snap-directories">4. Remove any lingering snap directories</h2>
 <p>Finally, you can remove the remaining snap directories on the system.  You may not have any of these directories after step 3, and that&rsquo;s okay.  I didn&rsquo;t have these directories on a fresh Ubuntu 20.04 install once snapd was removed, but your mileage may vary.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf ~/snap
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf ~/snap
 sudo rm -rf /snap
 sudo rm -rf /var/snap
 sudo rm -rf /var/lib/snapd

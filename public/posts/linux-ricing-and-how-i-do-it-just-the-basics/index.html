@@ -172,89 +172,89 @@ wal -i $HOME/Pictures/wallpapers -o wal-set Script 2: Sublime text theme This is
                 <p>Everyone is always asking me, how do I rice linux so fast? And The answer is, I just have the some bash scripts set to keybinds. For the i3 window manager.</p>
 <h3 id="script-1-pywal">Script 1: Pywal</h3>
 <p>So for this one you need pywal.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i $HOME/Pictures/wallpapers -o wal-set
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i <span style="color:#8be9fd;font-style:italic">$HOME</span>/Pictures/wallpapers -o wal-set
 </code></pre></div><h3 id="script-2-sublime-text-theme">Script 2: Sublime text theme</h3>
 <p>This is a python script</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#! /usr/bin/env python</span>
-<span style="color:#f92672">import</span> json
-<span style="color:#f92672">import</span> os
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6272a4">#! /usr/bin/env python</span>
+<span style="color:#ff79c6">import</span> json
+<span style="color:#ff79c6">import</span> os
 
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_element</span>(name, scope, <span style="color:#f92672">**</span>kwargs):
-    <span style="color:#e6db74">&#34;&#34;&#34;Helper function for generating color scheme entries&#34;&#34;&#34;</span>
-    result <span style="color:#f92672">=</span> {}
-    result[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">=</span> name
-    result[<span style="color:#e6db74">&#39;scope&#39;</span>] <span style="color:#f92672">=</span> scope
-    result<span style="color:#f92672">.</span>update(kwargs)
-    <span style="color:#66d9ef">return</span> result
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">make_element</span>(name, scope, <span style="color:#ff79c6">**</span>kwargs):
+    <span style="color:#f1fa8c">&#34;&#34;&#34;Helper function for generating color scheme entries&#34;&#34;&#34;</span>
+    result <span style="color:#ff79c6">=</span> {}
+    result[<span style="color:#f1fa8c">&#39;name&#39;</span>] <span style="color:#ff79c6">=</span> name
+    result[<span style="color:#f1fa8c">&#39;scope&#39;</span>] <span style="color:#ff79c6">=</span> scope
+    result<span style="color:#ff79c6">.</span>update(kwargs)
+    <span style="color:#ff79c6">return</span> result
 
 
-<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
-    wal_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;HOME&#34;</span>], <span style="color:#e6db74">&#39;.cache/wal/colors.json&#39;</span>)
-    <span style="color:#66d9ef">with</span> open(wal_path) <span style="color:#66d9ef">as</span> file:
-        wal_scheme <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>load(file)
-    wal_colors <span style="color:#f92672">=</span> [wal_scheme[<span style="color:#e6db74">&#39;colors&#39;</span>][<span style="color:#e6db74">&#39;color</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">%</span> i] <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">16</span>)]
+<span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;__main__&#39;</span>:
+    wal_path <span style="color:#ff79c6">=</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>join(os<span style="color:#ff79c6">.</span>environ[<span style="color:#f1fa8c">&#34;HOME&#34;</span>], <span style="color:#f1fa8c">&#39;.cache/wal/colors.json&#39;</span>)
+    <span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(wal_path) <span style="color:#ff79c6">as</span> <span style="color:#8be9fd;font-style:italic">file</span>:
+        wal_scheme <span style="color:#ff79c6">=</span> json<span style="color:#ff79c6">.</span>load(<span style="color:#8be9fd;font-style:italic">file</span>)
+    wal_colors <span style="color:#ff79c6">=</span> [wal_scheme[<span style="color:#f1fa8c">&#39;colors&#39;</span>][<span style="color:#f1fa8c">&#39;color</span><span style="color:#f1fa8c">%d</span><span style="color:#f1fa8c">&#39;</span> <span style="color:#ff79c6">%</span> i] <span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">16</span>)]
 
-    result_scheme <span style="color:#f92672">=</span> {}
-    result_scheme[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Pywal&#39;</span>
+    result_scheme <span style="color:#ff79c6">=</span> {}
+    result_scheme[<span style="color:#f1fa8c">&#39;name&#39;</span>] <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;Pywal&#39;</span>
 
-    <span style="color:#75715e"># global settings</span>
-    global_settings <span style="color:#f92672">=</span> {}
-    global_settings[<span style="color:#e6db74">&#39;background&#39;</span>] <span style="color:#f92672">=</span> wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;background&#39;</span>]
-    global_settings[<span style="color:#e6db74">&#39;foreground&#39;</span>] <span style="color:#f92672">=</span> wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>]
-    global_settings[<span style="color:#e6db74">&#39;caret&#39;</span>] <span style="color:#f92672">=</span> wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>]
-    global_settings[<span style="color:#e6db74">&#39;invisibles&#39;</span>] <span style="color:#f92672">=</span> wal_colors[<span style="color:#ae81ff">1</span>]
-    global_settings[<span style="color:#e6db74">&#39;lineHighlight&#39;</span>] <span style="color:#f92672">=</span> wal_colors[<span style="color:#ae81ff">2</span>]
-    global_settings[<span style="color:#e6db74">&#39;selection&#39;</span>] <span style="color:#f92672">=</span> wal_colors[<span style="color:#ae81ff">6</span>]
+    <span style="color:#6272a4"># global settings</span>
+    global_settings <span style="color:#ff79c6">=</span> {}
+    global_settings[<span style="color:#f1fa8c">&#39;background&#39;</span>] <span style="color:#ff79c6">=</span> wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;background&#39;</span>]
+    global_settings[<span style="color:#f1fa8c">&#39;foreground&#39;</span>] <span style="color:#ff79c6">=</span> wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>]
+    global_settings[<span style="color:#f1fa8c">&#39;caret&#39;</span>] <span style="color:#ff79c6">=</span> wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>]
+    global_settings[<span style="color:#f1fa8c">&#39;invisibles&#39;</span>] <span style="color:#ff79c6">=</span> wal_colors[<span style="color:#bd93f9">1</span>]
+    global_settings[<span style="color:#f1fa8c">&#39;lineHighlight&#39;</span>] <span style="color:#ff79c6">=</span> wal_colors[<span style="color:#bd93f9">2</span>]
+    global_settings[<span style="color:#f1fa8c">&#39;selection&#39;</span>] <span style="color:#ff79c6">=</span> wal_colors[<span style="color:#bd93f9">6</span>]
 
-    <span style="color:#75715e"># Color scheme elements</span>
-    settings <span style="color:#f92672">=</span> []
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Comment&#39;</span>, <span style="color:#e6db74">&#39;comment&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">2</span>]))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;String&#39;</span>, <span style="color:#e6db74">&#39;string&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">4</span>]))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Number&#39;</span>, <span style="color:#e6db74">&#39;constant.numeric&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Built-in constant&#39;</span>, <span style="color:#e6db74">&#39;constant.language&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;User-defined constant&#39;</span>, <span style="color:#e6db74">&#39;constant.character, constant.other&#39;</span>,
-                                 foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Variable&#39;</span>, <span style="color:#e6db74">&#39;variable&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Storage&#39;</span>, <span style="color:#e6db74">&#39;storage&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">3</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Storage type&#39;</span>, <span style="color:#e6db74">&#39;storage.type&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Class name&#39;</span>, <span style="color:#e6db74">&#39;entity.name.class&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>],
-                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Inherited class&#39;</span>, <span style="color:#e6db74">&#39;entity.other.inherited-class&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>],
-                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Function name&#39;</span>, <span style="color:#e6db74">&#39;entity.name.function&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Function argument&#39;</span>, <span style="color:#e6db74">&#39;variable.parameter&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Tag name&#39;</span>, <span style="color:#e6db74">&#39;entity.name.tag&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">3</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Tag attribute&#39;</span>, <span style="color:#e6db74">&#39;entity.other.attribute-name&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">1</span>],
-                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library function&#39;</span>, <span style="color:#e6db74">&#39;support.function&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library constant&#39;</span>, <span style="color:#e6db74">&#39;support.constant&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>], fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library class/type&#39;</span>, <span style="color:#e6db74">&#39;support.class, support.type&#39;</span>, foreground<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">6</span>],
-                                 fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;italic&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Library variable&#39;</span>, <span style="color:#e6db74">&#39;support.other.variable&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Invalid&#39;</span>, <span style="color:#e6db74">&#39;invalid&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>,
-                                 foreground<span style="color:#f92672">=</span>wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>], background<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">5</span>]))
-    settings<span style="color:#f92672">.</span>append(make_element(<span style="color:#e6db74">&#39;Invalid deprecaded&#39;</span>, <span style="color:#e6db74">&#39;invalid.deprecated&#39;</span>, fontStyle<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>,
-                                 foreground<span style="color:#f92672">=</span>wal_scheme[<span style="color:#e6db74">&#39;special&#39;</span>][<span style="color:#e6db74">&#39;foreground&#39;</span>], background<span style="color:#f92672">=</span>wal_colors[<span style="color:#ae81ff">4</span>]))
+    <span style="color:#6272a4"># Color scheme elements</span>
+    settings <span style="color:#ff79c6">=</span> []
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Comment&#39;</span>, <span style="color:#f1fa8c">&#39;comment&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">2</span>]))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;String&#39;</span>, <span style="color:#f1fa8c">&#39;string&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">4</span>]))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Number&#39;</span>, <span style="color:#f1fa8c">&#39;constant.numeric&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Built-in constant&#39;</span>, <span style="color:#f1fa8c">&#39;constant.language&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;User-defined constant&#39;</span>, <span style="color:#f1fa8c">&#39;constant.character, constant.other&#39;</span>,
+                                 foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Variable&#39;</span>, <span style="color:#f1fa8c">&#39;variable&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Storage&#39;</span>, <span style="color:#f1fa8c">&#39;storage&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">3</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Storage type&#39;</span>, <span style="color:#f1fa8c">&#39;storage.type&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Class name&#39;</span>, <span style="color:#f1fa8c">&#39;entity.name.class&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>],
+                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Inherited class&#39;</span>, <span style="color:#f1fa8c">&#39;entity.other.inherited-class&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>],
+                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Function name&#39;</span>, <span style="color:#f1fa8c">&#39;entity.name.function&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Function argument&#39;</span>, <span style="color:#f1fa8c">&#39;variable.parameter&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Tag name&#39;</span>, <span style="color:#f1fa8c">&#39;entity.name.tag&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">3</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Tag attribute&#39;</span>, <span style="color:#f1fa8c">&#39;entity.other.attribute-name&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">1</span>],
+                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library function&#39;</span>, <span style="color:#f1fa8c">&#39;support.function&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library constant&#39;</span>, <span style="color:#f1fa8c">&#39;support.constant&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>], fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library class/type&#39;</span>, <span style="color:#f1fa8c">&#39;support.class, support.type&#39;</span>, foreground<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">6</span>],
+                                 fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;italic&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Library variable&#39;</span>, <span style="color:#f1fa8c">&#39;support.other.variable&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Invalid&#39;</span>, <span style="color:#f1fa8c">&#39;invalid&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>,
+                                 foreground<span style="color:#ff79c6">=</span>wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>], background<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">5</span>]))
+    settings<span style="color:#ff79c6">.</span>append(make_element(<span style="color:#f1fa8c">&#39;Invalid deprecaded&#39;</span>, <span style="color:#f1fa8c">&#39;invalid.deprecated&#39;</span>, fontStyle<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;&#39;</span>,
+                                 foreground<span style="color:#ff79c6">=</span>wal_scheme[<span style="color:#f1fa8c">&#39;special&#39;</span>][<span style="color:#f1fa8c">&#39;foreground&#39;</span>], background<span style="color:#ff79c6">=</span>wal_colors[<span style="color:#bd93f9">4</span>]))
 
-    result_scheme[<span style="color:#e6db74">&#39;globals&#39;</span>] <span style="color:#f92672">=</span> global_settings
-    result_scheme[<span style="color:#e6db74">&#39;rules&#39;</span>] <span style="color:#f92672">=</span> settings
-    result_scheme[<span style="color:#e6db74">&#39;semanticClass&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;theme.dark.pywal&#39;</span>
+    result_scheme[<span style="color:#f1fa8c">&#39;globals&#39;</span>] <span style="color:#ff79c6">=</span> global_settings
+    result_scheme[<span style="color:#f1fa8c">&#39;rules&#39;</span>] <span style="color:#ff79c6">=</span> settings
+    result_scheme[<span style="color:#f1fa8c">&#39;semanticClass&#39;</span>] <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;theme.dark.pywal&#39;</span>
 
-    theme_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#39;HOME&#39;</span>], <span style="color:#e6db74">&#39;.config/sublime-text-3/Packages/User/PyWal.sublime-color-scheme&#39;</span>)
-    <span style="color:#66d9ef">with</span> open(theme_path, <span style="color:#e6db74">&#39;w&#39;</span>) <span style="color:#66d9ef">as</span> file:
-        json<span style="color:#f92672">.</span>dump(result_scheme, file, indent<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>)
+    theme_path <span style="color:#ff79c6">=</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>join(os<span style="color:#ff79c6">.</span>environ[<span style="color:#f1fa8c">&#39;HOME&#39;</span>], <span style="color:#f1fa8c">&#39;.config/sublime-text-3/Packages/User/PyWal.sublime-color-scheme&#39;</span>)
+    <span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(theme_path, <span style="color:#f1fa8c">&#39;w&#39;</span>) <span style="color:#ff79c6">as</span> <span style="color:#8be9fd;font-style:italic">file</span>:
+        json<span style="color:#ff79c6">.</span>dump(result_scheme, <span style="color:#8be9fd;font-style:italic">file</span>, indent<span style="color:#ff79c6">=</span><span style="color:#bd93f9">4</span>)
 </code></pre></div><h3 id="script-3-put-it-all-together">Script 3: Put it all together</h3>
 <p>Put these scripts in /usr/local/bin</p>
 <p>Make one last shell script called theme</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i $HOME/Pictures/wallpapers -o wal-set
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wal -i <span style="color:#8be9fd;font-style:italic">$HOME</span>/Pictures/wallpapers -o wal-set
 sleep 0.02
 pywal_sublime.py
 </code></pre></div><p>Now to set gtk themes, you will need a tool called <code>wpgtk</code>. Wpgtk will take our data from the previous scripts, and use it to make a GTK theme.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/deviantfero/wpgtk
-cd wpgtk
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/deviantfero/wpgtk
+<span style="color:#8be9fd;font-style:italic">cd</span> wpgtk
 sudo pip install .
-cd
+<span style="color:#8be9fd;font-style:italic">cd</span>
 wpg-install.sh -g -i
 wpg
 </code></pre></div><p>Now hit add and select your wallpaper. Then hit set.</p>
