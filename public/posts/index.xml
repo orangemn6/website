@@ -5,8 +5,183 @@
         <description>Recent content in Posts on Jacob Goldstein&#39;s Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 24 Jan 2021 11:38:56 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 25 Jan 2021 21:48:19 -0500</lastBuildDate>
         <atom:link href="https://www.jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>7 Important Tips for Writing Better CSS</title>
+            <link>https://www.jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
+            <pubDate>Mon, 25 Jan 2021 21:48:19 -0500</pubDate>
+            
+            <guid>https://www.jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</guid>
+            <description>One of the biggest issues in programming is dealing with maintenance. In a real-world scenario, we don&amp;rsquo;t always start developing projects from scratch. Mostly, we are assigned (or take) a project that has already been written maybe a couple of years before or even longer.
+To work efficiently on that project, first we need to understand the source code. This is the point when we immediately realize the importance of **clean code.</description>
+            <content type="html"><![CDATA[<p>One of the biggest issues in programming is dealing with maintenance. In a real-world scenario, we don&rsquo;t always start developing projects from scratch. Mostly, we are assigned (or take) a project that has already been written maybe a couple of years before or even longer.</p>
+<p>To work efficiently on that project, first we need to understand the source code. This is the point when we immediately realize the importance of **clean code.**As developers, we must try to write our code as cleanly as possible.</p>
+<p>This is also the case for CSS. There are some points we need to pay attention to while writing CSS. In this post, I would like to share some of the most important ones with you. I believe these 7 tips will help you to improve the quality of your CSS code.</p>
+<p>So let&rsquo;s begin&hellip;‌ ‌</p>
+<h2 id="1-dry">1. DRY</h2>
+<p><strong>DRY stands for &ldquo;Don&rsquo;t Repeat Yourself&rdquo;</strong>. This is a general software development principle and can be applied in any programming language, as well as in CSS. As we can understand from its name, DRY aims to avoid or reduce repetition as much as possible.</p>
+<p>For example, we can create 3 CSS classes for 3 buttons like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">primary-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">blue</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+}
+
+.<span style="color:#a6e22e">form-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">green</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+}
+
+.<span style="color:#a6e22e">cancel-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">red</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+}
+</code></pre></div><p>Or we can use the DRY principle by writing the common rules <strong>once</strong> in an additional class and the different rules each in other classes:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">button</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">white</span>;
+  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">5</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+}
+
+.<span style="color:#a6e22e">primary-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">blue</span>;
+}
+
+.<span style="color:#a6e22e">form-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">green</span>;
+}
+
+.<span style="color:#a6e22e">cancel-button</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">red</span>;
+}
+</code></pre></div><p>As we can see, applying the DRY principle avoids repetition, decreases the number of lines, and improves readability and even performance.</p>
+<h2 id="2-naming">2. Naming</h2>
+<p>Naming CSS selectors is another important point for writing better CSS. The name of a selector should be <strong>self-descriptive and readable</strong>&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">//</span> <span style="color:#f92672">BAD</span> <span style="color:#f92672">NAMING</span>
+
+.<span style="color:#a6e22e">p</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
+}
+
+.<span style="color:#a6e22e">myFirstForm</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
+}
+</code></pre></div><p>Normally, is an HTML tag and stands for paragraph. Above, we can&rsquo;t really understand what <strong>class p</strong> is. Also, you should avoid names like <strong>myFirstForm</strong>, and I don&rsquo;t advise using <strong>camel case</strong>.</p>
+<p>Instead, use declarative names (separated by a dash for multiple names):</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">//</span> <span style="color:#f92672">GOOD</span> <span style="color:#f92672">NAMING</span>
+
+.<span style="color:#a6e22e">article-paragraph</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
+}
+
+.<span style="color:#a6e22e">contact-form</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">Rules</span>
+}
+</code></pre></div><p>I think the names make more sense now :)</p>
+<p>Naming things in programming is not that easy, but there are various naming conventions that you can use in your project. <strong>BEM (block element modifier)</strong> is one of them. I&rsquo;ve worked with BEM before and I can recommend it.</p>
+<h2 id="3-dont-use-inline-styles">3. Don&rsquo;t Use Inline-Styles</h2>
+<p>Well, there are arguments on the web about this: some are telling you never to use inline styles, while others are arguing that it can be useful in some cases.</p>
+<p>In my opinion, the best practice is actually not using inline styles. I will focus here on why we shouldn&rsquo;t.</p>
+<p>According to the separation of concerns principle, design (CSS), content (HTML) and logic (JavaScript) should be separated for reasons like better readability and maintenance.</p>
+<p>Including CSS rules inside HTML tags breaks this rule:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+</code></pre></div><blockquote>
+<p>We should rather keep our styling rules in external CSS files.</p>
+</blockquote>
+<p>Another problem with using inline-styles is that we can&rsquo;t search for them. So when we need to make a change on styling, we normally look for CSS selectors of the HTML element.</p>
+<p>For example, let&rsquo;s change the <strong>font-size</strong> of text on our webpage. To do that, first we find that specific part on the browser where the change is needed by looking at the HTML structure:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+</code></pre></div><p>Then we need to find the selector, which is the <strong>text-bold</strong> class here. Finally, we go to that class and make the changes:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">change</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">font-size</span> <span style="color:#960050;background-color:#1e0010">to</span> <span style="color:#960050;background-color:#1e0010">14px</span>
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+}
+</code></pre></div><p>But if the rules are written <strong>inline-style</strong> instead of using classes:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+</code></pre></div><p>Even if we find the HTML tag, we can&rsquo;t know whether there are other <strong>font-size</strong> rules inside the HTML or not. Since there is no selector used, we have to go through all the HTML pages one by one, try to find the other <strong>font-size</strong> rules and change them too.</p>
+<p>Wouldn&rsquo;t it be easier with a CSS selector? But there&rsquo;s something even worse&hellip;</p>
+<p>Inline-Styles have the highest specificity among CSS selectors (when we don&rsquo;t count <strong>!important tags</strong>).</p>
+<p>Considering we are using both a class and an inline-style for an element:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">16</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Some Text
+</code></pre></div><p>Here, the <strong>font-size</strong> of the text will be <strong>14px</strong>, because inline-styles have higher specificity than CSS classes. When you make a change in the class:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+}
+</code></pre></div><p>The font-size will still be 14px. So your change in the CSS class won&rsquo;t work, which will cause you to end up saying:</p>
+<blockquote>
+<p>&ldquo;Hey, why is my CSS code not working? I hate CSS!&rdquo;</p>
+</blockquote>
+<p>and lead you to use an <strong>!important tag</strong>which does the magic:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">text-bold</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span> <span style="color:#75715e">!important</span>;
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+}
+</code></pre></div><p>Which is a big no-no and leads us to the next point&hellip;</p>
+<h2 id="4-avoid-the-important-tag">4. Avoid the !important tag</h2>
+<p>OK, so your CSS wasn&rsquo;t working as was supposed to, and you made it work by applying the <strong>important tag:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">!</span><span style="color:#f92672">important</span>
+</code></pre></div><p>What happens next? <strong>The !important tag has the highest specificity of all CSS selectors.</strong></p>
+<p>You&rsquo;re basically saying to the browser to apply that specific rule with the <strong>!important tag</strong> always and under any circumstances. This is not good because CSS rules can differ from one selector to another, from parent selector to child.</p>
+<p><strong>The only way to override an important tag is to use another important tag</strong>. And this leads to using more and more important tags. Trust me, in the near future your project code will be full of ! <strong>important tags</strong>, which makes your CSS code much harder to maintain. So try not to use it.</p>
+<h2 id="5-use-a-preprocessor">5. Use a Preprocessor</h2>
+<p>Working with a CSS Preprocessor like Sass or LESS is very useful in bigger projects. A preprocessor brings additional features to our CSS code that we normally can&rsquo;t do.</p>
+<p>For example, we can define variables, functions and mixins, we can import &amp; export our CSS files in other CSS files and we can write nested CSS code:</p>
+<p>Sass Code Example</p>
+<p>A preprocessor has its own syntax and later it gets translated into standard CSS (in a separate CSS file) because browsers don&rsquo;t understand the syntax.</p>
+<h2 id="6-use-shorthands">6. Use Shorthands</h2>
+<p>Some of the CSS properties like paddings, margins, fonts and borders can be written in a much simpler way by shorthands. Using shorthands helps to reduce the lines of rules.</p>
+<p>So without shorthands, a CSS class would look like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">article-container</span> {
+  <span style="color:#66d9ef">padding-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding-bottom</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding-left</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">padding-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-bottom</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin-right</span>: <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border-width</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border-style</span>: <span style="color:#66d9ef">solid</span><span style="color:#f92672">:</span>
+  <span style="color:#66d9ef">border</span><span style="color:#f92672">-</span><span style="color:#66d9ef">color</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">black</span>;
+}
+</code></pre></div><p>and with shorthands it looks like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">article-container</span> {
+  <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">15</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">black</span>;
+}
+</code></pre></div><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">You can find here</a> more info about how to use shorthands properties and for which CSS properties they can be applied.</p>
+<p>Normally, quality code doesn&rsquo;t need comments because it should already be clear and self-descriptive. But still, in some cases, we may need to write additional explanations.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">//</span> <span style="color:#f92672">Your</span> <span style="color:#f92672">Comments</span>
+.<span style="color:#a6e22e">example-class</span> {
+  <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">your</span> <span style="color:#960050;background-color:#1e0010">rules</span>
+}
+</code></pre></div><p>So when you feel that some parts of the code are unclear, then don&rsquo;t be afraid to add comments (but on the other hand, make sure not to overdo it :)).</p>
+<p>As a Frontend Developer with a couple of years of experience, these are the most important tips that I can suggest for improving your CSS skills. If you have any questions, or you think there are also other tips for writing better CSS, don&rsquo;t hesitate to comment down below.</p>
+<p><strong>If you want to learn more about web development, feel free to see the rest of my blog!</strong></p>
+<p>Thank you for reading!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Switching From VSCode to VSCodium</title>

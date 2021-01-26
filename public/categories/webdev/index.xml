@@ -6,7 +6,17 @@
     <description>Recent content in webdev on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 00:00:45 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 21:48:19 -0500</lastBuildDate><atom:link href="https://www.jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 Important Tips for Writing Better CSS</title>
+      <link>https://www.jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
+      <pubDate>Mon, 25 Jan 2021 21:48:19 -0500</pubDate>
+      
+      <guid>https://www.jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</guid>
+      <description>One of the biggest issues in programming is dealing with maintenance. In a real-world scenario, we don&amp;rsquo;t always start developing projects from scratch. Mostly, we are assigned (or take) a project that has already been written maybe a couple of years before or even longer.
+To work efficiently on that project, first we need to understand the source code. This is the point when we immediately realize the importance of **clean code.</description>
+    </item>
+    
     <item>
       <title>VSCode Review</title>
       <link>https://www.jacobgoldstein.tk/posts/vscode-review/</link>
