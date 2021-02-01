@@ -6,7 +6,19 @@
     <description>Recent content in web-dev on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 21:48:19 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 22:13:12 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Too Lazy to Wait - skipping the 2b2t queue</title>
+      <link>http://jacobgoldstein.tk/posts/too-lazy-to-wait-skipping-the-2b2t-queue/</link>
+      <pubDate>Sun, 31 Jan 2021 22:13:12 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/too-lazy-to-wait-skipping-the-2b2t-queue/</guid>
+      <description>The oldest anarchy server in Minecraft, known as 2b2t.org, has a very long queue. This was implemented due to the server’s growing popularity.
+When you log on you are connected to the queue. The queue looks something like this:
+Sometimes the queue can even go up to 8000 players! Well, with this method you can practically skip the queue completely.
+The way this works is by using a proxy that you can connect to the queue with from your phone.</description>
+    </item>
+    
     <item>
       <title>7 Important Tips for Writing Better CSS</title>
       <link>http://jacobgoldstein.tk/posts/7-important-tips-for-writing-better-css/</link>
