@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mc on Jacob Goldstein&#39;s Website</title>
+    <link>http://jacobgoldstein.tk/tags/mc/</link>
+    <description>Recent content in mc on Jacob Goldstein&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Feb 2021 13:15:15 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/mc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Minecraft Server on IdleyHost</title>
+      <link>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</link>
+      <pubDate>Wed, 03 Feb 2021 13:15:15 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</guid>
+      <description>Making a Minecraft Server on IdleyHost So, you probably haven&amp;rsquo;t heard of idleyhost, but it is a server hosting organization based on Discord. They provide free Minecraft servers with 2gb of RAM, and have a referral system so you can get better specs. In this article I will show you how to make a 1.16.4 Paper Server
+Logging in So when you go to the idleyhost site You need to login.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,8 +5,29 @@
         <description>Recent content in Posts on Jacob Goldstein&#39;s Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 31 Jan 2021 22:13:12 -0500</lastBuildDate>
+        <lastBuildDate>Wed, 03 Feb 2021 13:15:15 -0500</lastBuildDate>
         <atom:link href="http://jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Making a Minecraft Server on IdleyHost</title>
+            <link>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</link>
+            <pubDate>Wed, 03 Feb 2021 13:15:15 -0500</pubDate>
+            
+            <guid>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</guid>
+            <description>Making a Minecraft Server on IdleyHost So, you probably haven&amp;rsquo;t heard of idleyhost, but it is a server hosting organization based on Discord. They provide free Minecraft servers with 2gb of RAM, and have a referral system so you can get better specs. In this article I will show you how to make a 1.16.4 Paper Server
+Logging in So when you go to the idleyhost site You need to login.</description>
+            <content type="html"><![CDATA[<h1 id="making-a-minecraft-server-on-idleyhost">Making a Minecraft Server on IdleyHost</h1>
+<p>So, you probably haven&rsquo;t heard of idleyhost, but it is a server hosting organization based on Discord. They provide free Minecraft servers with 2gb of RAM, and have a referral system so you can get better specs. In this article I will show you how to make a 1.16.4 Paper Server</p>
+<h3 id="logging-in">Logging in</h3>
+<p>So when you go to the <a href="https://idleyhost.com">idleyhost site</a> You need to login. Click the login with discord button, and follow the steps. Once that is done, go to the next step.</p>
+<h3 id="configuring-the-server">Configuring the server</h3>
+<p>You will see a button that says &ldquo;create a new server&rdquo;. Click that and follow the setup. I made a paper server with the name JacobMC. Next, set the max amount of ram for a free account which is <strong>2048 MB</strong>. Once you finish that up, follow the rest of the setup. You are almost done!</p>
+<h3 id="starting-the-server">Starting the server</h3>
+<p>To start the server, go to the control panel. Do this by going to the sidebar,and clicking &ldquo;control panel credentials&rdquo;. Click the open control panel or control panel button. That will open the Control Panel. Click your server, and hit start. You now have a free 24/7 Minecraft server!!</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>If you want to join the idleyhost discord, click <a href="https://discord.gg/cCthpAV8">here</a> and join. The people there will answer all your questions. Feel free to comment also!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Too Lazy to Wait - skipping the 2b2t queue</title>

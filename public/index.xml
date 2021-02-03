@@ -6,7 +6,17 @@
     <description>Recent content on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2021 22:13:12 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 13:15:15 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Minecraft Server on IdleyHost</title>
+      <link>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</link>
+      <pubDate>Wed, 03 Feb 2021 13:15:15 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</guid>
+      <description>Making a Minecraft Server on IdleyHost So, you probably haven&amp;rsquo;t heard of idleyhost, but it is a server hosting organization based on Discord. They provide free Minecraft servers with 2gb of RAM, and have a referral system so you can get better specs. In this article I will show you how to make a 1.16.4 Paper Server
+Logging in So when you go to the idleyhost site You need to login.</description>
+    </item>
+    
     <item>
       <title>Too Lazy to Wait - skipping the 2b2t queue</title>
       <link>http://jacobgoldstein.tk/posts/too-lazy-to-wait-skipping-the-2b2t-queue/</link>
@@ -665,17 +675,6 @@ We’ve compiled a list to help you pick the best Linux distro for your gaming p
       
       <guid>http://jacobgoldstein.tk/posts/dual-boot-linux-mint/</guid>
       <description>Dual Boot Linux Mint 20 and Windows 10 With recent rapid increases in information technology, every user wants to customize their operating system environment according to their needs. Today, we will talk about the most popular Linux Mint 20 distribution, known as Ulyana. Linux Mint is an open-source, flexible, community-based Linux operating system in which you can customize operating environments and applications on-demand. As compared to Windows, Linux Mint is a much more secure platform.</description>
-    </item>
-    
-    <item>
-      <title>Plagiarism in Free software</title>
-      <link>http://jacobgoldstein.tk/posts/plagiarism-in-free-software/</link>
-      <pubDate>Tue, 29 Sep 2020 08:24:28 -0400</pubDate>
-      
-      <guid>http://jacobgoldstein.tk/posts/plagiarism-in-free-software/</guid>
-      <description>Plagiarism in Free Software Note: the opinions expressed here are solely mine. (Duh)
-Something that I take rather seriously is the copying and redistibution without credit (intentionally or otherwise) of free software, i.e. plagiarism.
-There&amp;rsquo;s a huge difference between something being in the public domain and being free and open source. The latter has a license, for one, and the purpose of it being under license is to preserve the rights of the author(s) to their work(s) but some people either misunderstand or ignore that distinction.</description>
     </item>
     
   </channel>
