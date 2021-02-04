@@ -5,8 +5,96 @@
         <description>Recent content in Posts on Jacob Goldstein&#39;s Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 03 Feb 2021 13:15:15 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 13:18:37 -0500</lastBuildDate>
         <atom:link href="http://jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Electron Apps Arent That Bad, Folks</title>
+            <link>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</link>
+            <pubDate>Thu, 04 Feb 2021 13:18:37 -0500</pubDate>
+            
+            <guid>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</guid>
+            <description>I get it.
+You’re not a big fan of desktop apps built using Electron.
+You want me to stop writing about them.
+You don’t intend to use them.
+You flat out hate them.
+I hear you loud and clear.
+And yet…
+Electron Apps Aren’t All That Bad, Folks Rather like Mono¹ apps a few years back, Electron apps have a really bad rep among Linux users.
+They’re seen as the new evil incarnate; a trojan framework here to siphon off native app development for the benefit of a shadowy, Linux-hating cabal.</description>
+            <content type="html"><![CDATA[<p><img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/04/you-should-feel-bad-electron-is-bad-and-you-should-feel-bad.jpg" alt="electron is bad meme"><strong>I get it.<a href="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/04/generic.jpg"><br>
+</a></strong></p>
+<p>You’re not a big fan of desktop apps built using <a href="https://electron.atom.io/">Electron</a>.</p>
+<p>You want me to stop writing about them.</p>
+<p>You don’t intend to use them.</p>
+<p>You flat out hate them.</p>
+<p>I hear you loud and clear.</p>
+<p>And yet…</p>
+<h2 id="electron-apps-arent-all-that-bad-folks">Electron Apps Aren’t All That Bad, Folks</h2>
+<p>Rather like <a href="https://en.wikipedia.org/wiki/Mono_(software)">Mono</a>¹ apps a few years back, Electron apps have a really bad rep among Linux users.</p>
+<p>They’re seen as the new evil incarnate; a trojan framework here to siphon off native app development for the benefit of a shadowy, Linux-hating cabal.</p>
+<blockquote>
+<p>‘Electron isn’t evil incarnate, but an accessible open-source app development framework’</p>
+</blockquote>
+<p>All nonsense, of course.</p>
+<p>Electron is simply an <strong>accessible open-source app development framework</strong>. It lets web developers create desktop apps using the technologies they’re already familiar with, like JavaScript, HTML, and CSS.</p>
+<p>This angle — low barrier to entry — is why Electron is proving so popular, and so quickly. Developers who might never have made a desktop app can now push the envelope, get creative, and bring their ideas to life using existing skills.</p>
+<p>And because any app made in Electron has the potential to run on Windows, macOS and Linux — and in theory <a href="https://discuss.atom.io/t/electron-on-ios-android/18223/21">Electron apps could run on Android and iOS</a> (not that Apple would allow it) — the pool of potential users is massive, which helps incentivise its adoption.</p>
+<blockquote>
+<p>‘Developers who might never have made a desktop app now can’</p>
+</blockquote>
+<p>But it’s not solely just web developers who take advantage of the tech.</p>
+<p>Sometimes there’s just little value in wasting time to do something that Electron can do, especially when it’s there, ready to be used. Even developers versed in traditional coding languages sometimes turn to Electron because it often lets them build what they want a little faster (in time).</p>
+<p>Shouldn’t this broadening of development via an open-source framework be a good thing?</p>
+<p>But some people act like no apps are better than Electron apps.</p>
+<h3 id="but-i-understand-why-you-dont-like-them">But I Understand Why You Don’t Like Them</h3>
+<p><a href="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/07/multiple-electron-apps.jpg"><img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/07/multiple-electron-apps-750x469.jpg" alt="electron apps in window spread"></a></p>
+<p>Running multiple Electron apps uses a lot of memory</p>
+<blockquote>
+<p>‘Many criticisms flung in the direction of Electron are totally valid…’</p>
+</blockquote>
+<p>In writing this riposte let me be clear about one thing: <strong>I am not saying Electron is perfect.</strong></p>
+<p>I’m also not saying I prefer Electron apps over native ones, or that I think it’s always the right tool for the job, or any other cliche.</p>
+<p>A great many of the criticisms flung in the direction of Electron, like its engorged resource usage, big install size, etc, are totally valid.</p>
+<p>But some of these criticisms are presented out of context, while others are so over-egged you could serve them on toast to <a href="https://en.wikipedia.org/wiki/Michelin_Guide">earn a Michelin star</a>.</p>
+<h4 id="1-electron-apps-still-require-technical-nous-to-build">1. Electron Apps Still Require Technical Nous To Build</h4>
+<p><a href="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/07/Screen-Shot-2017-07-18-at-20.15.21.png"><img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/07/Screen-Shot-2017-07-18-at-20.15.21-750x486.png" alt=""></a></p>
+<p>The Electron framework makes it easy to get started, but things <em>are</em> a bit more involved than slapping a URL in a WYSIWG box to get a fully-formed “app” spat out at the other end.</p>
+<blockquote>
+<p>‘Electron makes it easy to get started, but things are a bit more involved than slapping a URL in a box’</p>
+</blockquote>
+<p>Building anything, from a LEGO battleship to a pure Qt/Qml word processor, takes effort, time and intent. Electron developers still need HTML/CSS/JavaScript knowledge, and have experience with Node.js.</p>
+<p>But because these languages are cross-platform, and thank to an increasing array of node.js modules, Electron gives devs a big headstart. That these apps can also use web technologies to interact with desktop features like the system tray, native notifications, global keyboard shortcuts, MPRIS, etc, is yet another incentive.</p>
+<p>The applications and services we use day-to-day are (increasingly) migrating online. But in many cases the of workflow of a desktop web app trumps the (relative) inefficiency of having to switch between multiple browser tabs in the same window.</p>
+<p>Or to put it another way, I — and many others — like web apps when they behave like desktop apps. And Electron is well positioned to bridge that gap.</p>
+<h4 id="2-electron-apps-arent-_always_-web-wrappers">2. Electron Apps Aren’t <em>Always</em> Web-Wrappers</h4>
+<p><a href="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/05/etcher-image-writer-ubuntu.jpg"><img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/05/etcher-image-writer-ubuntu-750x283.jpg" alt="etcher image writer on ubuntu"></a></p>
+<p>Electron is a heavy framework for building basic apps. That’s not denied. But it’s wrong to assume that all Electron apps are basic.</p>
+<p>Take something like <a href="http://www.omgubuntu.co.uk/2016/09/etcher-image-writer-beta-release">Etcher</a>, a cross-platform ISO and IMG writer, or the (now defunct) desktop email client Nylas Mail. These are more than web-wrappers; they’re proper apps with a proper role.</p>
+<p>And, even when Electron apps aren’t anything more than window dressing don’t overlook the features or convenience it provides — this can outweigh whatever uptick in RAM usage there’ll be for the 15 minutes it’s open.</p>
+<h4 id="3-besides-ram-is-there-to-be-used">3. Besides, RAM Is There To Be Used</h4>
+<p><a href="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/05/atom-text-editor-on-ubuntu-1704.jpg"><img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/05/atom-text-editor-on-ubuntu-1704-750x469.jpg" alt="the atom text editor snap app on ubuntu 17.04"></a></p>
+<p>Most Electon apps have a purpose and are only run for a short period. Few people, I imagine, run multiple Electron apps constantly, side-by-side.</p>
+<p>And even if they do we’re not talking about RAM usage in the GBs.</p>
+<p>Is a 100MiB spike in RAM usage while I make a Github commit in Atom <strong>really an issue</strong> if that’s pretty much all I’m doing at that moment?</p>
+<p>The choice is doing something productive or having an extra 100MiB of RAM sat idle, doing nothing.</p>
+<h4 id="a-world-of-electron-beyond-ubuntu">A World of Electron Beyond Ubuntu</h4>
+<p><a href="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/06/new-stacer-system-app-hero.jpg"><img src="https://149366088.v2.pressablecdn.com/wp-content/uploads/2017/06/new-stacer-system-app-hero-350x200.jpg" alt="stacer 1.0.7"></a></p>
+<p>Stacer — a system tool built for Ubuntu</p>
+<p>But let’s not forget that most developers building Electron apps aren’t building them specifically for Linux. Yup, reality shock: it’s not all about us.</p>
+<p>There are some really great Electron apps that are <strong>not</strong> available on Linux, like macOS-only <a href="https://getcaption.co/">subtitle finder <strong>Caption</strong></a> and the Windows-only <a href="https://github.com/MedZed/Electron-Headlines">newsreader <strong>Headlines</strong></a>.</p>
+<p>There are even a few paid Electron apps around, like macOS <a href="http://kontentapps.com/trym">SVG convertor <strong>Trym</strong></a> (I’d pay $4 for the functionality of that app) and <a href="https://getdeckhub.com/"><strong>DeckHub</strong></a>, a Tweetdeck inspired app for Github.</p>
+<p>For a hobbyist developer, Electron gives them everything they need to build, shape and share a desktop app without needing to learn an entire new language or framework.</p>
+<p>And those apps, given enough attention, mean you might not even know that you’re using something written on top of Electron.</p>
+<p>Electron sure as heck isn’t perfect, and there’s plenty of room for improvement, consolidation and — by jove — resource optimisation.</p>
+<p>But let’s get out of the mindset that Electron apps come at the expense of native Linux apps. Most of the time we get these apps as a byproduct of Electron being available on Linux.</p>
+<p>And in a world where few developers do bring their apps to Linux I think we’d cutting out noses off to spite our face if we deter those who do.</p>
+<p><strong>What say you? Let us know your love/hate for all things Electron in the comments below.</strong></p>
+<h6 id="_history-lesson-mono-was-pure-evil-distilled-in-net-compatible-form-a-secret-conglomerate-of-software-developers-random-linux-bloggers-and-microsoft-middle-managers-worked-in-cahoots-to-covertly-infect-and-infiltrate-open-source-desktops-using-mono-apps-like-banshee-and-tomboy-and-er-docky-_"><em>¹History Lesson: Mono was pure evil distilled in .NET compatible form. A secret conglomerate of software developers, random Linux bloggers and Microsoft middle-managers worked in cahoots to covertly infect and infiltrate open-source desktops using Mono apps like Banshee, and Tomboy, and, er, Docky …</em></h6>
+<h6 id="_then-at-the-right-moment-microsoft-swooped-in-to-demand-royalty-payments-or-something-and-all-the-doubters-were-proved-right-at-least-thats-what-supposed-to-happen_"><em>Then, at the right moment, Microsoft swooped in to demand royalty payments (or something) and all the doubters were proved right. At least that’s what supposed to happen…</em></h6>
+]]></content>
+        </item>
         
         <item>
             <title>Making a Minecraft Server on IdleyHost</title>

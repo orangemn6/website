@@ -4,7 +4,7 @@
   
   <url>
     <loc>http://jacobgoldstein.tk/categories/</loc>
-    <lastmod>2021-02-03T13:15:15-05:00</lastmod>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,8 +18,13 @@
   </url>
   
   <url>
+    <loc>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://jacobgoldstein.tk/</loc>
-    <lastmod>2021-02-03T13:15:15-05:00</lastmod>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -30,6 +35,56 @@
                 hreflang="en"
                 href="http://jacobgoldstein.tk/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/tags/linux/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/categories/linux/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/posts/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/tags/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://jacobgoldstein.tk/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://jacobgoldstein.tk/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/tags/web-dev/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/categories/web-dev/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/tags/webdev/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobgoldstein.tk/categories/webdev/</loc>
+    <lastmod>2021-02-04T13:18:37-05:00</lastmod>
   </url>
   
   <url>
@@ -58,47 +113,7 @@
   </url>
   
   <url>
-    <loc>http://jacobgoldstein.tk/posts/</loc>
-    <lastmod>2021-02-03T13:15:15-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/tags/</loc>
-    <lastmod>2021-02-03T13:15:15-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://jacobgoldstein.tk/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://jacobgoldstein.tk/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>http://jacobgoldstein.tk/posts/too-lazy-to-wait-skipping-the-2b2t-queue/</loc>
-    <lastmod>2021-01-31T22:13:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/tags/web-dev/</loc>
-    <lastmod>2021-01-31T22:13:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/categories/web-dev/</loc>
-    <lastmod>2021-01-31T22:13:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/tags/webdev/</loc>
-    <lastmod>2021-01-31T22:13:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/categories/webdev/</loc>
     <lastmod>2021-01-31T22:13:12-05:00</lastmod>
   </url>
   
@@ -139,16 +154,6 @@
   
   <url>
     <loc>http://jacobgoldstein.tk/categories/i3/</loc>
-    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/tags/linux/</loc>
-    <lastmod>2021-01-14T12:05:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://jacobgoldstein.tk/categories/linux/</loc>
     <lastmod>2021-01-14T12:05:56-05:00</lastmod>
   </url>
   

@@ -6,7 +6,24 @@
     <description>Recent content on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 13:15:15 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 13:18:37 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electron Apps Arent That Bad, Folks</title>
+      <link>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</link>
+      <pubDate>Thu, 04 Feb 2021 13:18:37 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</guid>
+      <description>I get it.
+You’re not a big fan of desktop apps built using Electron.
+You want me to stop writing about them.
+You don’t intend to use them.
+You flat out hate them.
+I hear you loud and clear.
+And yet…
+Electron Apps Aren’t All That Bad, Folks Rather like Mono¹ apps a few years back, Electron apps have a really bad rep among Linux users.
+They’re seen as the new evil incarnate; a trojan framework here to siphon off native app development for the benefit of a shadowy, Linux-hating cabal.</description>
+    </item>
+    
     <item>
       <title>Making a Minecraft Server on IdleyHost</title>
       <link>http://jacobgoldstein.tk/posts/making-a-minecraft-server-on-idleyhost/</link>
@@ -666,15 +683,6 @@ Why? Why did I choose to use hugo, over anything else? The first reason is that 
       <description>Best Linux Distros for Gaming There are so many Linux distributions for gamers you would find today. If you’re confused with all the options you could choose from, we got you covered.
 We’ve compiled a list to help you pick the best Linux distro for your gaming preference and needs.
 1. Steam OS Let’s start the list off with Steam OS. This is one of the most popular gaming distros today.</description>
-    </item>
-    
-    <item>
-      <title>Dual Boot Linux Mint</title>
-      <link>http://jacobgoldstein.tk/posts/dual-boot-linux-mint/</link>
-      <pubDate>Tue, 29 Sep 2020 19:00:00 +0000</pubDate>
-      
-      <guid>http://jacobgoldstein.tk/posts/dual-boot-linux-mint/</guid>
-      <description>Dual Boot Linux Mint 20 and Windows 10 With recent rapid increases in information technology, every user wants to customize their operating system environment according to their needs. Today, we will talk about the most popular Linux Mint 20 distribution, known as Ulyana. Linux Mint is an open-source, flexible, community-based Linux operating system in which you can customize operating environments and applications on-demand. As compared to Windows, Linux Mint is a much more secure platform.</description>
     </item>
     
   </channel>

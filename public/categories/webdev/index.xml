@@ -6,7 +6,24 @@
     <description>Recent content in webdev on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2021 22:13:12 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Feb 2021 13:18:37 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electron Apps Arent That Bad, Folks</title>
+      <link>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</link>
+      <pubDate>Thu, 04 Feb 2021 13:18:37 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</guid>
+      <description>I get it.
+You’re not a big fan of desktop apps built using Electron.
+You want me to stop writing about them.
+You don’t intend to use them.
+You flat out hate them.
+I hear you loud and clear.
+And yet…
+Electron Apps Aren’t All That Bad, Folks Rather like Mono¹ apps a few years back, Electron apps have a really bad rep among Linux users.
+They’re seen as the new evil incarnate; a trojan framework here to siphon off native app development for the benefit of a shadowy, Linux-hating cabal.</description>
+    </item>
+    
     <item>
       <title>Too Lazy to Wait - skipping the 2b2t queue</title>
       <link>http://jacobgoldstein.tk/posts/too-lazy-to-wait-skipping-the-2b2t-queue/</link>
