@@ -6,7 +6,18 @@
     <description>Recent content in web-dev on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 13:18:37 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 08:46:51 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/tags/web-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a Simple Url Shortner With Netlify</title>
+      <link>http://jacobgoldstein.tk/posts/making-a-simple-url-shortner-with-netlify/</link>
+      <pubDate>Tue, 09 Feb 2021 08:46:51 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/making-a-simple-url-shortner-with-netlify/</guid>
+      <description>Starting So, I made a new URL shortener, jgold.tk, and if you click that link it will redirect right back to this site. Now if you go to jgold.tk/mc, it redirects to Jacob MC. I am going to show you how to do this
+Setting up netlify So you have 2 options here:
+ Set up your own repo Clone mine  I am gonna show you how to do number 1</description>
+    </item>
+    
     <item>
       <title>Electron Apps Arent That Bad, Folks</title>
       <link>http://jacobgoldstein.tk/posts/electron-apps-arent-that-bad-folks/</link>

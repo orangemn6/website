@@ -5,8 +5,56 @@
         <description>Recent content in Posts on Jacob Goldstein&#39;s Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 04 Feb 2021 13:18:37 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 09 Feb 2021 08:46:51 -0500</lastBuildDate>
         <atom:link href="http://jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Making a Simple Url Shortner With Netlify</title>
+            <link>http://jacobgoldstein.tk/posts/making-a-simple-url-shortner-with-netlify/</link>
+            <pubDate>Tue, 09 Feb 2021 08:46:51 -0500</pubDate>
+            
+            <guid>http://jacobgoldstein.tk/posts/making-a-simple-url-shortner-with-netlify/</guid>
+            <description>Starting So, I made a new URL shortener, jgold.tk, and if you click that link it will redirect right back to this site. Now if you go to jgold.tk/mc, it redirects to Jacob MC. I am going to show you how to do this
+Setting up netlify So you have 2 options here:
+ Set up your own repo Clone mine  I am gonna show you how to do number 1</description>
+            <content type="html"><![CDATA[<h2 id="starting">Starting</h2>
+<p>So, I made a new URL shortener, <a href="https://jgold.tk">jgold.tk</a>, and if you click that link it will redirect right back to this site. Now if you go to <a href="https://jgold.tk/mc">jgold.tk/mc</a>, it redirects to Jacob MC. I am going to show you how to do this</p>
+<h2 id="setting-up-netlify">Setting up netlify</h2>
+<p>So you have 2 options here:</p>
+<ol>
+<li>Set up your own repo</li>
+<li>Clone mine</li>
+</ol>
+<p>I am gonna show you how to do number 1</p>
+<p>So first, make a github repo. I called mine jgold.tk because that is the shortener. Clone that repo locally, you know the drill. <code>cd</code> into it. Now make a package.json with this inside:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;baseUrl&#34;</span>: <span style="color:#e6db74">&#34;https://jgold.tk&#34;</span>,
+  <span style="color:#f92672">&#34;private&#34;</span>: <span style="color:#66d9ef">true</span>,
+  <span style="color:#f92672">&#34;scripts&#34;</span>: {
+    <span style="color:#f92672">&#34;shorten&#34;</span>: <span style="color:#e6db74">&#34;netlify-shortener&#34;</span>
+  },
+  <span style="color:#f92672">&#34;author&#34;</span>: <span style="color:#e6db74">&#34;orangemn6&#34;</span>,
+  <span style="color:#f92672">&#34;devDependencies&#34;</span>: {
+    <span style="color:#f92672">&#34;netlify-shortener&#34;</span>: <span style="color:#e6db74">&#34;^1.0.1&#34;</span>
+  }
+}
+</code></pre></div><p>So what this does is it tells netlify that it needs the netlify-shortener package. Now we start the shortener part.</p>
+<h2 id="redirects">Redirects</h2>
+<p>So, make a file called <code>_redirects</code>, and inside of it put a structure like this:</p>
+<pre><code>/blog        https://jacobgoldstein.tk/posts
+/tw          https://twitter.com/orangemn6
+/gh          https://github.com/orangemn6
+/mc          https://play.jacobgoldstein.tk
+
+#fallback
+/*           https://jacobgoldstein.tk
+</code></pre><p>What this does is it tells netlify, here are my redirects. Now, git add, git commit, and git push.</p>
+<h2 id="adding-to-netlify">Adding to netlify</h2>
+<p>Now, make a new netlify site and connect the github repo to it (Note: this will also work with gitlab). Now, add your domain into netlify, setup Netlify DNS, and wait a minute. Now go to yourdoma.in/whatever and see your url shortener work!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Well, now you know how to make a URL shortener with netlify. If you have any questions, contact me or comment below!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Electron Apps Arent That Bad, Folks</title>
