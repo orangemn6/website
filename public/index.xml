@@ -6,7 +6,20 @@
     <description>Recent content on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 08:46:51 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 16:26:56 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyberspace History</title>
+      <link>http://jacobgoldstein.tk/posts/cyberspace-history/</link>
+      <pubDate>Tue, 16 Feb 2021 16:26:56 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/cyberspace-history/</guid>
+      <description>Orange CTF Writeup So you see the site, and immediately think to bruteforce. WRONG.
+Use some common sense! Look on my github, and find the creds in plain text, and login
+What. All you see is a page. You think of cookie injection and fancy sql stuff. (All you have to do is logout)
+Click the logout, and it brings you to /f-lag. base64, duh
+decrypt that, bam</description>
+    </item>
+    
     <item>
       <title>Making a Simple Url Shortner With Netlify</title>
       <link>http://jacobgoldstein.tk/posts/making-a-simple-url-shortner-with-netlify/</link>
@@ -673,16 +686,6 @@ Why? Why did I choose to use hugo, over anything else? The first reason is that 
       <guid>http://jacobgoldstein.tk/posts/install-arch-linux/</guid>
       <description>After witnessing insane minimalism paired with a tiler (tiling window manager), knew it was my time to take the pilgrimage to Arch Linux. Some characteristics that make Arch unique:
  The Arch Way embody the principles behind Arch Linux; simplicity, modernity, pragmatism, user centrality and versatility. Forces one to build the system up by hand. This encourages you to question the role of each component of the system, and available options to satisfy that component (e.</description>
-    </item>
-    
-    <item>
-      <title>Why Linux is Better</title>
-      <link>http://jacobgoldstein.tk/posts/why-linux-is-better/</link>
-      <pubDate>Wed, 30 Sep 2020 19:00:00 +0000</pubDate>
-      
-      <guid>http://jacobgoldstein.tk/posts/why-linux-is-better/</guid>
-      <description>10 Reasons Why Linux Is Better Than Windows It is often seen that people get confused over choosing Windows or Linux as a host operating system in both server and desktop spaces. People will focus on aspects of cost, the functionality provided, hardware compatibility, support, reliability, security, pre-built software, cloud-readiness, etc. before they finalize. In this regard, this article covers ten reasons for using Linux over Windows.
-10 Reasons Why Linux Is Better Than Windows 1.</description>
     </item>
     
   </channel>

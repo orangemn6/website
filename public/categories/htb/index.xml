@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTB on Jacob Goldstein&#39;s Website</title>
+    <title>htb on Jacob Goldstein&#39;s Website</title>
     <link>http://jacobgoldstein.tk/categories/htb/</link>
-    <description>Recent content in HTB on Jacob Goldstein&#39;s Website</description>
+    <description>Recent content in htb on Jacob Goldstein&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Nov 2020 15:10:07 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/htb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 16:26:56 -0500</lastBuildDate><atom:link href="http://jacobgoldstein.tk/categories/htb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyberspace History</title>
+      <link>http://jacobgoldstein.tk/posts/cyberspace-history/</link>
+      <pubDate>Tue, 16 Feb 2021 16:26:56 -0500</pubDate>
+      
+      <guid>http://jacobgoldstein.tk/posts/cyberspace-history/</guid>
+      <description>Orange CTF Writeup So you see the site, and immediately think to bruteforce. WRONG.
+Use some common sense! Look on my github, and find the creds in plain text, and login
+What. All you see is a page. You think of cookie injection and fancy sql stuff. (All you have to do is logout)
+Click the logout, and it brings you to /f-lag. base64, duh
+decrypt that, bam</description>
+    </item>
+    
     <item>
       <title>Htb Writeup Be Happy</title>
       <link>http://jacobgoldstein.tk/posts/htb-writeup-be-happy/</link>
