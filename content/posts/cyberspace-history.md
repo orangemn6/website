@@ -1,7 +1,7 @@
 ---
 title: "Cyberspace History"
 author: Jacob Goldstein
-date: 2021-02-16T16:26:56-05:00
+date: 2001-02-16T16:26:56-05:00
 draft: false
 type: post
 categories:

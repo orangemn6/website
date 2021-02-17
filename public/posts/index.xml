@@ -5,28 +5,8 @@
         <description>Recent content in Posts on Jacob Goldstein&#39;s Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 Feb 2021 16:26:56 -0500</lastBuildDate>
+        <lastBuildDate>Tue, 09 Feb 2021 08:46:51 -0500</lastBuildDate>
         <atom:link href="http://jacobgoldstein.tk/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Cyberspace History</title>
-            <link>http://jacobgoldstein.tk/posts/cyberspace-history/</link>
-            <pubDate>Tue, 16 Feb 2021 16:26:56 -0500</pubDate>
-            
-            <guid>http://jacobgoldstein.tk/posts/cyberspace-history/</guid>
-            <description>Orange CTF Writeup So you see the site, and immediately think to bruteforce. WRONG.
-Use some common sense! Look on my github, and find the creds in plain text, and login
-What. All you see is a page. You think of cookie injection and fancy sql stuff. (All you have to do is logout)
-Click the logout, and it brings you to /f-lag. base64, duh
-decrypt that, bam</description>
-            <content type="html"><![CDATA[<h1 id="orange-ctf-writeup">Orange CTF Writeup</h1>
-<p>So you see the site, and immediately think to bruteforce. WRONG.</p>
-<p>Use some common sense! Look on my github, and find the creds in plain text, and login</p>
-<p>What. All you see is a page. You think of cookie injection and fancy sql stuff. (All you have to do is logout)</p>
-<p>Click the logout, and it brings you to /f-lag. base64, duh</p>
-<p>decrypt that, bam</p>
-]]></content>
-        </item>
         
         <item>
             <title>Making a Simple Url Shortner With Netlify</title>
@@ -6322,6 +6302,26 @@ after you turn back on wifi, sign in as guest, go to mrchromebox.tech and use rw
 <p><strong>installing</strong></p>
 <p>on the linux desktop there should be something that says install name of distro. double click that. choose whatever options you like in the installer and finish the installation. reboot and you have linux.
 {: .box-warning} Note:on chromebooks you have to press ctrl+l when it says os verification is off. to disable this, use mrchromebox full rom.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Cyberspace History</title>
+            <link>http://jacobgoldstein.tk/posts/cyberspace-history/</link>
+            <pubDate>Fri, 16 Feb 2001 16:26:56 -0500</pubDate>
+            
+            <guid>http://jacobgoldstein.tk/posts/cyberspace-history/</guid>
+            <description>Orange CTF Writeup So you see the site, and immediately think to bruteforce. WRONG.
+Use some common sense! Look on my github, and find the creds in plain text, and login
+What. All you see is a page. You think of cookie injection and fancy sql stuff. (All you have to do is logout)
+Click the logout, and it brings you to /f-lag. base64, duh
+decrypt that, bam</description>
+            <content type="html"><![CDATA[<h1 id="orange-ctf-writeup">Orange CTF Writeup</h1>
+<p>So you see the site, and immediately think to bruteforce. WRONG.</p>
+<p>Use some common sense! Look on my github, and find the creds in plain text, and login</p>
+<p>What. All you see is a page. You think of cookie injection and fancy sql stuff. (All you have to do is logout)</p>
+<p>Click the logout, and it brings you to /f-lag. base64, duh</p>
+<p>decrypt that, bam</p>
 ]]></content>
         </item>
         
